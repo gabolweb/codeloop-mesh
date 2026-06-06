@@ -1,0 +1,4107 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/scigate/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/scigate/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/scigate/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/scigate/assets/logos/15-scigate.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/scigate/assets/logos/scigate.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/scigate.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-scigate",
+    "slug": "scigate",
+    "name": "SciGate",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "SciGate formalizes the relationship between peer-reviewed scientific research and the CodeLoop Ecosystem — opening pathways for university partnerships, technology transfer, and applied research programs across five frontier disciplines.",
+    "mission": "To turn scientific rigor in innovation into an operating system through Sapiens3 AI Engine · academic integration.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-scigate-1",
+        "title": "Operational clarity",
+        "description": "SciGate should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-scigate-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-scigate-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Scientific Gateway",
+      "market": "AI and Deep Tech Research",
+      "statement": "SciGate is DeepMind‑calm with a prismatic signature — bone paper, monospace display, and a spectrum gradient reserved for moments of discovery. A scientific studio, not a showroom.",
+      "differentiators": [
+        "Scientific rigor in innovation.",
+        "Sapiens3 AI Engine · academic integration.",
+        "The Prismatic Laboratory"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "scientific",
+      "secondary": "calm",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-scigate",
+    "brand_name": "SciGate",
+    "tagline": "Scientific rigor, applied.",
+    "short_description": "SciGate is DeepMind‑calm with a prismatic signature — bone paper, monospace display, and a spectrum gradient reserved for moments of discovery.",
+    "long_description": "SciGate is DeepMind‑calm with a prismatic signature — bone paper, monospace display, and a spectrum gradient reserved for moments of discovery. A scientific studio, not a showroom.",
+    "mission": "To turn scientific rigor in innovation into an operating system through Sapiens3 AI Engine · academic integration.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-scigate-1",
+        "title": "Operational clarity",
+        "description": "SciGate should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-scigate-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-scigate-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Scientific Gateway",
+      "market": "AI and Deep Tech Research",
+      "statement": "SciGate is DeepMind‑calm with a prismatic signature — bone paper, monospace display, and a spectrum gradient reserved for moments of discovery. A scientific studio, not a showroom.",
+      "differentiators": [
+        "Scientific rigor in innovation.",
+        "Sapiens3 AI Engine · academic integration.",
+        "The Prismatic Laboratory"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "SciGate: Scientific rigor, applied.",
+      "one_liner": "Applied science for a production civilization."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/scigate/config.json",
+        "docs/data/scigate/worktree.json",
+        "docs/data/scigate/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-scigate",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "scientific",
+      "secondary": "calm",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "Scientific Gateway",
+        "Applied Science for the Ecosystem"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/scigate/config.json",
+        "docs/data/scigate/worktree.json",
+        "docs/data/scigate/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-scigate",
+    "theme": {
+      "mode": "light",
+      "variant": "deep-space",
+      "palette": {
+        "bg": "#F8F4EA",
+        "bg_light": "#EFE9D7",
+        "primary": "#2563EB",
+        "primary_light": "#E8543E",
+        "secondary": "#0F2A6B",
+        "accent": "#E8543E",
+        "text": "#0F1114",
+        "text_muted": "#5E5F63",
+        "border": "#D9D1BB",
+        "gradient": "linear-gradient(135deg, #2563EB 0%, #E8543E 100%)",
+        "primary_ink": "#0F2A6B",
+        "bg_alt": "#EFE9D7",
+        "surface": "#FCFAF2"
+      },
+      "scale": [
+        "#E7EEFE",
+        "#B9CCFB",
+        "#83A4F7",
+        "#4D7CF2",
+        "#2563EB",
+        "#1A4AC1",
+        "#133797",
+        "#0D2770",
+        "#091A4A",
+        "#040D25"
+      ],
+      "semantics": {
+        "success": "#2E8B57",
+        "warning": "#CB8A1E",
+        "danger": "#B63A2E",
+        "info": "#2563EB"
+      }
+    },
+    "typography": {
+      "heading": "JetBrains Mono",
+      "body": "Inter",
+      "display": "JetBrains Mono",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "8px",
+        "xl": "12px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "spectrum"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-scigate",
+    "logos": [
+      {
+        "id": "asset-scigate-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/scigate/assets/logos/15-scigate.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Scigate logo"
+      },
+      {
+        "id": "asset-scigate-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/scigate/assets/logos/scigate.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Scigate logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-scigate",
+    "domains": [
+      {
+        "domain": "scigate.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "scigate.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-scigate",
+    "domain": "scigate.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-scigate",
+      "identity_id": "identity-scigate",
+      "name": "SciGate",
+      "slug": "scigate",
+      "domain": "scigate.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-scigate",
+        "footer_id": "footer-scigate",
+        "theme_id": "design-system-scigate",
+        "seo_profile_id": "seo-profile-scigate"
+      },
+      "pages": [
+        "page-scigate-root",
+        "page-scigate-research",
+        "page-scigate-programs",
+        "page-scigate-about",
+        "page-scigate-contact",
+        "page-scigate-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-scigate",
+    "brand_label": "SciGate",
+    "items": [
+      {
+        "label": "Research",
+        "href": "/research",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Programs",
+        "href": "/programs",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "About",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 4,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Partner With Us",
+      "href": "/contact",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-scigate",
+    "brand": "SciGate",
+    "description": "The academic interface of the CodeLoop Ecosystem — formalizing pathways between peer-reviewed research, university partnerships, and the application of frontier technology in real-world systems.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Research Areas",
+            "href": "/research"
+          },
+          {
+            "label": "Academic Programs",
+            "href": "/programs"
+          },
+          {
+            "label": "About SciGate",
+            "href": "/about"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Mainland WebOS",
+            "href": "https://mainland.codeloop.co"
+          },
+          {
+            "label": "Karon Labs",
+            "href": "https://karonlabs.codeloop.co"
+          },
+          {
+            "label": "Legacy Educa",
+            "href": "https://legacyeduca.codeloop.co"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-scigate-root",
+      "website_id": "website-scigate",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-root--hero",
+          "page_id": "page-scigate-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Where Science Meets System",
+            "subheadline": "SciGate is the formal academic interface of the CodeLoop Ecosystem — connecting peer-reviewed research from MIT, USP, and UC Berkeley with a global infrastructure of AI, blockchain, and augmented work systems.",
+            "badge": "Academic Bridge",
+            "cta_primary_label": "Explore Research",
+            "cta_primary_href": "/research",
+            "cta_secondary_label": "Partner With Us",
+            "cta_secondary_href": "/contact",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Where Science Meets System",
+            "subheadline": "SciGate is the formal academic interface of the CodeLoop Ecosystem — connecting peer-reviewed research from MIT, USP, and UC Berkeley with a global infrastructure of AI, blockchain, and augmented work systems.",
+            "badge": "Academic Bridge",
+            "cta_primary_label": "Explore Research",
+            "cta_primary_href": "/research",
+            "cta_secondary_label": "Partner With Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__hero_viewed",
+            "cta_events": [
+              "scigate_hero_cta-primary-label_clicked",
+              "scigate_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "badge": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-root--manifesto",
+          "page_id": "page-scigate-root",
+          "section_key": "manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Research That Runs in Production",
+            "subtitle": "Our Thesis",
+            "body": "Most academic research never leaves the paper. SciGate exists to close that gap. Every core technology in the CodeLoop Ecosystem — from the AI systems that model career trajectories to the cryptographic protocols that secure financial transactions — originates from published, peer-reviewed scientific work. SciGate formalizes this pipeline: from hypothesis to publication to deployment at scale.",
+            "stats": [
+              {
+                "label": "University Partners",
+                "value": "5"
+              },
+              {
+                "label": "Research Disciplines",
+                "value": "5"
+              },
+              {
+                "label": "Published Frameworks",
+                "value": "3"
+              }
+            ],
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Research That Runs in Production",
+            "subtitle": "Our Thesis",
+            "body": "Most academic research never leaves the paper. SciGate exists to close that gap. Every core technology in the CodeLoop Ecosystem — from the AI systems that model career trajectories to the cryptographic protocols that secure financial transactions — originates from published, peer-reviewed scientific work. SciGate formalizes this pipeline: from hypothesis to publication to deployment at scale.",
+            "stats": [
+              {
+                "label": "University Partners",
+                "value": "5"
+              },
+              {
+                "label": "Research Disciplines",
+                "value": "5"
+              },
+              {
+                "label": "Published Frameworks",
+                "value": "3"
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-root--research-areas",
+          "page_id": "page-scigate-root",
+          "section_key": "research-areas",
+          "pod": "AISection",
+          "pad": {
+            "title": "Five Frontiers of Applied Research",
+            "subtitle": "Research Areas",
+            "description": "Each research area within SciGate corresponds to a live system in the CodeLoop Ecosystem. The science isn't theoretical — it powers infrastructure used by companies, professionals, and institutions across multiple continents.",
+            "items": [
+              {
+                "name": "Dynamic Work Methodology",
+                "description": "Grounded in behavioral economics and organizational psychology. Published at USP and MIT. The scientific basis for how the CodeLoop Ecosystem organizes work — from SQUAD formation to professional allocation. This research demonstrates that dynamic, project-based work structures outperform traditional employment models in knowledge-intensive industries."
+              },
+              {
+                "name": "Aura AI",
+                "description": "Deep Learning Neural Networks for career trajectory modeling. Aura maps professional competencies, learning velocity, and career patterns to predict optimal matches between professionals and opportunities. The underlying research combines transformer architectures with behavioral data from thousands of work engagements across the ecosystem."
+              },
+              {
+                "name": "Warden AI",
+                "description": "Venture architecture and business cycle prediction. Warden analyzes market conditions, venture performance metrics, and macroeconomic indicators to generate strategic recommendations for ecosystem ventures. The research draws from computational finance and complex systems theory."
+              },
+              {
+                "name": "HyperTokens",
+                "description": "Quantum tokenization and post-quantum cryptography. The cryptographic infrastructure that secures Bastion's financial systems. HyperTokens research addresses the coming shift to quantum computing by developing tokenization protocols that remain secure against quantum attacks — critical for the ecosystem's financial layer."
+              },
+              {
+                "name": "Sapiens3",
+                "description": "Augmented Intelligence and digital human technology. Sapiens3 is the research program exploring the boundary between human cognition and artificial intelligence — not replacement, but augmentation. The goal is interfaces and systems that amplify human decision-making capacity within professional contexts."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "AISection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Five Frontiers of Applied Research",
+            "subtitle": "Research Areas",
+            "description": "Each research area within SciGate corresponds to a live system in the CodeLoop Ecosystem. The science isn't theoretical — it powers infrastructure used by companies, professionals, and institutions across multiple continents.",
+            "items": [
+              {
+                "name": "Dynamic Work Methodology",
+                "description": "Grounded in behavioral economics and organizational psychology. Published at USP and MIT. The scientific basis for how the CodeLoop Ecosystem organizes work — from SQUAD formation to professional allocation. This research demonstrates that dynamic, project-based work structures outperform traditional employment models in knowledge-intensive industries."
+              },
+              {
+                "name": "Aura AI",
+                "description": "Deep Learning Neural Networks for career trajectory modeling. Aura maps professional competencies, learning velocity, and career patterns to predict optimal matches between professionals and opportunities. The underlying research combines transformer architectures with behavioral data from thousands of work engagements across the ecosystem."
+              },
+              {
+                "name": "Warden AI",
+                "description": "Venture architecture and business cycle prediction. Warden analyzes market conditions, venture performance metrics, and macroeconomic indicators to generate strategic recommendations for ecosystem ventures. The research draws from computational finance and complex systems theory."
+              },
+              {
+                "name": "HyperTokens",
+                "description": "Quantum tokenization and post-quantum cryptography. The cryptographic infrastructure that secures Bastion's financial systems. HyperTokens research addresses the coming shift to quantum computing by developing tokenization protocols that remain secure against quantum attacks — critical for the ecosystem's financial layer."
+              },
+              {
+                "name": "Sapiens3",
+                "description": "Augmented Intelligence and digital human technology. Sapiens3 is the research program exploring the boundary between human cognition and artificial intelligence — not replacement, but augmentation. The goal is interfaces and systems that amplify human decision-making capacity within professional contexts."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__research-areas_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#research-areas",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#research-areas",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#research-areas",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#research-areas",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-root--partners",
+          "page_id": "page-scigate-root",
+          "section_key": "partners",
+          "pod": "GridSection",
+          "pad": {
+            "title": "Academic Partners",
+            "subtitle": "Institutional Network",
+            "description": "SciGate operates through formal partnerships with research institutions that co-develop and validate the scientific foundations of the ecosystem.",
+            "items": [
+              {
+                "name": "University of São Paulo (USP)",
+                "description": "Brazil's leading research university. Co-authored foundational research on Dynamic Work methodology. Ongoing collaboration through the Institute of Mathematics and Computer Sciences (ICMC) on AI and computational models for workforce allocation.",
+                "tag": "Brazil"
+              },
+              {
+                "name": "MIT — Massachusetts Institute of Technology",
+                "description": "Published peer-reviewed research on the Dynamic Work framework. Collaborative programs on augmented intelligence and the future of distributed professional systems. MIT's validation provided the scientific credibility that underpins the ecosystem's methodology.",
+                "tag": "United States"
+              },
+              {
+                "name": "UC Berkeley — ACE Lab",
+                "description": "The Algorithms for Computing and Education Lab at UC Berkeley collaborates on learning systems research — how professionals acquire new competencies in dynamic work environments and how AI can accelerate skill development.",
+                "tag": "United States"
+              },
+              {
+                "name": "Dubai Future Foundation",
+                "description": "Strategic partner focused on applied research for the future of work in the Middle East and North Africa. Joint programs exploring how Dynamic Work methodology adapts to emerging economies and cross-cultural professional ecosystems.",
+                "tag": "UAE"
+              },
+              {
+                "name": "MBRSC — Mohammed Bin Rashid Space Centre",
+                "description": "Collaboration on advanced technology transfer and frontier research applications. MBRSC's expertise in complex system engineering informs SciGate's approach to building resilient, distributed professional infrastructure.",
+                "tag": "UAE"
+              }
+            ],
+            "columns": 3,
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "GridSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Academic Partners",
+            "subtitle": "Institutional Network",
+            "description": "SciGate operates through formal partnerships with research institutions that co-develop and validate the scientific foundations of the ecosystem.",
+            "items": [
+              {
+                "name": "University of São Paulo (USP)",
+                "description": "Brazil's leading research university. Co-authored foundational research on Dynamic Work methodology. Ongoing collaboration through the Institute of Mathematics and Computer Sciences (ICMC) on AI and computational models for workforce allocation.",
+                "tag": "Brazil"
+              },
+              {
+                "name": "MIT — Massachusetts Institute of Technology",
+                "description": "Published peer-reviewed research on the Dynamic Work framework. Collaborative programs on augmented intelligence and the future of distributed professional systems. MIT's validation provided the scientific credibility that underpins the ecosystem's methodology.",
+                "tag": "United States"
+              },
+              {
+                "name": "UC Berkeley — ACE Lab",
+                "description": "The Algorithms for Computing and Education Lab at UC Berkeley collaborates on learning systems research — how professionals acquire new competencies in dynamic work environments and how AI can accelerate skill development.",
+                "tag": "United States"
+              },
+              {
+                "name": "Dubai Future Foundation",
+                "description": "Strategic partner focused on applied research for the future of work in the Middle East and North Africa. Joint programs exploring how Dynamic Work methodology adapts to emerging economies and cross-cultural professional ecosystems.",
+                "tag": "UAE"
+              },
+              {
+                "name": "MBRSC — Mohammed Bin Rashid Space Centre",
+                "description": "Collaboration on advanced technology transfer and frontier research applications. MBRSC's expertise in complex system engineering informs SciGate's approach to building resilient, distributed professional infrastructure.",
+                "tag": "UAE"
+              }
+            ],
+            "columns": 3
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__partners_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "columns": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-root--tagline",
+          "page_id": "page-scigate-root",
+          "section_key": "tagline",
+          "pod": "TaglineSection",
+          "pad": {
+            "tagline": "From Peer Review to Production",
+            "description": "Every system in the CodeLoop Ecosystem traces back to a published paper, a validated hypothesis, a tested framework. SciGate is where that chain begins.",
+            "_animation": {
+              "stagger": 0.05
+            }
+          },
+          "component": "TaglineSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "tagline": "From Peer Review to Production",
+            "description": "Every system in the CodeLoop Ecosystem traces back to a published paper, a validated hypothesis, a tested framework. SciGate is where that chain begins."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.05
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__tagline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "tagline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#tagline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#tagline",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-root--cta-home",
+          "page_id": "page-scigate-root",
+          "section_key": "cta-home",
+          "pod": "CTA",
+          "pad": {
+            "title": "Open a Research Partnership",
+            "description": "SciGate welcomes collaboration proposals from universities, research labs, and independent researchers working in AI, distributed systems, behavioral economics, cryptography, or augmented intelligence.",
+            "cta_primary_label": "Start a Conversation",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "View Programs",
+            "cta_secondary_href": "/programs",
+            "variant": "gradient",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Open a Research Partnership",
+            "description": "SciGate welcomes collaboration proposals from universities, research labs, and independent researchers working in AI, distributed systems, behavioral economics, cryptography, or augmented intelligence.",
+            "cta_primary_label": "Start a Conversation",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "View Programs",
+            "cta_secondary_href": "/programs",
+            "variant": "gradient"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate__cta-home_viewed",
+            "cta_events": [
+              "scigate_cta-home_cta-primary-label_clicked",
+              "scigate_cta-home_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "variant": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta-home",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-scigate-research",
+      "website_id": "website-scigate",
+      "path": "/research",
+      "slug": "research",
+      "title": "Research",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-research--hero",
+          "page_id": "page-scigate-research",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Applied Research at Scale",
+            "subheadline": "SciGate doesn't fund research in isolation. Every program connects directly to a live system in the CodeLoop Ecosystem — the science ships as infrastructure.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Applied Research at Scale",
+            "subheadline": "SciGate doesn't fund research in isolation. Every program connects directly to a live system in the CodeLoop Ecosystem — the science ships as infrastructure."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_research_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-research--overview",
+          "page_id": "page-scigate-research",
+          "section_key": "overview",
+          "pod": "OverviewSection",
+          "pad": {
+            "title": "The Scientific Layer of the Ecosystem",
+            "subtitle": "Research Philosophy",
+            "description": "The CodeLoop Ecosystem is built on a conviction: that the most resilient technology systems are those grounded in peer-reviewed science. Not marketing narratives or hype cycles — published, tested, reproducible research. SciGate was created to make this explicit. Every core system in the ecosystem — from the AI that models career trajectories to the blockchain that secures financial flows — has a corresponding body of academic work behind it. SciGate maintains these relationships, funds new research, and ensures the pipeline from lab to production remains open.",
+            "highlights": [
+              "Published research at MIT and USP on Dynamic Work methodology and organizational systems",
+              "Deep Learning models validated through academic peer review before ecosystem deployment",
+              "Post-quantum cryptography research informing next-generation financial infrastructure",
+              "Cross-institutional programs spanning Brazil, United States, and United Arab Emirates",
+              "Open-access publication commitment — research funded through SciGate is publicly available"
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "OverviewSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The Scientific Layer of the Ecosystem",
+            "subtitle": "Research Philosophy",
+            "description": "The CodeLoop Ecosystem is built on a conviction: that the most resilient technology systems are those grounded in peer-reviewed science. Not marketing narratives or hype cycles — published, tested, reproducible research. SciGate was created to make this explicit. Every core system in the ecosystem — from the AI that models career trajectories to the blockchain that secures financial flows — has a corresponding body of academic work behind it. SciGate maintains these relationships, funds new research, and ensures the pipeline from lab to production remains open.",
+            "highlights": [
+              "Published research at MIT and USP on Dynamic Work methodology and organizational systems",
+              "Deep Learning models validated through academic peer review before ecosystem deployment",
+              "Post-quantum cryptography research informing next-generation financial infrastructure",
+              "Cross-institutional programs spanning Brazil, United States, and United Arab Emirates",
+              "Open-access publication commitment — research funded through SciGate is publicly available"
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_research_overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlights": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#overview",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-research--disciplines",
+          "page_id": "page-scigate-research",
+          "section_key": "disciplines",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "Research Disciplines",
+            "subtitle": "Active Programs",
+            "description": "Five distinct research programs operate under SciGate, each connected to a specific technology layer of the CodeLoop Ecosystem.",
+            "features": [
+              {
+                "title": "Behavioral Economics & Organizational Psychology",
+                "description": "The scientific foundation of Dynamic Work. Research on how project-based allocation, professional autonomy, and competency-driven matching produce superior outcomes in knowledge work. Published at USP and MIT."
+              },
+              {
+                "title": "Deep Learning & Neural Networks",
+                "description": "The research behind Aura AI. Career trajectory modeling, professional competency graphs, and predictive matching algorithms trained on ecosystem engagement data. Validated through academic partnerships."
+              },
+              {
+                "title": "Computational Finance & Complex Systems",
+                "description": "The research behind Warden AI. Venture performance prediction, business cycle analysis, and strategic recommendation systems built on computational finance models and complex adaptive systems theory."
+              },
+              {
+                "title": "Post-Quantum Cryptography",
+                "description": "The research behind HyperTokens. Quantum-resistant tokenization protocols designed to secure financial infrastructure against next-generation computing threats. Critical for the ecosystem's Bastion district."
+              },
+              {
+                "title": "Augmented Intelligence & Human-AI Interaction",
+                "description": "The research behind Sapiens3. Exploring how AI systems can amplify — not replace — human cognition in professional decision-making contexts. Interface design, cognitive load optimization, and collaborative intelligence."
+              }
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Research Disciplines",
+            "subtitle": "Active Programs",
+            "description": "Five distinct research programs operate under SciGate, each connected to a specific technology layer of the CodeLoop Ecosystem.",
+            "features": [
+              {
+                "title": "Behavioral Economics & Organizational Psychology",
+                "description": "The scientific foundation of Dynamic Work. Research on how project-based allocation, professional autonomy, and competency-driven matching produce superior outcomes in knowledge work. Published at USP and MIT."
+              },
+              {
+                "title": "Deep Learning & Neural Networks",
+                "description": "The research behind Aura AI. Career trajectory modeling, professional competency graphs, and predictive matching algorithms trained on ecosystem engagement data. Validated through academic partnerships."
+              },
+              {
+                "title": "Computational Finance & Complex Systems",
+                "description": "The research behind Warden AI. Venture performance prediction, business cycle analysis, and strategic recommendation systems built on computational finance models and complex adaptive systems theory."
+              },
+              {
+                "title": "Post-Quantum Cryptography",
+                "description": "The research behind HyperTokens. Quantum-resistant tokenization protocols designed to secure financial infrastructure against next-generation computing threats. Critical for the ecosystem's Bastion district."
+              },
+              {
+                "title": "Augmented Intelligence & Human-AI Interaction",
+                "description": "The research behind Sapiens3. Exploring how AI systems can amplify — not replace — human cognition in professional decision-making contexts. Interface design, cognitive load optimization, and collaborative intelligence."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_research_disciplines_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#disciplines",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#disciplines",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#disciplines",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#disciplines",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-research--process",
+          "page_id": "page-scigate-research",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "From Hypothesis to Infrastructure",
+            "subtitle": "Research Pipeline",
+            "description": "Every SciGate research program follows a structured pipeline that connects academic rigor to real-world deployment.",
+            "steps": [
+              {
+                "title": "Research Proposal",
+                "description": "University partners submit research proposals aligned with ecosystem technology needs. SciGate evaluates scientific merit, practical applicability, and alignment with the ecosystem roadmap."
+              },
+              {
+                "title": "Academic Development",
+                "description": "Funded research teams work within university environments with full academic freedom. SciGate provides access to ecosystem data, infrastructure, and real-world use cases for validation."
+              },
+              {
+                "title": "Peer Review & Publication",
+                "description": "All research undergoes standard academic peer review. SciGate requires publication as a condition of funding — the science must be open, reproducible, and independently verifiable."
+              },
+              {
+                "title": "Technology Transfer",
+                "description": "Published findings are translated into technical specifications by ecosystem engineering teams. The research becomes the blueprint for system development."
+              },
+              {
+                "title": "Production Deployment",
+                "description": "Validated systems ship as live infrastructure within the CodeLoop Ecosystem — powering real workflows, financial transactions, and professional interactions at scale."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "From Hypothesis to Infrastructure",
+            "subtitle": "Research Pipeline",
+            "description": "Every SciGate research program follows a structured pipeline that connects academic rigor to real-world deployment.",
+            "steps": [
+              {
+                "title": "Research Proposal",
+                "description": "University partners submit research proposals aligned with ecosystem technology needs. SciGate evaluates scientific merit, practical applicability, and alignment with the ecosystem roadmap."
+              },
+              {
+                "title": "Academic Development",
+                "description": "Funded research teams work within university environments with full academic freedom. SciGate provides access to ecosystem data, infrastructure, and real-world use cases for validation."
+              },
+              {
+                "title": "Peer Review & Publication",
+                "description": "All research undergoes standard academic peer review. SciGate requires publication as a condition of funding — the science must be open, reproducible, and independently verifiable."
+              },
+              {
+                "title": "Technology Transfer",
+                "description": "Published findings are translated into technical specifications by ecosystem engineering teams. The research becomes the blueprint for system development."
+              },
+              {
+                "title": "Production Deployment",
+                "description": "Validated systems ship as live infrastructure within the CodeLoop Ecosystem — powering real workflows, financial transactions, and professional interactions at scale."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_research_process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#process",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-research--cta-research",
+          "page_id": "page-scigate-research",
+          "section_key": "cta-research",
+          "pod": "CTA",
+          "pad": {
+            "title": "Propose a Research Collaboration",
+            "description": "SciGate is actively seeking university partners for the next wave of applied research across all five disciplines.",
+            "cta_primary_label": "Submit a Proposal",
+            "cta_primary_href": "/contact",
+            "variant": "card",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "CTA",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Propose a Research Collaboration",
+            "description": "SciGate is actively seeking university partners for the next wave of applied research across all five disciplines.",
+            "cta_primary_label": "Submit a Proposal",
+            "cta_primary_href": "/contact",
+            "variant": "card"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_research_cta-research_viewed",
+            "cta_events": [
+              "scigate_cta-research_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#cta-research",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#cta-research",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#cta-research",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#cta-research",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "variant": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /research#cta-research",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-scigate-programs",
+      "website_id": "website-scigate",
+      "path": "/programs",
+      "slug": "programs",
+      "title": "Programs",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-programs--hero",
+          "page_id": "page-scigate-programs",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Academic Programs",
+            "subheadline": "Structured pathways for researchers, professors, and students to engage with the CodeLoop Ecosystem — from visiting fellowships to long-term research collaborations.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Academic Programs",
+            "subheadline": "Structured pathways for researchers, professors, and students to engage with the CodeLoop Ecosystem — from visiting fellowships to long-term research collaborations."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_programs_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-programs--program-grid",
+          "page_id": "page-scigate-programs",
+          "section_key": "program-grid",
+          "pod": "GridSection",
+          "pad": {
+            "title": "Active Programs",
+            "subtitle": "Engagement Pathways",
+            "description": "SciGate offers four structured programs for academic engagement with the ecosystem. Each provides access to real-world data, infrastructure, and professional networks.",
+            "items": [
+              {
+                "name": "Research Fellowship",
+                "description": "For professors and senior researchers. A 6-to-12-month engagement to conduct applied research using ecosystem data and infrastructure. Fellows retain full publication rights and academic independence. SciGate provides funding, technical access, and a dedicated liaison team.",
+                "tag": "Professors"
+              },
+              {
+                "name": "Graduate Research Program",
+                "description": "For Master's and PhD candidates. Structured research placements where graduate students work on ecosystem-aligned research problems under joint supervision from their university advisor and a SciGate research lead. Thesis work produces both academic contributions and practical applications.",
+                "tag": "Graduate"
+              },
+              {
+                "name": "Institutional Partnership",
+                "description": "For universities and research labs. A formal, multi-year partnership agreement that establishes ongoing collaboration channels between a university department and the CodeLoop Ecosystem. Includes joint publications, shared infrastructure access, and co-funded research positions.",
+                "tag": "Institutions"
+              },
+              {
+                "name": "Visiting Scholar",
+                "description": "For independent researchers. A short-term immersion — 4 to 8 weeks — designed for researchers who want to explore ecosystem data and technology before committing to a longer collaboration. No formal output requirement, but access to all SciGate research resources.",
+                "tag": "Researchers"
+              },
+              {
+                "name": "Technology Transfer Sprint",
+                "description": "For engineering researchers. An intensive 3-month program focused on translating existing academic research into production-grade ecosystem components. Participants work alongside ecosystem engineering teams to bring their published work from paper to deployment.",
+                "tag": "Engineers"
+              },
+              {
+                "name": "Open Data Access",
+                "description": "For any academic researcher. FAIR-compliant datasets from the CodeLoop Ecosystem available for independent research. No partnership required — SciGate believes that open data produces better science. Includes anonymized workforce dynamics, professional trajectory patterns, and ecosystem interaction data.",
+                "tag": "Open Access"
+              }
+            ],
+            "columns": 3,
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "GridSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Active Programs",
+            "subtitle": "Engagement Pathways",
+            "description": "SciGate offers four structured programs for academic engagement with the ecosystem. Each provides access to real-world data, infrastructure, and professional networks.",
+            "items": [
+              {
+                "name": "Research Fellowship",
+                "description": "For professors and senior researchers. A 6-to-12-month engagement to conduct applied research using ecosystem data and infrastructure. Fellows retain full publication rights and academic independence. SciGate provides funding, technical access, and a dedicated liaison team.",
+                "tag": "Professors"
+              },
+              {
+                "name": "Graduate Research Program",
+                "description": "For Master's and PhD candidates. Structured research placements where graduate students work on ecosystem-aligned research problems under joint supervision from their university advisor and a SciGate research lead. Thesis work produces both academic contributions and practical applications.",
+                "tag": "Graduate"
+              },
+              {
+                "name": "Institutional Partnership",
+                "description": "For universities and research labs. A formal, multi-year partnership agreement that establishes ongoing collaboration channels between a university department and the CodeLoop Ecosystem. Includes joint publications, shared infrastructure access, and co-funded research positions.",
+                "tag": "Institutions"
+              },
+              {
+                "name": "Visiting Scholar",
+                "description": "For independent researchers. A short-term immersion — 4 to 8 weeks — designed for researchers who want to explore ecosystem data and technology before committing to a longer collaboration. No formal output requirement, but access to all SciGate research resources.",
+                "tag": "Researchers"
+              },
+              {
+                "name": "Technology Transfer Sprint",
+                "description": "For engineering researchers. An intensive 3-month program focused on translating existing academic research into production-grade ecosystem components. Participants work alongside ecosystem engineering teams to bring their published work from paper to deployment.",
+                "tag": "Engineers"
+              },
+              {
+                "name": "Open Data Access",
+                "description": "For any academic researcher. FAIR-compliant datasets from the CodeLoop Ecosystem available for independent research. No partnership required — SciGate believes that open data produces better science. Includes anonymized workforce dynamics, professional trajectory patterns, and ecosystem interaction data.",
+                "tag": "Open Access"
+              }
+            ],
+            "columns": 3
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_programs_program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "columns": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-programs--timeline",
+          "page_id": "page-scigate-programs",
+          "section_key": "timeline",
+          "pod": "TimelineSection",
+          "pad": {
+            "title": "Research Milestones",
+            "subtitle": "Our Journey",
+            "description": "Key moments in SciGate's evolution from an internal research initiative to a formal academic partnership program.",
+            "items": [
+              {
+                "year": "2018",
+                "title": "Dynamic Work Research Published",
+                "description": "The foundational research on Dynamic Work methodology is published through USP's Institute of Mathematics and Computer Sciences, establishing the scientific basis for the CodeLoop Ecosystem's approach to professional organization."
+              },
+              {
+                "year": "2019",
+                "title": "MIT Collaboration Begins",
+                "description": "A formal research partnership is established with MIT, validating the Dynamic Work framework through independent peer review and extending the research into augmented intelligence applications."
+              },
+              {
+                "year": "2021",
+                "title": "SciGate Formalized",
+                "description": "SciGate is established as the official academic interface of the CodeLoop Ecosystem — moving from informal research relationships to a structured program with formal partnerships, funding mechanisms, and governance."
+              },
+              {
+                "year": "2022",
+                "title": "UC Berkeley ACE Lab Partnership",
+                "description": "The Algorithms for Computing and Education Lab joins as a research partner, focusing on learning systems and professional skill development in dynamic work environments."
+              },
+              {
+                "year": "2023",
+                "title": "Middle East Expansion",
+                "description": "Strategic partnerships with Dubai Future Foundation and MBRSC open new research channels — applying Dynamic Work methodology to emerging economies and cross-cultural professional ecosystems."
+              },
+              {
+                "year": "2024",
+                "title": "Five Research Frontiers Defined",
+                "description": "SciGate formally organizes into five research disciplines — Dynamic Work, Aura AI, Warden AI, HyperTokens, and Sapiens3 — each with dedicated university partnerships and publication roadmaps."
+              }
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "TimelineSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Research Milestones",
+            "subtitle": "Our Journey",
+            "description": "Key moments in SciGate's evolution from an internal research initiative to a formal academic partnership program.",
+            "items": [
+              {
+                "year": "2018",
+                "title": "Dynamic Work Research Published",
+                "description": "The foundational research on Dynamic Work methodology is published through USP's Institute of Mathematics and Computer Sciences, establishing the scientific basis for the CodeLoop Ecosystem's approach to professional organization."
+              },
+              {
+                "year": "2019",
+                "title": "MIT Collaboration Begins",
+                "description": "A formal research partnership is established with MIT, validating the Dynamic Work framework through independent peer review and extending the research into augmented intelligence applications."
+              },
+              {
+                "year": "2021",
+                "title": "SciGate Formalized",
+                "description": "SciGate is established as the official academic interface of the CodeLoop Ecosystem — moving from informal research relationships to a structured program with formal partnerships, funding mechanisms, and governance."
+              },
+              {
+                "year": "2022",
+                "title": "UC Berkeley ACE Lab Partnership",
+                "description": "The Algorithms for Computing and Education Lab joins as a research partner, focusing on learning systems and professional skill development in dynamic work environments."
+              },
+              {
+                "year": "2023",
+                "title": "Middle East Expansion",
+                "description": "Strategic partnerships with Dubai Future Foundation and MBRSC open new research channels — applying Dynamic Work methodology to emerging economies and cross-cultural professional ecosystems."
+              },
+              {
+                "year": "2024",
+                "title": "Five Research Frontiers Defined",
+                "description": "SciGate formally organizes into five research disciplines — Dynamic Work, Aura AI, Warden AI, HyperTokens, and Sapiens3 — each with dedicated university partnerships and publication roadmaps."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_programs_timeline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#timeline",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-programs--cta-programs",
+          "page_id": "page-scigate-programs",
+          "section_key": "cta-programs",
+          "pod": "CTA",
+          "pad": {
+            "title": "Apply to a Program",
+            "description": "Whether you're a professor, graduate student, or independent researcher — SciGate has a pathway for you to engage with the ecosystem.",
+            "cta_primary_label": "Get in Touch",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "View Research Areas",
+            "cta_secondary_href": "/research",
+            "variant": "gradient",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "CTA",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Apply to a Program",
+            "description": "Whether you're a professor, graduate student, or independent researcher — SciGate has a pathway for you to engage with the ecosystem.",
+            "cta_primary_label": "Get in Touch",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "View Research Areas",
+            "cta_secondary_href": "/research",
+            "variant": "gradient"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_programs_cta-programs_viewed",
+            "cta_events": [
+              "scigate_cta-programs_cta-primary-label_clicked",
+              "scigate_cta-programs_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "variant": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-scigate-about",
+      "website_id": "website-scigate",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-about--hero",
+          "page_id": "page-scigate-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "The Science Behind the System",
+            "subheadline": "SciGate exists because the CodeLoop Ecosystem was built on science — and we believe that relationship should be formalized, funded, and continuous.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "The Science Behind the System",
+            "subheadline": "SciGate exists because the CodeLoop Ecosystem was built on science — and we believe that relationship should be formalized, funded, and continuous."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-about--story",
+          "page_id": "page-scigate-about",
+          "section_key": "story",
+          "pod": "StorySection",
+          "pad": {
+            "title": "Why SciGate Exists",
+            "subtitle": "Origin",
+            "body": "The CodeLoop Ecosystem didn't start as a technology company. It started as a research question: can the principles of behavioral economics and organizational psychology be applied to redesign how professional work is structured at scale?\n\nThat question led to published research at the University of São Paulo and MIT. The research led to a methodology — Dynamic Work. The methodology led to technology — AI systems, blockchain infrastructure, professional networks. And the technology led to an ecosystem that now spans multiple continents, industries, and disciplines.\n\nBut as the ecosystem grew, the connection to its scientific roots risked becoming informal. Research partnerships were maintained through personal relationships. Technology transfer happened through ad hoc conversations. Publication was encouraged but not required.\n\nSciGate was created to fix this. To make the academic pipeline explicit. To ensure that every major technology decision in the ecosystem can trace back to a published, peer-reviewed body of work. And to make that pipeline bidirectional — so that the ecosystem's real-world data flows back to researchers, enabling the next generation of scientific contributions.",
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "StorySection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Why SciGate Exists",
+            "subtitle": "Origin",
+            "body": "The CodeLoop Ecosystem didn't start as a technology company. It started as a research question: can the principles of behavioral economics and organizational psychology be applied to redesign how professional work is structured at scale?\n\nThat question led to published research at the University of São Paulo and MIT. The research led to a methodology — Dynamic Work. The methodology led to technology — AI systems, blockchain infrastructure, professional networks. And the technology led to an ecosystem that now spans multiple continents, industries, and disciplines.\n\nBut as the ecosystem grew, the connection to its scientific roots risked becoming informal. Research partnerships were maintained through personal relationships. Technology transfer happened through ad hoc conversations. Publication was encouraged but not required.\n\nSciGate was created to fix this. To make the academic pipeline explicit. To ensure that every major technology decision in the ecosystem can trace back to a published, peer-reviewed body of work. And to make that pipeline bidirectional — so that the ecosystem's real-world data flows back to researchers, enabling the next generation of scientific contributions."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_about_story_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#story",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-about--mission",
+          "page_id": "page-scigate-about",
+          "section_key": "mission",
+          "pod": "MissionSection",
+          "pad": {
+            "title": "Mission, Vision & Values",
+            "mission": "To maintain and expand the formal pipeline between peer-reviewed academic research and the live technology systems of the CodeLoop Ecosystem — ensuring that science drives infrastructure, and infrastructure generates science.",
+            "vision": "A world where the most impactful technology systems are grounded in open, reproducible scientific research — and where academic institutions and technology ecosystems operate as true partners, not distant observers.",
+            "values": [
+              "Scientific Rigor — every claim is backed by published, peer-reviewed work",
+              "Open Access — research funded through SciGate is publicly available",
+              "Bidirectional Flow — data goes to researchers, findings go to production",
+              "Academic Independence — university partners retain full intellectual freedom",
+              "Applied Impact — research that doesn't deploy isn't finished"
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MissionSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Mission, Vision & Values",
+            "mission": "To maintain and expand the formal pipeline between peer-reviewed academic research and the live technology systems of the CodeLoop Ecosystem — ensuring that science drives infrastructure, and infrastructure generates science.",
+            "vision": "A world where the most impactful technology systems are grounded in open, reproducible scientific research — and where academic institutions and technology ecosystems operate as true partners, not distant observers.",
+            "values": [
+              "Scientific Rigor — every claim is backed by published, peer-reviewed work",
+              "Open Access — research funded through SciGate is publicly available",
+              "Bidirectional Flow — data goes to researchers, findings go to production",
+              "Academic Independence — university partners retain full intellectual freedom",
+              "Applied Impact — research that doesn't deploy isn't finished"
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_about_mission_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-about--ecosystem-position",
+          "page_id": "page-scigate-about",
+          "section_key": "ecosystem-position",
+          "pod": "OverviewSection",
+          "pad": {
+            "title": "Where SciGate Sits in the Ecosystem",
+            "subtitle": "Ecosystem Architecture",
+            "description": "SciGate operates as an Ecosystem Partner in the Education vertical of the CodeLoop Ecosystem. It is not a subsidiary or a venture — it is a formal academic interface. SciGate's closest collaborators within the ecosystem are Mainland (which runs the Dynamic Work operating system), Bastion (which deploys the cryptographic infrastructure), and Karon Labs (which handles applied R&D). Legacy Educa, the other Education partner, focuses on professional training programs — SciGate focuses exclusively on academic research and institutional partnerships.",
+            "highlights": [
+              "Ecosystem Partner — Education Vertical",
+              "Formal academic interface, not a technology venture",
+              "Primary collaborators: Mainland, Bastion, Karon Labs",
+              "Parallel to Legacy Educa (training) — SciGate focuses on research",
+              "Reports to the CodeLoop Ecosystem managing board"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "OverviewSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Where SciGate Sits in the Ecosystem",
+            "subtitle": "Ecosystem Architecture",
+            "description": "SciGate operates as an Ecosystem Partner in the Education vertical of the CodeLoop Ecosystem. It is not a subsidiary or a venture — it is a formal academic interface. SciGate's closest collaborators within the ecosystem are Mainland (which runs the Dynamic Work operating system), Bastion (which deploys the cryptographic infrastructure), and Karon Labs (which handles applied R&D). Legacy Educa, the other Education partner, focuses on professional training programs — SciGate focuses exclusively on academic research and institutional partnerships.",
+            "highlights": [
+              "Ecosystem Partner — Education Vertical",
+              "Formal academic interface, not a technology venture",
+              "Primary collaborators: Mainland, Bastion, Karon Labs",
+              "Parallel to Legacy Educa (training) — SciGate focuses on research",
+              "Reports to the CodeLoop Ecosystem managing board"
+            ]
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_about_ecosystem-position_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#ecosystem-position",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#ecosystem-position",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#ecosystem-position",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlights": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#ecosystem-position",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-about--cta-about",
+          "page_id": "page-scigate-about",
+          "section_key": "cta-about",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About Our Research",
+            "description": "Explore the five research disciplines that form the scientific foundation of the CodeLoop Ecosystem.",
+            "cta_primary_label": "View Research",
+            "cta_primary_href": "/research",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "CTA",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Learn More About Our Research",
+            "description": "Explore the five research disciplines that form the scientific foundation of the CodeLoop Ecosystem.",
+            "cta_primary_label": "View Research",
+            "cta_primary_href": "/research",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_about_cta-about_viewed",
+            "cta_events": [
+              "scigate_cta-about_cta-primary-label_clicked",
+              "scigate_cta-about_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-scigate-contact",
+      "website_id": "website-scigate",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-contact--hero",
+          "page_id": "page-scigate-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Start a Conversation",
+            "subheadline": "Whether you're proposing a research collaboration, applying to a program, or exploring how your institution can partner with the CodeLoop Ecosystem — we'd like to hear from you.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Start a Conversation",
+            "subheadline": "Whether you're proposing a research collaboration, applying to a program, or exploring how your institution can partner with the CodeLoop Ecosystem — we'd like to hear from you."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-contact--form",
+          "page_id": "page-scigate-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Research Partnership Inquiry",
+            "subtitle": "Tell us about your research interests and institutional affiliation. We respond to all inquiries within 5 business days.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Institutional Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "institution",
+                "label": "University / Research Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "role",
+                "label": "Role (Professor, Researcher, Graduate Student, Other)",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "discipline",
+                "label": "Research Discipline of Interest",
+                "type": "select",
+                "required": false,
+                "options": [
+                  "Dynamic Work — Behavioral Economics & Org Psychology",
+                  "Aura AI — Deep Learning & Neural Networks",
+                  "Warden AI — Computational Finance & Complex Systems",
+                  "HyperTokens — Post-Quantum Cryptography",
+                  "Sapiens3 — Augmented Intelligence & Human-AI Interaction",
+                  "Other / Multiple Disciplines"
+                ]
+              },
+              {
+                "name": "message",
+                "label": "Tell us about your research interest or proposal",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Inquiry",
+            "success_message": "Thank you for your interest in SciGate. Our research partnerships team will review your inquiry and respond within 5 business days.",
+            "site_name": "SciGate",
+            "site_slug": "scigate",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Research Partnership Inquiry",
+            "subtitle": "Tell us about your research interests and institutional affiliation. We respond to all inquiries within 5 business days.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Institutional Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "institution",
+                "label": "University / Research Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "role",
+                "label": "Role (Professor, Researcher, Graduate Student, Other)",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "discipline",
+                "label": "Research Discipline of Interest",
+                "type": "select",
+                "required": false,
+                "options": [
+                  "Dynamic Work — Behavioral Economics & Org Psychology",
+                  "Aura AI — Deep Learning & Neural Networks",
+                  "Warden AI — Computational Finance & Complex Systems",
+                  "HyperTokens — Post-Quantum Cryptography",
+                  "Sapiens3 — Augmented Intelligence & Human-AI Interaction",
+                  "Other / Multiple Disciplines"
+                ]
+              },
+              {
+                "name": "message",
+                "label": "Tell us about your research interest or proposal",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Inquiry",
+            "success_message": "Thank you for your interest in SciGate. Our research partnerships team will review your inquiry and respond within 5 business days.",
+            "site_name": "SciGate",
+            "site_slug": "scigate"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "success_message": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-scigate-404",
+      "website_id": "website-scigate",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-scigate-404--not-found-hero",
+          "page_id": "page-scigate-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "This page doesn't exist — but the research continues.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "This page doesn't exist — but the research continues."
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-scigate-404--not-found-cta",
+          "page_id": "page-scigate-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Return to SciGate",
+            "description": "Head back to the homepage or explore our research areas.",
+            "cta_primary_label": "Go Home",
+            "cta_primary_href": "/",
+            "cta_secondary_label": "View Research",
+            "cta_secondary_href": "/research",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Return to SciGate",
+            "description": "Head back to the homepage or explore our research areas.",
+            "cta_primary_label": "Go Home",
+            "cta_primary_href": "/",
+            "cta_secondary_label": "View Research",
+            "cta_secondary_href": "/research"
+          },
+          "design": {
+            "theme_variant": "deep-space",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "scigate_404_not-found-cta_viewed",
+            "cta_events": [
+              "scigate_not-found-cta_cta-primary-label_clicked",
+              "scigate_not-found-cta_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/scigate/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "AISection",
+      "category": "section",
+      "description": "AISection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 225
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 120
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "success_message": {
+          "type": "string",
+          "required": false,
+          "max_length": 131
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "variant": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 127
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "GridSection",
+      "category": "section",
+      "description": "GridSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 167
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "columns": {
+          "type": "number",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "badge": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 396
+        },
+        "stats": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MissionSection",
+      "category": "section",
+      "description": "MissionSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 225
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 215
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "OverviewSection",
+      "category": "section",
+      "description": "OverviewSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 550
+        },
+        "highlights": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 115
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "StorySection",
+      "category": "section",
+      "description": "StorySection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 1201
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TaglineSection",
+      "category": "section",
+      "description": "TaglineSection PAD/POD section component",
+      "allowed_fields": {
+        "tagline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 152
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TimelineSection",
+      "category": "section",
+      "description": "TimelineSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 113
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-scigate",
+    "total_original_gaps": 14,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "academic-bridge",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "headline": "The Academic Bridge",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/",
+        "section_id": "academic-bridge",
+        "pod": "FeatureSection",
+        "field": "features",
+        "headline": "The Academic Bridge",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/",
+        "section_id": "academic-bridge",
+        "pod": "FeatureSection",
+        "field": "items",
+        "headline": "The Academic Bridge",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "highlights",
+        "headline": "Scientific Foundation of the Ecosystem",
+        "reason": "no_kb_match",
+        "needed": "Array of highlights with structured data (title, description) for OverviewSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "subtitle",
+        "headline": "Scientific Foundation of the Ecosystem",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for OverviewSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "Our Services",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "headline": "Our Services",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "pending"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "pending"
+      }
+    ],
+    "generated_fills": []
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-scigate",
+      "canonical_base_url": "https://scigate.codeloop.co",
+      "default_title": "SciGate — The Academic Bridge of the CodeLoop Ecosystem",
+      "default_description": "SciGate formalizes the relationship between peer-reviewed scientific research and the CodeLoop Ecosystem — opening pathways for university partnerships, technology transfer, and applied research programs across five frontier disciplines.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/scigate/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-scigate-root",
+        "title": "Home",
+        "description": "SciGate is the formal academic interface of the CodeLoop Ecosystem — connecting peer-reviewed research from MIT, USP, and UC Berkeley with a global infrastructure of AI, blockchain, and augmented work systems.",
+        "canonical": "https://scigate.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-scigate-research",
+        "title": "Research",
+        "description": "SciGate doesn't fund research in isolation. Every program connects directly to a live system in the CodeLoop Ecosystem — the science ships as infrastructure.",
+        "canonical": "https://scigate.codeloop.co/research",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-scigate-programs",
+        "title": "Programs",
+        "description": "Structured pathways for researchers, professors, and students to engage with the CodeLoop Ecosystem — from visiting fellowships to long-term research collaborations.",
+        "canonical": "https://scigate.codeloop.co/programs",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-scigate-about",
+        "title": "About",
+        "description": "SciGate exists because the CodeLoop Ecosystem was built on science — and we believe that relationship should be formalized, funded, and continuous.",
+        "canonical": "https://scigate.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-scigate-contact",
+        "title": "Contact",
+        "description": "Whether you're proposing a research collaboration, applying to a program, or exploring how your institution can partner with the CodeLoop Ecosystem — we'd like to hear from you.",
+        "canonical": "https://scigate.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-scigate-404",
+        "title": "Page Not Found",
+        "description": "This page doesn't exist — but the research continues.",
+        "canonical": "https://scigate.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-scigate",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "scigate__hero_viewed",
+      "scigate__manifesto_viewed",
+      "scigate__research-areas_viewed",
+      "scigate__partners_viewed",
+      "scigate__tagline_viewed",
+      "scigate__cta-home_viewed",
+      "scigate_research_hero_viewed",
+      "scigate_research_overview_viewed",
+      "scigate_research_disciplines_viewed",
+      "scigate_research_process_viewed",
+      "scigate_research_cta-research_viewed",
+      "scigate_programs_hero_viewed",
+      "scigate_programs_program-grid_viewed",
+      "scigate_programs_timeline_viewed",
+      "scigate_programs_cta-programs_viewed",
+      "scigate_about_hero_viewed",
+      "scigate_about_story_viewed",
+      "scigate_about_mission_viewed",
+      "scigate_about_ecosystem-position_viewed",
+      "scigate_about_cta-about_viewed",
+      "scigate_contact_hero_viewed",
+      "scigate_contact_form_viewed",
+      "scigate_404_not-found-hero_viewed",
+      "scigate_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-scigate",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-scigate",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-scigate-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-scigate-primary",
+        "name": "The Prismatic Laboratory",
+        "description": "SciGate is DeepMind‑calm with a prismatic signature — bone paper, monospace display, and a spectrum gradient reserved for moments of discovery. A scientific studio, not a showroom."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-scigate-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-scigate-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-scigate",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/scigate/config.json",
+      "docs/data/scigate/worktree.json",
+      "docs/data/scigate/gaps.json"
+    ]
+  }
+}

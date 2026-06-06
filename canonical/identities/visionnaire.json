@@ -1,0 +1,2312 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_bible",
+        "path": "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+        "priority": 3
+      },
+      {
+        "type": "site_blueprint",
+        "path": "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+        "priority": 3
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/visionnaire/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/visionnaire/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/visionnaire/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/visionnaire/assets/logos/14-visionnaire.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/visionnaire/assets/logos/visionnaire.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/visionnaire.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-visionnaire",
+    "slug": "visionnaire",
+    "name": "Visionnaire",
+    "legal_name": null,
+    "type": "brand",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+    "mission": "To turn elite connectivity and visionary capital into an operating system through Membership access · AR/VR business environments.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-visionnaire-1",
+        "title": "Operational clarity",
+        "description": "Visionnaire should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-visionnaire-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-visionnaire-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Club",
+      "market": "Premium Networking Center",
+      "statement": "Visionnaire is the Strategic Circle and Membership Innovation Club for Global Leaders.",
+      "differentiators": [
+        "Elite connectivity and visionary capital.",
+        "Membership access · AR/VR business environments.",
+        "The Private Atelier"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "editorial",
+      "secondary": "quiet luxury",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-visionnaire",
+    "brand_name": "Visionnaire",
+    "tagline": "Beyond sight.",
+    "short_description": "Visionnaire is editorial quiet‑luxury — deep navy with an ice‑blue wing of dotted light, Bodoni Moda on ink.",
+    "long_description": "Visionnaire is the Strategic Circle and Membership Innovation Club for Global Leaders.",
+    "mission": "To turn elite connectivity and visionary capital into an operating system through Membership access · AR/VR business environments.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-visionnaire-1",
+        "title": "Operational clarity",
+        "description": "Visionnaire should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-visionnaire-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-visionnaire-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Club",
+      "market": "Premium Networking Center",
+      "statement": "Visionnaire is the Strategic Circle and Membership Innovation Club for Global Leaders.",
+      "differentiators": [
+        "Elite connectivity and visionary capital.",
+        "Membership access · AR/VR business environments.",
+        "The Private Atelier"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "Eleanor Vance is 51, runs a Series C agritech scale-up out of London with operations across East Africa, and has been a CEO for eleven of the last fifteen years.",
+      "founder_message": null,
+      "manifesto": "The future is not announced. It is decided in small rooms by serious people, and announced when the deal closes.\n\nBy the time a market category is named in a public deck, the Global Leaders who shaped it have already deployed capital, formed partnerships, and tested the regulatory edges in the territories that matter. The category is named for the public. The Global Leaders are already deploying against the next one.\n\nVisionnaire is the standing room those Global Leaders walk into.\n\nWe are not a luxury social house. We have learned the lesson [Soho House](https://www.sohohouse.com) taught the membership category: scale without density dilutes the room. We refuse the trade. Our ceiling is set by capacity of attention, not by capacity of dues.\n\nWe are not a peer advisory group. [TIGER 21](https://www.tiger21.com) and [YPO](https://www.ypo.org) are excellent at the format we adopt for some of our circles. They are not optimized for capital deployment as the defining act. We are.\n\nWe are not a public think tank. The [World Economic Forum](https://www.weforum.org) sets agendas in public. We set agendas in private and publish only the deals.\n\nWhat Visionnaire is: a four-tier admission-gated circle of operating Global Leaders — founders past Series C, family office principals, institutional investors with frontier mandates, and the leaders of organizations whose decisions outlast their own tenure. A standing programmable surface — quarterly residencies in MirageZ markets, monthly closed circles, weekly strategic briefings, ProLab venture co-development, the annual summit. A defined deal velocity — a measured median of 47 days from a pre-seeded room to a signed term sheet across ProLab. And a published admission logic — operating scale, capital authority, frontier experience, and reference verification, with a curated rejection rate near 30%.\n\nThe room is small. The membership is named (privately to other members). The deals are real.\n\n---",
+      "elevator_pitch": "Visionnaire: Beyond sight.",
+      "one_liner": "A club for those who build what others can't yet see."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+        "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/visionnaire/config.json",
+        "docs/data/visionnaire/worktree.json",
+        "docs/data/visionnaire/gaps.json"
+      ],
+      "generation_reason": "brand bible and site blueprint mapped into master brand_core",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-visionnaire",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "editorial",
+      "secondary": "quiet luxury",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "Membership & Innovation Club",
+        "Beyond Sight Residences"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+        "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/visionnaire/config.json",
+        "docs/data/visionnaire/worktree.json",
+        "docs/data/visionnaire/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-visionnaire",
+    "theme": {
+      "mode": "dark",
+      "variant": "warm-amber",
+      "palette": {
+        "bg": "#07101F",
+        "bg_light": "#0E1A2E",
+        "primary": "#1E4A7A",
+        "primary_light": "#5EA8D9",
+        "secondary": "#0B1E33",
+        "accent": "#5EA8D9",
+        "text": "#E8EEF5",
+        "text_muted": "#8AA0BA",
+        "border": "#263A54",
+        "gradient": "linear-gradient(135deg, #1E4A7A 0%, #5EA8D9 100%)",
+        "primary_ink": "#0B1E33",
+        "bg_alt": "#0E1A2E",
+        "surface": "#152538",
+        "vs_deep_navy": "#0D1B2A",
+        "vs_strategic_gold": "#D4AF37",
+        "vs_executive_gray": "#6B7280",
+        "vs_crisp_white": "#F8F9FA",
+        "vs_opportunity_green": "#2D7F4E"
+      },
+      "scale": [
+        "#E6EEF7",
+        "#BBCFE3",
+        "#88AAC9",
+        "#5686AE",
+        "#2E6695",
+        "#1E4A7A",
+        "#163960",
+        "#0F2847",
+        "#091A32",
+        "#030A19"
+      ],
+      "semantics": {
+        "success": "#7FA37A",
+        "warning": "#C99846",
+        "danger": "#C56757",
+        "info": "#5EA8D9"
+      }
+    },
+    "typography": {
+      "heading": "Bodoni Moda",
+      "body": "Inter",
+      "display": "Bodoni Moda",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "1px",
+        "md": "2px",
+        "lg": "4px",
+        "xl": "6px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "pinstripe"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-visionnaire",
+    "logos": [
+      {
+        "id": "asset-visionnaire-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/visionnaire/assets/logos/14-visionnaire.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Visionnaire logo"
+      },
+      {
+        "id": "asset-visionnaire-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/visionnaire/assets/logos/visionnaire.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Visionnaire logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-visionnaire",
+    "domains": [
+      {
+        "domain": "visionnaire.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "visionnaire.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-visionnaire",
+    "domain": "visionnaire.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-visionnaire",
+      "identity_id": "identity-visionnaire",
+      "name": "Visionnaire",
+      "slug": "visionnaire",
+      "domain": "visionnaire.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-visionnaire",
+        "footer_id": "footer-visionnaire",
+        "theme_id": "design-system-visionnaire",
+        "seo_profile_id": "seo-profile-visionnaire"
+      },
+      "pages": [
+        "page-visionnaire-root",
+        "page-visionnaire-club",
+        "page-visionnaire-contact",
+        "page-visionnaire-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-visionnaire",
+    "brand_label": "Visionnaire",
+    "items": [
+      {
+        "label": "Visionnaire Club",
+        "href": "/club",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Join the Club",
+      "href": "/club/membership",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-visionnaire",
+    "brand": "Visionnaire",
+    "description": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Visionnaire Club",
+            "href": "/club"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-visionnaire-root",
+      "website_id": "website-visionnaire",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-visionnaire-root--hero",
+          "page_id": "page-visionnaire-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Visionnaire — For Those Who Define the Future",
+            "subheadline": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+            "cta_primary_label": "Join the Club",
+            "cta_primary_href": "/club/membership",
+            "cta_secondary_label": "Global Leaders Program",
+            "cta_secondary_href": "/global-leaders",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Visionnaire — For Those Who Define the Future",
+            "subheadline": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+            "cta_primary_label": "Join the Club",
+            "cta_primary_href": "/club/membership",
+            "cta_secondary_label": "Global Leaders Program",
+            "cta_secondary_href": "/global-leaders"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire__hero_viewed",
+            "cta_events": [
+              "visionnaire_hero_cta-primary-label_clicked",
+              "visionnaire_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-visionnaire-root--overview",
+          "page_id": "page-visionnaire-root",
+          "section_key": "overview",
+          "pod": "OverviewSection",
+          "pad": {
+            "title": "The Visionnaire Ecosystem",
+            "items": [
+              {
+                "name": "Visionnaire Club",
+                "description": "An exclusive membership network for Global Leaders driving innovation and market hypergrowth.",
+                "href": "/club"
+              },
+              {
+                "name": "Visionnaire Business Center (VBC)",
+                "description": "AR/VR-enabled business environments for collaboration, networking, and corporate residency.",
+                "href": "/center"
+              },
+              {
+                "name": "Beyond Sight",
+                "description": "Corporate Residence beyond conventional spaces — where work meets immersive reality.",
+                "href": "/beyond-sight"
+              },
+              {
+                "name": "Global Leaders",
+                "description": "The invitation-only program for companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem.",
+                "href": "/global-leaders"
+              }
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "description": "Prospect List 1.  Fellow 2.  Ambassador 3.",
+            "highlights": [],
+            "subtitle": "Prospect List 1."
+          },
+          "component": "OverviewSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The Visionnaire Ecosystem",
+            "items": [
+              {
+                "name": "Visionnaire Club",
+                "description": "An exclusive membership network for Global Leaders driving innovation and market hypergrowth.",
+                "href": "/club"
+              },
+              {
+                "name": "Visionnaire Business Center (VBC)",
+                "description": "AR/VR-enabled business environments for collaboration, networking, and corporate residency.",
+                "href": "/center"
+              },
+              {
+                "name": "Beyond Sight",
+                "description": "Corporate Residence beyond conventional spaces — where work meets immersive reality.",
+                "href": "/beyond-sight"
+              },
+              {
+                "name": "Global Leaders",
+                "description": "The invitation-only program for companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem.",
+                "href": "/global-leaders"
+              }
+            ],
+            "description": "Prospect List 1.  Fellow 2.  Ambassador 3.",
+            "highlights": [],
+            "subtitle": "Prospect List 1."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire__overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlights": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-visionnaire-root--global-leaders",
+          "page_id": "page-visionnaire-root",
+          "section_key": "global-leaders",
+          "pod": "ProgramSection",
+          "pad": {
+            "title": "Global Leaders Program",
+            "description": "Side with Global Leaders. Become the vanguard with a Dynamic Venture. Kickstart growth with a bespoke blueprint. Receive an invitation to Mainland WebOS. Bring the right hands to refine the Dynamic Cycle.",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Fill the Venture Blueprint Form",
+                "description": "Submit your background and vision for Omnianalysis."
+              },
+              {
+                "step": "2",
+                "title": "Receive Your Dynamic Venture Blueprint",
+                "description": "A scientifically crafted development plan based on thousands of data points."
+              },
+              {
+                "step": "3",
+                "title": "Become a CodeLoop Ecosystem Partner",
+                "description": "Receive exclusive invitation to join the Visionnaire Club."
+              },
+              {
+                "step": "4",
+                "title": "Access Mainland WebOS",
+                "description": "Get your access token and bring your team to the best minds in the field."
+              }
+            ],
+            "cta_label": "Apply Now",
+            "cta_href": "/global-leaders",
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "features": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ],
+            "items": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ]
+          },
+          "component": "ProgramSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Global Leaders Program",
+            "description": "Side with Global Leaders. Become the vanguard with a Dynamic Venture. Kickstart growth with a bespoke blueprint. Receive an invitation to Mainland WebOS. Bring the right hands to refine the Dynamic Cycle.",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Fill the Venture Blueprint Form",
+                "description": "Submit your background and vision for Omnianalysis."
+              },
+              {
+                "step": "2",
+                "title": "Receive Your Dynamic Venture Blueprint",
+                "description": "A scientifically crafted development plan based on thousands of data points."
+              },
+              {
+                "step": "3",
+                "title": "Become a CodeLoop Ecosystem Partner",
+                "description": "Receive exclusive invitation to join the Visionnaire Club."
+              },
+              {
+                "step": "4",
+                "title": "Access Mainland WebOS",
+                "description": "Get your access token and bring your team to the best minds in the field."
+              }
+            ],
+            "cta_label": "Apply Now",
+            "cta_href": "/global-leaders",
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "features": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ],
+            "items": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire__global-leaders_viewed",
+            "cta_events": [
+              "visionnaire_global-leaders_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#global-leaders",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-visionnaire-club",
+      "website_id": "website-visionnaire",
+      "path": "/club",
+      "slug": "club",
+      "title": "Visionnaire Club",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-visionnaire-club--hero",
+          "page_id": "page-visionnaire-club",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Visionnaire Club — Exclusive Innovation Network",
+            "subheadline": "Where Global Leaders convene to shape the future — an invitation-only club for visionaries driving Dynamic Innovation Cycles and Market Hypergrowth Leadership.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Visionnaire Club — Exclusive Innovation Network",
+            "subheadline": "Where Global Leaders convene to shape the future — an invitation-only club for visionaries driving Dynamic Innovation Cycles and Market Hypergrowth Leadership."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_club_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /club#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /club#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-visionnaire-club--membership",
+          "page_id": "page-visionnaire-club",
+          "section_key": "membership",
+          "pod": "MembershipSection",
+          "pad": {
+            "title": "Membership",
+            "description": "Visionnaire Club membership is by invitation only, extended to companies that complete the Global Leaders program and enter a Dynamic Venture with the CodeLoop Ecosystem.",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "features": [
+              "Access to Visionnaire Business Center",
+              "Dynamic Innovation Cycle participation",
+              "Ecosystem Partner Emblem",
+              "Invitation to Mainland WebOS",
+              "Access to Royal Orbit network"
+            ]
+          },
+          "component": "MembershipSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Membership",
+            "description": "Visionnaire Club membership is by invitation only, extended to companies that complete the Global Leaders program and enter a Dynamic Venture with the CodeLoop Ecosystem.",
+            "features": [
+              "Access to Visionnaire Business Center",
+              "Dynamic Innovation Cycle participation",
+              "Ecosystem Partner Emblem",
+              "Invitation to Mainland WebOS",
+              "Access to Royal Orbit network"
+            ],
+            "subtitle": "Membership becomes a focused operating layer for Visionnaire.",
+            "items": [
+              {
+                "id": "membership-item-1",
+                "title": "Context with ownership",
+                "description": "Visionnaire keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "membership-item-2",
+                "title": "Distinct operating voice",
+                "description": "Elite connectivity and visionary capital. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "membership-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Membership access · AR/VR business environments. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_club_membership_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /club#membership",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /club#membership",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /club#membership",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/visionnaire/gaps.json",
+                "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+                "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/visionnaire/gaps.json",
+                "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+                "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-visionnaire-contact",
+      "website_id": "website-visionnaire",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-visionnaire-contact--hero",
+          "page_id": "page-visionnaire-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with Visionnaire",
+            "subheadline": "Request an invitation or learn more about our programs.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with Visionnaire",
+            "subheadline": "Request an invitation or learn more about our programs."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-visionnaire-contact--form",
+          "page_id": "page-visionnaire-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "company",
+                "label": "Company",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Request Invitation",
+            "site_name": "Visionnaire",
+            "site_slug": "visionnaire",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "company",
+                "label": "Company",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Request Invitation",
+            "site_name": "Visionnaire",
+            "site_slug": "visionnaire",
+            "title": "Form requires reviewed title content for Visionnaire.",
+            "subtitle": "Form becomes a focused operating layer for Visionnaire."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/visionnaire/gaps.json",
+                "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+                "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/visionnaire/gaps.json",
+                "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+                "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-visionnaire-404",
+      "website_id": "website-visionnaire",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-visionnaire-404--not-found-hero",
+          "page_id": "page-visionnaire-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Visionnaire — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Visionnaire — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-visionnaire-404--not-found-cta",
+          "page_id": "page-visionnaire-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Visionnaire.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Visionnaire.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "visionnaire_404_not-found-cta_viewed",
+            "cta_events": [
+              "visionnaire_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/visionnaire/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MembershipSection",
+      "category": "section",
+      "description": "MembershipSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 170
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "OverviewSection",
+      "category": "section",
+      "description": "OverviewSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "highlights": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProgramSection",
+      "category": "section",
+      "description": "ProgramSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 204
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-visionnaire",
+    "total_original_gaps": 4,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/club",
+        "section_id": "membership",
+        "pod": "MembershipSection",
+        "field": "subtitle",
+        "headline": "Membership",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/club",
+        "section_id": "membership",
+        "pod": "MembershipSection",
+        "field": "items",
+        "headline": "Membership",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/club",
+        "section_id": "membership",
+        "pod": "MembershipSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/club",
+        "section_id": "membership",
+        "pod": "MembershipSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-visionnaire",
+      "canonical_base_url": "https://visionnaire.codeloop.co",
+      "default_title": "Visionnaire",
+      "default_description": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/visionnaire/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-visionnaire-root",
+        "title": "Home",
+        "description": "An exclusive innovation network and business center fostering visionary leadership, global partnerships, and the convergence of cutting-edge technology with institutional excellence.",
+        "canonical": "https://visionnaire.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-visionnaire-club",
+        "title": "Visionnaire Club",
+        "description": "Where Global Leaders convene to shape the future — an invitation-only club for visionaries driving Dynamic Innovation Cycles and Market Hypergrowth Leadership.",
+        "canonical": "https://visionnaire.codeloop.co/club",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-visionnaire-contact",
+        "title": "Contact",
+        "description": "Request an invitation or learn more about our programs.",
+        "canonical": "https://visionnaire.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-visionnaire-404",
+        "title": "Page Not Found",
+        "description": "Visionnaire — Pagina nao encontrada",
+        "canonical": "https://visionnaire.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-visionnaire",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "visionnaire__hero_viewed",
+      "visionnaire__overview_viewed",
+      "visionnaire__global-leaders_viewed",
+      "visionnaire_club_hero_viewed",
+      "visionnaire_club_membership_viewed",
+      "visionnaire_contact_hero_viewed",
+      "visionnaire_contact_form_viewed",
+      "visionnaire_404_not-found-hero_viewed",
+      "visionnaire_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-visionnaire",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-visionnaire",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-visionnaire-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-visionnaire-primary",
+        "name": "The Private Atelier",
+        "description": "Visionnaire is editorial quiet‑luxury — deep navy with an ice‑blue wing of dotted light, Bodoni Moda on ink. A private members' club rendered as a single monochrome cover: minimum ornament, maximum restraint."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-visionnaire-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-visionnaire-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-visionnaire",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/09 — Visionnaire/01 — Brand Bible.md",
+      "docs/branding/09 — Visionnaire/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/visionnaire/config.json",
+      "docs/data/visionnaire/worktree.json",
+      "docs/data/visionnaire/gaps.json"
+    ]
+  }
+}

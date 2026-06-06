@@ -1,0 +1,3385 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/yaya/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/yaya/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/yaya/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/yaya/assets/logos/08-yaya.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/yaya/assets/logos/yaya.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/yaya.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-yaya",
+    "slug": "yaya",
+    "name": "YAYA Collaborative Living",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "Global access to living for the CodeLoop Ecosystem — seamless home transition between houses, apartments, and hotels for dynamic professionals worldwide.",
+    "mission": "To turn belonging anywhere · living as a service into an operating system through MyPass Passport · Co‑living houses & hotel suites.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-yaya-1",
+        "title": "Operational clarity",
+        "description": "YAYA Collaborative Living should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-yaya-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-yaya-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Collaborative Living",
+      "market": "Global Housing Network",
+      "statement": "Yaya is Uber‑calm hospitality — black wordmark on bone, a single trust‑blue accent, geometric sans throughout. A mobility brand repurposed as a place to belong: sparse, confident, never showroom.",
+      "differentiators": [
+        "Belonging anywhere · living as a service.",
+        "MyPass Passport · Co‑living houses & hotel suites.",
+        "The Quiet Host"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "quiet",
+      "secondary": "hospitable",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-yaya",
+    "brand_name": "YAYA Collaborative Living",
+    "tagline": "Belonging, anywhere.",
+    "short_description": "Yaya is Uber‑calm hospitality — black wordmark on bone, a single trust‑blue accent, geometric sans throughout.",
+    "long_description": "Yaya is Uber‑calm hospitality — black wordmark on bone, a single trust‑blue accent, geometric sans throughout. A mobility brand repurposed as a place to belong: sparse, confident, never showroom.",
+    "mission": "To turn belonging anywhere · living as a service into an operating system through MyPass Passport · Co‑living houses & hotel suites.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-yaya-1",
+        "title": "Operational clarity",
+        "description": "YAYA Collaborative Living should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-yaya-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-yaya-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Collaborative Living",
+      "market": "Global Housing Network",
+      "statement": "Yaya is Uber‑calm hospitality — black wordmark on bone, a single trust‑blue accent, geometric sans throughout. A mobility brand repurposed as a place to belong: sparse, confident, never showroom.",
+      "differentiators": [
+        "Belonging anywhere · living as a service.",
+        "MyPass Passport · Co‑living houses & hotel suites.",
+        "The Quiet Host"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "YAYA Collaborative Living: Belonging, anywhere.",
+      "one_liner": "Somewhere to land. Everywhere you go."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/yaya/config.json",
+        "docs/data/yaya/worktree.json",
+        "docs/data/yaya/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-yaya",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "quiet",
+      "secondary": "hospitable",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "Yaya Collaborative Living",
+        "Seamless Living Transitions"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/yaya/config.json",
+        "docs/data/yaya/worktree.json",
+        "docs/data/yaya/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-yaya",
+    "theme": {
+      "mode": "light",
+      "variant": "earth-natural",
+      "palette": {
+        "bg": "#FFFFFF",
+        "bg_light": "#F6F6F6",
+        "primary": "#000000",
+        "primary_light": "#276EF1",
+        "secondary": "#000000",
+        "accent": "#276EF1",
+        "text": "#000000",
+        "text_muted": "#545454",
+        "border": "#EEEEEE",
+        "gradient": "linear-gradient(135deg, #000000 0%, #276EF1 100%)",
+        "primary_ink": "#000000",
+        "bg_alt": "#F6F6F6",
+        "surface": "#FFFFFF"
+      },
+      "scale": [
+        "#FAFAFA",
+        "#EEEEEE",
+        "#DDDDDD",
+        "#BBBBBB",
+        "#999999",
+        "#666666",
+        "#444444",
+        "#222222",
+        "#111111",
+        "#000000"
+      ],
+      "semantics": {
+        "success": "#05A357",
+        "warning": "#FFC043",
+        "danger": "#E11900",
+        "info": "#276EF1"
+      }
+    },
+    "typography": {
+      "heading": "Plus Jakarta Sans",
+      "body": "Inter",
+      "display": "Plus Jakarta Sans",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "xl": "18px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "window"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-yaya",
+    "logos": [
+      {
+        "id": "asset-yaya-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/yaya/assets/logos/08-yaya.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Yaya logo"
+      },
+      {
+        "id": "asset-yaya-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/yaya/assets/logos/yaya.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Yaya logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-yaya",
+    "domains": [
+      {
+        "domain": "yaya.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "yaya.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-yaya",
+    "domain": "yaya.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-yaya",
+      "identity_id": "identity-yaya",
+      "name": "YAYA Collaborative Living",
+      "slug": "yaya",
+      "domain": "yaya.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-yaya",
+        "footer_id": "footer-yaya",
+        "theme_id": "design-system-yaya",
+        "seo_profile_id": "seo-profile-yaya"
+      },
+      "pages": [
+        "page-yaya-root",
+        "page-yaya-contact",
+        "page-yaya-services",
+        "page-yaya-about",
+        "page-yaya-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-yaya",
+    "brand_label": "YAYA Collaborative Living",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore MyPass",
+      "href": "/mypass",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-yaya",
+    "brand": "YAYA Collaborative Living",
+    "description": "Global access to living for the CodeLoop Ecosystem — seamless home transition between houses, apartments, and hotels for dynamic professionals worldwide.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-yaya-root",
+      "website_id": "website-yaya",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-yaya-root--hero",
+          "page_id": "page-yaya-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Live, work, and belong — wherever you are.",
+            "subheadline": "YAYA is a collaborative living platform built for dynamic professionals who refuse to choose between freedom and community. Your home travels with you.",
+            "cta_primary_label": "Get MyPass",
+            "cta_primary_href": "/mypass",
+            "cta_secondary_label": "Explore Spaces",
+            "cta_secondary_href": "/spaces",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Live, work, and belong — wherever you are.",
+            "subheadline": "YAYA is a collaborative living platform built for dynamic professionals who refuse to choose between freedom and community. Your home travels with you.",
+            "cta_primary_label": "Get MyPass",
+            "cta_primary_href": "/mypass",
+            "cta_secondary_label": "Explore Spaces",
+            "cta_secondary_href": "/spaces"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__hero_viewed",
+            "cta_events": [
+              "yaya_hero_cta-primary-label_clicked",
+              "yaya_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--benefits",
+          "page_id": "page-yaya-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "Why professionals choose YAYA",
+            "description": "The old housing model was designed for people who stay put. YAYA was designed for you.",
+            "items": [
+              {
+                "title": "Radical flexibility",
+                "description": "Move on your schedule, not your landlord's. YAYA spaces have rolling monthly stays with no penalty for changing plans."
+              },
+              {
+                "title": "Instant community",
+                "description": "Every YAYA property is a vetted community of remote workers, entrepreneurs, and creatives. You don't have to earn your way in — it's built into the platform."
+              },
+              {
+                "title": "All-in-one cost",
+                "description": "Rent, utilities, wifi, cleaning, and community access — one predictable monthly bill. No surprises, no deposits, no broker fees."
+              },
+              {
+                "title": "Global network coverage",
+                "description": "YAYA operates in multiple cities and is expanding. Your MyPass works across the entire network, so relocating feels like checking into a familiar place."
+              }
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Why professionals choose YAYA",
+            "description": "The old housing model was designed for people who stay put. YAYA was designed for you.",
+            "items": [
+              {
+                "title": "Radical flexibility",
+                "description": "Move on your schedule, not your landlord's. YAYA spaces have rolling monthly stays with no penalty for changing plans."
+              },
+              {
+                "title": "Instant community",
+                "description": "Every YAYA property is a vetted community of remote workers, entrepreneurs, and creatives. You don't have to earn your way in — it's built into the platform."
+              },
+              {
+                "title": "All-in-one cost",
+                "description": "Rent, utilities, wifi, cleaning, and community access — one predictable monthly bill. No surprises, no deposits, no broker fees."
+              },
+              {
+                "title": "Global network coverage",
+                "description": "YAYA operates in multiple cities and is expanding. Your MyPass works across the entire network, so relocating feels like checking into a familiar place."
+              }
+            ],
+            "subtitle": "Why professionals choose YAYA becomes a focused operating layer for YAYA Collaborative Living.",
+            "features": [
+              {
+                "id": "why-professionals-choose-yaya-item-1",
+                "title": "Context with ownership",
+                "description": "YAYA Collaborative Living keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "why-professionals-choose-yaya-item-2",
+                "title": "Distinct operating voice",
+                "description": "Belonging anywhere · living as a service. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "why-professionals-choose-yaya-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "MyPass Passport · Co‑living houses & hotel suites. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--features",
+          "page_id": "page-yaya-root",
+          "section_key": "features",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "One platform. Every place you call home.",
+            "description": "YAYA connects you to a curated network of co-living houses, apartments, hotel suites, and community spaces — all accessible through a single membership. No renegotiating leases. No losing your deposits. Just seamless living.",
+            "features": [
+              {
+                "title": "MyPass membership",
+                "description": "Your living passport. One subscription unlocks access to the entire YAYA network — book, move, and settle in with no friction."
+              },
+              {
+                "title": "Verified co-living spaces",
+                "description": "Every YAYA property is curated for quality, community fit, and professional infrastructure. Fast wifi, dedicated work areas, and real neighbors."
+              },
+              {
+                "title": "Community-first design",
+                "description": "YAYA spaces host regular events, skill-sharing sessions, and community dinners. You arrive a stranger and leave with a network."
+              },
+              {
+                "title": "Flexible stays",
+                "description": "Stay for a week, a month, or a year. YAYA adapts to your timeline — not the other way around."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Company: Royal Orbit Group Districts: 1."
+          },
+          "component": "FeatureSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "One platform. Every place you call home.",
+            "description": "YAYA connects you to a curated network of co-living houses, apartments, hotel suites, and community spaces — all accessible through a single membership. No renegotiating leases. No losing your deposits. Just seamless living.",
+            "features": [
+              {
+                "title": "MyPass membership",
+                "description": "Your living passport. One subscription unlocks access to the entire YAYA network — book, move, and settle in with no friction."
+              },
+              {
+                "title": "Verified co-living spaces",
+                "description": "Every YAYA property is curated for quality, community fit, and professional infrastructure. Fast wifi, dedicated work areas, and real neighbors."
+              },
+              {
+                "title": "Community-first design",
+                "description": "YAYA spaces host regular events, skill-sharing sessions, and community dinners. You arrive a stranger and leave with a network."
+              },
+              {
+                "title": "Flexible stays",
+                "description": "Stay for a week, a month, or a year. YAYA adapts to your timeline — not the other way around."
+              }
+            ],
+            "subtitle": "Company: Royal Orbit Group Districts: 1.",
+            "items": [
+              {
+                "id": "one-platform-every-place-you-call-home-item-1",
+                "title": "Context with ownership",
+                "description": "YAYA Collaborative Living keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "one-platform-every-place-you-call-home-item-2",
+                "title": "Distinct operating voice",
+                "description": "Belonging anywhere · living as a service. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "one-platform-every-place-you-call-home-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "MyPass Passport · Co‑living houses & hotel suites. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--process",
+          "page_id": "page-yaya-root",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "From application to move-in in days, not weeks.",
+            "description": "We built YAYA so that finding and settling into your next home takes less effort than booking a flight.",
+            "steps": [
+              {
+                "step": "01",
+                "title": "Apply",
+                "description": "Fill out your living profile — your city preferences, stay duration, lifestyle, and work style. Takes 5 minutes."
+              },
+              {
+                "step": "02",
+                "title": "Get MyPass",
+                "description": "Once approved, you receive your MyPass — your digital identity in the YAYA network, with your tier, perks, and booking history."
+              },
+              {
+                "step": "03",
+                "title": "Choose your space",
+                "description": "Browse available YAYA Houses, Apartments, Hotels, or Community Spaces. Filter by city, price, vibe, and availability."
+              },
+              {
+                "step": "04",
+                "title": "Move in",
+                "description": "Arrive to a fully furnished, ready-to-live space. No setup headaches. Everything you need is already there."
+              },
+              {
+                "step": "05",
+                "title": "Connect",
+                "description": "Join your house community, attend welcome events, and tap into the broader YAYA member network. You're home."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "From application to move-in in days, not weeks.",
+            "description": "We built YAYA so that finding and settling into your next home takes less effort than booking a flight.",
+            "steps": [
+              {
+                "step": "01",
+                "title": "Apply",
+                "description": "Fill out your living profile — your city preferences, stay duration, lifestyle, and work style. Takes 5 minutes."
+              },
+              {
+                "step": "02",
+                "title": "Get MyPass",
+                "description": "Once approved, you receive your MyPass — your digital identity in the YAYA network, with your tier, perks, and booking history."
+              },
+              {
+                "step": "03",
+                "title": "Choose your space",
+                "description": "Browse available YAYA Houses, Apartments, Hotels, or Community Spaces. Filter by city, price, vibe, and availability."
+              },
+              {
+                "step": "04",
+                "title": "Move in",
+                "description": "Arrive to a fully furnished, ready-to-live space. No setup headaches. Everything you need is already there."
+              },
+              {
+                "step": "05",
+                "title": "Connect",
+                "description": "Join your house community, attend welcome events, and tap into the broader YAYA member network. You're home."
+              }
+            ],
+            "subtitle": "From application to move-in in days, not weeks. becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--story",
+          "page_id": "page-yaya-root",
+          "section_key": "story",
+          "pod": "StorySection",
+          "pad": {
+            "title": "The world changed. Where you live should too.",
+            "body": "Millions of remote workers, digital nomads, and mobile professionals face the same paradox: they can work from anywhere, but their housing hasn't caught up. Short-term rentals are expensive and impersonal. Long-term leases kill flexibility. Hotels are lonely and draining.\n\nYAYA was built to close that gap. We designed a living platform where flexibility and community coexist — where you can move between cities without losing your home, your people, or your sense of belonging.",
+            "image_alt": "YAYA co-living space with community lounge",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Company: Royal Orbit Group Districts: 1."
+          },
+          "component": "StorySection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "The world changed. Where you live should too.",
+            "body": "Millions of remote workers, digital nomads, and mobile professionals face the same paradox: they can work from anywhere, but their housing hasn't caught up. Short-term rentals are expensive and impersonal. Long-term leases kill flexibility. Hotels are lonely and draining.\n\nYAYA was built to close that gap. We designed a living platform where flexibility and community coexist — where you can move between cities without losing your home, your people, or your sense of belonging.",
+            "image_alt": "YAYA co-living space with community lounge",
+            "subtitle": "Company: Royal Orbit Group Districts: 1."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__story_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "image_alt": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--products",
+          "page_id": "page-yaya-root",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "The YAYA Platform",
+            "description": "From your living passport to curated spaces around the world — everything you need to live fully mobile.",
+            "items": [
+              {
+                "name": "MyPass",
+                "tagline": "Your living passport for the modern professional.",
+                "description": "MyPass is your all-access membership to the YAYA network. One pass, one monthly plan, unlimited flexibility. Book any YAYA-certified space, access community perks, and carry your living history wherever you go.",
+                "href": "/mypass",
+                "badge": "Flagship"
+              },
+              {
+                "name": "YAYA Houses",
+                "tagline": "Co-living homes built for belonging.",
+                "description": "Fully furnished shared houses in urban neighborhoods — curated for professionals who want real community, not just a roof. Private rooms, shared common areas, and a built-in social layer.",
+                "href": "/spaces/houses"
+              },
+              {
+                "name": "YAYA Apartments",
+                "tagline": "Private living, community access.",
+                "description": "Studio and one-bedroom apartments inside YAYA buildings. You get your own space plus full access to shared community floors, events, and the MyPass network.",
+                "href": "/spaces/apartments"
+              },
+              {
+                "name": "YAYA Hotels",
+                "tagline": "Short-stay, long-term feel.",
+                "description": "YAYA-certified hotel suites designed for extended stays. Work-ready rooms, community programming, and MyPass integration so you never feel like just a guest.",
+                "href": "/spaces/hotels"
+              },
+              {
+                "name": "Community Spaces",
+                "tagline": "Where YAYA members meet and build.",
+                "description": "Coworking floors, event rooms, rooftop terraces, and maker workshops embedded in every YAYA property. Open to all MyPass members, reserved for the community.",
+                "href": "/spaces/community"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProductGrid",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "The YAYA Platform",
+            "description": "From your living passport to curated spaces around the world — everything you need to live fully mobile.",
+            "items": [
+              {
+                "name": "MyPass",
+                "tagline": "Your living passport for the modern professional.",
+                "description": "MyPass is your all-access membership to the YAYA network. One pass, one monthly plan, unlimited flexibility. Book any YAYA-certified space, access community perks, and carry your living history wherever you go.",
+                "href": "/mypass",
+                "badge": "Flagship"
+              },
+              {
+                "name": "YAYA Houses",
+                "tagline": "Co-living homes built for belonging.",
+                "description": "Fully furnished shared houses in urban neighborhoods — curated for professionals who want real community, not just a roof. Private rooms, shared common areas, and a built-in social layer.",
+                "href": "/spaces/houses"
+              },
+              {
+                "name": "YAYA Apartments",
+                "tagline": "Private living, community access.",
+                "description": "Studio and one-bedroom apartments inside YAYA buildings. You get your own space plus full access to shared community floors, events, and the MyPass network.",
+                "href": "/spaces/apartments"
+              },
+              {
+                "name": "YAYA Hotels",
+                "tagline": "Short-stay, long-term feel.",
+                "description": "YAYA-certified hotel suites designed for extended stays. Work-ready rooms, community programming, and MyPass integration so you never feel like just a guest.",
+                "href": "/spaces/hotels"
+              },
+              {
+                "name": "Community Spaces",
+                "tagline": "Where YAYA members meet and build.",
+                "description": "Coworking floors, event rooms, rooftop terraces, and maker workshops embedded in every YAYA property. Open to all MyPass members, reserved for the community.",
+                "href": "/spaces/community"
+              }
+            ],
+            "subtitle": "The YAYA Platform becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--cta",
+          "page_id": "page-yaya-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Your next home is waiting.",
+            "description": "Join YAYA and get your MyPass — the only living passport built for people who move with purpose.",
+            "cta_label": "Apply for MyPass",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Your next home is waiting.",
+            "description": "Join YAYA and get your MyPass — the only living passport built for people who move with purpose.",
+            "cta_label": "Apply for MyPass",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "yaya__cta_viewed",
+            "cta_events": [
+              "yaya_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-root--contact",
+          "page_id": "page-yaya-root",
+          "section_key": "contact",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Start your YAYA journey",
+            "description": "Tell us where you are and where you want to go. Our team will match you with the right spaces and MyPass tier.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "city",
+                "label": "Current city",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "stay_duration",
+                "label": "How long are you looking to stay?",
+                "type": "select",
+                "options": [
+                  "1–4 weeks",
+                  "1–3 months",
+                  "3–12 months",
+                  "Longer term"
+                ],
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Anything else you'd like us to know?",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Request My MyPass",
+            "site_name": "YAYA Collaborative Living",
+            "site_slug": "yaya",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 8,
+          "status": "active",
+          "content": {
+            "title": "Start your YAYA journey",
+            "description": "Tell us where you are and where you want to go. Our team will match you with the right spaces and MyPass tier.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "city",
+                "label": "Current city",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "stay_duration",
+                "label": "How long are you looking to stay?",
+                "type": "select",
+                "options": [
+                  "1–4 weeks",
+                  "1–3 months",
+                  "3–12 months",
+                  "Longer term"
+                ],
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Anything else you'd like us to know?",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Request My MyPass",
+            "site_name": "YAYA Collaborative Living",
+            "site_slug": "yaya",
+            "subtitle": "Start your YAYA journey becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya__contact_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-yaya-contact",
+      "website_id": "website-yaya",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-yaya-contact--hero",
+          "page_id": "page-yaya-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Let's find you a home.",
+            "subheadline": "Whether you're planning your first YAYA stay or relocating across cities, our team is here to help you make the move.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Let's find you a home.",
+            "subheadline": "Whether you're planning your first YAYA stay or relocating across cities, our team is here to help you make the move."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-contact--form",
+          "page_id": "page-yaya-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get in touch with YAYA",
+            "description": "Send us a message and a YAYA community specialist will reach out within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "city",
+                "label": "Current city",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "stay_duration",
+                "label": "How long are you looking to stay?",
+                "type": "select",
+                "options": [
+                  "1–4 weeks",
+                  "1–3 months",
+                  "3–12 months",
+                  "Longer term"
+                ],
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "What are you looking for?",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "YAYA Collaborative Living",
+            "site_slug": "yaya",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Get in touch with YAYA",
+            "description": "Send us a message and a YAYA community specialist will reach out within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "city",
+                "label": "Current city",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "stay_duration",
+                "label": "How long are you looking to stay?",
+                "type": "select",
+                "options": [
+                  "1–4 weeks",
+                  "1–3 months",
+                  "3–12 months",
+                  "Longer term"
+                ],
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "What are you looking for?",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "YAYA Collaborative Living",
+            "site_slug": "yaya",
+            "subtitle": "Get in touch with YAYA becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-yaya-services",
+      "website_id": "website-yaya",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-yaya-services--services-manifesto",
+          "page_id": "page-yaya-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "YAYA Collaborative Living Services",
+            "body": "Explore what YAYA Collaborative Living offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            },
+            "stats": []
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "YAYA Collaborative Living Services",
+            "body": "Explore what YAYA Collaborative Living offers in services. Content coming soon.",
+            "stats": [],
+            "stat_1": "YAYA Collaborative Living Services requires reviewed stat_1 content for YAYA Collaborative Living.",
+            "stat_2": "YAYA Collaborative Living Services requires reviewed stat_2 content for YAYA Collaborative Living.",
+            "stat_3": "YAYA Collaborative Living Services requires reviewed stat_3 content for YAYA Collaborative Living.",
+            "subtitle": "YAYA Collaborative Living Services becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-services--services-cta",
+          "page_id": "page-yaya-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About YAYA Collaborative Living",
+            "description": "Discover everything YAYA Collaborative Living has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About YAYA Collaborative Living",
+            "description": "Discover everything YAYA Collaborative Living has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_services_services-cta_viewed",
+            "cta_events": [
+              "yaya_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-yaya-about",
+      "website_id": "website-yaya",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-yaya-about--about-manifesto",
+          "page_id": "page-yaya-about",
+          "section_key": "about-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "YAYA Collaborative Living About",
+            "body": "Explore what YAYA Collaborative Living offers in about. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "YAYA Collaborative Living About",
+            "body": "Explore what YAYA Collaborative Living offers in about. Content coming soon.",
+            "stat_1": "YAYA Collaborative Living About requires reviewed stat_1 content for YAYA Collaborative Living.",
+            "stat_2": "YAYA Collaborative Living About requires reviewed stat_2 content for YAYA Collaborative Living.",
+            "stat_3": "YAYA Collaborative Living About requires reviewed stat_3 content for YAYA Collaborative Living.",
+            "stats": "YAYA Collaborative Living About requires reviewed stats content for YAYA Collaborative Living.",
+            "subtitle": "YAYA Collaborative Living About becomes a focused operating layer for YAYA Collaborative Living."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_about_about-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-about--about-cta",
+          "page_id": "page-yaya-about",
+          "section_key": "about-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About YAYA Collaborative Living",
+            "description": "Discover everything YAYA Collaborative Living has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About YAYA Collaborative Living",
+            "description": "Discover everything YAYA Collaborative Living has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_about_about-cta_viewed",
+            "cta_events": [
+              "yaya_about-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-yaya-404",
+      "website_id": "website-yaya",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-yaya-404--not-found-hero",
+          "page_id": "page-yaya-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "YAYA Collaborative Living — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "YAYA Collaborative Living — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-yaya-404--not-found-cta",
+          "page_id": "page-yaya-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de YAYA Collaborative Living.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de YAYA Collaborative Living.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "yaya_404_not-found-cta_viewed",
+            "cta_events": [
+              "yaya_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/yaya/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 94
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 224
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 94
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 95
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 95
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 95
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 96
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 103
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 112
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProductGrid",
+      "category": "section",
+      "description": "ProductGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 104
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "StorySection",
+      "category": "section",
+      "description": "StorySection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 480
+        },
+        "image_alt": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-yaya",
+    "total_original_gaps": 16,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "Why professionals choose YAYA",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "Why professionals choose YAYA",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "items",
+        "headline": "One platform. Every place you call home.",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "From application to move-in in days, not weeks.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "headline": "The YAYA Platform",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Start your YAYA journey",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get in touch with YAYA",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "YAYA Collaborative Living Services",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "YAYA Collaborative Living Services",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "YAYA Collaborative Living Services",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "YAYA Collaborative Living Services",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "YAYA Collaborative Living About",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "YAYA Collaborative Living About",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "YAYA Collaborative Living About",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "YAYA Collaborative Living About",
+        "reason": "insufficient_content",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "YAYA Collaborative Living About",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "items",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-yaya",
+      "canonical_base_url": "https://yaya.codeloop.co",
+      "default_title": "YAYA Collaborative Living",
+      "default_description": "Global access to living for the CodeLoop Ecosystem — seamless home transition between houses, apartments, and hotels for dynamic professionals worldwide.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/yaya/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-yaya-root",
+        "title": "Home",
+        "description": "YAYA is a collaborative living platform built for dynamic professionals who refuse to choose between freedom and community. Your home travels with you.",
+        "canonical": "https://yaya.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-yaya-contact",
+        "title": "Contact",
+        "description": "Whether you're planning your first YAYA stay or relocating across cities, our team is here to help you make the move.",
+        "canonical": "https://yaya.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-yaya-services",
+        "title": "Services",
+        "description": "Global access to living for the CodeLoop Ecosystem — seamless home transition between houses, apartments, and hotels for dynamic professionals worldwide.",
+        "canonical": "https://yaya.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-yaya-about",
+        "title": "About",
+        "description": "Global access to living for the CodeLoop Ecosystem — seamless home transition between houses, apartments, and hotels for dynamic professionals worldwide.",
+        "canonical": "https://yaya.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-yaya-404",
+        "title": "Page Not Found",
+        "description": "YAYA Collaborative Living — Pagina nao encontrada",
+        "canonical": "https://yaya.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-yaya",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "yaya__hero_viewed",
+      "yaya__benefits_viewed",
+      "yaya__features_viewed",
+      "yaya__process_viewed",
+      "yaya__story_viewed",
+      "yaya__products_viewed",
+      "yaya__cta_viewed",
+      "yaya__contact_viewed",
+      "yaya_contact_hero_viewed",
+      "yaya_contact_form_viewed",
+      "yaya_services_services-manifesto_viewed",
+      "yaya_services_services-cta_viewed",
+      "yaya_about_about-manifesto_viewed",
+      "yaya_about_about-cta_viewed",
+      "yaya_404_not-found-hero_viewed",
+      "yaya_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-yaya",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-yaya",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-yaya-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-yaya-primary",
+        "name": "The Quiet Host",
+        "description": "Yaya is Uber‑calm hospitality — black wordmark on bone, a single trust‑blue accent, geometric sans throughout. A mobility brand repurposed as a place to belong: sparse, confident, never showroom."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-yaya-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-yaya-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-yaya",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/yaya/config.json",
+      "docs/data/yaya/worktree.json",
+      "docs/data/yaya/gaps.json"
+    ]
+  }
+}

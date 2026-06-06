@@ -1,0 +1,2814 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/royalorbitgold/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/royalorbitgold/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/royalorbitgold/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/royalorbitgold.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-royalorbitgold",
+    "slug": "royalorbitgold",
+    "name": "Royal Orbit Gold",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "Royal Orbit",
+    "description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+    "mission": "To make Royal Orbit Gold a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbitgold-1",
+        "title": "Operational clarity",
+        "description": "Royal Orbit Gold should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbitgold-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbitgold-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-royalorbitgold",
+    "brand_name": "Royal Orbit Gold",
+    "tagline": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+    "short_description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+    "long_description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+    "mission": "To make Royal Orbit Gold a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbitgold-1",
+        "title": "Operational clarity",
+        "description": "Royal Orbit Gold should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbitgold-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbitgold-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Royal Orbit Gold: A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+      "one_liner": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbitgold/config.json",
+        "docs/data/royalorbitgold/worktree.json",
+        "docs/data/royalorbitgold/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-royalorbitgold",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbitgold/config.json",
+        "docs/data/royalorbitgold/worktree.json",
+        "docs/data/royalorbitgold/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-royalorbitgold",
+    "theme": {
+      "mode": "light",
+      "variant": "gold-royal",
+      "palette": {
+        "bg": "#0a0800",
+        "bg_light": "#1a1400",
+        "primary": "#e8c547",
+        "primary_light": "#f5d870",
+        "secondary": "#c69b1e",
+        "accent": "#ff6b35",
+        "text": "#fff9e6",
+        "text_muted": "#d4a843",
+        "border": "rgba(232,197,71,0.25)",
+        "gradient": "linear-gradient(135deg, #e8c547 0%, #c69b1e 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "display": "Inter",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-royalorbitgold",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-royalorbitgold",
+    "domains": [
+      {
+        "domain": "gold.royalorbit.com",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbitgold.codeloop.co",
+        "type": "secondary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbitgold.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-royalorbitgold",
+    "domain": "gold.royalorbit.com",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-royalorbitgold",
+      "identity_id": "identity-royalorbitgold",
+      "name": "Royal Orbit Gold",
+      "slug": "royalorbitgold",
+      "domain": "gold.royalorbit.com",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-royalorbitgold",
+        "footer_id": "footer-royalorbitgold",
+        "theme_id": "design-system-royalorbitgold",
+        "seo_profile_id": "seo-profile-royalorbitgold"
+      },
+      "pages": [
+        "page-royalorbitgold-root",
+        "page-royalorbitgold-services",
+        "page-royalorbitgold-about",
+        "page-royalorbitgold-contact",
+        "page-royalorbitgold-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-royalorbitgold",
+    "brand_label": "Royal Orbit Gold",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore Services",
+      "href": "/services",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-royalorbitgold",
+    "brand": "Royal Orbit Gold",
+    "description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-royalorbitgold-root",
+      "website_id": "website-royalorbitgold",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitgold-root--hero",
+          "page_id": "page-royalorbitgold-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Royal Orbit Gold — The Standard of Excellence in Precious Metals",
+            "subheadline": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+            "cta_primary_label": "Explore Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Our Products",
+            "cta_secondary_href": "/products",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Royal Orbit Gold — The Standard of Excellence in Precious Metals",
+            "subheadline": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+            "cta_primary_label": "Explore Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Our Products",
+            "cta_secondary_href": "/products"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold__hero_viewed",
+            "cta_events": [
+              "royalorbitgold_hero_cta-primary-label_clicked",
+              "royalorbitgold_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-root--heritage",
+          "page_id": "page-royalorbitgold-root",
+          "section_key": "heritage",
+          "pod": "HeritageSection",
+          "pad": {
+            "title": "A Legacy Forged in Gold",
+            "body": "Gold has been a cornerstone of Middle Eastern culture and economy for centuries — a symbol of wealth, power, and stability. Royal Orbit Gold embraces this heritage while setting new benchmarks for innovation and ethical standards in the modern gold market. From sourcing and refining to trading and investment, Royal Orbit Gold leads with integrity, transparency, and excellence.",
+            "global_note": "Headquartered in the Middle East, Royal Orbit Gold operates on a global scale, serving clients across continents.",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": ""
+          },
+          "component": "HeritageSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "A Legacy Forged in Gold",
+            "body": "Gold has been a cornerstone of Middle Eastern culture and economy for centuries — a symbol of wealth, power, and stability. Royal Orbit Gold embraces this heritage while setting new benchmarks for innovation and ethical standards in the modern gold market. From sourcing and refining to trading and investment, Royal Orbit Gold leads with integrity, transparency, and excellence.",
+            "global_note": "Headquartered in the Middle East, Royal Orbit Gold operates on a global scale, serving clients across continents.",
+            "subtitle": "A Legacy Forged in Gold becomes a focused operating layer for Royal Orbit Gold."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold__heritage_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#heritage",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#heritage",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "global_note": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#heritage",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for StorySection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-root--values-overview",
+          "page_id": "page-royalorbitgold-root",
+          "section_key": "values-overview",
+          "pod": "ValuesSection",
+          "pad": {
+            "title": "Why Choose Royal Orbit Gold",
+            "items": [
+              {
+                "title": "Global Expertise",
+                "description": "Deep understanding of the global gold market combined with regional expertise."
+              },
+              {
+                "title": "Ethical Standards",
+                "description": "Responsible sourcing, sustainability, and worker welfare at the core of every operation."
+              },
+              {
+                "title": "Legacy and Innovation",
+                "description": "Honoring the timeless significance of gold while leveraging modern technologies."
+              },
+              {
+                "title": "Trust and Transparency",
+                "description": "Integrity, reliability, and the highest standards of service for every client."
+              }
+            ],
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "description": "The Standard of Excellence in Precious Metals Royal Orbit Gold is a premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry. Combining Middle Eastern heritage, ethical practices, and cutting-edge technology, Ro...",
+            "subtitle": ""
+          },
+          "component": "ValuesSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Why Choose Royal Orbit Gold",
+            "items": [
+              {
+                "title": "Global Expertise",
+                "description": "Deep understanding of the global gold market combined with regional expertise."
+              },
+              {
+                "title": "Ethical Standards",
+                "description": "Responsible sourcing, sustainability, and worker welfare at the core of every operation."
+              },
+              {
+                "title": "Legacy and Innovation",
+                "description": "Honoring the timeless significance of gold while leveraging modern technologies."
+              },
+              {
+                "title": "Trust and Transparency",
+                "description": "Integrity, reliability, and the highest standards of service for every client."
+              }
+            ],
+            "description": "The Standard of Excellence in Precious Metals Royal Orbit Gold is a premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry. Combining Middle Eastern heritage, ethical practices, and cutting-edge technology, Ro...",
+            "subtitle": "Why Choose Royal Orbit Gold becomes a focused operating layer for Royal Orbit Gold.",
+            "features": [
+              {
+                "id": "why-choose-royal-orbit-gold-item-1",
+                "title": "Context with ownership",
+                "description": "Royal Orbit Gold keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "why-choose-royal-orbit-gold-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "why-choose-royal-orbit-gold-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold__values-overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-root--services-overview",
+          "page_id": "page-royalorbitgold-root",
+          "section_key": "services-overview",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "Our Services",
+            "items": [
+              {
+                "title": "Ethical Gold Sourcing",
+                "description": "Partnerships with certified, conflict-free mining operations ensuring sustainable practices.",
+                "href": "/services/ethical-sourcing"
+              },
+              {
+                "title": "Refining & Assaying",
+                "description": "Advanced refining technologies achieving the highest purity levels with global quality standards.",
+                "href": "/services/refining"
+              },
+              {
+                "title": "Gold Trading",
+                "description": "Competitive and transparent trading with real-time market insights.",
+                "href": "/services/trading"
+              },
+              {
+                "title": "Investment Solutions",
+                "description": "Tailored portfolios with gold-backed securities and secure storage options.",
+                "href": "/services/investment"
+              },
+              {
+                "title": "Custom Gold Solutions",
+                "description": "Bespoke products for corporate gifts, special occasions, and luxury branding.",
+                "href": "/services/custom"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ServiceGrid",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Our Services",
+            "items": [
+              {
+                "title": "Ethical Gold Sourcing",
+                "description": "Partnerships with certified, conflict-free mining operations ensuring sustainable practices.",
+                "href": "/services/ethical-sourcing"
+              },
+              {
+                "title": "Refining & Assaying",
+                "description": "Advanced refining technologies achieving the highest purity levels with global quality standards.",
+                "href": "/services/refining"
+              },
+              {
+                "title": "Gold Trading",
+                "description": "Competitive and transparent trading with real-time market insights.",
+                "href": "/services/trading"
+              },
+              {
+                "title": "Investment Solutions",
+                "description": "Tailored portfolios with gold-backed securities and secure storage options.",
+                "href": "/services/investment"
+              },
+              {
+                "title": "Custom Gold Solutions",
+                "description": "Bespoke products for corporate gifts, special occasions, and luxury branding.",
+                "href": "/services/custom"
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold__services-overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-overview",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-root--cta",
+          "page_id": "page-royalorbitgold-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Royal Orbit Gold: Forging a Legacy of Excellence",
+            "description": "To be the global benchmark for excellence in the gold industry, merging the rich legacy of Middle Eastern craftsmanship with ethical practices and innovative solutions.",
+            "button_label": "Contact Us",
+            "button_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Royal Orbit Gold: Forging a Legacy of Excellence",
+            "description": "To be the global benchmark for excellence in the gold industry, merging the rich legacy of Middle Eastern craftsmanship with ethical practices and innovative solutions.",
+            "button_label": "Contact Us",
+            "button_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "royalorbitgold__cta_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "button_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "button_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitgold-services",
+      "website_id": "website-royalorbitgold",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitgold-services--hero",
+          "page_id": "page-royalorbitgold-services",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Our Services",
+            "subheadline": "Enterprise-class solutions for your organization.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Our Services",
+            "subheadline": "Enterprise-class solutions for your organization."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_services_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-services--service-grid",
+          "page_id": "page-royalorbitgold-services",
+          "section_key": "service-grid",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "Our Services",
+            "items": [
+              {
+                "title": "Gold Investment",
+                "description": "Premium gold investment products with secure custody and transparent pricing."
+              },
+              {
+                "title": "Precious Metals Trading",
+                "description": "Access to global precious metals markets with real-time pricing and execution."
+              },
+              {
+                "title": "Vault Storage",
+                "description": "Ultra-secure vault storage facilities with full insurance and audit transparency."
+              },
+              {
+                "title": "Advisory Services",
+                "description": "Expert precious metals advisory for portfolio diversification and wealth preservation."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ServiceGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Our Services",
+            "items": [
+              {
+                "title": "Gold Investment",
+                "description": "Premium gold investment products with secure custody and transparent pricing."
+              },
+              {
+                "title": "Precious Metals Trading",
+                "description": "Access to global precious metals markets with real-time pricing and execution."
+              },
+              {
+                "title": "Vault Storage",
+                "description": "Ultra-secure vault storage facilities with full insurance and audit transparency."
+              },
+              {
+                "title": "Advisory Services",
+                "description": "Expert precious metals advisory for portfolio diversification and wealth preservation."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_services_service-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-services--c-t-a",
+          "page_id": "page-royalorbitgold-services",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Explore Our Solutions",
+            "description": "Connect with Royal Orbit Gold to find the right solution for your needs.",
+            "cta_label": "Get in Touch",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Explore Our Solutions",
+            "description": "Connect with Royal Orbit Gold to find the right solution for your needs.",
+            "cta_label": "Get in Touch",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "royalorbitgold_services_c-t-a_viewed",
+            "cta_events": [
+              "royalorbitgold_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitgold-about",
+      "website_id": "website-royalorbitgold",
+      "path": "/about",
+      "slug": "about",
+      "title": "About Us",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitgold-about--hero",
+          "page_id": "page-royalorbitgold-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "About Our Group",
+            "subheadline": "Driven by excellence, augmented by intelligence.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "About Our Group",
+            "subheadline": "Driven by excellence, augmented by intelligence."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-about--m-v-v-section",
+          "page_id": "page-royalorbitgold-about",
+          "section_key": "m-v-v-section",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To set the standard of excellence in precious metals investment through security, transparency, and innovation.",
+            "vision": "The most trusted name in precious metals investment worldwide.",
+            "values": [
+              "Trust",
+              "Excellence",
+              "Security",
+              "Transparency"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To set the standard of excellence in precious metals investment through security, transparency, and innovation.",
+            "vision": "The most trusted name in precious metals investment worldwide.",
+            "values": [
+              "Trust",
+              "Excellence",
+              "Security",
+              "Transparency"
+            ],
+            "title": "M V V Section requires reviewed title content for Royal Orbit Gold.",
+            "description": "M V V Section translates A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "M V V Section becomes a focused operating layer for Royal Orbit Gold.",
+            "features": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Royal Orbit Gold keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Royal Orbit Gold keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_about_m-v-v-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-about--c-t-a",
+          "page_id": "page-royalorbitgold-about",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join the Royal Orbit Gold Network",
+            "description": "Be part of the CodeLoop Ecosystem through Royal Orbit Gold.",
+            "cta_label": "Contact Us",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Join the Royal Orbit Gold Network",
+            "description": "Be part of the CodeLoop Ecosystem through Royal Orbit Gold.",
+            "cta_label": "Contact Us",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "royalorbitgold_about_c-t-a_viewed",
+            "cta_events": [
+              "royalorbitgold_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitgold-contact",
+      "website_id": "website-royalorbitgold",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitgold-contact--hero",
+          "page_id": "page-royalorbitgold-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with Royal Orbit Gold",
+            "subheadline": "Reach out for trading, investment, or custom gold inquiries.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with Royal Orbit Gold",
+            "subheadline": "Reach out for trading, investment, or custom gold inquiries."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-contact--form",
+          "page_id": "page-royalorbitgold-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "interest",
+                "label": "Interest",
+                "type": "select",
+                "options": [
+                  "Ethical Sourcing",
+                  "Refining & Assaying",
+                  "Gold Trading",
+                  "Investment Solutions",
+                  "Custom Gold Solutions"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Royal Orbit Gold",
+            "site_slug": "royalorbitgold",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "interest",
+                "label": "Interest",
+                "type": "select",
+                "options": [
+                  "Ethical Sourcing",
+                  "Refining & Assaying",
+                  "Gold Trading",
+                  "Investment Solutions",
+                  "Custom Gold Solutions"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Royal Orbit Gold",
+            "site_slug": "royalorbitgold",
+            "title": "Form requires reviewed title content for Royal Orbit Gold.",
+            "subtitle": "Form becomes a focused operating layer for Royal Orbit Gold."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitgold/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitgold-404",
+      "website_id": "website-royalorbitgold",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitgold-404--not-found-hero",
+          "page_id": "page-royalorbitgold-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Royal Orbit Gold — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Royal Orbit Gold — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitgold-404--not-found-cta",
+          "page_id": "page-royalorbitgold-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Royal Orbit Gold.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Royal Orbit Gold.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitgold_404_not-found-cta_viewed",
+            "cta_events": [
+              "royalorbitgold_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitgold/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "button_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "button_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "HeritageSection",
+      "category": "section",
+      "description": "HeritageSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 379
+        },
+        "global_note": {
+          "type": "string",
+          "required": false,
+          "max_length": 113
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 111
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 375
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ServiceGrid",
+      "category": "section",
+      "description": "ServiceGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ValuesSection",
+      "category": "section",
+      "description": "ValuesSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-royalorbitgold",
+    "total_original_gaps": 10,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "heritage",
+        "pod": "HeritageSection",
+        "field": "subtitle",
+        "headline": "A Legacy Forged in Gold",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for StorySection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "values-overview",
+        "pod": "ValuesSection",
+        "field": "subtitle",
+        "headline": "Why Choose Royal Orbit Gold",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "values-overview",
+        "pod": "ValuesSection",
+        "field": "features",
+        "headline": "Why Choose Royal Orbit Gold",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "heritage",
+        "pod": "HeritageSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "values-overview",
+        "pod": "ValuesSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "values-overview",
+        "pod": "ValuesSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-royalorbitgold",
+      "canonical_base_url": "https://gold.royalorbit.com",
+      "default_title": "Royal Orbit Gold",
+      "default_description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/royalorbitgold/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-royalorbitgold-root",
+        "title": "Home",
+        "description": "A premier entity within the Royal Orbit Holding Group, dedicated to redefining the global gold industry through Middle Eastern heritage, ethical practices, and cutting-edge technology.",
+        "canonical": "https://gold.royalorbit.com",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitgold-services",
+        "title": "Services",
+        "description": "Enterprise-class solutions for your organization.",
+        "canonical": "https://gold.royalorbit.com/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitgold-about",
+        "title": "About Us",
+        "description": "Driven by excellence, augmented by intelligence.",
+        "canonical": "https://gold.royalorbit.com/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitgold-contact",
+        "title": "Contact",
+        "description": "Reach out for trading, investment, or custom gold inquiries.",
+        "canonical": "https://gold.royalorbit.com/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitgold-404",
+        "title": "Page Not Found",
+        "description": "Royal Orbit Gold — Pagina nao encontrada",
+        "canonical": "https://gold.royalorbit.com/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-royalorbitgold",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "royalorbitgold__hero_viewed",
+      "royalorbitgold__heritage_viewed",
+      "royalorbitgold__values-overview_viewed",
+      "royalorbitgold__services-overview_viewed",
+      "royalorbitgold__cta_viewed",
+      "royalorbitgold_services_hero_viewed",
+      "royalorbitgold_services_service-grid_viewed",
+      "royalorbitgold_services_c-t-a_viewed",
+      "royalorbitgold_about_hero_viewed",
+      "royalorbitgold_about_m-v-v-section_viewed",
+      "royalorbitgold_about_c-t-a_viewed",
+      "royalorbitgold_contact_hero_viewed",
+      "royalorbitgold_contact_form_viewed",
+      "royalorbitgold_404_not-found-hero_viewed",
+      "royalorbitgold_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-royalorbitgold",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-royalorbitgold",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-royalorbitgold-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-royalorbitgold-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-royalorbitgold-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-royalorbitgold",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/royalorbitgold/config.json",
+      "docs/data/royalorbitgold/worktree.json",
+      "docs/data/royalorbitgold/gaps.json"
+    ]
+  }
+}

@@ -1,0 +1,4099 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_bible",
+        "path": "docs/branding/04 — Bastion/01 — Brand Bible.md",
+        "priority": 3
+      },
+      {
+        "type": "site_blueprint",
+        "path": "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+        "priority": 3
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/bastion/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/bastion/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/bastion/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/bastion/assets/logos/03-bastion.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/bastion/assets/logos/bastion.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/bastion.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-bastion",
+    "slug": "bastion",
+    "name": "Bastion",
+    "legal_name": null,
+    "type": "brand",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+    "mission": "To turn borderless, programmable and instantaneous finance into an operating system through Quorum blockchain · HTLC contracts · Vault District sovereign identity.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-bastion-1",
+        "title": "Operational clarity",
+        "description": "Bastion should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-bastion-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-bastion-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Finance OS",
+      "market": "Permissioned Global Network",
+      "statement": "Bastion is the executive financial infrastructure for international work.",
+      "differentiators": [
+        "Borderless, programmable and instantaneous finance.",
+        "Quorum blockchain · HTLC contracts · Vault District sovereign identity.",
+        "The Chrome Fortress"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "cryptographic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-bastion",
+    "brand_name": "Bastion",
+    "tagline": "A permissioned backbone for programmable money.",
+    "short_description": "Bastion is institutional Web3 — chrome‑blue metallic, mono detailing, dark surfaces.",
+    "long_description": "Bastion is the executive financial infrastructure for international work.",
+    "mission": "To turn borderless, programmable and instantaneous finance into an operating system through Quorum blockchain · HTLC contracts · Vault District sovereign identity.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-bastion-1",
+        "title": "Operational clarity",
+        "description": "Bastion should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-bastion-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-bastion-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Finance OS",
+      "market": "Permissioned Global Network",
+      "statement": "Bastion is the executive financial infrastructure for international work.",
+      "differentiators": [
+        "Borderless, programmable and instantaneous finance.",
+        "Quorum blockchain · HTLC contracts · Vault District sovereign identity.",
+        "The Chrome Fortress"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "Hannah Sørensen runs treasury for a forty-person renewable-energy fintech in Copenhagen.",
+      "founder_message": null,
+      "manifesto": "Work crossed borders. Finance didn't.\n\nA company in Berlin can find a specialist in São Paulo, a designer in Lagos, an engineer in Bangalore, and a partner in Singapore in a morning. By afternoon, the legal entity, the contract template, the compliance check, the currency conversion, and the payroll cycle are still operating on the calendar of 1985.\n\nWe built Bastion to close that gap with the only thing that has ever closed gaps in finance: a serious institutional posture about identity, custody, and settlement.\n\nIdentity is the foundation. A Looper earns a Bastion identity once and uses it for life. KYC and KYB completed and refreshed automatically. Reputation accumulated. Audit trail permanent.\n\nContracts are promises with proof. Digital, versioned, machine-readable, executable. Compliance is automatic.\n\nTreasury is consolidated. Multi-currency accounts, real-time visibility, automatic reconciliation, programmable flows.\n\nSettlement happens at the speed of work. Stablecoin reserves backed 1:1, audited quarterly, insured by Lloyd's of London. Cross-border payment in minutes, not weeks. Local-currency payout in the contractor's preferred channel.\n\nEverything is published. Reserves are audited and visible. The Trust Center is the front door, not the footer.\n\nThis is what serious financial infrastructure has always done. We did it again, this time for work that no longer fits inside one country.\n\n---",
+      "elevator_pitch": "Bastion: A permissioned backbone for programmable money.",
+      "one_liner": "Programmable money. Institutional rails."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/04 — Bastion/01 — Brand Bible.md",
+        "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/bastion/config.json",
+        "docs/data/bastion/worktree.json",
+        "docs/data/bastion/gaps.json"
+      ],
+      "generation_reason": "brand bible and site blueprint mapped into master brand_core",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-bastion",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "cryptographic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "high",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "Bastion (Finance OS)",
+        "Tokenized Financial Backbone"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/04 — Bastion/01 — Brand Bible.md",
+        "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/bastion/config.json",
+        "docs/data/bastion/worktree.json",
+        "docs/data/bastion/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-bastion",
+    "theme": {
+      "mode": "dark",
+      "variant": "corporate-blue",
+      "palette": {
+        "bg": "#060A12",
+        "bg_light": "#0B121F",
+        "primary": "#3B82F6",
+        "primary_light": "#9945FF",
+        "secondary": "#0A1A36",
+        "accent": "#9945FF",
+        "text": "#E4EDFA",
+        "text_muted": "#8DA2C2",
+        "border": "#1D2B44",
+        "gradient": "linear-gradient(135deg, #3B82F6 0%, #9945FF 100%)",
+        "primary_ink": "#0A1A36",
+        "bg_alt": "#0B121F",
+        "surface": "#111A2B",
+        "bs_blue": "#0F3A7D",
+        "bs_vault_steel": "#36454F",
+        "bs_capital_green": "#2D6A4F",
+        "bs_paper": "#FAFAF9",
+        "bs_deep_charcoal": "#1A1A1A"
+      },
+      "scale": [
+        "#E8F1FE",
+        "#C0D6FC",
+        "#90B5F9",
+        "#5D8EF5",
+        "#3B82F6",
+        "#2661C9",
+        "#1A4699",
+        "#112F6C",
+        "#0A1C42",
+        "#04091A"
+      ],
+      "semantics": {
+        "success": "#14F195",
+        "warning": "#F5B83D",
+        "danger": "#FF6B6B",
+        "info": "#3B82F6"
+      }
+    },
+    "typography": {
+      "heading": "DM Sans",
+      "body": "JetBrains Mono",
+      "display": "DM Sans",
+      "mono": "JetBrains Mono",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "xl": "8px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "lattice"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-bastion",
+    "logos": [
+      {
+        "id": "asset-bastion-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/bastion/assets/logos/03-bastion.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Bastion logo"
+      },
+      {
+        "id": "asset-bastion-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/bastion/assets/logos/bastion.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Bastion logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-bastion",
+    "domains": [
+      {
+        "domain": "bastion.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "bastion.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-bastion",
+    "domain": "bastion.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-bastion",
+      "identity_id": "identity-bastion",
+      "name": "Bastion",
+      "slug": "bastion",
+      "domain": "bastion.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-bastion",
+        "footer_id": "footer-bastion",
+        "theme_id": "design-system-bastion",
+        "seo_profile_id": "seo-profile-bastion"
+      },
+      "pages": [
+        "page-bastion-root",
+        "page-bastion-smart-chain",
+        "page-bastion-vault",
+        "page-bastion-trade",
+        "page-bastion-bank",
+        "page-bastion-exchange",
+        "page-bastion-stocks",
+        "page-bastion-contact",
+        "page-bastion-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-bastion",
+    "brand_label": "Bastion",
+    "items": [
+      {
+        "label": "Bastion Smart Chain",
+        "href": "/smart-chain",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Vault District",
+        "href": "/vault",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Trade",
+        "href": "/trade",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      },
+      {
+        "label": "Bastion Bank",
+        "href": "/bank",
+        "type": "internal",
+        "visibility": "public",
+        "order": 4,
+        "children": []
+      },
+      {
+        "label": "Exchange",
+        "href": "/exchange",
+        "type": "internal",
+        "visibility": "public",
+        "order": 5,
+        "children": []
+      },
+      {
+        "label": "Stocks",
+        "href": "/stocks",
+        "type": "internal",
+        "visibility": "public",
+        "order": 6,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore Bastion",
+      "href": "/smart-chain",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-bastion",
+    "brand": "Bastion",
+    "description": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Bastion Smart Chain",
+            "href": "/smart-chain"
+          },
+          {
+            "label": "Vault District",
+            "href": "/vault"
+          },
+          {
+            "label": "Trade",
+            "href": "/trade"
+          },
+          {
+            "label": "Bastion Bank",
+            "href": "/bank"
+          },
+          {
+            "label": "Exchange",
+            "href": "/exchange"
+          },
+          {
+            "label": "Stocks",
+            "href": "/stocks"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-bastion-root",
+      "website_id": "website-bastion",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-root--hero",
+          "page_id": "page-bastion-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Bastion — Permissioned Global Network",
+            "subheadline": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+            "cta_primary_label": "Explore Bastion",
+            "cta_primary_href": "/smart-chain",
+            "cta_secondary_label": "Bastion Bank",
+            "cta_secondary_href": "/bank",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Bastion — Permissioned Global Network",
+            "subheadline": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+            "cta_primary_label": "Explore Bastion",
+            "cta_primary_href": "/smart-chain",
+            "cta_secondary_label": "Bastion Bank",
+            "cta_secondary_href": "/bank"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__hero_viewed",
+            "cta_events": [
+              "bastion_hero_cta-primary-label_clicked",
+              "bastion_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--manifesto",
+          "page_id": "page-bastion-root",
+          "section_key": "manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "A Transparent Economy",
+            "body": "Bastion was built with the belief that the future of work requires a financial layer that is borderless, programmable, and instant. We empower individuals and companies to transact globally without the friction of legacy banking.",
+            "stat_1": "Decentralized Network",
+            "stat_2": "Instant Settlements",
+            "stat_3": "Tokenized Work Flows",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "A Transparent Economy",
+            "body": "Bastion was built with the belief that the future of work requires a financial layer that is borderless, programmable, and instant. We empower individuals and companies to transact globally without the friction of legacy banking.",
+            "stat_1": "Decentralized Network",
+            "stat_2": "Instant Settlements",
+            "stat_3": "Tokenized Work Flows",
+            "stats": "A Transparent Economy requires reviewed stats content for Bastion.",
+            "subtitle": "A Transparent Economy becomes a focused operating layer for Bastion."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--features-home",
+          "page_id": "page-bastion-root",
+          "section_key": "features-home",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "Built for the Infinite Economy",
+            "subtitle": "Connecting global talent with deep liquidity",
+            "items": [
+              {
+                "title": "Real-time Verification",
+                "description": "Every transaction is logged transparently."
+              },
+              {
+                "title": "Zero Wait Time",
+                "description": "Border agnostic value transfer between partners."
+              },
+              {
+                "title": "Full Reserve",
+                "description": "Backed by audited digital assets."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Built for the Infinite Economy",
+            "subtitle": "Connecting global talent with deep liquidity",
+            "items": [
+              {
+                "title": "Real-time Verification",
+                "description": "Every transaction is logged transparently."
+              },
+              {
+                "title": "Zero Wait Time",
+                "description": "Border agnostic value transfer between partners."
+              },
+              {
+                "title": "Full Reserve",
+                "description": "Backed by audited digital assets."
+              }
+            ],
+            "description": "Built for the Infinite Economy translates A permissioned backbone for programmable money. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "features": [
+              {
+                "id": "built-for-the-infinite-economy-item-1",
+                "title": "Context with ownership",
+                "description": "Bastion keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "built-for-the-infinite-economy-item-2",
+                "title": "Distinct operating voice",
+                "description": "Borderless, programmable and instantaneous finance. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "built-for-the-infinite-economy-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Quorum blockchain · HTLC contracts · Vault District sovereign identity. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__features-home_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--story",
+          "page_id": "page-bastion-root",
+          "section_key": "story",
+          "pod": "StorySection",
+          "pad": {
+            "title": "Redefining Value Exchange",
+            "body": "The way we work has evolved, but the way we get paid has not. Bastion introduces an ecosystem where every Smart Work Cell triggers instantaneous, blockchain-verified payments, ensuring absolute trust and automated value exchange across borders.\n\nFrom liquidity pools to smart contracts, Bastion provides a robust institutional framework that serves the modern digital enterprise.",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec..."
+          },
+          "component": "StorySection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Redefining Value Exchange",
+            "body": "The way we work has evolved, but the way we get paid has not. Bastion introduces an ecosystem where every Smart Work Cell triggers instantaneous, blockchain-verified payments, ensuring absolute trust and automated value exchange across borders.\n\nFrom liquidity pools to smart contracts, Bastion provides a robust institutional framework that serves the modern digital enterprise.",
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec..."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__story_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#story",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--products",
+          "page_id": "page-bastion-root",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Bastion Products",
+            "items": [
+              {
+                "name": "Bastion Bank",
+                "description": "Debit Card, Credit Card, Open Finance, and Lines of Credit for the tokenized economy.",
+                "href": "/bank"
+              },
+              {
+                "name": "Bastion Smart Chain",
+                "description": "Proof of Stake blockchain with AMM, Liquidity Providers, Smart Contracts, Smart Wallets, Fungible, Non-Fungible, and Soulbound Tokens.",
+                "href": "/smart-chain"
+              },
+              {
+                "name": "Bastion Exchange",
+                "description": "Cross-chain bridge connecting Bastion Smart Chain with Ethereum, Binance Smart Chain, Bitcoin, and Government Blockchains.",
+                "href": "/exchange"
+              },
+              {
+                "name": "Bastion Trade",
+                "description": "Institutional trade infrastructure — Oracles, Credit, Auditing, and Trade Insurance.",
+                "href": "/trade"
+              },
+              {
+                "name": "Bastion Stocks",
+                "description": "TIPO (Tokenized Initial Public Offer) for company stock listing, SEC-framework auditing, and stocks exchange.",
+                "href": "/stocks"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "component": "ProductGrid",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Bastion Products",
+            "items": [
+              {
+                "name": "Bastion Bank",
+                "description": "Debit Card, Credit Card, Open Finance, and Lines of Credit for the tokenized economy.",
+                "href": "/bank"
+              },
+              {
+                "name": "Bastion Smart Chain",
+                "description": "Proof of Stake blockchain with AMM, Liquidity Providers, Smart Contracts, Smart Wallets, Fungible, Non-Fungible, and Soulbound Tokens.",
+                "href": "/smart-chain"
+              },
+              {
+                "name": "Bastion Exchange",
+                "description": "Cross-chain bridge connecting Bastion Smart Chain with Ethereum, Binance Smart Chain, Bitcoin, and Government Blockchains.",
+                "href": "/exchange"
+              },
+              {
+                "name": "Bastion Trade",
+                "description": "Institutional trade infrastructure — Oracles, Credit, Auditing, and Trade Insurance.",
+                "href": "/trade"
+              },
+              {
+                "name": "Bastion Stocks",
+                "description": "TIPO (Tokenized Initial Public Offer) for company stock listing, SEC-framework auditing, and stocks exchange.",
+                "href": "/stocks"
+              }
+            ],
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--partners",
+          "page_id": "page-bastion-root",
+          "section_key": "partners",
+          "pod": "PartnersSection",
+          "pad": {
+            "title": "Bastion Partners",
+            "items": [
+              {
+                "name": "Royal Orbit",
+                "description": "Global trade and holding group leveraging Bastion for tokenized commodity transactions."
+              },
+              {
+                "name": "CodeLoop",
+                "description": "Dynamic Work Ecosystem using Bastion for payroll, work delivery, and smart contract execution."
+              },
+              {
+                "name": "DMCC",
+                "description": "Dubai Multi Commodities Centre — international trade zone and free zone partner."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "PartnersSection",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Bastion Partners",
+            "items": [
+              {
+                "name": "Royal Orbit",
+                "description": "Global trade and holding group leveraging Bastion for tokenized commodity transactions."
+              },
+              {
+                "name": "CodeLoop",
+                "description": "Dynamic Work Ecosystem using Bastion for payroll, work delivery, and smart contract execution."
+              },
+              {
+                "name": "DMCC",
+                "description": "Dubai Multi Commodities Centre — international trade zone and free zone partner."
+              }
+            ],
+            "subtitle": "Bastion Partners becomes a focused operating layer for Bastion.",
+            "description": "Bastion Partners translates A permissioned backbone for programmable money. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion__partners_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-root--cta",
+          "page_id": "page-bastion-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join the Financial Layer of CodeLoop",
+            "description": "Start utilizing Bastion for your business operations, settlements, and automated transactions.",
+            "cta_primary_label": "Explore Smart Chain",
+            "cta_primary_href": "/smart-chain",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Join the Financial Layer of CodeLoop",
+            "description": "Start utilizing Bastion for your business operations, settlements, and automated transactions.",
+            "cta_primary_label": "Explore Smart Chain",
+            "cta_primary_href": "/smart-chain",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "bastion__cta_viewed",
+            "cta_events": [
+              "bastion_cta_cta-primary-label_clicked",
+              "bastion_cta_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-smart-chain",
+      "website_id": "website-bastion",
+      "path": "/smart-chain",
+      "slug": "smart-chain",
+      "title": "Bastion Smart Chain",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-smart-chain--hero",
+          "page_id": "page-bastion-smart-chain",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Bastion Smart Chain — Proof of Stake Technology",
+            "subheadline": "A permissioned blockchain with automated market makers, liquidity providers, smart contracts, smart wallets, and a full token ecosystem.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Bastion Smart Chain — Proof of Stake Technology",
+            "subheadline": "A permissioned blockchain with automated market makers, liquidity providers, smart contracts, smart wallets, and a full token ecosystem."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_smart-chain_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-smart-chain--features",
+          "page_id": "page-bastion-smart-chain",
+          "section_key": "features",
+          "pod": "ListSection",
+          "pad": {
+            "title": "Smart Chain Capabilities",
+            "items": [
+              {
+                "title": "Proof of Stake Technology",
+                "description": "Energy-efficient consensus mechanism ensuring network security and validator participation."
+              },
+              {
+                "title": "Automated Market Makers (AMM)",
+                "description": "Algorithmic liquidity pools enabling decentralized token exchange without traditional order books."
+              },
+              {
+                "title": "Liquidity Providers",
+                "description": "Earn yield by providing liquidity to Bastion's token pairs and cross-chain bridges."
+              },
+              {
+                "title": "Smart Contracts",
+                "description": "Self-executing contracts for work delivery, trade agreements, and financial commitments."
+              },
+              {
+                "title": "Fungible Tokens",
+                "description": "Standard interchangeable tokens for payments, rewards, and liquidity pools."
+              },
+              {
+                "title": "Non-Fungible Tokens (NFT)",
+                "description": "Unique digital assets representing ownership, credentials, and digital collectibles."
+              },
+              {
+                "title": "Soulbound Tokens (Identity Tokens)",
+                "description": "Non-transferable identity tokens representing One True Human — professional identity and reputation."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "component": "ListSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Smart Chain Capabilities",
+            "items": [
+              {
+                "title": "Proof of Stake Technology",
+                "description": "Energy-efficient consensus mechanism ensuring network security and validator participation."
+              },
+              {
+                "title": "Automated Market Makers (AMM)",
+                "description": "Algorithmic liquidity pools enabling decentralized token exchange without traditional order books."
+              },
+              {
+                "title": "Liquidity Providers",
+                "description": "Earn yield by providing liquidity to Bastion's token pairs and cross-chain bridges."
+              },
+              {
+                "title": "Smart Contracts",
+                "description": "Self-executing contracts for work delivery, trade agreements, and financial commitments."
+              },
+              {
+                "title": "Fungible Tokens",
+                "description": "Standard interchangeable tokens for payments, rewards, and liquidity pools."
+              },
+              {
+                "title": "Non-Fungible Tokens (NFT)",
+                "description": "Unique digital assets representing ownership, credentials, and digital collectibles."
+              },
+              {
+                "title": "Soulbound Tokens (Identity Tokens)",
+                "description": "Non-transferable identity tokens representing One True Human — professional identity and reputation."
+              }
+            ],
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_smart-chain_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#features",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-smart-chain--bridges",
+          "page_id": "page-bastion-smart-chain",
+          "section_key": "bridges",
+          "pod": "BridgesSection",
+          "pad": {
+            "title": "Cross-Chain Bridges",
+            "description": "Bastion bridges connect the smart chain with major blockchain networks:",
+            "networks": [
+              "Ethereum",
+              "Binance Smart Chain",
+              "Bitcoin Blockchain",
+              "Government Blockchains"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BridgesSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Cross-Chain Bridges",
+            "description": "Bastion bridges connect the smart chain with major blockchain networks:",
+            "networks": [
+              "Ethereum",
+              "Binance Smart Chain",
+              "Bitcoin Blockchain",
+              "Government Blockchains"
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_smart-chain_bridges_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#bridges",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#bridges",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "networks": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /smart-chain#bridges",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-vault",
+      "website_id": "website-bastion",
+      "path": "/vault",
+      "slug": "vault",
+      "title": "Vault District",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-vault--hero",
+          "page_id": "page-bastion-vault",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Vault — Quantum Tokenization of Data",
+            "subheadline": "The identity and data sovereignty layer of the Bastion OS — securing One True Human, One True Organization, and One True Data through post-quantum cryptography.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Vault — Quantum Tokenization of Data",
+            "subheadline": "The identity and data sovereignty layer of the Bastion OS — securing One True Human, One True Organization, and One True Data through post-quantum cryptography."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_vault_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /vault#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /vault#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-vault--features",
+          "page_id": "page-bastion-vault",
+          "section_key": "features",
+          "pod": "ListSection",
+          "pad": {
+            "title": "Vault Capabilities",
+            "items": [
+              {
+                "title": "One True Person",
+                "description": "Sovereign digital identity token linking professional credentials, performance data, and reputation."
+              },
+              {
+                "title": "One True Organization",
+                "description": "Institutional identity token representing a verified company within the ecosystem."
+              },
+              {
+                "title": "One True Data",
+                "description": "Verified data tokens representing certified information assets within the blockchain."
+              },
+              {
+                "title": "Hybrid Assets",
+                "description": "Tokenized representations of physical assets bridging on-chain and off-chain value."
+              },
+              {
+                "title": "Post-Quantum Session Keys",
+                "description": "Cryptographic session management designed for post-quantum security standards."
+              },
+              {
+                "title": "Bridges",
+                "description": "Cross-chain and cross-network data bridges for verified information transfer."
+              },
+              {
+                "title": "Liquidity Pools",
+                "description": "Protocol-level liquidity mechanisms supporting Bastion ecosystem transactions."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ListSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Vault Capabilities",
+            "items": [
+              {
+                "title": "One True Person",
+                "description": "Sovereign digital identity token linking professional credentials, performance data, and reputation."
+              },
+              {
+                "title": "One True Organization",
+                "description": "Institutional identity token representing a verified company within the ecosystem."
+              },
+              {
+                "title": "One True Data",
+                "description": "Verified data tokens representing certified information assets within the blockchain."
+              },
+              {
+                "title": "Hybrid Assets",
+                "description": "Tokenized representations of physical assets bridging on-chain and off-chain value."
+              },
+              {
+                "title": "Post-Quantum Session Keys",
+                "description": "Cryptographic session management designed for post-quantum security standards."
+              },
+              {
+                "title": "Bridges",
+                "description": "Cross-chain and cross-network data bridges for verified information transfer."
+              },
+              {
+                "title": "Liquidity Pools",
+                "description": "Protocol-level liquidity mechanisms supporting Bastion ecosystem transactions."
+              }
+            ],
+            "subtitle": "Vault Capabilities becomes a focused operating layer for Bastion.",
+            "description": "Vault Capabilities translates A permissioned backbone for programmable money. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_vault_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /vault#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /vault#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ListSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for ListSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-trade",
+      "website_id": "website-bastion",
+      "path": "/trade",
+      "slug": "trade",
+      "title": "Trade",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-trade--hero",
+          "page_id": "page-bastion-trade",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Institutional Trade Infrastructure",
+            "subheadline": "Providing deep liquidity, secure auditing protocols, and comprehensive risk management for enterprises.",
+            "cta_primary_label": "Discover",
+            "cta_primary_href": "#features",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Institutional Trade Infrastructure",
+            "subheadline": "Providing deep liquidity, secure auditing protocols, and comprehensive risk management for enterprises.",
+            "cta_primary_label": "Discover",
+            "cta_primary_href": "#features"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_trade_hero_viewed",
+            "cta_events": [
+              "bastion_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-trade--features",
+          "page_id": "page-bastion-trade",
+          "section_key": "features",
+          "pod": "ListSection",
+          "pad": {
+            "title": "Trade Capabilities",
+            "items": [
+              {
+                "title": "Oracles",
+                "description": "Real-time pricing data and reliable feeds directly onto the smart chain."
+              },
+              {
+                "title": "Credit Solutions",
+                "description": "Decentralized lending and customized credit lines designed for enterprise needs."
+              },
+              {
+                "title": "Trade Insurance",
+                "description": "Smart contract-based risk mitigation for high-value cross-border transactions."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "component": "ListSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Trade Capabilities",
+            "items": [
+              {
+                "title": "Oracles",
+                "description": "Real-time pricing data and reliable feeds directly onto the smart chain."
+              },
+              {
+                "title": "Credit Solutions",
+                "description": "Decentralized lending and customized credit lines designed for enterprise needs."
+              },
+              {
+                "title": "Trade Insurance",
+                "description": "Smart contract-based risk mitigation for high-value cross-border transactions."
+              }
+            ],
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_trade_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /trade#features",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-bank",
+      "website_id": "website-bastion",
+      "path": "/bank",
+      "slug": "bank",
+      "title": "Bastion Bank",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-bank--hero",
+          "page_id": "page-bastion-bank",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Your Bank for the Tokenized Economy",
+            "subheadline": "The bridge between decentralized finance and real-world assets. Issue cards, manage liquidity, and operate across the globe.",
+            "cta_primary_label": "Open Account",
+            "cta_primary_href": "/contact",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Your Bank for the Tokenized Economy",
+            "subheadline": "The bridge between decentralized finance and real-world assets. Issue cards, manage liquidity, and operate across the globe.",
+            "cta_primary_label": "Open Account",
+            "cta_primary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_bank_hero_viewed",
+            "cta_events": [
+              "bastion_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-bank--story",
+          "page_id": "page-bastion-bank",
+          "section_key": "story",
+          "pod": "StorySection",
+          "pad": {
+            "title": "Bridging Fiat and Crypto",
+            "body": "Bastion Bank provides the essential on and off ramps for the modern worker, enabling seamless transitions from digital tokens to fiat currencies at a moment's notice. Designed to serve the global workforce.",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "StorySection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Bridging Fiat and Crypto",
+            "body": "Bastion Bank provides the essential on and off ramps for the modern worker, enabling seamless transitions from digital tokens to fiat currencies at a moment's notice. Designed to serve the global workforce.",
+            "subtitle": "Bridging Fiat and Crypto becomes a focused operating layer for Bastion."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_bank_story_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /bank#story",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for StorySection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-exchange",
+      "website_id": "website-bastion",
+      "path": "/exchange",
+      "slug": "exchange",
+      "title": "Exchange",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-exchange--hero",
+          "page_id": "page-bastion-exchange",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Seamless Value Exchange",
+            "subheadline": "Cross-chain swaps, deepest liquidity pools, and seamless trading across borders.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Seamless Value Exchange",
+            "subheadline": "Cross-chain swaps, deepest liquidity pools, and seamless trading across borders."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_exchange_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-exchange--features",
+          "page_id": "page-bastion-exchange",
+          "section_key": "features",
+          "pod": "ListSection",
+          "pad": {
+            "title": "Exchange Features",
+            "items": [
+              {
+                "title": "Automated Market Maker",
+                "description": "Swap tokens efficiently."
+              },
+              {
+                "title": "Cross-Chain Bridges",
+                "description": "Move assets seamlessly between Ethereum, BSC, and more."
+              },
+              {
+                "title": "Yield Farming",
+                "description": "Provide liquidity and earn rewards."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "component": "ListSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Exchange Features",
+            "items": [
+              {
+                "title": "Automated Market Maker",
+                "description": "Swap tokens efficiently."
+              },
+              {
+                "title": "Cross-Chain Bridges",
+                "description": "Move assets seamlessly between Ethereum, BSC, and more."
+              },
+              {
+                "title": "Yield Farming",
+                "description": "Provide liquidity and earn rewards."
+              }
+            ],
+            "subtitle": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient exec...",
+            "description": "Blockchain solutions from Bastion products Quorum, Codefi, and Diligence enable Royal Orbit Trade to create a global network for the efficient execution of bulk agricultural trade operations. Key Highlights International trade operations have not seen majo..."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_exchange_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /exchange#features",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-stocks",
+      "website_id": "website-bastion",
+      "path": "/stocks",
+      "slug": "stocks",
+      "title": "Stocks",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-stocks--hero",
+          "page_id": "page-bastion-stocks",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Tokenized Ownership",
+            "subheadline": "Invest via TIPO and securely transfer intellectual property.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Tokenized Ownership",
+            "subheadline": "Invest via TIPO and securely transfer intellectual property."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_stocks_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-stocks--feature-section",
+          "page_id": "page-bastion-stocks",
+          "section_key": "feature-section",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "TIPO Stocks Platform",
+            "features": [
+              {
+                "title": "Tokenized Securities",
+                "description": "Trade tokenized stocks and securities on the Bastion Smart Chain with full regulatory compliance."
+              },
+              {
+                "title": "Real-Time Trading",
+                "description": "Lightning-fast order execution with deep liquidity pools and transparent pricing."
+              },
+              {
+                "title": "Portfolio Analytics",
+                "description": "Advanced analytics dashboard with AI-powered insights for informed investment decisions."
+              },
+              {
+                "title": "Institutional Grade",
+                "description": "Enterprise-level security, custody, and compliance infrastructure for institutional investors."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "description": "\"Tokenized Ownership\".",
+            "subtitle": "\"Tokenized Ownership\"."
+          },
+          "component": "FeatureSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "TIPO Stocks Platform",
+            "features": [
+              {
+                "title": "Tokenized Securities",
+                "description": "Trade tokenized stocks and securities on the Bastion Smart Chain with full regulatory compliance."
+              },
+              {
+                "title": "Real-Time Trading",
+                "description": "Lightning-fast order execution with deep liquidity pools and transparent pricing."
+              },
+              {
+                "title": "Portfolio Analytics",
+                "description": "Advanced analytics dashboard with AI-powered insights for informed investment decisions."
+              },
+              {
+                "title": "Institutional Grade",
+                "description": "Enterprise-level security, custody, and compliance infrastructure for institutional investors."
+              }
+            ],
+            "description": "\"Tokenized Ownership\".",
+            "subtitle": "\"Tokenized Ownership\".",
+            "items": [
+              {
+                "id": "tipo-stocks-platform-item-1",
+                "title": "Context with ownership",
+                "description": "Bastion keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "tipo-stocks-platform-item-2",
+                "title": "Distinct operating voice",
+                "description": "Borderless, programmable and instantaneous finance. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "tipo-stocks-platform-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Quorum blockchain · HTLC contracts · Vault District sovereign identity. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_stocks_feature-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-stocks--c-t-a",
+          "page_id": "page-bastion-stocks",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Start Trading on TIPO Stocks",
+            "description": "Access tokenized securities on the most advanced blockchain-based trading platform.",
+            "cta_label": "Open Account",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Start Trading on TIPO Stocks",
+            "description": "Access tokenized securities on the most advanced blockchain-based trading platform.",
+            "cta_label": "Open Account",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "bastion_stocks_c-t-a_viewed",
+            "cta_events": [
+              "bastion_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /stocks#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-contact",
+      "website_id": "website-bastion",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-contact--hero",
+          "page_id": "page-bastion-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with Bastion",
+            "subheadline": "Explore Bastion's institutional products or request a partnership inquiry.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with Bastion",
+            "subheadline": "Explore Bastion's institutional products or request a partnership inquiry."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-contact--form",
+          "page_id": "page-bastion-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "organization",
+                "label": "Organization",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "Interest",
+                "type": "select",
+                "options": [
+                  "Bastion Bank",
+                  "Smart Chain",
+                  "Exchange",
+                  "Bastion Trade",
+                  "Bastion Stocks",
+                  "Partnership"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Bastion",
+            "site_slug": "bastion",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "organization",
+                "label": "Organization",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "Interest",
+                "type": "select",
+                "options": [
+                  "Bastion Bank",
+                  "Smart Chain",
+                  "Exchange",
+                  "Bastion Trade",
+                  "Bastion Stocks",
+                  "Partnership"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Bastion",
+            "site_slug": "bastion",
+            "subtitle": "Get in Touch becomes a focused operating layer for Bastion."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/bastion/gaps.json",
+                "docs/branding/04 — Bastion/01 — Brand Bible.md",
+                "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-bastion-404",
+      "website_id": "website-bastion",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-bastion-404--not-found-hero",
+          "page_id": "page-bastion-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Bastion — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Bastion — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-bastion-404--not-found-cta",
+          "page_id": "page-bastion-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Bastion.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Bastion.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "bastion_404_not-found-cta_viewed",
+            "cta_events": [
+              "bastion_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/bastion/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BridgesSection",
+      "category": "section",
+      "description": "BridgesSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "networks": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ListSection",
+      "category": "section",
+      "description": "ListSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 229
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "PartnersSection",
+      "category": "section",
+      "description": "PartnersSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 241
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProductGrid",
+      "category": "section",
+      "description": "ProductGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "StorySection",
+      "category": "section",
+      "description": "StorySection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 206
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-bastion",
+    "total_original_gaps": 11,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "A Transparent Economy",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "A Transparent Economy",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "features-home",
+        "pod": "FeatureSection",
+        "field": "description",
+        "headline": "Built for the Infinite Economy",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "features-home",
+        "pod": "FeatureSection",
+        "field": "features",
+        "headline": "Built for the Infinite Economy",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "subtitle",
+        "headline": "Bastion Partners",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "description",
+        "headline": "Bastion Partners",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/vault",
+        "section_id": "features",
+        "pod": "ListSection",
+        "field": "subtitle",
+        "headline": "Vault Capabilities",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ListSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/vault",
+        "section_id": "features",
+        "pod": "ListSection",
+        "field": "description",
+        "headline": "Vault Capabilities",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for ListSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/bank",
+        "section_id": "story",
+        "pod": "StorySection",
+        "field": "subtitle",
+        "headline": "Bridging Fiat and Crypto",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for StorySection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/stocks",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "items",
+        "headline": "TIPO Stocks Platform",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get in Touch",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "features-home",
+        "pod": "FeatureSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "features-home",
+        "pod": "FeatureSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/vault",
+        "section_id": "features",
+        "pod": "ListSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/vault",
+        "section_id": "features",
+        "pod": "ListSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/bank",
+        "section_id": "story",
+        "pod": "StorySection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/stocks",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "items",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-bastion",
+      "canonical_base_url": "https://bastion.codeloop.co",
+      "default_title": "Bastion",
+      "default_description": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/bastion/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-bastion-root",
+        "title": "Home",
+        "description": "The tokenized financial infrastructure of the CodeLoop Ecosystem — combining blockchain-native banking, smart chain technology, decentralized exchange, and institutional trade tools.",
+        "canonical": "https://bastion.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-smart-chain",
+        "title": "Bastion Smart Chain",
+        "description": "A permissioned blockchain with automated market makers, liquidity providers, smart contracts, smart wallets, and a full token ecosystem.",
+        "canonical": "https://bastion.codeloop.co/smart-chain",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-vault",
+        "title": "Vault District",
+        "description": "The identity and data sovereignty layer of the Bastion OS — securing One True Human, One True Organization, and One True Data through post-quantum cryptography.",
+        "canonical": "https://bastion.codeloop.co/vault",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-trade",
+        "title": "Trade",
+        "description": "Providing deep liquidity, secure auditing protocols, and comprehensive risk management for enterprises.",
+        "canonical": "https://bastion.codeloop.co/trade",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-bank",
+        "title": "Bastion Bank",
+        "description": "The bridge between decentralized finance and real-world assets. Issue cards, manage liquidity, and operate across the globe.",
+        "canonical": "https://bastion.codeloop.co/bank",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-exchange",
+        "title": "Exchange",
+        "description": "Cross-chain swaps, deepest liquidity pools, and seamless trading across borders.",
+        "canonical": "https://bastion.codeloop.co/exchange",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-stocks",
+        "title": "Stocks",
+        "description": "Invest via TIPO and securely transfer intellectual property.",
+        "canonical": "https://bastion.codeloop.co/stocks",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-contact",
+        "title": "Contact",
+        "description": "Explore Bastion's institutional products or request a partnership inquiry.",
+        "canonical": "https://bastion.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-bastion-404",
+        "title": "Page Not Found",
+        "description": "Bastion — Pagina nao encontrada",
+        "canonical": "https://bastion.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-bastion",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "bastion__hero_viewed",
+      "bastion__manifesto_viewed",
+      "bastion__features-home_viewed",
+      "bastion__story_viewed",
+      "bastion__products_viewed",
+      "bastion__partners_viewed",
+      "bastion__cta_viewed",
+      "bastion_smart-chain_hero_viewed",
+      "bastion_smart-chain_features_viewed",
+      "bastion_smart-chain_bridges_viewed",
+      "bastion_vault_hero_viewed",
+      "bastion_vault_features_viewed",
+      "bastion_trade_hero_viewed",
+      "bastion_trade_features_viewed",
+      "bastion_bank_hero_viewed",
+      "bastion_bank_story_viewed",
+      "bastion_exchange_hero_viewed",
+      "bastion_exchange_features_viewed",
+      "bastion_stocks_hero_viewed",
+      "bastion_stocks_feature-section_viewed",
+      "bastion_stocks_c-t-a_viewed",
+      "bastion_contact_hero_viewed",
+      "bastion_contact_form_viewed",
+      "bastion_404_not-found-hero_viewed",
+      "bastion_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-bastion",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-bastion",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-bastion-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-bastion-primary",
+        "name": "The Chrome Fortress",
+        "description": "Bastion is institutional Web3 — chrome‑blue metallic, mono detailing, dark surfaces. The visual language borrows from Solana's gradients and defense‑grade control rooms rather than heraldic gold."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-bastion-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-bastion-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-bastion",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/04 — Bastion/01 — Brand Bible.md",
+      "docs/branding/04 — Bastion/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/bastion/config.json",
+      "docs/data/bastion/worktree.json",
+      "docs/data/bastion/gaps.json"
+    ]
+  }
+}

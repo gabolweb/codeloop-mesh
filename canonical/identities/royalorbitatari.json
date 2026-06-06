@@ -1,0 +1,2315 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/royalorbitatari/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/royalorbitatari/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/royalorbitatari/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/royalorbitatari.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-royalorbitatari",
+    "slug": "royalorbitatari",
+    "name": "Atari Petroleum LLC",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "Royal Orbit",
+    "description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+    "mission": "To make Atari Petroleum LLC a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbitatari-1",
+        "title": "Operational clarity",
+        "description": "Atari Petroleum LLC should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbitatari-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbitatari-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-royalorbitatari",
+    "brand_name": "Atari Petroleum LLC",
+    "tagline": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+    "short_description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+    "long_description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+    "mission": "To make Atari Petroleum LLC a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbitatari-1",
+        "title": "Operational clarity",
+        "description": "Atari Petroleum LLC should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbitatari-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbitatari-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Atari Petroleum LLC: Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+      "one_liner": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbitatari/config.json",
+        "docs/data/royalorbitatari/worktree.json",
+        "docs/data/royalorbitatari/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-royalorbitatari",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbitatari/config.json",
+        "docs/data/royalorbitatari/worktree.json",
+        "docs/data/royalorbitatari/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-royalorbitatari",
+    "theme": {
+      "mode": "light",
+      "variant": "warm-amber",
+      "palette": {
+        "bg": "#120900",
+        "bg_light": "#1e0f00",
+        "primary": "#f59e0b",
+        "primary_light": "#fbbf24",
+        "secondary": "#ef4444",
+        "accent": "#34d399",
+        "text": "#fef3c7",
+        "text_muted": "#d97706",
+        "border": "rgba(245,158,11,0.2)",
+        "gradient": "linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "display": "Inter",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-royalorbitatari",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-royalorbitatari",
+    "domains": [
+      {
+        "domain": "atari.royalorbit.com",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbitatari.codeloop.co",
+        "type": "secondary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbitatari.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-royalorbitatari",
+    "domain": "atari.royalorbit.com",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-royalorbitatari",
+      "identity_id": "identity-royalorbitatari",
+      "name": "Atari Petroleum LLC",
+      "slug": "royalorbitatari",
+      "domain": "atari.royalorbit.com",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-royalorbitatari",
+        "footer_id": "footer-royalorbitatari",
+        "theme_id": "design-system-royalorbitatari",
+        "seo_profile_id": "seo-profile-royalorbitatari"
+      },
+      "pages": [
+        "page-royalorbitatari-root",
+        "page-royalorbitatari-about-milestones",
+        "page-royalorbitatari-contact",
+        "page-royalorbitatari-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-royalorbitatari",
+    "brand_label": "Atari Petroleum LLC",
+    "items": [
+      {
+        "label": "Milestones",
+        "href": "/about/milestones",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore Our Services",
+      "href": "/services",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-royalorbitatari",
+    "brand": "Atari Petroleum LLC",
+    "description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Milestones",
+            "href": "/about/milestones"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-royalorbitatari-root",
+      "website_id": "website-royalorbitatari",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitatari-root--hero",
+          "page_id": "page-royalorbitatari-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Energy for a Prosperous Future",
+            "subheadline": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+            "cta_primary_label": "Explore Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Our Story",
+            "cta_secondary_href": "/about/story",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Energy for a Prosperous Future",
+            "subheadline": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+            "cta_primary_label": "Explore Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Our Story",
+            "cta_secondary_href": "/about/story"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari__hero_viewed",
+            "cta_events": [
+              "royalorbitatari_hero_cta-primary-label_clicked",
+              "royalorbitatari_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-root--values-summary",
+          "page_id": "page-royalorbitatari-root",
+          "section_key": "values-summary",
+          "pod": "ValuesSection",
+          "pad": {
+            "title": "Why Choose Atari Petroleum",
+            "items": [
+              {
+                "title": "Heritage Meets Innovation",
+                "description": "Combining Middle Eastern energy expertise with modern technology."
+              },
+              {
+                "title": "Global Reach",
+                "description": "Operating across five continents, connecting markets and communities."
+              },
+              {
+                "title": "Sustainability at the Core",
+                "description": "Committed to reducing environmental impact and embracing renewable energy solutions."
+              },
+              {
+                "title": "Reliable Partner",
+                "description": "Trusted by governments, industries, and businesses worldwide."
+              }
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a...",
+            "subtitle": "",
+            "features": [
+              {
+                "title": "Global Expansion:",
+                "description": ""
+              },
+              {
+                "title": "Sustainability Commitment:",
+                "description": ""
+              },
+              {
+                "title": "Strategic Partnerships:",
+                "description": ""
+              },
+              {
+                "title": "Energy Storage:",
+                "description": ""
+              },
+              {
+                "title": "Heritage Meets Innovation:",
+                "description": ""
+              },
+              {
+                "title": "Global Reach:",
+                "description": ""
+              },
+              {
+                "title": "Sustainability at the Core:",
+                "description": ""
+              },
+              {
+                "title": "Reliable Partner:",
+                "description": ""
+              }
+            ]
+          },
+          "component": "ValuesSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Why Choose Atari Petroleum",
+            "items": [
+              {
+                "title": "Heritage Meets Innovation",
+                "description": "Combining Middle Eastern energy expertise with modern technology."
+              },
+              {
+                "title": "Global Reach",
+                "description": "Operating across five continents, connecting markets and communities."
+              },
+              {
+                "title": "Sustainability at the Core",
+                "description": "Committed to reducing environmental impact and embracing renewable energy solutions."
+              },
+              {
+                "title": "Reliable Partner",
+                "description": "Trusted by governments, industries, and businesses worldwide."
+              }
+            ],
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a...",
+            "subtitle": "Why Choose Atari Petroleum becomes a focused operating layer for Atari Petroleum LLC.",
+            "features": [
+              {
+                "title": "Global Expansion:",
+                "description": ""
+              },
+              {
+                "title": "Sustainability Commitment:",
+                "description": ""
+              },
+              {
+                "title": "Strategic Partnerships:",
+                "description": ""
+              },
+              {
+                "title": "Energy Storage:",
+                "description": ""
+              },
+              {
+                "title": "Heritage Meets Innovation:",
+                "description": ""
+              },
+              {
+                "title": "Global Reach:",
+                "description": ""
+              },
+              {
+                "title": "Sustainability at the Core:",
+                "description": ""
+              },
+              {
+                "title": "Reliable Partner:",
+                "description": ""
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari__values-summary_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-summary",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-summary",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-summary",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#values-summary",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-root--tagline",
+          "page_id": "page-royalorbitatari-root",
+          "section_key": "tagline",
+          "pod": "TaglineSection",
+          "pad": {
+            "headline": "Atari Petroleum: Where Energy Meets Excellence",
+            "body": "Born as part of the prestigious Royal Orbit Holding Group, Atari Petroleum was founded to harness the energy-rich resources of the Middle East and expand their benefits globally. Atari symbolizes resilience, strength, and foresight — qualities that guide every decision.",
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "tagline": "",
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a..."
+          },
+          "component": "TaglineSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "headline": "Atari Petroleum: Where Energy Meets Excellence",
+            "body": "Born as part of the prestigious Royal Orbit Holding Group, Atari Petroleum was founded to harness the energy-rich resources of the Middle East and expand their benefits globally. Atari symbolizes resilience, strength, and foresight — qualities that guide every decision.",
+            "tagline": "Atari Petroleum: Where Energy Meets Excellence requires reviewed tagline content for Atari Petroleum LLC.",
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a..."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari__tagline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#tagline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#tagline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "tagline": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"tagline\" field in TaglineSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#tagline",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-root--services-summary",
+          "page_id": "page-royalorbitatari-root",
+          "section_key": "services-summary",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "Our Services at a Glance",
+            "items": [
+              {
+                "service": "Oil & Gas Exploration",
+                "description": "Efficient and environmentally responsible exploration of energy resources.",
+                "href": "/services/exploration"
+              },
+              {
+                "service": "Refining & Processing",
+                "description": "Producing high-quality fuels with advanced refining techniques.",
+                "href": "/services/refining"
+              },
+              {
+                "service": "Petroleum Trading",
+                "description": "Facilitating global trade of crude oil and refined products.",
+                "href": "/services/trading"
+              },
+              {
+                "service": "Energy Solutions",
+                "description": "Renewable energy integration and advanced energy storage systems.",
+                "href": "/services/energy-solutions"
+              },
+              {
+                "service": "Sustainability Consulting",
+                "description": "Helping industries and governments transition to eco-friendly operations.",
+                "href": "/services/sustainability-consulting"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "",
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a..."
+          },
+          "component": "ServiceGrid",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Our Services at a Glance",
+            "items": [
+              {
+                "service": "Oil & Gas Exploration",
+                "description": "Efficient and environmentally responsible exploration of energy resources.",
+                "href": "/services/exploration"
+              },
+              {
+                "service": "Refining & Processing",
+                "description": "Producing high-quality fuels with advanced refining techniques.",
+                "href": "/services/refining"
+              },
+              {
+                "service": "Petroleum Trading",
+                "description": "Facilitating global trade of crude oil and refined products.",
+                "href": "/services/trading"
+              },
+              {
+                "service": "Energy Solutions",
+                "description": "Renewable energy integration and advanced energy storage systems.",
+                "href": "/services/energy-solutions"
+              },
+              {
+                "service": "Sustainability Consulting",
+                "description": "Helping industries and governments transition to eco-friendly operations.",
+                "href": "/services/sustainability-consulting"
+              }
+            ],
+            "subtitle": "Our Services at a Glance becomes a focused operating layer for Atari Petroleum LLC.",
+            "description": "Energy for a Prosperous Future Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. Rooted in the traditions of the Middle East a..."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari__services-summary_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-summary",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-summary",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services-summary",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitatari-about-milestones",
+      "website_id": "website-royalorbitatari",
+      "path": "/about/milestones",
+      "slug": "about-milestones",
+      "title": "Milestones",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitatari-about-milestones--hero",
+          "page_id": "page-royalorbitatari-about-milestones",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "A Journey of Innovation",
+            "subheadline": "From early exploration in the Middle East to global energy leadership.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "A Journey of Innovation",
+            "subheadline": "From early exploration in the Middle East to global energy leadership."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_about-milestones_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about/milestones#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about/milestones#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-about-milestones--timeline",
+          "page_id": "page-royalorbitatari-about-milestones",
+          "section_key": "timeline",
+          "pod": "TimelineSection",
+          "pad": {
+            "events": [
+              {
+                "milestone": "Early Exploration",
+                "description": "Building expertise in oil and gas exploration with responsible extraction methods."
+              },
+              {
+                "milestone": "Global Expansion",
+                "description": "Establishing a network of operations in key markets across five continents."
+              },
+              {
+                "milestone": "Sustainability Commitment",
+                "description": "Investing in renewable energy projects and carbon reduction technologies."
+              },
+              {
+                "milestone": "Strategic Partnerships",
+                "description": "Partnering with governments, businesses, and organizations to create tailored energy solutions."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "TimelineSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "events": [
+              {
+                "milestone": "Early Exploration",
+                "description": "Building expertise in oil and gas exploration with responsible extraction methods."
+              },
+              {
+                "milestone": "Global Expansion",
+                "description": "Establishing a network of operations in key markets across five continents."
+              },
+              {
+                "milestone": "Sustainability Commitment",
+                "description": "Investing in renewable energy projects and carbon reduction technologies."
+              },
+              {
+                "milestone": "Strategic Partnerships",
+                "description": "Partnering with governments, businesses, and organizations to create tailored energy solutions."
+              }
+            ],
+            "title": "Timeline requires reviewed title content for Atari Petroleum LLC.",
+            "items": [
+              {
+                "id": "timeline-item-1",
+                "title": "Context with ownership",
+                "description": "Atari Petroleum LLC keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "timeline-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "timeline-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "subtitle": "Timeline becomes a focused operating layer for Atari Petroleum LLC.",
+            "description": "Timeline translates Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_about-milestones_timeline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "events": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about/milestones#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in TimelineSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for TimelineSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for TimelineSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for TimelineSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitatari-contact",
+      "website_id": "website-royalorbitatari",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitatari-contact--hero",
+          "page_id": "page-royalorbitatari-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with Atari Petroleum",
+            "subheadline": "Reach out for inquiries, partnerships, or energy solutions.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with Atari Petroleum",
+            "subheadline": "Reach out for inquiries, partnerships, or energy solutions."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-contact--form",
+          "page_id": "page-royalorbitatari-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Atari Petroleum LLC",
+            "site_slug": "royalorbitatari",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Atari Petroleum LLC",
+            "site_slug": "royalorbitatari",
+            "title": "Form requires reviewed title content for Atari Petroleum LLC.",
+            "subtitle": "Form becomes a focused operating layer for Atari Petroleum LLC."
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbitatari/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbitatari-404",
+      "website_id": "website-royalorbitatari",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbitatari-404--not-found-hero",
+          "page_id": "page-royalorbitatari-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Atari Petroleum LLC — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Atari Petroleum LLC — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbitatari-404--not-found-cta",
+          "page_id": "page-royalorbitatari-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Atari Petroleum LLC.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Atari Petroleum LLC.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "warm-amber",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbitatari_404_not-found-cta_viewed",
+            "cta_events": [
+              "royalorbitatari_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbitatari/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ServiceGrid",
+      "category": "section",
+      "description": "ServiceGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TaglineSection",
+      "category": "section",
+      "description": "TaglineSection PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 270
+        },
+        "tagline": {
+          "type": "string",
+          "required": false,
+          "max_length": 105
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TimelineSection",
+      "category": "section",
+      "description": "TimelineSection PAD/POD section component",
+      "allowed_fields": {
+        "events": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 365
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ValuesSection",
+      "category": "section",
+      "description": "ValuesSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-royalorbitatari",
+    "total_original_gaps": 9,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "values-summary",
+        "pod": "ValuesSection",
+        "field": "subtitle",
+        "headline": "Why Choose Atari Petroleum",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "tagline",
+        "pod": "TaglineSection",
+        "field": "tagline",
+        "headline": "Atari Petroleum: Where Energy Meets Excellence",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"tagline\" field in TaglineSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "services-summary",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "Our Services at a Glance",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in TimelineSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for TimelineSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for TimelineSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for TimelineSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "values-summary",
+        "pod": "ValuesSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "tagline",
+        "pod": "TaglineSection",
+        "field": "tagline",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "services-summary",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about/milestones",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-royalorbitatari",
+      "canonical_base_url": "https://atari.royalorbit.com",
+      "default_title": "Atari Petroleum LLC",
+      "default_description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/royalorbitatari/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-royalorbitatari-root",
+        "title": "Home",
+        "description": "Atari Petroleum LLC stands at the intersection of heritage and innovation, delivering world-class energy solutions that fuel industries, empower communities, and inspire progress.",
+        "canonical": "https://atari.royalorbit.com",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitatari-about-milestones",
+        "title": "Milestones",
+        "description": "From early exploration in the Middle East to global energy leadership.",
+        "canonical": "https://atari.royalorbit.com/about/milestones",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitatari-contact",
+        "title": "Contact",
+        "description": "Reach out for inquiries, partnerships, or energy solutions.",
+        "canonical": "https://atari.royalorbit.com/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbitatari-404",
+        "title": "Page Not Found",
+        "description": "Atari Petroleum LLC — Pagina nao encontrada",
+        "canonical": "https://atari.royalorbit.com/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-royalorbitatari",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "royalorbitatari__hero_viewed",
+      "royalorbitatari__values-summary_viewed",
+      "royalorbitatari__tagline_viewed",
+      "royalorbitatari__services-summary_viewed",
+      "royalorbitatari_about-milestones_hero_viewed",
+      "royalorbitatari_about-milestones_timeline_viewed",
+      "royalorbitatari_contact_hero_viewed",
+      "royalorbitatari_contact_form_viewed",
+      "royalorbitatari_404_not-found-hero_viewed",
+      "royalorbitatari_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-royalorbitatari",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-royalorbitatari",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-royalorbitatari-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-royalorbitatari-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-royalorbitatari-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-royalorbitatari",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/royalorbitatari/config.json",
+      "docs/data/royalorbitatari/worktree.json",
+      "docs/data/royalorbitatari/gaps.json"
+    ]
+  }
+}

@@ -1,0 +1,3767 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/legacyeduca/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/legacyeduca/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/legacyeduca/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/legacyeduca/assets/logos/legacy.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/legacyeduca/assets/logos/legacyeduca.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/legacyeduca.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-legacyeduca",
+    "slug": "legacyeduca",
+    "name": "Legacy Educação",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+    "mission": "To make Legacy Educação a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-legacyeduca-1",
+        "title": "Operational clarity",
+        "description": "Legacy Educação should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-legacyeduca-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-legacyeduca-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-legacyeduca",
+    "brand_name": "Legacy Educação",
+    "tagline": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+    "short_description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+    "long_description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+    "mission": "To make Legacy Educação a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-legacyeduca-1",
+        "title": "Operational clarity",
+        "description": "Legacy Educação should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-legacyeduca-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-legacyeduca-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Legacy Educação: A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+      "one_liner": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/legacyeduca/config.json",
+        "docs/data/legacyeduca/worktree.json",
+        "docs/data/legacyeduca/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-legacyeduca",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/legacyeduca/config.json",
+        "docs/data/legacyeduca/worktree.json",
+        "docs/data/legacyeduca/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-legacyeduca",
+    "theme": {
+      "mode": "light",
+      "variant": "corporate-blue",
+      "palette": {
+        "bg": "#F7FAFF",
+        "bg_light": "#EEF3FC",
+        "primary": "#1E6FE8",
+        "primary_light": "#4FA8FF",
+        "secondary": "#0A2E7A",
+        "accent": "#4FA8FF",
+        "text": "#0A1428",
+        "text_muted": "#55617A",
+        "border": "#D8E3F5",
+        "gradient": "linear-gradient(135deg, #1E6FE8 0%, #4FA8FF 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "DM Serif Display",
+      "body": "Source Serif 4",
+      "display": "DM Serif Display",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-legacyeduca",
+    "logos": [
+      {
+        "id": "asset-legacyeduca-logo-1",
+        "type": "secondary",
+        "format": "png",
+        "url": "docs/data/legacyeduca/assets/logos/legacy.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Legacyeduca logo"
+      },
+      {
+        "id": "asset-legacyeduca-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/legacyeduca/assets/logos/legacyeduca.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Legacyeduca logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-legacyeduca",
+    "domains": [
+      {
+        "domain": "legacyeduca.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "legacyeduca.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-legacyeduca",
+    "domain": "legacyeduca.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-legacyeduca",
+      "identity_id": "identity-legacyeduca",
+      "name": "Legacy Educa",
+      "slug": "legacyeduca",
+      "domain": "legacyeduca.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-legacyeduca",
+        "footer_id": "footer-legacyeduca",
+        "theme_id": "design-system-legacyeduca",
+        "seo_profile_id": "seo-profile-legacyeduca"
+      },
+      "pages": [
+        "page-legacyeduca-root",
+        "page-legacyeduca-programs",
+        "page-legacyeduca-about",
+        "page-legacyeduca-contact",
+        "page-legacyeduca-services",
+        "page-legacyeduca-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-legacyeduca",
+    "brand_label": "Legacy Educação",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Our Programs",
+      "href": "/programs",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-legacyeduca",
+    "brand": "Legacy Educação",
+    "description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-legacyeduca-root",
+      "website_id": "website-legacyeduca",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-root--hero",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Legacy Educa — Education That Builds Careers",
+            "subheadline": "A learning platform designed for the modern workforce — structured curricula, hands-on projects, and direct pathways to employment within the CodeLoop Ecosystem.",
+            "cta_primary_label": "Browse Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "How It Works",
+            "cta_secondary_href": "/about",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Legacy Educa — Education That Builds Careers",
+            "subheadline": "A learning platform designed for the modern workforce — structured curricula, hands-on projects, and direct pathways to employment within the CodeLoop Ecosystem.",
+            "cta_primary_label": "Browse Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "How It Works",
+            "cta_secondary_href": "/about"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__hero_viewed",
+            "cta_events": [
+              "legacyeduca_hero_cta-primary-label_clicked",
+              "legacyeduca_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--manifesto-section",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "manifesto-section",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Education should end with a job, not a certificate.",
+            "body": "Legacy Educa bridges the gap between learning and professional practice. Every program is built backward from real job requirements — the skills taught are the skills demanded by the companies hiring inside the CodeLoop Ecosystem and beyond.",
+            "quote": "We don't train people for the job market. We train people for specific jobs — and then help them get there.",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Education should end with a job, not a certificate.",
+            "body": "Legacy Educa bridges the gap between learning and professional practice. Every program is built backward from real job requirements — the skills taught are the skills demanded by the companies hiring inside the CodeLoop Ecosystem and beyond.",
+            "quote": "We don't train people for the job market. We train people for specific jobs — and then help them get there.",
+            "stat_1": "Education should end with a job, not a certificate. requires reviewed stat_1 content for Legacy Educação.",
+            "stat_2": "Education should end with a job, not a certificate. requires reviewed stat_2 content for Legacy Educação.",
+            "stat_3": "Education should end with a job, not a certificate. requires reviewed stat_3 content for Legacy Educação.",
+            "stats": "Education should end with a job, not a certificate. requires reviewed stats content for Legacy Educação.",
+            "subtitle": "Education should end with a job, not a certificate. becomes a focused operating layer for Legacy Educação."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__manifesto-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "quote": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--program-grid",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "program-grid",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "Learning pathways",
+            "items": [
+              {
+                "title": "TechFoundations",
+                "description": "Programming fundamentals, systems architecture, and developer workflows — designed for career changers and junior professionals who need a rigorous technical base, not just syntax tutorials."
+              },
+              {
+                "title": "DigitalBusiness",
+                "description": "Operations, analytics, and digital tools for business professionals — covering data literacy, process design, product thinking, and the modern business stack used inside real companies."
+              },
+              {
+                "title": "LeadershipTrack",
+                "description": "Management principles, team dynamics, and strategic thinking for professionals stepping into leadership roles — with real case studies, simulations, and a mentored capstone project."
+              },
+              {
+                "title": "SpecialistPaths",
+                "description": "Deep-dive tracks in AI, blockchain, and design for practitioners who already have a foundation and want genuine expertise — not survey courses."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProgramGrid",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Learning pathways",
+            "items": [
+              {
+                "title": "TechFoundations",
+                "description": "Programming fundamentals, systems architecture, and developer workflows — designed for career changers and junior professionals who need a rigorous technical base, not just syntax tutorials."
+              },
+              {
+                "title": "DigitalBusiness",
+                "description": "Operations, analytics, and digital tools for business professionals — covering data literacy, process design, product thinking, and the modern business stack used inside real companies."
+              },
+              {
+                "title": "LeadershipTrack",
+                "description": "Management principles, team dynamics, and strategic thinking for professionals stepping into leadership roles — with real case studies, simulations, and a mentored capstone project."
+              },
+              {
+                "title": "SpecialistPaths",
+                "description": "Deep-dive tracks in AI, blockchain, and design for practitioners who already have a foundation and want genuine expertise — not survey courses."
+              }
+            ],
+            "subtitle": "Learning pathways becomes a focused operating layer for Legacy Educação.",
+            "description": "Learning pathways translates A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--feature-section",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "feature-section",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "How we teach differently",
+            "features": [
+              {
+                "title": "Project-based learning",
+                "description": "Every module produces a deliverable — code, analysis, design, or strategy document. Students build a portfolio of real work, not just a list of completed lectures."
+              },
+              {
+                "title": "Industry mentors",
+                "description": "Each program cohort is paired with active professionals from the CodeLoop Ecosystem who review work, provide career guidance, and make direct introductions."
+              },
+              {
+                "title": "Portfolio building",
+                "description": "Graduates leave with a structured portfolio — documented projects, peer reviews, and mentor endorsements — that is actively shared with hiring teams inside the network."
+              },
+              {
+                "title": "Employment pipeline",
+                "description": "Legacy Educa maintains direct relationships with companies in the CodeLoop Ecosystem. High-performing graduates are presented to hiring partners before positions are publicly posted."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "How we teach differently",
+            "features": [
+              {
+                "title": "Project-based learning",
+                "description": "Every module produces a deliverable — code, analysis, design, or strategy document. Students build a portfolio of real work, not just a list of completed lectures."
+              },
+              {
+                "title": "Industry mentors",
+                "description": "Each program cohort is paired with active professionals from the CodeLoop Ecosystem who review work, provide career guidance, and make direct introductions."
+              },
+              {
+                "title": "Portfolio building",
+                "description": "Graduates leave with a structured portfolio — documented projects, peer reviews, and mentor endorsements — that is actively shared with hiring teams inside the network."
+              },
+              {
+                "title": "Employment pipeline",
+                "description": "Legacy Educa maintains direct relationships with companies in the CodeLoop Ecosystem. High-performing graduates are presented to hiring partners before positions are publicly posted."
+              }
+            ],
+            "description": "How we teach differently translates A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "How we teach differently becomes a focused operating layer for Legacy Educação.",
+            "items": [
+              {
+                "id": "how-we-teach-differently-item-1",
+                "title": "Context with ownership",
+                "description": "Legacy Educação keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "how-we-teach-differently-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "how-we-teach-differently-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__feature-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#feature-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--process-section",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "process-section",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "From enrollment to employment",
+            "steps": [
+              {
+                "title": "Enroll",
+                "description": "Apply for your chosen program with a short profile. We review fit and learning readiness — not credentials — and respond within five business days."
+              },
+              {
+                "title": "Learn",
+                "description": "Follow a structured curriculum with live sessions, async materials, and weekly check-ins. Cohort size is capped at 20 so every student gets real attention."
+              },
+              {
+                "title": "Build",
+                "description": "Complete hands-on projects at each module stage. Your mentor reviews your work and gives direct, actionable feedback — not automated grading."
+              },
+              {
+                "title": "Certify",
+                "description": "Upon completion, receive a Legacy Educa certification that documents your specific skills, projects, and mentor endorsements — not just a completion badge."
+              },
+              {
+                "title": "Deploy",
+                "description": "Your profile is actively shared with hiring partners inside the CodeLoop Ecosystem. Most graduates receive their first relevant introduction within 30 days of certification."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "From enrollment to employment",
+            "steps": [
+              {
+                "title": "Enroll",
+                "description": "Apply for your chosen program with a short profile. We review fit and learning readiness — not credentials — and respond within five business days."
+              },
+              {
+                "title": "Learn",
+                "description": "Follow a structured curriculum with live sessions, async materials, and weekly check-ins. Cohort size is capped at 20 so every student gets real attention."
+              },
+              {
+                "title": "Build",
+                "description": "Complete hands-on projects at each module stage. Your mentor reviews your work and gives direct, actionable feedback — not automated grading."
+              },
+              {
+                "title": "Certify",
+                "description": "Upon completion, receive a Legacy Educa certification that documents your specific skills, projects, and mentor endorsements — not just a completion badge."
+              },
+              {
+                "title": "Deploy",
+                "description": "Your profile is actively shared with hiring partners inside the CodeLoop Ecosystem. Most graduates receive their first relevant introduction within 30 days of certification."
+              }
+            ],
+            "subtitle": "From enrollment to employment becomes a focused operating layer for Legacy Educação.",
+            "description": "From enrollment to employment translates A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__process-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--c-t-a",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Start learning, start earning",
+            "description": "The next cohort intake opens every quarter. Applications are reviewed on a rolling basis — the earlier you apply, the better your program placement options.",
+            "cta_label": "Apply for a Program",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Start learning, start earning",
+            "description": "The next cohort intake opens every quarter. Applications are reviewed on a rolling basis — the earlier you apply, the better your program placement options.",
+            "cta_label": "Apply for a Program",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "legacyeduca__c-t-a_viewed",
+            "cta_events": [
+              "legacyeduca_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-root--contact-form",
+          "page_id": "page-legacyeduca-root",
+          "section_key": "contact-form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Ask us anything",
+            "subtitle": "Questions about programs, schedules, prerequisites, or employment outcomes — we'll give you a straight answer.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Legacy Educação",
+            "site_slug": "legacyeduca",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Ask us anything",
+            "subtitle": "Questions about programs, schedules, prerequisites, or employment outcomes — we'll give you a straight answer.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Legacy Educação",
+            "site_slug": "legacyeduca"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca__contact-form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-legacyeduca-programs",
+      "website_id": "website-legacyeduca",
+      "path": "/programs",
+      "slug": "programs",
+      "title": "Programs",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-programs--hero",
+          "page_id": "page-legacyeduca-programs",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Programs Designed Around Real Jobs",
+            "subheadline": "Every Legacy Educa program is built with a specific employment outcome in mind — not a broad overview of a field.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Talk to an Advisor",
+            "cta_secondary_href": "/contact",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Programs Designed Around Real Jobs",
+            "subheadline": "Every Legacy Educa program is built with a specific employment outcome in mind — not a broad overview of a field.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Talk to an Advisor",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_programs_hero_viewed",
+            "cta_events": [
+              "legacyeduca_hero_cta-primary-label_clicked",
+              "legacyeduca_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-programs--program-grid",
+          "page_id": "page-legacyeduca-programs",
+          "section_key": "program-grid",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "Choose your path",
+            "items": [
+              {
+                "title": "TechFoundations",
+                "description": "16 weeks. Programming, systems, and developer workflows. Designed for career changers with no prior technical background who want to enter the tech workforce as junior developers or engineers."
+              },
+              {
+                "title": "DigitalBusiness",
+                "description": "12 weeks. Operations, analytics, and business tools. For professionals in traditional roles who need to understand and operate in digital-first business environments."
+              },
+              {
+                "title": "LeadershipTrack",
+                "description": "10 weeks. Management, team leadership, and strategic thinking. For senior individual contributors or team leads stepping into formal management for the first time."
+              },
+              {
+                "title": "SpecialistPaths",
+                "description": "8-20 weeks depending on track. AI, blockchain, or design specialisations for practitioners who already have domain knowledge and want to go deep."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProgramGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Choose your path",
+            "items": [
+              {
+                "title": "TechFoundations",
+                "description": "16 weeks. Programming, systems, and developer workflows. Designed for career changers with no prior technical background who want to enter the tech workforce as junior developers or engineers."
+              },
+              {
+                "title": "DigitalBusiness",
+                "description": "12 weeks. Operations, analytics, and business tools. For professionals in traditional roles who need to understand and operate in digital-first business environments."
+              },
+              {
+                "title": "LeadershipTrack",
+                "description": "10 weeks. Management, team leadership, and strategic thinking. For senior individual contributors or team leads stepping into formal management for the first time."
+              },
+              {
+                "title": "SpecialistPaths",
+                "description": "8-20 weeks depending on track. AI, blockchain, or design specialisations for practitioners who already have domain knowledge and want to go deep."
+              }
+            ],
+            "subtitle": "Choose your path becomes a focused operating layer for Legacy Educação.",
+            "description": "Choose your path translates A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_programs_program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-programs--c-t-a",
+          "page_id": "page-legacyeduca-programs",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Not sure which program fits?",
+            "description": "Our advisors will review your background and goals and recommend the right starting point — no pressure, no sales pitch.",
+            "cta_label": "Book a Free Consultation",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Not sure which program fits?",
+            "description": "Our advisors will review your background and goals and recommend the right starting point — no pressure, no sales pitch.",
+            "cta_label": "Book a Free Consultation",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "legacyeduca_programs_c-t-a_viewed",
+            "cta_events": [
+              "legacyeduca_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-legacyeduca-about",
+      "website_id": "website-legacyeduca",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-about--hero",
+          "page_id": "page-legacyeduca-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Built to Close the Gap Between Learning and Work",
+            "subheadline": "Legacy Educa exists because too many professionals finish courses and still can't get the job they trained for.",
+            "cta_primary_label": "Browse Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Built to Close the Gap Between Learning and Work",
+            "subheadline": "Legacy Educa exists because too many professionals finish courses and still can't get the job they trained for.",
+            "cta_primary_label": "Browse Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_about_hero_viewed",
+            "cta_events": [
+              "legacyeduca_hero_cta-primary-label_clicked",
+              "legacyeduca_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-about--m-v-v-section",
+          "page_id": "page-legacyeduca-about",
+          "section_key": "m-v-v-section",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To deliver education that ends in employment — by building programs backward from job requirements, pairing students with industry mentors, and maintaining direct pipelines into hiring organisations.",
+            "vision": "A professional education system where the output is measured in careers launched, not certificates issued.",
+            "values": [
+              "Outcomes over credentials",
+              "Practical skill over theoretical knowledge",
+              "Mentor-led learning over passive consumption",
+              "Employment pipeline as core product"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To deliver education that ends in employment — by building programs backward from job requirements, pairing students with industry mentors, and maintaining direct pipelines into hiring organisations.",
+            "vision": "A professional education system where the output is measured in careers launched, not certificates issued.",
+            "values": [
+              "Outcomes over credentials",
+              "Practical skill over theoretical knowledge",
+              "Mentor-led learning over passive consumption",
+              "Employment pipeline as core product"
+            ],
+            "title": "M V V Section requires reviewed title content for Legacy Educação.",
+            "description": "M V V Section translates A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "M V V Section becomes a focused operating layer for Legacy Educação.",
+            "features": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Legacy Educação keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Legacy Educação keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_about_m-v-v-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-about--c-t-a",
+          "page_id": "page-legacyeduca-about",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Invest in learning that pays off",
+            "description": "Legacy Educa programs are intensive, structured, and directly connected to the job market. Applications are open now.",
+            "cta_label": "Apply for a Program",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Invest in learning that pays off",
+            "description": "Legacy Educa programs are intensive, structured, and directly connected to the job market. Applications are open now.",
+            "cta_label": "Apply for a Program",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "legacyeduca_about_c-t-a_viewed",
+            "cta_events": [
+              "legacyeduca_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-legacyeduca-contact",
+      "website_id": "website-legacyeduca",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-contact--hero",
+          "page_id": "page-legacyeduca-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Talk to Legacy Educa",
+            "subheadline": "Program enquiries, application questions, employer partnerships — we reply within two business days.",
+            "cta_primary_label": null,
+            "cta_secondary_label": null,
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Talk to Legacy Educa",
+            "subheadline": "Program enquiries, application questions, employer partnerships — we reply within two business days.",
+            "cta_primary_label": null,
+            "cta_secondary_label": null
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_contact_hero_viewed",
+            "cta_events": [
+              "legacyeduca_hero_cta-primary-label_clicked",
+              "legacyeduca_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-contact--form",
+          "page_id": "page-legacyeduca-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Send us a message",
+            "subtitle": "Tell us your background, which program interests you, and what outcome you're working toward.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Legacy Educação",
+            "site_slug": "legacyeduca",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Send us a message",
+            "subtitle": "Tell us your background, which program interests you, and what outcome you're working toward.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Legacy Educação",
+            "site_slug": "legacyeduca"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-legacyeduca-services",
+      "website_id": "website-legacyeduca",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-services--services-manifesto",
+          "page_id": "page-legacyeduca-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Legacy Educação Services",
+            "body": "Explore what Legacy Educação offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "Legacy Educação Services",
+            "body": "Explore what Legacy Educação offers in services. Content coming soon.",
+            "stat_1": "Legacy Educação Services requires reviewed stat_1 content for Legacy Educação.",
+            "stat_2": "Legacy Educação Services requires reviewed stat_2 content for Legacy Educação.",
+            "stat_3": "Legacy Educação Services requires reviewed stat_3 content for Legacy Educação.",
+            "stats": "Legacy Educação Services requires reviewed stats content for Legacy Educação.",
+            "subtitle": "Legacy Educação Services becomes a focused operating layer for Legacy Educação."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-services--services-cta",
+          "page_id": "page-legacyeduca-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About Legacy Educação",
+            "description": "Discover everything Legacy Educação has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About Legacy Educação",
+            "description": "Discover everything Legacy Educação has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_services_services-cta_viewed",
+            "cta_events": [
+              "legacyeduca_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-legacyeduca-404",
+      "website_id": "website-legacyeduca",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-legacyeduca-404--not-found-hero",
+          "page_id": "page-legacyeduca-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Legacy Educação — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Legacy Educação — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-legacyeduca-404--not-found-cta",
+          "page_id": "page-legacyeduca-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Legacy Educação.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Legacy Educação.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "legacyeduca_404_not-found-cta_viewed",
+            "cta_events": [
+              "legacyeduca_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/legacyeduca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 93
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 361
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "object",
+          "required": false,
+          "max_length": null
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "object",
+          "required": false,
+          "max_length": null
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "quote": {
+          "type": "string",
+          "required": false,
+          "max_length": 107
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 199
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 106
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 350
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 366
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProgramGrid",
+      "category": "section",
+      "description": "ProgramGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 353
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-legacyeduca",
+    "total_original_gaps": 24,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "Education should end with a job, not a certificate.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "Education should end with a job, not a certificate.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "Education should end with a job, not a certificate.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Education should end with a job, not a certificate.",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Education should end with a job, not a certificate.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "Learning pathways",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "Learning pathways",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "description",
+        "headline": "How we teach differently",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "headline": "How we teach differently",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "items",
+        "headline": "How we teach differently",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "From enrollment to employment",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "From enrollment to employment",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "Choose your path",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "Choose your path",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "Legacy Educação Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "Legacy Educação Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "Legacy Educação Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Legacy Educação Services",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Legacy Educação Services",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto-section",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "feature-section",
+        "pod": "FeatureSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-legacyeduca",
+      "canonical_base_url": "https://legacyeduca.codeloop.co",
+      "default_title": "Legacy Educação",
+      "default_description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/legacyeduca/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-legacyeduca-root",
+        "title": "Home",
+        "description": "A learning platform designed for the modern workforce — structured curricula, hands-on projects, and direct pathways to employment within the CodeLoop Ecosystem.",
+        "canonical": "https://legacyeduca.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-legacyeduca-programs",
+        "title": "Programs",
+        "description": "Every Legacy Educa program is built with a specific employment outcome in mind — not a broad overview of a field.",
+        "canonical": "https://legacyeduca.codeloop.co/programs",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-legacyeduca-about",
+        "title": "About",
+        "description": "Legacy Educa exists because too many professionals finish courses and still can't get the job they trained for.",
+        "canonical": "https://legacyeduca.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-legacyeduca-contact",
+        "title": "Contact",
+        "description": "Program enquiries, application questions, employer partnerships — we reply within two business days.",
+        "canonical": "https://legacyeduca.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-legacyeduca-services",
+        "title": "Services",
+        "description": "A CodeLoop Ecosystem Partner — delivering educational solutions modernized through Dynamic Work, professional mentoring, and innovative learning methodologies.",
+        "canonical": "https://legacyeduca.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-legacyeduca-404",
+        "title": "Page Not Found",
+        "description": "Legacy Educação — Pagina nao encontrada",
+        "canonical": "https://legacyeduca.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-legacyeduca",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "legacyeduca__hero_viewed",
+      "legacyeduca__manifesto-section_viewed",
+      "legacyeduca__program-grid_viewed",
+      "legacyeduca__feature-section_viewed",
+      "legacyeduca__process-section_viewed",
+      "legacyeduca__c-t-a_viewed",
+      "legacyeduca__contact-form_viewed",
+      "legacyeduca_programs_hero_viewed",
+      "legacyeduca_programs_program-grid_viewed",
+      "legacyeduca_programs_c-t-a_viewed",
+      "legacyeduca_about_hero_viewed",
+      "legacyeduca_about_m-v-v-section_viewed",
+      "legacyeduca_about_c-t-a_viewed",
+      "legacyeduca_contact_hero_viewed",
+      "legacyeduca_contact_form_viewed",
+      "legacyeduca_services_services-manifesto_viewed",
+      "legacyeduca_services_services-cta_viewed",
+      "legacyeduca_404_not-found-hero_viewed",
+      "legacyeduca_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-legacyeduca",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-legacyeduca",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-legacyeduca-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-legacyeduca-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-legacyeduca-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-legacyeduca",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/legacyeduca/config.json",
+      "docs/data/legacyeduca/worktree.json",
+      "docs/data/legacyeduca/gaps.json"
+    ]
+  }
+}

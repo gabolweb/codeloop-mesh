@@ -1,0 +1,4352 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/tca/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/tca/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/tca/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/tca/assets/logos/13-tca.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/tca/assets/logos/tca.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/tca.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-tca",
+    "slug": "tca",
+    "name": "Transcontinental Cooperation Alliance",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A diplomatic and economic alliance bridging continents — facilitating cooperation between developing markets and the Middle East, advancing BRICS integration and transcontinental trade.",
+    "mission": "To turn south‑south solidarity and sovereign trust into an operating system through Bilateral cooperation protocols · corridor activation program.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-tca-1",
+        "title": "Operational clarity",
+        "description": "Transcontinental Cooperation Alliance should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-tca-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-tca-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Transcontinental Cooperation Alliance",
+      "market": "International Trade Corridors",
+      "statement": "TCA is sovereign and diplomatic — navy globe with a laurel of gold stars, high‑contrast serif display, ivory paper stock. A multilateral institution that issues communiqués, not press releases.",
+      "differentiators": [
+        "South‑South solidarity and sovereign trust.",
+        "Bilateral cooperation protocols · corridor activation program.",
+        "The Diplomatic House"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "sovereign",
+      "secondary": "diplomatic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-tca",
+    "brand_name": "Transcontinental Cooperation Alliance",
+    "tagline": "South‑South solidarity. Sovereign trust.",
+    "short_description": "TCA is sovereign and diplomatic — navy globe with a laurel of gold stars, high‑contrast serif display, ivory paper stock.",
+    "long_description": "TCA is sovereign and diplomatic — navy globe with a laurel of gold stars, high‑contrast serif display, ivory paper stock. A multilateral institution that issues communiqués, not press releases.",
+    "mission": "To turn south‑south solidarity and sovereign trust into an operating system through Bilateral cooperation protocols · corridor activation program.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-tca-1",
+        "title": "Operational clarity",
+        "description": "Transcontinental Cooperation Alliance should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-tca-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-tca-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Transcontinental Cooperation Alliance",
+      "market": "International Trade Corridors",
+      "statement": "TCA is sovereign and diplomatic — navy globe with a laurel of gold stars, high‑contrast serif display, ivory paper stock. A multilateral institution that issues communiqués, not press releases.",
+      "differentiators": [
+        "South‑South solidarity and sovereign trust.",
+        "Bilateral cooperation protocols · corridor activation program.",
+        "The Diplomatic House"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Transcontinental Cooperation Alliance: South‑South solidarity. Sovereign trust.",
+      "one_liner": "A trade alliance for a multipolar century."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/tca/config.json",
+        "docs/data/tca/worktree.json",
+        "docs/data/tca/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-tca",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "sovereign",
+      "secondary": "diplomatic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "TCA Alliance",
+        "BRICS‑aligned market access"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/tca/config.json",
+        "docs/data/tca/worktree.json",
+        "docs/data/tca/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-tca",
+    "theme": {
+      "mode": "light",
+      "variant": "corporate-blue",
+      "palette": {
+        "bg": "#F8F2E3",
+        "bg_light": "#F1E7CE",
+        "primary": "#1B3A6B",
+        "primary_light": "#C99846",
+        "secondary": "#0A1F3D",
+        "accent": "#C99846",
+        "text": "#10131A",
+        "text_muted": "#5D5C50",
+        "border": "#E0D2A8",
+        "gradient": "linear-gradient(135deg, #1B3A6B 0%, #C99846 100%)",
+        "primary_ink": "#0A1F3D",
+        "bg_alt": "#F1E7CE",
+        "surface": "#FCF8ED"
+      },
+      "scale": [
+        "#E8EEF7",
+        "#BFCCE1",
+        "#8FA5C6",
+        "#5E7CA7",
+        "#375A8A",
+        "#1B3A6B",
+        "#132B51",
+        "#0C1D39",
+        "#061126",
+        "#020614"
+      ],
+      "semantics": {
+        "success": "#4F7A45",
+        "warning": "#C99846",
+        "danger": "#8B2E2A",
+        "info": "#1B3A6B"
+      }
+    },
+    "typography": {
+      "heading": "Cormorant Garamond",
+      "body": "Work Sans",
+      "display": "Cormorant Garamond",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "xl": "10px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "laurel"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-tca",
+    "logos": [
+      {
+        "id": "asset-tca-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/tca/assets/logos/13-tca.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Tca logo"
+      },
+      {
+        "id": "asset-tca-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/tca/assets/logos/tca.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Tca logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-tca",
+    "domains": [
+      {
+        "domain": "tca.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "tca.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-tca",
+    "domain": "tca.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-tca",
+      "identity_id": "identity-tca",
+      "name": "Transcontinental Cooperation Alliance",
+      "slug": "tca",
+      "domain": "tca.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-tca",
+        "footer_id": "footer-tca",
+        "theme_id": "design-system-tca",
+        "seo_profile_id": "seo-profile-tca"
+      },
+      "pages": [
+        "page-tca-root",
+        "page-tca-alliance",
+        "page-tca-programs",
+        "page-tca-contact",
+        "page-tca-services",
+        "page-tca-about",
+        "page-tca-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-tca",
+    "brand_label": "Transcontinental Cooperation Alliance",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "The Alliance",
+      "href": "/alliance",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-tca",
+    "brand": "Transcontinental Cooperation Alliance",
+    "description": "A diplomatic and economic alliance bridging continents — facilitating cooperation between developing markets and the Middle East, advancing BRICS integration and transcontinental trade.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-tca-root",
+      "website_id": "website-tca",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-root--hero",
+          "page_id": "page-tca-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connecting Intercontinental Trade Corridors",
+            "subheadline": "Developing economies lose billions annually to fragmented cross-border processes, incompatible regulatory frameworks, and the absence of institutional bridges. TCA closes that gap — forging structured cooperation channels between South America, Africa, the Middle East, and BRICS-aligned markets.",
+            "cta_primary_label": "Explore the Alliance",
+            "cta_primary_href": "/alliance",
+            "cta_secondary_label": "Our Programs",
+            "cta_secondary_href": "/programs",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connecting Intercontinental Trade Corridors",
+            "subheadline": "Developing economies lose billions annually to fragmented cross-border processes, incompatible regulatory frameworks, and the absence of institutional bridges. TCA closes that gap — forging structured cooperation channels between South America, Africa, the Middle East, and BRICS-aligned markets.",
+            "cta_primary_label": "Explore the Alliance",
+            "cta_primary_href": "/alliance",
+            "cta_secondary_label": "Our Programs",
+            "cta_secondary_href": "/programs"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__hero_viewed",
+            "cta_events": [
+              "tca_hero_cta-primary-label_clicked",
+              "tca_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--mission",
+          "page_id": "page-tca-root",
+          "section_key": "mission",
+          "pod": "MissionSection",
+          "pad": {
+            "title": "The Problem We Solve",
+            "body": "Intercontinental trade between developing economies remains plagued by institutional silos, regulatory misalignment, and the absence of trusted diplomatic intermediaries. South American exporters cannot reliably reach Middle Eastern buyers. African infrastructure projects lack access to BRICS capital flows. TCA was founded to dismantle these barriers — replacing friction with structured, trust-based cooperation corridors that unlock real economic value across hemispheres.",
+            "vision": "A world where developing economies trade seamlessly across continents — not because borders disappeared, but because institutions learned to cooperate across them.",
+            "values": [
+              "Institutional Trust",
+              "Corridor Integrity",
+              "South-South Solidarity",
+              "BRICS Alignment",
+              "Long-Term Partnership"
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MissionSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The Problem We Solve",
+            "body": "Intercontinental trade between developing economies remains plagued by institutional silos, regulatory misalignment, and the absence of trusted diplomatic intermediaries. South American exporters cannot reliably reach Middle Eastern buyers. African infrastructure projects lack access to BRICS capital flows. TCA was founded to dismantle these barriers — replacing friction with structured, trust-based cooperation corridors that unlock real economic value across hemispheres.",
+            "vision": "A world where developing economies trade seamlessly across continents — not because borders disappeared, but because institutions learned to cooperate across them.",
+            "values": [
+              "Institutional Trust",
+              "Corridor Integrity",
+              "South-South Solidarity",
+              "BRICS Alignment",
+              "Long-Term Partnership"
+            ],
+            "mission": "To turn south‑south solidarity and sovereign trust into an operating system through Bilateral cooperation protocols · corridor activation program.",
+            "statement": "The Problem We Solve requires reviewed statement content for Transcontinental Cooperation Alliance."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__mission_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#mission",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "mission": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Mission statement text",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "statement": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Organization statement text",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--programs",
+          "page_id": "page-tca-root",
+          "section_key": "programs",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "TCA Cooperation Programs",
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "items": [
+              {
+                "name": "Corridor Activation Program",
+                "description": "End-to-end facilitation for entering a new intercontinental trade corridor — covering regulatory mapping, counterpart identification, documentation alignment, and bilateral protocol establishment between institutional partners.",
+                "duration": "6–12 months"
+              },
+              {
+                "name": "BRICS Market Access Track",
+                "description": "Structured guidance for South American and African enterprises seeking to engage BRICS-aligned markets — including China, India, Russia, and the UAE — with compliance advisory, sovereign interface support, and partnership brokerage.",
+                "duration": "3–9 months"
+              },
+              {
+                "name": "Institutional Diplomacy Service",
+                "description": "High-level diplomatic engagement between trade ministries, development banks, and regional economic blocs. TCA acts as neutral intermediary to negotiate memoranda of understanding, bilateral investment frameworks, and multi-party cooperation protocols.",
+                "duration": "Ongoing retainer"
+              },
+              {
+                "name": "Digital Trade Infrastructure",
+                "description": "Deployment of smart contract and digital currency frameworks for cross-border transactions on active TCA corridors — reducing settlement risk, eliminating correspondent banking friction, and enabling real-time trade finance between partner institutions.",
+                "duration": "4–8 months"
+              },
+              {
+                "name": "South-South Knowledge Exchange",
+                "description": "Facilitated transfer of sectoral expertise, regulatory models, and infrastructure blueprints between developing economies at equivalent stages of industrialisation — accelerating adoption without dependence on Northern intermediaries.",
+                "duration": "Cohort-based, 5 months"
+              },
+              {
+                "name": "Corridor Compliance Accelerator",
+                "description": "Fast-track regulatory harmonisation support for enterprises operating across jurisdictions with conflicting customs, tariff, and sanitary frameworks — reducing time-to-market for cross-border trade by up to 60%.",
+                "duration": "2–4 months"
+              }
+            ]
+          },
+          "component": "ProgramGrid",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "TCA Cooperation Programs",
+            "items": [
+              {
+                "name": "Corridor Activation Program",
+                "description": "End-to-end facilitation for entering a new intercontinental trade corridor — covering regulatory mapping, counterpart identification, documentation alignment, and bilateral protocol establishment between institutional partners.",
+                "duration": "6–12 months"
+              },
+              {
+                "name": "BRICS Market Access Track",
+                "description": "Structured guidance for South American and African enterprises seeking to engage BRICS-aligned markets — including China, India, Russia, and the UAE — with compliance advisory, sovereign interface support, and partnership brokerage.",
+                "duration": "3–9 months"
+              },
+              {
+                "name": "Institutional Diplomacy Service",
+                "description": "High-level diplomatic engagement between trade ministries, development banks, and regional economic blocs. TCA acts as neutral intermediary to negotiate memoranda of understanding, bilateral investment frameworks, and multi-party cooperation protocols.",
+                "duration": "Ongoing retainer"
+              },
+              {
+                "name": "Digital Trade Infrastructure",
+                "description": "Deployment of smart contract and digital currency frameworks for cross-border transactions on active TCA corridors — reducing settlement risk, eliminating correspondent banking friction, and enabling real-time trade finance between partner institutions.",
+                "duration": "4–8 months"
+              },
+              {
+                "name": "South-South Knowledge Exchange",
+                "description": "Facilitated transfer of sectoral expertise, regulatory models, and infrastructure blueprints between developing economies at equivalent stages of industrialisation — accelerating adoption without dependence on Northern intermediaries.",
+                "duration": "Cohort-based, 5 months"
+              },
+              {
+                "name": "Corridor Compliance Accelerator",
+                "description": "Fast-track regulatory harmonisation support for enterprises operating across jurisdictions with conflicting customs, tariff, and sanitary frameworks — reducing time-to-market for cross-border trade by up to 60%.",
+                "duration": "2–4 months"
+              }
+            ],
+            "subtitle": "TCA Cooperation Programs becomes a focused operating layer for Transcontinental Cooperation Alliance.",
+            "description": "TCA Cooperation Programs translates South‑South solidarity. Sovereign trust. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__programs_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--timeline",
+          "page_id": "page-tca-root",
+          "section_key": "timeline",
+          "pod": "TimelineSection",
+          "pad": {
+            "title": "Alliance Milestones",
+            "events": [
+              {
+                "year": "2019",
+                "title": "Foundation of TCA",
+                "description": "Established as a diplomatic and institutional bridge organisation focused on facilitating trade between South America and the Middle East, with BRICS integration as the strategic horizon."
+              },
+              {
+                "year": "2020",
+                "title": "First Bilateral Protocol: Brazil–UAE",
+                "description": "Signed the first TCA-mediated bilateral cooperation protocol between Brazilian agricultural exporters and UAE import institutions — establishing the template for all subsequent corridor agreements."
+              },
+              {
+                "year": "2021",
+                "title": "BRICS Alignment Declaration",
+                "description": "Formalised TCA's role as an independent facilitation body aligned with BRICS cooperation objectives, gaining observer status at the BRICS Business Council trade working group."
+              },
+              {
+                "year": "2022",
+                "title": "Africa Corridor Expansion",
+                "description": "Launched the Africa–Middle East Agricultural Belt corridor in partnership with the African Union trade office, extending TCA's operational footprint to 12 sub-Saharan economies."
+              },
+              {
+                "year": "2023",
+                "title": "Digital Trade Infrastructure Pilot",
+                "description": "Deployed the first smart contract settlement framework on the Brazil–Gulf corridor, processing $42M in cross-border transactions without correspondent banking intermediaries."
+              },
+              {
+                "year": "2024",
+                "title": "South Atlantic Energy Corridor",
+                "description": "Activated the Russia–South America energy cooperation corridor, connecting Brazilian and Argentine energy producers with Russian technology and infrastructure partnerships under BRICS development frameworks."
+              },
+              {
+                "year": "2025",
+                "title": "10-Corridor Network Milestone",
+                "description": "Reached 10 active intercontinental trade corridors under TCA institutional management, covering $1.8B in facilitated annual trade volume across 31 participating countries."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "TimelineSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Alliance Milestones",
+            "events": [
+              {
+                "year": "2019",
+                "title": "Foundation of TCA",
+                "description": "Established as a diplomatic and institutional bridge organisation focused on facilitating trade between South America and the Middle East, with BRICS integration as the strategic horizon."
+              },
+              {
+                "year": "2020",
+                "title": "First Bilateral Protocol: Brazil–UAE",
+                "description": "Signed the first TCA-mediated bilateral cooperation protocol between Brazilian agricultural exporters and UAE import institutions — establishing the template for all subsequent corridor agreements."
+              },
+              {
+                "year": "2021",
+                "title": "BRICS Alignment Declaration",
+                "description": "Formalised TCA's role as an independent facilitation body aligned with BRICS cooperation objectives, gaining observer status at the BRICS Business Council trade working group."
+              },
+              {
+                "year": "2022",
+                "title": "Africa Corridor Expansion",
+                "description": "Launched the Africa–Middle East Agricultural Belt corridor in partnership with the African Union trade office, extending TCA's operational footprint to 12 sub-Saharan economies."
+              },
+              {
+                "year": "2023",
+                "title": "Digital Trade Infrastructure Pilot",
+                "description": "Deployed the first smart contract settlement framework on the Brazil–Gulf corridor, processing $42M in cross-border transactions without correspondent banking intermediaries."
+              },
+              {
+                "year": "2024",
+                "title": "South Atlantic Energy Corridor",
+                "description": "Activated the Russia–South America energy cooperation corridor, connecting Brazilian and Argentine energy producers with Russian technology and infrastructure partnerships under BRICS development frameworks."
+              },
+              {
+                "year": "2025",
+                "title": "10-Corridor Network Milestone",
+                "description": "Reached 10 active intercontinental trade corridors under TCA institutional management, covering $1.8B in facilitated annual trade volume across 31 participating countries."
+              }
+            ],
+            "items": [
+              {
+                "id": "alliance-milestones-item-1",
+                "title": "Context with ownership",
+                "description": "Transcontinental Cooperation Alliance keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "alliance-milestones-item-2",
+                "title": "Distinct operating voice",
+                "description": "South‑South solidarity and sovereign trust. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "alliance-milestones-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Bilateral cooperation protocols · corridor activation program. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "subtitle": "Alliance Milestones becomes a focused operating layer for Transcontinental Cooperation Alliance.",
+            "description": "Alliance Milestones translates South‑South solidarity. Sovereign trust. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__timeline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "events": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for TimelineSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for TimelineSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for TimelineSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--bridges",
+          "page_id": "page-tca-root",
+          "section_key": "bridges",
+          "pod": "BridgesSection",
+          "pad": {
+            "title": "Active Trade Corridors",
+            "description": "TCA operates structured bilateral and multilateral cooperation channels across the most strategically significant intercontinental trade routes — connecting markets that share economic complementarity but historically lacked institutional bridges.",
+            "networks": [
+              "Brazil — Gulf Cooperation Council",
+              "South America — BRICS Development Bank",
+              "Africa — Middle East Agricultural Belt",
+              "India — Latin America Manufacturing Link",
+              "China — South American Infrastructure Fund",
+              "Russia — South Atlantic Energy Corridor",
+              "Southeast Asia — Andean Trade Route",
+              "UAE — Mercosur Digital Commerce Bridge",
+              "African Union — BRICS Integration Track",
+              "Iran — South America Commodity Channel"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BridgesSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Active Trade Corridors",
+            "description": "TCA operates structured bilateral and multilateral cooperation channels across the most strategically significant intercontinental trade routes — connecting markets that share economic complementarity but historically lacked institutional bridges.",
+            "networks": [
+              "Brazil — Gulf Cooperation Council",
+              "South America — BRICS Development Bank",
+              "Africa — Middle East Agricultural Belt",
+              "India — Latin America Manufacturing Link",
+              "China — South American Infrastructure Fund",
+              "Russia — South Atlantic Energy Corridor",
+              "Southeast Asia — Andean Trade Route",
+              "UAE — Mercosur Digital Commerce Bridge",
+              "African Union — BRICS Integration Track",
+              "Iran — South America Commodity Channel"
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__bridges_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#bridges",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#bridges",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "networks": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#bridges",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--partners",
+          "page_id": "page-tca-root",
+          "section_key": "partners",
+          "pod": "PartnersSection",
+          "pad": {
+            "title": "Institutional Partner Network",
+            "items": [
+              {
+                "name": "BRICS Development Bank",
+                "description": "Coordination of infrastructure financing pipelines for projects aligned with TCA's active South-South corridors."
+              },
+              {
+                "name": "Gulf Cooperation Council — Trade Office",
+                "description": "Bilateral facilitation for South American agricultural and energy exporters seeking market access across the GCC's six member states."
+              },
+              {
+                "name": "Mercosur Secretariat",
+                "description": "Institutional alignment on tariff harmonisation and bilateral protocol development across TCA's Latin American base."
+              },
+              {
+                "name": "African Union — Continental FTA Office",
+                "description": "Integration of TCA corridor frameworks with the African Continental Free Trade Area — expanding reach to 54 African economies."
+              },
+              {
+                "name": "UAE Ministry of Economy",
+                "description": "Joint facilitation of UAE–Latin America digital trade infrastructure and investment corridor development."
+              },
+              {
+                "name": "Arab–Brazilian Chamber of Commerce",
+                "description": "Long-standing institutional partner providing market intelligence and business delegation support for Brazil–Arab World trade flows."
+              },
+              {
+                "name": "New Development Bank",
+                "description": "Co-financing partner for corridor infrastructure projects across BRICS-adjacent developing economies."
+              },
+              {
+                "name": "ECLAC — UN Economic Commission",
+                "description": "Research and policy partnership for evidence-based corridor design in Latin American and Caribbean trade development."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "PartnersSection",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Institutional Partner Network",
+            "items": [
+              {
+                "name": "BRICS Development Bank",
+                "description": "Coordination of infrastructure financing pipelines for projects aligned with TCA's active South-South corridors."
+              },
+              {
+                "name": "Gulf Cooperation Council — Trade Office",
+                "description": "Bilateral facilitation for South American agricultural and energy exporters seeking market access across the GCC's six member states."
+              },
+              {
+                "name": "Mercosur Secretariat",
+                "description": "Institutional alignment on tariff harmonisation and bilateral protocol development across TCA's Latin American base."
+              },
+              {
+                "name": "African Union — Continental FTA Office",
+                "description": "Integration of TCA corridor frameworks with the African Continental Free Trade Area — expanding reach to 54 African economies."
+              },
+              {
+                "name": "UAE Ministry of Economy",
+                "description": "Joint facilitation of UAE–Latin America digital trade infrastructure and investment corridor development."
+              },
+              {
+                "name": "Arab–Brazilian Chamber of Commerce",
+                "description": "Long-standing institutional partner providing market intelligence and business delegation support for Brazil–Arab World trade flows."
+              },
+              {
+                "name": "New Development Bank",
+                "description": "Co-financing partner for corridor infrastructure projects across BRICS-adjacent developing economies."
+              },
+              {
+                "name": "ECLAC — UN Economic Commission",
+                "description": "Research and policy partnership for evidence-based corridor design in Latin American and Caribbean trade development."
+              }
+            ],
+            "subtitle": "Institutional Partner Network becomes a focused operating layer for Transcontinental Cooperation Alliance.",
+            "description": "Institutional Partner Network translates South‑South solidarity. Sovereign trust. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__partners_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--cta",
+          "page_id": "page-tca-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Open a Corridor. Build a Partnership.",
+            "description": "Whether you represent a trading enterprise, a development institution, or a government ministry — TCA provides the institutional infrastructure to turn intercontinental ambition into active, compliant, and bankable trade corridors.",
+            "cta_primary_label": "Request a Corridor Assessment",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Explore Programs",
+            "cta_secondary_href": "/programs"
+          },
+          "component": "CTA",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Open a Corridor. Build a Partnership.",
+            "description": "Whether you represent a trading enterprise, a development institution, or a government ministry — TCA provides the institutional infrastructure to turn intercontinental ambition into active, compliant, and bankable trade corridors.",
+            "cta_primary_label": "Request a Corridor Assessment",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Explore Programs",
+            "cta_secondary_href": "/programs"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "tca__cta_viewed",
+            "cta_events": [
+              "tca_cta_cta-primary-label_clicked",
+              "tca_cta_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-root--contact-home",
+          "page_id": "page-tca-root",
+          "section_key": "contact-home",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Start the Conversation",
+            "description": "Tell us about your market, your corridor objective, and your institutional context. A TCA trade facilitation specialist will respond within 48 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "organisation",
+                "label": "Organisation / Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "corridor",
+                "label": "Trade Corridor of Interest",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Describe Your Cooperation Objective",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Corridor Inquiry",
+            "site_name": "Transcontinental Cooperation Alliance",
+            "site_slug": "tca",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 8,
+          "status": "active",
+          "content": {
+            "title": "Start the Conversation",
+            "description": "Tell us about your market, your corridor objective, and your institutional context. A TCA trade facilitation specialist will respond within 48 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "organisation",
+                "label": "Organisation / Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "corridor",
+                "label": "Trade Corridor of Interest",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Describe Your Cooperation Objective",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Corridor Inquiry",
+            "site_name": "Transcontinental Cooperation Alliance",
+            "site_slug": "tca",
+            "subtitle": "Start the Conversation becomes a focused operating layer for Transcontinental Cooperation Alliance."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca__contact-home_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-alliance",
+      "website_id": "website-tca",
+      "path": "/alliance",
+      "slug": "alliance",
+      "title": "The Alliance",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-alliance--hero",
+          "page_id": "page-tca-alliance",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "The Transcontinental Cooperation Alliance",
+            "subheadline": "An independent institutional body dedicated to building the diplomatic, regulatory, and commercial infrastructure that makes intercontinental trade between developing economies viable, scalable, and sovereign.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "The Transcontinental Cooperation Alliance",
+            "subheadline": "An independent institutional body dedicated to building the diplomatic, regulatory, and commercial infrastructure that makes intercontinental trade between developing economies viable, scalable, and sovereign."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_alliance_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-alliance--mvv",
+          "page_id": "page-tca-alliance",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To eliminate the institutional barriers that prevent developing economies from trading effectively across hemispheres — replacing fragmentation with structured cooperation corridors grounded in sovereign trust, regulatory alignment, and long-term partnership.",
+            "vision": "A fully interconnected South-South trade architecture in which every developing economy has institutional access to every major intercontinental corridor — independent of Northern intermediaries.",
+            "values": [
+              "Sovereign Cooperation",
+              "Institutional Integrity",
+              "South-South Priority",
+              "Regulatory Clarity",
+              "Corridor Permanence",
+              "Cultural Understanding"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To eliminate the institutional barriers that prevent developing economies from trading effectively across hemispheres — replacing fragmentation with structured cooperation corridors grounded in sovereign trust, regulatory alignment, and long-term partnership.",
+            "vision": "A fully interconnected South-South trade architecture in which every developing economy has institutional access to every major intercontinental corridor — independent of Northern intermediaries.",
+            "values": [
+              "Sovereign Cooperation",
+              "Institutional Integrity",
+              "South-South Priority",
+              "Regulatory Clarity",
+              "Corridor Permanence",
+              "Cultural Understanding"
+            ],
+            "title": "Mvv requires reviewed title content for Transcontinental Cooperation Alliance.",
+            "description": "Mvv translates South‑South solidarity. Sovereign trust. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for Transcontinental Cooperation Alliance.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Transcontinental Cooperation Alliance keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "South‑South solidarity and sovereign trust. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Bilateral cooperation protocols · corridor activation program. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Transcontinental Cooperation Alliance keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "South‑South solidarity and sovereign trust. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Bilateral cooperation protocols · corridor activation program. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_alliance_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-alliance--cta-alliance",
+          "page_id": "page-tca-alliance",
+          "section_key": "cta-alliance",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join the Alliance Network",
+            "description": "TCA works with trading enterprises, development banks, trade ministries, and regional blocs. If you operate at the intersection of developing economies and intercontinental trade, there is a place for you in the TCA institutional network.",
+            "cta_primary_label": "Contact the Alliance",
+            "cta_primary_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Join the Alliance Network",
+            "description": "TCA works with trading enterprises, development banks, trade ministries, and regional blocs. If you operate at the intersection of developing economies and intercontinental trade, there is a place for you in the TCA institutional network.",
+            "cta_primary_label": "Contact the Alliance",
+            "cta_primary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "tca_alliance_cta-alliance_viewed",
+            "cta_events": [
+              "tca_cta-alliance_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#cta-alliance",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#cta-alliance",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#cta-alliance",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /alliance#cta-alliance",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-programs",
+      "website_id": "website-tca",
+      "path": "/programs",
+      "slug": "programs",
+      "title": "Programs",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-programs--hero",
+          "page_id": "page-tca-programs",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Cooperation Programs",
+            "subheadline": "Structured, time-bound engagements designed to activate intercontinental trade corridors, facilitate BRICS market access, and deploy digital trade infrastructure for developing economy enterprises and institutions.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Cooperation Programs",
+            "subheadline": "Structured, time-bound engagements designed to activate intercontinental trade corridors, facilitate BRICS market access, and deploy digital trade infrastructure for developing economy enterprises and institutions."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_programs_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-programs--program-grid",
+          "page_id": "page-tca-programs",
+          "section_key": "program-grid",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "Available Programs",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "items": [
+              {
+                "name": "Corridor Activation Program",
+                "description": "End-to-end facilitation for entering a new intercontinental trade corridor — covering regulatory mapping, counterpart identification, documentation alignment, and bilateral protocol establishment between institutional partners.",
+                "duration": "6–12 months"
+              },
+              {
+                "name": "BRICS Market Access Track",
+                "description": "Structured guidance for South American and African enterprises seeking to engage BRICS-aligned markets — including China, India, Russia, and the UAE — with compliance advisory, sovereign interface support, and partnership brokerage.",
+                "duration": "3–9 months"
+              },
+              {
+                "name": "Institutional Diplomacy Service",
+                "description": "High-level diplomatic engagement between trade ministries, development banks, and regional economic blocs. TCA acts as neutral intermediary to negotiate memoranda of understanding, bilateral investment frameworks, and multi-party cooperation protocols.",
+                "duration": "Ongoing retainer"
+              },
+              {
+                "name": "Digital Trade Infrastructure",
+                "description": "Deployment of smart contract and digital currency frameworks for cross-border transactions on active TCA corridors — reducing settlement risk, eliminating correspondent banking friction, and enabling real-time trade finance between partner institutions.",
+                "duration": "4–8 months"
+              },
+              {
+                "name": "South-South Knowledge Exchange",
+                "description": "Facilitated transfer of sectoral expertise, regulatory models, and infrastructure blueprints between developing economies at equivalent stages of industrialisation — accelerating adoption without dependence on Northern intermediaries.",
+                "duration": "Cohort-based, 5 months"
+              },
+              {
+                "name": "Corridor Compliance Accelerator",
+                "description": "Fast-track regulatory harmonisation support for enterprises operating across jurisdictions with conflicting customs, tariff, and sanitary frameworks — reducing time-to-market for cross-border trade by up to 60%.",
+                "duration": "2–4 months"
+              }
+            ]
+          },
+          "component": "ProgramGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Available Programs",
+            "items": [
+              {
+                "name": "Corridor Activation Program",
+                "description": "End-to-end facilitation for entering a new intercontinental trade corridor — covering regulatory mapping, counterpart identification, documentation alignment, and bilateral protocol establishment between institutional partners.",
+                "duration": "6–12 months"
+              },
+              {
+                "name": "BRICS Market Access Track",
+                "description": "Structured guidance for South American and African enterprises seeking to engage BRICS-aligned markets — including China, India, Russia, and the UAE — with compliance advisory, sovereign interface support, and partnership brokerage.",
+                "duration": "3–9 months"
+              },
+              {
+                "name": "Institutional Diplomacy Service",
+                "description": "High-level diplomatic engagement between trade ministries, development banks, and regional economic blocs. TCA acts as neutral intermediary to negotiate memoranda of understanding, bilateral investment frameworks, and multi-party cooperation protocols.",
+                "duration": "Ongoing retainer"
+              },
+              {
+                "name": "Digital Trade Infrastructure",
+                "description": "Deployment of smart contract and digital currency frameworks for cross-border transactions on active TCA corridors — reducing settlement risk, eliminating correspondent banking friction, and enabling real-time trade finance between partner institutions.",
+                "duration": "4–8 months"
+              },
+              {
+                "name": "South-South Knowledge Exchange",
+                "description": "Facilitated transfer of sectoral expertise, regulatory models, and infrastructure blueprints between developing economies at equivalent stages of industrialisation — accelerating adoption without dependence on Northern intermediaries.",
+                "duration": "Cohort-based, 5 months"
+              },
+              {
+                "name": "Corridor Compliance Accelerator",
+                "description": "Fast-track regulatory harmonisation support for enterprises operating across jurisdictions with conflicting customs, tariff, and sanitary frameworks — reducing time-to-market for cross-border trade by up to 60%.",
+                "duration": "2–4 months"
+              }
+            ],
+            "subtitle": "Available Programs becomes a focused operating layer for Transcontinental Cooperation Alliance.",
+            "description": "Available Programs translates South‑South solidarity. Sovereign trust. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_programs_program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-programs--cta-programs",
+          "page_id": "page-tca-programs",
+          "section_key": "cta-programs",
+          "pod": "CTA",
+          "pad": {
+            "title": "Find the Right Program for Your Corridor",
+            "description": "TCA's facilitation specialists will assess your market position, institutional context, and corridor objective — then recommend the program combination that maximises your chances of a successful intercontinental trade activation.",
+            "cta_primary_label": "Request a Program Assessment",
+            "cta_primary_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Find the Right Program for Your Corridor",
+            "description": "TCA's facilitation specialists will assess your market position, institutional context, and corridor objective — then recommend the program combination that maximises your chances of a successful intercontinental trade activation.",
+            "cta_primary_label": "Request a Program Assessment",
+            "cta_primary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "tca_programs_cta-programs_viewed",
+            "cta_events": [
+              "tca_cta-programs_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#cta-programs",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-contact",
+      "website_id": "website-tca",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-contact--hero",
+          "page_id": "page-tca-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Open a Corridor. Start Here.",
+            "subheadline": "Reach TCA's institutional facilitation team to discuss trade corridor opportunities, program eligibility, or partnership development across BRICS-aligned and intercontinental markets.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Open a Corridor. Start Here.",
+            "subheadline": "Reach TCA's institutional facilitation team to discuss trade corridor opportunities, program eligibility, or partnership development across BRICS-aligned and intercontinental markets."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-contact--form",
+          "page_id": "page-tca-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Corridor Inquiry Form",
+            "description": "Tell us about your market, your corridor objective, and your institutional context. A TCA trade facilitation specialist will respond within 48 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "organisation",
+                "label": "Organisation / Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "country",
+                "label": "Country of Operation",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "corridor",
+                "label": "Trade Corridor of Interest",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Describe Your Cooperation Objective",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Corridor Inquiry",
+            "site_name": "Transcontinental Cooperation Alliance",
+            "site_slug": "tca",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Corridor Inquiry Form",
+            "description": "Tell us about your market, your corridor objective, and your institutional context. A TCA trade facilitation specialist will respond within 48 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "organisation",
+                "label": "Organisation / Institution",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "country",
+                "label": "Country of Operation",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "corridor",
+                "label": "Trade Corridor of Interest",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "message",
+                "label": "Describe Your Cooperation Objective",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Corridor Inquiry",
+            "site_name": "Transcontinental Cooperation Alliance",
+            "site_slug": "tca",
+            "subtitle": "Corridor Inquiry Form becomes a focused operating layer for Transcontinental Cooperation Alliance."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-services",
+      "website_id": "website-tca",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-services--services-manifesto",
+          "page_id": "page-tca-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Transcontinental Cooperation Alliance Services",
+            "body": "Explore what Transcontinental Cooperation Alliance offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "Transcontinental Cooperation Alliance Services",
+            "body": "Explore what Transcontinental Cooperation Alliance offers in services. Content coming soon.",
+            "stat_1": "Transcontinental Cooperation Alliance Services requires reviewed stat_1 content for Transcontinental Cooperation Alliance.",
+            "stat_2": "Transcontinental Cooperation Alliance Services requires reviewed stat_2 content for Transcontinental Cooperation Alliance.",
+            "stat_3": "Transcontinental Cooperation Alliance Services requires reviewed stat_3 content for Transcontinental Cooperation Alliance.",
+            "stats": "Transcontinental Cooperation Alliance Services requires reviewed stats content for Transcontinental Cooperation Alliance.",
+            "subtitle": "Transcontinental Cooperation Alliance Services becomes a focused operating layer for Transcontinental Cooperation Alliance."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-services--services-cta",
+          "page_id": "page-tca-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About Transcontinental Cooperation Alliance",
+            "description": "Discover everything Transcontinental Cooperation Alliance has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About Transcontinental Cooperation Alliance",
+            "description": "Discover everything Transcontinental Cooperation Alliance has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_services_services-cta_viewed",
+            "cta_events": [
+              "tca_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-about",
+      "website_id": "website-tca",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-about--about-manifesto",
+          "page_id": "page-tca-about",
+          "section_key": "about-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Transcontinental Cooperation Alliance About",
+            "body": "Explore what Transcontinental Cooperation Alliance offers in about. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "Transcontinental Cooperation Alliance About",
+            "body": "Explore what Transcontinental Cooperation Alliance offers in about. Content coming soon.",
+            "stat_1": "Transcontinental Cooperation Alliance About requires reviewed stat_1 content for Transcontinental Cooperation Alliance.",
+            "stat_2": "Transcontinental Cooperation Alliance About requires reviewed stat_2 content for Transcontinental Cooperation Alliance.",
+            "stat_3": "Transcontinental Cooperation Alliance About requires reviewed stat_3 content for Transcontinental Cooperation Alliance.",
+            "stats": "Transcontinental Cooperation Alliance About requires reviewed stats content for Transcontinental Cooperation Alliance.",
+            "subtitle": "Transcontinental Cooperation Alliance About becomes a focused operating layer for Transcontinental Cooperation Alliance."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_about_about-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-about--about-cta",
+          "page_id": "page-tca-about",
+          "section_key": "about-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About Transcontinental Cooperation Alliance",
+            "description": "Discover everything Transcontinental Cooperation Alliance has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About Transcontinental Cooperation Alliance",
+            "description": "Discover everything Transcontinental Cooperation Alliance has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_about_about-cta_viewed",
+            "cta_events": [
+              "tca_about-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-tca-404",
+      "website_id": "website-tca",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-tca-404--not-found-hero",
+          "page_id": "page-tca-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Transcontinental Cooperation Alliance — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Transcontinental Cooperation Alliance — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-tca-404--not-found-cta",
+          "page_id": "page-tca-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Transcontinental Cooperation Alliance.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Transcontinental Cooperation Alliance.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "tca_404_not-found-cta_viewed",
+            "cta_events": [
+              "tca_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/tca/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BridgesSection",
+      "category": "section",
+      "description": "BridgesSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 247
+        },
+        "networks": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 149
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 98
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 119
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 119
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 119
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 118
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 120
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MissionSection",
+      "category": "section",
+      "description": "MissionSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 476
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 163
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 146
+        },
+        "statement": {
+          "type": "string",
+          "required": false,
+          "max_length": 99
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 259
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 195
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 221
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "PartnersSection",
+      "category": "section",
+      "description": "PartnersSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 106
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 247
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProgramGrid",
+      "category": "section",
+      "description": "ProgramGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 95
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 236
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TimelineSection",
+      "category": "section",
+      "description": "TimelineSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "events": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 96
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 237
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-tca",
+    "total_original_gaps": 28,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "mission",
+        "pod": "MissionSection",
+        "field": "mission",
+        "headline": "The Problem We Solve",
+        "reason": "no_kb_match",
+        "needed": "Mission statement text",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "mission",
+        "pod": "MissionSection",
+        "field": "statement",
+        "headline": "The Problem We Solve",
+        "reason": "no_kb_match",
+        "needed": "Organization statement text",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "TCA Cooperation Programs",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "TCA Cooperation Programs",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "items",
+        "headline": "Alliance Milestones",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for TimelineSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "subtitle",
+        "headline": "Alliance Milestones",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for TimelineSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "description",
+        "headline": "Alliance Milestones",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for TimelineSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "subtitle",
+        "headline": "Institutional Partner Network",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "description",
+        "headline": "Institutional Partner Network",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact-home",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Start the Conversation",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "Available Programs",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "Available Programs",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Corridor Inquiry Form",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "Transcontinental Cooperation Alliance Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "Transcontinental Cooperation Alliance Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "Transcontinental Cooperation Alliance Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Transcontinental Cooperation Alliance Services",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Transcontinental Cooperation Alliance Services",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "Transcontinental Cooperation Alliance About",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "Transcontinental Cooperation Alliance About",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "Transcontinental Cooperation Alliance About",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Transcontinental Cooperation Alliance About",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Transcontinental Cooperation Alliance About",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "mission",
+        "pod": "MissionSection",
+        "field": "mission",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "mission",
+        "pod": "MissionSection",
+        "field": "statement",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "timeline",
+        "pod": "TimelineSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "partners",
+        "pod": "PartnersSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact-home",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/alliance",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-tca",
+      "canonical_base_url": "https://tca.codeloop.co",
+      "default_title": "Transcontinental Cooperation Alliance",
+      "default_description": "A diplomatic and economic alliance bridging continents — facilitating cooperation between developing markets and the Middle East, advancing BRICS integration and transcontinental trade.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/tca/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-tca-root",
+        "title": "Home",
+        "description": "Developing economies lose billions annually to fragmented cross-border processes, incompatible regulatory frameworks, and the absence of institutional bridges. TCA closes that gap — forging structured cooperation channels between South America, Africa, the Middle East, and BRICS-aligned markets.",
+        "canonical": "https://tca.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-alliance",
+        "title": "The Alliance",
+        "description": "An independent institutional body dedicated to building the diplomatic, regulatory, and commercial infrastructure that makes intercontinental trade between developing economies viable, scalable, and sovereign.",
+        "canonical": "https://tca.codeloop.co/alliance",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-programs",
+        "title": "Programs",
+        "description": "Structured, time-bound engagements designed to activate intercontinental trade corridors, facilitate BRICS market access, and deploy digital trade infrastructure for developing economy enterprises and institutions.",
+        "canonical": "https://tca.codeloop.co/programs",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-contact",
+        "title": "Contact",
+        "description": "Reach TCA's institutional facilitation team to discuss trade corridor opportunities, program eligibility, or partnership development across BRICS-aligned and intercontinental markets.",
+        "canonical": "https://tca.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-services",
+        "title": "Services",
+        "description": "A diplomatic and economic alliance bridging continents — facilitating cooperation between developing markets and the Middle East, advancing BRICS integration and transcontinental trade.",
+        "canonical": "https://tca.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-about",
+        "title": "About",
+        "description": "A diplomatic and economic alliance bridging continents — facilitating cooperation between developing markets and the Middle East, advancing BRICS integration and transcontinental trade.",
+        "canonical": "https://tca.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-tca-404",
+        "title": "Page Not Found",
+        "description": "Transcontinental Cooperation Alliance — Pagina nao encontrada",
+        "canonical": "https://tca.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-tca",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "tca__hero_viewed",
+      "tca__mission_viewed",
+      "tca__programs_viewed",
+      "tca__timeline_viewed",
+      "tca__bridges_viewed",
+      "tca__partners_viewed",
+      "tca__cta_viewed",
+      "tca__contact-home_viewed",
+      "tca_alliance_hero_viewed",
+      "tca_alliance_mvv_viewed",
+      "tca_alliance_cta-alliance_viewed",
+      "tca_programs_hero_viewed",
+      "tca_programs_program-grid_viewed",
+      "tca_programs_cta-programs_viewed",
+      "tca_contact_hero_viewed",
+      "tca_contact_form_viewed",
+      "tca_services_services-manifesto_viewed",
+      "tca_services_services-cta_viewed",
+      "tca_about_about-manifesto_viewed",
+      "tca_about_about-cta_viewed",
+      "tca_404_not-found-hero_viewed",
+      "tca_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-tca",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-tca",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-tca-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-tca-primary",
+        "name": "The Diplomatic House",
+        "description": "TCA is sovereign and diplomatic — navy globe with a laurel of gold stars, high‑contrast serif display, ivory paper stock. A multilateral institution that issues communiqués, not press releases."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-tca-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-tca-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-tca",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/tca/config.json",
+      "docs/data/tca/worktree.json",
+      "docs/data/tca/gaps.json"
+    ]
+  }
+}

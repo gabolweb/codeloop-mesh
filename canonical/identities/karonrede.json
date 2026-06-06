@@ -1,0 +1,3749 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "none",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/karonrede/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/karonrede/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/karonrede/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/karonrede.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-karonrede",
+    "slug": "karonrede",
+    "name": "Karon Rede",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "Karon",
+    "description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+    "mission": "To make Karon Rede a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-karonrede-1",
+        "title": "Operational clarity",
+        "description": "Karon Rede should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-karonrede-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-karonrede-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-karonrede",
+    "brand_name": "Karon Rede",
+    "tagline": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+    "short_description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+    "long_description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+    "mission": "To make Karon Rede a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-karonrede-1",
+        "title": "Operational clarity",
+        "description": "Karon Rede should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-karonrede-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-karonrede-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Karon Rede: Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+      "one_liner": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "low",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/karonrede/config.json",
+        "docs/data/karonrede/worktree.json",
+        "docs/data/karonrede/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-karonrede",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "low",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/karonrede/config.json",
+        "docs/data/karonrede/worktree.json",
+        "docs/data/karonrede/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-karonrede",
+    "theme": {
+      "mode": "light",
+      "variant": "dark-tech",
+      "palette": {
+        "bg": "#050d08",
+        "bg_light": "#0a1a0e",
+        "primary": "#10b981",
+        "primary_light": "#34d399",
+        "secondary": "#06b6d4",
+        "accent": "#f59e0b",
+        "text": "#ecfdf5",
+        "text_muted": "#6ee7b7",
+        "border": "rgba(16,185,129,0.15)",
+        "gradient": "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Space Grotesk",
+      "body": "Space Grotesk",
+      "display": "Space Grotesk",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-karonrede",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-karonrede",
+    "domains": [
+      {
+        "domain": "karonrede.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "karonrede.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-karonrede",
+    "domain": "karonrede.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-karonrede",
+      "identity_id": "identity-karonrede",
+      "name": "Karon Rede",
+      "slug": "karonrede",
+      "domain": "karonrede.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-karonrede",
+        "footer_id": "footer-karonrede",
+        "theme_id": "design-system-karonrede",
+        "seo_profile_id": "seo-profile-karonrede"
+      },
+      "pages": [
+        "page-karonrede-root",
+        "page-karonrede-programs",
+        "page-karonrede-about",
+        "page-karonrede-contact",
+        "page-karonrede-services",
+        "page-karonrede-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-karonrede",
+    "brand_label": "Karon Rede",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "The Network",
+      "href": "/network",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-karonrede",
+    "brand": "Karon Rede",
+    "description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-karonrede-root",
+      "website_id": "website-karonrede",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-root--hero",
+          "page_id": "page-karonrede-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Karon Rede — The Professional Network That Works",
+            "subheadline": "Not another social network. A structured community of professionals with curated programs, mentorship, and real collaboration.",
+            "cta_primary_label": "Explore Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Join the Network",
+            "cta_secondary_href": "/contact",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Karon Rede — The Professional Network That Works",
+            "subheadline": "Not another social network. A structured community of professionals with curated programs, mentorship, and real collaboration.",
+            "cta_primary_label": "Explore Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Join the Network",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__hero_viewed",
+            "cta_events": [
+              "karonrede_hero_cta-primary-label_clicked",
+              "karonrede_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--process-section",
+          "page_id": "page-karonrede-root",
+          "section_key": "process-section",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "Your path inside the network",
+            "steps": [
+              {
+                "title": "Join",
+                "description": "Apply for membership with a short profile covering your professional background, current focus, and what you're looking to give and get from the network."
+              },
+              {
+                "title": "Profile",
+                "description": "Your profile is the basis for all matching — programs, mentors, peer groups, and events are suggested based on what you're actually working on."
+              },
+              {
+                "title": "Match",
+                "description": "Our community team reviews your profile and manually curates your first three introductions or program placements within two weeks of joining."
+              },
+              {
+                "title": "Engage",
+                "description": "Attend your matched sessions, participate in your assigned program, and contribute to the community — the network only gets stronger with active members."
+              },
+              {
+                "title": "Grow",
+                "description": "Track your outcomes — skills gained, relationships built, projects launched. Members who engage consistently report measurable career and business progress within six months."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Your path inside the network",
+            "steps": [
+              {
+                "title": "Join",
+                "description": "Apply for membership with a short profile covering your professional background, current focus, and what you're looking to give and get from the network."
+              },
+              {
+                "title": "Profile",
+                "description": "Your profile is the basis for all matching — programs, mentors, peer groups, and events are suggested based on what you're actually working on."
+              },
+              {
+                "title": "Match",
+                "description": "Our community team reviews your profile and manually curates your first three introductions or program placements within two weeks of joining."
+              },
+              {
+                "title": "Engage",
+                "description": "Attend your matched sessions, participate in your assigned program, and contribute to the community — the network only gets stronger with active members."
+              },
+              {
+                "title": "Grow",
+                "description": "Track your outcomes — skills gained, relationships built, projects launched. Members who engage consistently report measurable career and business progress within six months."
+              }
+            ],
+            "subtitle": "Your path inside the network becomes a focused operating layer for Karon Rede.",
+            "description": "Your path inside the network translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__process-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--ecosystem-section",
+          "page_id": "page-karonrede-root",
+          "section_key": "ecosystem-section",
+          "pod": "EcosystemSection",
+          "pad": {
+            "title": "Networks create value when they create connections, not just contacts.",
+            "body": "Karon Rede orchestrates professional communities with structure and intent. Every program, every pairing, every event is designed to produce a concrete outcome — not just another coffee meeting or LinkedIn follow.",
+            "items": [
+              {
+                "label": "Active Members",
+                "value": "2,800+"
+              },
+              {
+                "label": "Programs Running",
+                "value": "14"
+              },
+              {
+                "label": "Industries Represented",
+                "value": "22"
+              },
+              {
+                "label": "Mentorship Pairs Formed",
+                "value": "640+"
+              }
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "EcosystemSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Networks create value when they create connections, not just contacts.",
+            "body": "Karon Rede orchestrates professional communities with structure and intent. Every program, every pairing, every event is designed to produce a concrete outcome — not just another coffee meeting or LinkedIn follow.",
+            "items": [
+              {
+                "label": "Active Members",
+                "value": "2,800+"
+              },
+              {
+                "label": "Programs Running",
+                "value": "14"
+              },
+              {
+                "label": "Industries Represented",
+                "value": "22"
+              },
+              {
+                "label": "Mentorship Pairs Formed",
+                "value": "640+"
+              }
+            ],
+            "description": "Networks create value when they create connections, not just contacts. translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Networks create value when they create connections, not just contacts. becomes a focused operating layer for Karon Rede.",
+            "features": [
+              {
+                "id": "networks-create-value-when-they-create-connections-not-just-contacts-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Rede keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "networks-create-value-when-they-create-connections-not-just-contacts-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "networks-create-value-when-they-create-connections-not-just-contacts-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__ecosystem-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--program-grid",
+          "page_id": "page-karonrede-root",
+          "section_key": "program-grid",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "What runs inside Karon Rede",
+            "items": [
+              {
+                "title": "MentorLoop",
+                "description": "Structured mentorship pairing that matches experienced professionals with practitioners based on goals, industry, and availability — with a 12-week guided program framework."
+              },
+              {
+                "title": "SkillForge",
+                "description": "Peer learning groups and expert-led workshops on practical skills — product, data, operations, design, and leadership. Small cohorts, real practice."
+              },
+              {
+                "title": "LaunchPad",
+                "description": "A dedicated support program for entrepreneurs inside the network — workshops, accountability groups, pitch practice, and direct connections to the CodeLoop Ecosystem."
+              },
+              {
+                "title": "CrossPollinate",
+                "description": "Inter-industry networking events that connect professionals across sectors — structured formats that make every conversation count, not just casual mixers."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProgramGrid",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "What runs inside Karon Rede",
+            "items": [
+              {
+                "title": "MentorLoop",
+                "description": "Structured mentorship pairing that matches experienced professionals with practitioners based on goals, industry, and availability — with a 12-week guided program framework."
+              },
+              {
+                "title": "SkillForge",
+                "description": "Peer learning groups and expert-led workshops on practical skills — product, data, operations, design, and leadership. Small cohorts, real practice."
+              },
+              {
+                "title": "LaunchPad",
+                "description": "A dedicated support program for entrepreneurs inside the network — workshops, accountability groups, pitch practice, and direct connections to the CodeLoop Ecosystem."
+              },
+              {
+                "title": "CrossPollinate",
+                "description": "Inter-industry networking events that connect professionals across sectors — structured formats that make every conversation count, not just casual mixers."
+              }
+            ],
+            "subtitle": "What runs inside Karon Rede becomes a focused operating layer for Karon Rede.",
+            "description": "What runs inside Karon Rede translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-grid",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-grid",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--benefits-section",
+          "page_id": "page-karonrede-root",
+          "section_key": "benefits-section",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "What makes Karon Rede different",
+            "items": [
+              {
+                "title": "Curated connections, not random ones",
+                "description": "Every introduction is intentional. Our matching engine and community managers ensure you meet people who are actually relevant to your current goals."
+              },
+              {
+                "title": "Structured programs, not just events",
+                "description": "We run ongoing programs with clear frameworks — not one-off meetups. Members show up knowing what they're working toward and who they're working with."
+              },
+              {
+                "title": "Measurable outcomes",
+                "description": "We track what happens after the network interaction — promotions, partnerships, hires, and ventures — because outcomes are how we measure network health."
+              },
+              {
+                "title": "Global reach, local depth",
+                "description": "Karon Rede operates across multiple cities with region-specific community leads who know the local professional landscape."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "What makes Karon Rede different",
+            "items": [
+              {
+                "title": "Curated connections, not random ones",
+                "description": "Every introduction is intentional. Our matching engine and community managers ensure you meet people who are actually relevant to your current goals."
+              },
+              {
+                "title": "Structured programs, not just events",
+                "description": "We run ongoing programs with clear frameworks — not one-off meetups. Members show up knowing what they're working toward and who they're working with."
+              },
+              {
+                "title": "Measurable outcomes",
+                "description": "We track what happens after the network interaction — promotions, partnerships, hires, and ventures — because outcomes are how we measure network health."
+              },
+              {
+                "title": "Global reach, local depth",
+                "description": "Karon Rede operates across multiple cities with region-specific community leads who know the local professional landscape."
+              }
+            ],
+            "description": "What makes Karon Rede different translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "What makes Karon Rede different becomes a focused operating layer for Karon Rede.",
+            "features": [
+              {
+                "id": "what-makes-karon-rede-different-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Rede keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "what-makes-karon-rede-different-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "what-makes-karon-rede-different-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__benefits-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--c-t-a",
+          "page_id": "page-karonrede-root",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join a network that delivers",
+            "description": "Karon Rede membership is by application. We keep cohorts small so every member gets real value, not just access.",
+            "cta_label": "Apply for Membership",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Join a network that delivers",
+            "description": "Karon Rede membership is by application. We keep cohorts small so every member gets real value, not just access.",
+            "cta_label": "Apply for Membership",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonrede__c-t-a_viewed",
+            "cta_events": [
+              "karonrede_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-root--contact-form",
+          "page_id": "page-karonrede-root",
+          "section_key": "contact-form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Apply or enquire",
+            "subtitle": "Tell us who you are, what you're working on, and what you're looking for in a professional network.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Rede",
+            "site_slug": "karonrede",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Apply or enquire",
+            "subtitle": "Tell us who you are, what you're working on, and what you're looking for in a professional network.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Rede",
+            "site_slug": "karonrede"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede__contact-form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonrede-programs",
+      "website_id": "website-karonrede",
+      "path": "/programs",
+      "slug": "programs",
+      "title": "Programs",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-programs--hero",
+          "page_id": "page-karonrede-programs",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Programs That Move Careers Forward",
+            "subheadline": "Every Karon Rede program is designed around a specific professional outcome — not general networking.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Learn More",
+            "cta_secondary_href": "/about",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Programs That Move Careers Forward",
+            "subheadline": "Every Karon Rede program is designed around a specific professional outcome — not general networking.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Learn More",
+            "cta_secondary_href": "/about"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_programs_hero_viewed",
+            "cta_events": [
+              "karonrede_hero_cta-primary-label_clicked",
+              "karonrede_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#hero",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-programs--program-grid",
+          "page_id": "page-karonrede-programs",
+          "section_key": "program-grid",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "Current programs",
+            "items": [
+              {
+                "title": "MentorLoop",
+                "description": "12-week structured mentorship. One mentor, one mentee, a shared goal, and biweekly sessions with guided frameworks and accountability check-ins."
+              },
+              {
+                "title": "SkillForge",
+                "description": "Cohorts of 8-12 professionals learning a specific skill together over 6 weeks — led by an expert practitioner with real deliverables at the end."
+              },
+              {
+                "title": "LaunchPad",
+                "description": "8-week entrepreneur support program with a mix of workshops, office hours, peer accountability groups, and direct introductions within the CodeLoop Ecosystem."
+              },
+              {
+                "title": "CrossPollinate",
+                "description": "Quarterly cross-industry events with facilitated formats — structured conversations, roundtables, and one-to-one sessions designed to create genuine professional introductions."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProgramGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Current programs",
+            "items": [
+              {
+                "title": "MentorLoop",
+                "description": "12-week structured mentorship. One mentor, one mentee, a shared goal, and biweekly sessions with guided frameworks and accountability check-ins."
+              },
+              {
+                "title": "SkillForge",
+                "description": "Cohorts of 8-12 professionals learning a specific skill together over 6 weeks — led by an expert practitioner with real deliverables at the end."
+              },
+              {
+                "title": "LaunchPad",
+                "description": "8-week entrepreneur support program with a mix of workshops, office hours, peer accountability groups, and direct introductions within the CodeLoop Ecosystem."
+              },
+              {
+                "title": "CrossPollinate",
+                "description": "Quarterly cross-industry events with facilitated formats — structured conversations, roundtables, and one-to-one sessions designed to create genuine professional introductions."
+              }
+            ],
+            "subtitle": "Current programs becomes a focused operating layer for Karon Rede.",
+            "description": "Current programs translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_programs_program-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#program-grid",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-programs--c-t-a",
+          "page_id": "page-karonrede-programs",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Which program is right for you?",
+            "description": "We review all applications and match you to the program that fits your current professional moment.",
+            "cta_label": "Submit an Application",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Which program is right for you?",
+            "description": "We review all applications and match you to the program that fits your current professional moment.",
+            "cta_label": "Submit an Application",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonrede_programs_c-t-a_viewed",
+            "cta_events": [
+              "karonrede_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonrede-about",
+      "website_id": "website-karonrede",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-about--hero",
+          "page_id": "page-karonrede-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Professional Networks Should Do More Than Connect",
+            "subheadline": "Karon Rede was built to fix the problem that most professional networks create: more noise, fewer real relationships.",
+            "cta_primary_label": "Our Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Professional Networks Should Do More Than Connect",
+            "subheadline": "Karon Rede was built to fix the problem that most professional networks create: more noise, fewer real relationships.",
+            "cta_primary_label": "Our Programs",
+            "cta_primary_href": "/programs",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_about_hero_viewed",
+            "cta_events": [
+              "karonrede_hero_cta-primary-label_clicked",
+              "karonrede_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-about--m-v-v-section",
+          "page_id": "page-karonrede-about",
+          "section_key": "m-v-v-section",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To build and operate professional communities where every member derives concrete value — through structured programs, intentional introductions, and shared accountability.",
+            "vision": "A world where professional networks are defined by what they produce, not by how many connections they accumulate.",
+            "values": [
+              "Intentionality over volume",
+              "Structured collaboration over casual contact",
+              "Outcomes as the measure of network health",
+              "Depth over reach"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To build and operate professional communities where every member derives concrete value — through structured programs, intentional introductions, and shared accountability.",
+            "vision": "A world where professional networks are defined by what they produce, not by how many connections they accumulate.",
+            "values": [
+              "Intentionality over volume",
+              "Structured collaboration over casual contact",
+              "Outcomes as the measure of network health",
+              "Depth over reach"
+            ],
+            "title": "M V V Section requires reviewed title content for Karon Rede.",
+            "description": "M V V Section translates Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "M V V Section becomes a focused operating layer for Karon Rede.",
+            "features": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Rede keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "m-v-v-section-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Rede keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "m-v-v-section-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "m-v-v-section-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_about_m-v-v-section_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#m-v-v-section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-about--c-t-a",
+          "page_id": "page-karonrede-about",
+          "section_key": "c-t-a",
+          "pod": "CTA",
+          "pad": {
+            "title": "Be part of a different kind of network",
+            "description": "Karon Rede is selective by design — so every member adds to the value of the whole.",
+            "cta_label": "Apply for Membership",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Be part of a different kind of network",
+            "description": "Karon Rede is selective by design — so every member adds to the value of the whole.",
+            "cta_label": "Apply for Membership",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonrede_about_c-t-a_viewed",
+            "cta_events": [
+              "karonrede_c-t-a_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#c-t-a",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonrede-contact",
+      "website_id": "website-karonrede",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-contact--hero",
+          "page_id": "page-karonrede-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Get in Touch with Karon Rede",
+            "subheadline": "Applications, program enquiries, and partnership requests — we respond to every message within two business days.",
+            "cta_primary_label": null,
+            "cta_secondary_label": null,
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Get in Touch with Karon Rede",
+            "subheadline": "Applications, program enquiries, and partnership requests — we respond to every message within two business days.",
+            "cta_primary_label": null,
+            "cta_secondary_label": null
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_contact_hero_viewed",
+            "cta_events": [
+              "karonrede_hero_cta-primary-label_clicked",
+              "karonrede_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-contact--form",
+          "page_id": "page-karonrede-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Send us a message",
+            "subtitle": "Tell us who you are and what you're looking for — membership, a program, or a partnership.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Rede",
+            "site_slug": "karonrede",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Send us a message",
+            "subtitle": "Tell us who you are and what you're looking for — membership, a program, or a partnership.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Rede",
+            "site_slug": "karonrede"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonrede-services",
+      "website_id": "website-karonrede",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-services--services-manifesto",
+          "page_id": "page-karonrede-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Karon Rede Services",
+            "body": "Explore what Karon Rede offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "Karon Rede Services",
+            "body": "Explore what Karon Rede offers in services. Content coming soon.",
+            "stat_1": "Karon Rede Services requires reviewed stat_1 content for Karon Rede.",
+            "stat_2": "Karon Rede Services requires reviewed stat_2 content for Karon Rede.",
+            "stat_3": "Karon Rede Services requires reviewed stat_3 content for Karon Rede.",
+            "stats": "Karon Rede Services requires reviewed stats content for Karon Rede.",
+            "subtitle": "Karon Rede Services becomes a focused operating layer for Karon Rede."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_coverage gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-services--services-cta",
+          "page_id": "page-karonrede-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About Karon Rede",
+            "description": "Discover everything Karon Rede has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About Karon Rede",
+            "description": "Discover everything Karon Rede has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_services_services-cta_viewed",
+            "cta_events": [
+              "karonrede_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonrede-404",
+      "website_id": "website-karonrede",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonrede-404--not-found-hero",
+          "page_id": "page-karonrede-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Karon Rede — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Karon Rede — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonrede-404--not-found-cta",
+          "page_id": "page-karonrede-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Karon Rede.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Karon Rede.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonrede_404_not-found-cta_viewed",
+            "cta_events": [
+              "karonrede_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "low",
+              "source_refs": [
+                "docs/data/karonrede/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 285
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "EcosystemSection",
+      "category": "section",
+      "description": "EcosystemSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 213
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 324
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 120
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "object",
+          "required": false,
+          "max_length": null
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "object",
+          "required": false,
+          "max_length": null
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 172
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 114
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 267
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 282
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProgramGrid",
+      "category": "section",
+      "description": "ProgramGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 270
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-karonrede",
+    "total_original_gaps": 22,
+    "kb_coverage": "none",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "Your path inside the network",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "Your path inside the network",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "description",
+        "headline": "Networks create value when they create connections, not just contacts.",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "subtitle",
+        "headline": "Networks create value when they create connections, not just contacts.",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "features",
+        "headline": "Networks create value when they create connections, not just contacts.",
+        "reason": "no_kb_coverage",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "What runs inside Karon Rede",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "What runs inside Karon Rede",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "What makes Karon Rede different",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "What makes Karon Rede different",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "What makes Karon Rede different",
+        "reason": "no_kb_coverage",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "Current programs",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "Current programs",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_coverage",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_coverage",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_coverage",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_coverage",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "Karon Rede Services",
+        "reason": "no_kb_coverage",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "Karon Rede Services",
+        "reason": "no_kb_coverage",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "Karon Rede Services",
+        "reason": "no_kb_coverage",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Karon Rede Services",
+        "reason": "no_kb_coverage",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Karon Rede Services",
+        "reason": "no_kb_coverage",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process-section",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem-section",
+        "pod": "EcosystemSection",
+        "field": "features",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits-section",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/programs",
+        "section_id": "program-grid",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "m-v-v-section",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_coverage",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-karonrede",
+      "canonical_base_url": "https://karonrede.codeloop.co",
+      "default_title": "Karon Rede",
+      "default_description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/karonrede/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-karonrede-root",
+        "title": "Home",
+        "description": "Not another social network. A structured community of professionals with curated programs, mentorship, and real collaboration.",
+        "canonical": "https://karonrede.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonrede-programs",
+        "title": "Programs",
+        "description": "Every Karon Rede program is designed around a specific professional outcome — not general networking.",
+        "canonical": "https://karonrede.codeloop.co/programs",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonrede-about",
+        "title": "About",
+        "description": "Karon Rede was built to fix the problem that most professional networks create: more noise, fewer real relationships.",
+        "canonical": "https://karonrede.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonrede-contact",
+        "title": "Contact",
+        "description": "Applications, program enquiries, and partnership requests — we respond to every message within two business days.",
+        "canonical": "https://karonrede.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonrede-services",
+        "title": "Services",
+        "description": "Network and community arm of the Karon Group — a CodeLoop Ecosystem Partner.",
+        "canonical": "https://karonrede.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonrede-404",
+        "title": "Page Not Found",
+        "description": "Karon Rede — Pagina nao encontrada",
+        "canonical": "https://karonrede.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-karonrede",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "karonrede__hero_viewed",
+      "karonrede__process-section_viewed",
+      "karonrede__ecosystem-section_viewed",
+      "karonrede__program-grid_viewed",
+      "karonrede__benefits-section_viewed",
+      "karonrede__c-t-a_viewed",
+      "karonrede__contact-form_viewed",
+      "karonrede_programs_hero_viewed",
+      "karonrede_programs_program-grid_viewed",
+      "karonrede_programs_c-t-a_viewed",
+      "karonrede_about_hero_viewed",
+      "karonrede_about_m-v-v-section_viewed",
+      "karonrede_about_c-t-a_viewed",
+      "karonrede_contact_hero_viewed",
+      "karonrede_contact_form_viewed",
+      "karonrede_services_services-manifesto_viewed",
+      "karonrede_services_services-cta_viewed",
+      "karonrede_404_not-found-hero_viewed",
+      "karonrede_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-karonrede",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-karonrede",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-karonrede-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-karonrede-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-karonrede-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-karonrede",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "low",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/karonrede/config.json",
+      "docs/data/karonrede/worktree.json",
+      "docs/data/karonrede/gaps.json"
+    ]
+  }
+}

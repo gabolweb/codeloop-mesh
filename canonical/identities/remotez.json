@@ -1,0 +1,4273 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_bible",
+        "path": "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+        "priority": 3
+      },
+      {
+        "type": "site_blueprint",
+        "path": "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+        "priority": 3
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/remotez/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/remotez/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/remotez/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/remotez.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-remotez",
+    "slug": "remotez",
+    "name": "RemoteZ",
+    "legal_name": null,
+    "type": "brand",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+    "mission": "To make RemoteZ a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-remotez-1",
+        "title": "Operational clarity",
+        "description": "RemoteZ should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-remotez-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-remotez-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "brand",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": "RemoteZ is a lifestyle brand for the people who turned the world into a workstation.",
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-remotez",
+    "brand_name": "RemoteZ",
+    "tagline": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+    "short_description": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+    "long_description": "RemoteZ is a lifestyle brand for the people who turned the world into a workstation.",
+    "mission": "To make RemoteZ a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-remotez-1",
+        "title": "Operational clarity",
+        "description": "RemoteZ should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-remotez-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-remotez-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "brand",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": "RemoteZ is a lifestyle brand for the people who turned the world into a workstation.",
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "There is no single Anywhere Operator.",
+      "founder_message": null,
+      "manifesto": "The office did not end. It was unfolded, packed, worn, and carried into the world.\n\nWe made RemoteZ for the generation that closes a Tuesday in São Paulo and a Wednesday in Hanoi and a Thursday in Berlin, and notices that no brand built clothing for that life. The luggage industry built for vacationers. The corporate-wear industry built for the building. The streetwear industry built for the photo. The performance industry built for the hike. None of them built for the person who works through Wednesday at 4 a.m. local time because the deal is in Singapore.\n\nRemoteZ is built for that person — and for the person planning to become that person.\n\nWe make a Core Line that lasts five years and looks the same in every city. We make Pro Gear that solves the airport-to-coworking-to-call sequence. We make Drops that are limited because attention is limited and we would rather make four hundred of one thing well than four thousand of nothing in particular. We make Digital — credentials, patches, and durables that travel as identity rather than as merchandise.\n\nWe do not say \"premium\" because the merino, the construction, the warranty, and the repair network speak for themselves. We do not say \"global citizen\" because the people who wear this are too busy being one to need the title. We give a portion of every drop's revenue to UTU because the next person we want at the next dinner table is somewhere we have not seen yet.\n\nThis is the uniform of working in motion. Worn by people who paid the price of liberty in their own currency, with their eyes open.\n\n---",
+      "elevator_pitch": "RemoteZ: A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+      "one_liner": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+        "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/remotez/config.json",
+        "docs/data/remotez/worktree.json",
+        "docs/data/remotez/gaps.json"
+      ],
+      "generation_reason": "brand bible and site blueprint mapped into master brand_core",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-remotez",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+        "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/remotez/config.json",
+        "docs/data/remotez/worktree.json",
+        "docs/data/remotez/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-remotez",
+    "theme": {
+      "mode": "light",
+      "variant": "dark-tech",
+      "palette": {
+        "bg": "#0a0a14",
+        "bg_light": "#12122e",
+        "primary": "#7b61ff",
+        "primary_light": "#9d85ff",
+        "secondary": "#06b6d4",
+        "accent": "#f97316",
+        "text": "#f0eeff",
+        "text_muted": "#9585d0",
+        "border": "rgba(123,97,255,0.2)",
+        "gradient": "linear-gradient(135deg, #7b61ff 0%, #06b6d4 100%)",
+        "rz_black": "#0A0A0A",
+        "rz_cream": "#F7F6F3",
+        "rz_movement_neon": "#00D9FF",
+        "rz_urban_steel": "#2C3E50",
+        "rz_work_green": "#1FA852"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Sora",
+      "body": "Sora",
+      "display": "Sora",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Instrument+Serif:ital@0;1&family=Sora:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-remotez",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-remotez",
+    "domains": [
+      {
+        "domain": "remotez.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "remotez.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-remotez",
+    "domain": "remotez.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-remotez",
+      "identity_id": "identity-remotez",
+      "name": "RemoteZ",
+      "slug": "remotez",
+      "domain": "remotez.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-remotez",
+        "footer_id": "footer-remotez",
+        "theme_id": "design-system-remotez",
+        "seo_profile_id": "seo-profile-remotez"
+      },
+      "pages": [
+        "page-remotez-root",
+        "page-remotez-storez",
+        "page-remotez-lifez",
+        "page-remotez-techz",
+        "page-remotez-petz",
+        "page-remotez-corpdropz",
+        "page-remotez-hostz",
+        "page-remotez-venturez",
+        "page-remotez-netrunnerz",
+        "page-remotez-executivez",
+        "page-remotez-contact",
+        "page-remotez-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-remotez",
+    "brand_label": "RemoteZ",
+    "items": [
+      {
+        "label": "StoreZ",
+        "href": "/storez",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "LifeZ",
+        "href": "/lifez",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "TechZ",
+        "href": "/techz",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      },
+      {
+        "label": "PetZ",
+        "href": "/petz",
+        "type": "internal",
+        "visibility": "public",
+        "order": 4,
+        "children": []
+      },
+      {
+        "label": "CorpDropZ",
+        "href": "/corpdropz",
+        "type": "internal",
+        "visibility": "public",
+        "order": 5,
+        "children": []
+      },
+      {
+        "label": "HostZ",
+        "href": "/hostz",
+        "type": "internal",
+        "visibility": "public",
+        "order": 6,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore StoreZ",
+      "href": "/storez",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-remotez",
+    "brand": "RemoteZ",
+    "description": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "StoreZ",
+            "href": "/storez"
+          },
+          {
+            "label": "LifeZ",
+            "href": "/lifez"
+          },
+          {
+            "label": "TechZ",
+            "href": "/techz"
+          },
+          {
+            "label": "PetZ",
+            "href": "/petz"
+          },
+          {
+            "label": "CorpDropZ",
+            "href": "/corpdropz"
+          },
+          {
+            "label": "HostZ",
+            "href": "/hostz"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-remotez-root",
+      "website_id": "website-remotez",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-root--hero",
+          "page_id": "page-remotez-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "RemoteZ — Lifestyle Ecosystem for Remote Professionals",
+            "subheadline": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+            "cta_primary_label": "Explore StoreZ",
+            "cta_primary_href": "/storez",
+            "cta_secondary_label": "LifeZ",
+            "cta_secondary_href": "/lifez",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "RemoteZ — Lifestyle Ecosystem for Remote Professionals",
+            "subheadline": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+            "cta_primary_label": "Explore StoreZ",
+            "cta_primary_href": "/storez",
+            "cta_secondary_label": "LifeZ",
+            "cta_secondary_href": "/lifez"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez__hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked",
+              "remotez_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-root--intro",
+          "page_id": "page-remotez-root",
+          "section_key": "intro",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "A New Way to Live and Work",
+            "text": "RemoteZ is more than a marketplace. We are the backbone of the Dynamic Work lifestyle. We provide everything from everyday essentials to high-performance technology for those who operate globally.",
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "A New Way to Live and Work",
+            "text": "RemoteZ is more than a marketplace. We are the backbone of the Dynamic Work lifestyle. We provide everything from everyday essentials to high-performance technology for those who operate globally.",
+            "body": "A New Way to Live and Work translates A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "stat_1": "A New Way to Live and Work requires reviewed stat_1 content for RemoteZ.",
+            "stat_2": "A New Way to Live and Work requires reviewed stat_2 content for RemoteZ.",
+            "stat_3": "A New Way to Live and Work requires reviewed stat_3 content for RemoteZ.",
+            "stats": "A New Way to Live and Work requires reviewed stats content for RemoteZ.",
+            "subtitle": "A New Way to Live and Work becomes a focused operating layer for RemoteZ."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez__intro_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#intro",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "text": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#intro",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Body text content for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-root--stores",
+          "page_id": "page-remotez-root",
+          "section_key": "stores",
+          "pod": "StoreGrid",
+          "pad": {
+            "title": "RemoteZ Stores",
+            "items": [
+              {
+                "name": "StoreZ",
+                "description": "The main RemoteZ marketplace for products and services for remote professionals.",
+                "href": "/storez"
+              },
+              {
+                "name": "LifeZ",
+                "description": "Lifestyle products curated for the dynamic remote lifestyle — health, wellness, and daily essentials.",
+                "href": "/lifez"
+              },
+              {
+                "name": "TechZ",
+                "description": "Technology products for remote work performance — hardware, software, and digital tools.",
+                "href": "/techz"
+              },
+              {
+                "name": "PetZ",
+                "description": "Your friend global with you — pet care products and services for internationally mobile professionals.",
+                "href": "/petz"
+              },
+              {
+                "name": "CorpDropZ",
+                "description": "Corporate passion and effort in physical apparel — branded merchandise for ecosystem organizations.",
+                "href": "/corpdropz"
+              },
+              {
+                "name": "HostZ",
+                "description": "Hospitality and accommodation services for remote workers and dynamic travelers.",
+                "href": "/hostz"
+              },
+              {
+                "name": "VentureZ",
+                "description": "Products and services designed for ventures and entrepreneurial teams.",
+                "href": "/venturez"
+              },
+              {
+                "name": "NetRunnerZ",
+                "description": "Digital goods and network tools for the most technically sophisticated ecosystem members.",
+                "href": "/netrunnerz"
+              },
+              {
+                "name": "ExecutiveZ",
+                "description": "Premium products and services for executive-level professionals and leaders.",
+                "href": "/executivez"
+              }
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "StoreGrid",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "RemoteZ Stores",
+            "items": [
+              {
+                "name": "StoreZ",
+                "description": "The main RemoteZ marketplace for products and services for remote professionals.",
+                "href": "/storez"
+              },
+              {
+                "name": "LifeZ",
+                "description": "Lifestyle products curated for the dynamic remote lifestyle — health, wellness, and daily essentials.",
+                "href": "/lifez"
+              },
+              {
+                "name": "TechZ",
+                "description": "Technology products for remote work performance — hardware, software, and digital tools.",
+                "href": "/techz"
+              },
+              {
+                "name": "PetZ",
+                "description": "Your friend global with you — pet care products and services for internationally mobile professionals.",
+                "href": "/petz"
+              },
+              {
+                "name": "CorpDropZ",
+                "description": "Corporate passion and effort in physical apparel — branded merchandise for ecosystem organizations.",
+                "href": "/corpdropz"
+              },
+              {
+                "name": "HostZ",
+                "description": "Hospitality and accommodation services for remote workers and dynamic travelers.",
+                "href": "/hostz"
+              },
+              {
+                "name": "VentureZ",
+                "description": "Products and services designed for ventures and entrepreneurial teams.",
+                "href": "/venturez"
+              },
+              {
+                "name": "NetRunnerZ",
+                "description": "Digital goods and network tools for the most technically sophisticated ecosystem members.",
+                "href": "/netrunnerz"
+              },
+              {
+                "name": "ExecutiveZ",
+                "description": "Premium products and services for executive-level professionals and leaders.",
+                "href": "/executivez"
+              }
+            ],
+            "subtitle": "RemoteZ Stores becomes a focused operating layer for RemoteZ.",
+            "description": "RemoteZ Stores translates A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez__stores_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#stores",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#stores",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-root--benefits",
+          "page_id": "page-remotez-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "Why Choose RemoteZ",
+            "items": [
+              {
+                "title": "Global Logistics",
+                "description": "We ship premium remote-work gear to anywhere in the world, matching your dynamic lifestyle.",
+                "icon": "globe"
+              },
+              {
+                "title": "Curated for Performance",
+                "description": "Every product on RemoteZ is tested and verified by our hypertechs to ensure maximum efficiency.",
+                "icon": "zap"
+              },
+              {
+                "title": "Ecosystem Integration",
+                "description": "Seamlessly purchase using CodeLoop ecosystem tokens and connect your Bastion wallet.",
+                "icon": "link"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Why Choose RemoteZ",
+            "items": [
+              {
+                "title": "Global Logistics",
+                "description": "We ship premium remote-work gear to anywhere in the world, matching your dynamic lifestyle.",
+                "icon": "globe"
+              },
+              {
+                "title": "Curated for Performance",
+                "description": "Every product on RemoteZ is tested and verified by our hypertechs to ensure maximum efficiency.",
+                "icon": "zap"
+              },
+              {
+                "title": "Ecosystem Integration",
+                "description": "Seamlessly purchase using CodeLoop ecosystem tokens and connect your Bastion wallet.",
+                "icon": "link"
+              }
+            ],
+            "description": "Why Choose RemoteZ translates A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Why Choose RemoteZ becomes a focused operating layer for RemoteZ.",
+            "features": [
+              {
+                "id": "why-choose-remotez-item-1",
+                "title": "Context with ownership",
+                "description": "RemoteZ keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "why-choose-remotez-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "why-choose-remotez-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-root--cta",
+          "page_id": "page-remotez-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join the Dynamic Work Lifestyle",
+            "description": "Start shopping the best curated products for remote professionals today.",
+            "cta_label": "Go To StoreZ",
+            "cta_href": "/storez"
+          },
+          "component": "CTA",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Join the Dynamic Work Lifestyle",
+            "description": "Start shopping the best curated products for remote professionals today.",
+            "cta_label": "Go To StoreZ",
+            "cta_href": "/storez"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "remotez__cta_viewed",
+            "cta_events": [
+              "remotez_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-storez",
+      "website_id": "website-remotez",
+      "path": "/storez",
+      "slug": "storez",
+      "title": "StoreZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-storez--hero",
+          "page_id": "page-remotez-storez",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "StoreZ",
+            "subheadline": "Premium StoreZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "StoreZ",
+            "subheadline": "Premium StoreZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_storez_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-storez--products",
+          "page_id": "page-remotez-storez",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "StoreZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "StoreZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "StoreZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "StoreZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_storez_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /storez#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-lifez",
+      "website_id": "website-remotez",
+      "path": "/lifez",
+      "slug": "lifez",
+      "title": "LifeZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-lifez--hero",
+          "page_id": "page-remotez-lifez",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "LifeZ",
+            "subheadline": "Premium LifeZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "LifeZ",
+            "subheadline": "Premium LifeZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_lifez_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-lifez--products",
+          "page_id": "page-remotez-lifez",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "LifeZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "LifeZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "LifeZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "LifeZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_lifez_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /lifez#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-techz",
+      "website_id": "website-remotez",
+      "path": "/techz",
+      "slug": "techz",
+      "title": "TechZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-techz--hero",
+          "page_id": "page-remotez-techz",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "TechZ",
+            "subheadline": "Premium TechZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "TechZ",
+            "subheadline": "Premium TechZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_techz_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-techz--products",
+          "page_id": "page-remotez-techz",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "TechZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "TechZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "TechZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "TechZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_techz_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /techz#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-petz",
+      "website_id": "website-remotez",
+      "path": "/petz",
+      "slug": "petz",
+      "title": "PetZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-petz--hero",
+          "page_id": "page-remotez-petz",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "PetZ",
+            "subheadline": "Premium PetZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "PetZ",
+            "subheadline": "Premium PetZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_petz_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-petz--products",
+          "page_id": "page-remotez-petz",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "PetZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "PetZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "PetZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "PetZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_petz_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /petz#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-corpdropz",
+      "website_id": "website-remotez",
+      "path": "/corpdropz",
+      "slug": "corpdropz",
+      "title": "CorpDropZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-corpdropz--hero",
+          "page_id": "page-remotez-corpdropz",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "CorpDropZ",
+            "subheadline": "Premium CorpDropZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "CorpDropZ",
+            "subheadline": "Premium CorpDropZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_corpdropz_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-corpdropz--products",
+          "page_id": "page-remotez-corpdropz",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "CorpDropZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "CorpDropZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "CorpDropZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "CorpDropZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_corpdropz_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /corpdropz#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-hostz",
+      "website_id": "website-remotez",
+      "path": "/hostz",
+      "slug": "hostz",
+      "title": "HostZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-hostz--hero",
+          "page_id": "page-remotez-hostz",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "HostZ",
+            "subheadline": "Premium HostZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "HostZ",
+            "subheadline": "Premium HostZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_hostz_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-hostz--products",
+          "page_id": "page-remotez-hostz",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "HostZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "HostZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "HostZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "HostZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_hostz_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /hostz#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-venturez",
+      "website_id": "website-remotez",
+      "path": "/venturez",
+      "slug": "venturez",
+      "title": "VentureZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-venturez--hero",
+          "page_id": "page-remotez-venturez",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "VentureZ",
+            "subheadline": "Premium VentureZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "VentureZ",
+            "subheadline": "Premium VentureZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_venturez_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-venturez--products",
+          "page_id": "page-remotez-venturez",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "VentureZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "VentureZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "VentureZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "VentureZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_venturez_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /venturez#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-netrunnerz",
+      "website_id": "website-remotez",
+      "path": "/netrunnerz",
+      "slug": "netrunnerz",
+      "title": "NetRunnerZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-netrunnerz--hero",
+          "page_id": "page-remotez-netrunnerz",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "NetRunnerZ",
+            "subheadline": "Premium NetRunnerZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "NetRunnerZ",
+            "subheadline": "Premium NetRunnerZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_netrunnerz_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-netrunnerz--products",
+          "page_id": "page-remotez-netrunnerz",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "NetRunnerZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "NetRunnerZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "NetRunnerZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "NetRunnerZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_netrunnerz_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /netrunnerz#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-executivez",
+      "website_id": "website-remotez",
+      "path": "/executivez",
+      "slug": "executivez",
+      "title": "ExecutiveZ",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-executivez--hero",
+          "page_id": "page-remotez-executivez",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "ExecutiveZ",
+            "subheadline": "Premium ExecutiveZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "ExecutiveZ",
+            "subheadline": "Premium ExecutiveZ products built exclusively for the Dynamic Work community.",
+            "cta_primary_label": "Shop Now",
+            "cta_primary_href": "#products"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_executivez_hero_viewed",
+            "cta_events": [
+              "remotez_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-executivez--products",
+          "page_id": "page-remotez-executivez",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "ExecutiveZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "ExecutiveZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Featured Drops",
+            "items": [
+              {
+                "title": "ExecutiveZ Core Line",
+                "description": "The foundational essentials for your remote lifestyle."
+              },
+              {
+                "title": "ExecutiveZ Limited Ed.",
+                "description": "Exclusive seasonal items."
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_executivez_products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /executivez#products",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-contact",
+      "website_id": "website-remotez",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-contact--hero",
+          "page_id": "page-remotez-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with RemoteZ",
+            "subheadline": "Partner with us or explore our lifestyle ecosystem.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with RemoteZ",
+            "subheadline": "Partner with us or explore our lifestyle ecosystem."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-contact--form",
+          "page_id": "page-remotez-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "RemoteZ",
+            "site_slug": "remotez",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "RemoteZ",
+            "site_slug": "remotez",
+            "title": "Form requires reviewed title content for RemoteZ.",
+            "subtitle": "Form becomes a focused operating layer for RemoteZ."
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/remotez/gaps.json",
+                "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+                "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-remotez-404",
+      "website_id": "website-remotez",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-remotez-404--not-found-hero",
+          "page_id": "page-remotez-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "RemoteZ — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "RemoteZ — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-remotez-404--not-found-cta",
+          "page_id": "page-remotez-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de RemoteZ.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de RemoteZ.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "dark-tech",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "remotez_404_not-found-cta_viewed",
+            "cta_events": [
+              "remotez_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/remotez/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 352
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "text": {
+          "type": "string",
+          "required": false,
+          "max_length": 196
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 360
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProductGrid",
+      "category": "section",
+      "description": "ProductGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "StoreGrid",
+      "category": "section",
+      "description": "StoreGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 348
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-remotez",
+    "total_original_gaps": 13,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "body",
+        "headline": "A New Way to Live and Work",
+        "reason": "source_language_portuguese",
+        "needed": "Body text content for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "A New Way to Live and Work",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "A New Way to Live and Work",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "A New Way to Live and Work",
+        "reason": "source_language_portuguese",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "A New Way to Live and Work",
+        "reason": "insufficient_content",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "A New Way to Live and Work",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "stores",
+        "pod": "StoreGrid",
+        "field": "subtitle",
+        "headline": "RemoteZ Stores",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "stores",
+        "pod": "StoreGrid",
+        "field": "description",
+        "headline": "RemoteZ Stores",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "Why Choose RemoteZ",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "Why Choose RemoteZ",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "Why Choose RemoteZ",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "body",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "intro",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "stores",
+        "pod": "StoreGrid",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "stores",
+        "pod": "StoreGrid",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-remotez",
+      "canonical_base_url": "https://remotez.codeloop.co",
+      "default_title": "RemoteZ",
+      "default_description": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/remotez/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-remotez-root",
+        "title": "Home",
+        "description": "A multi-reality consumer goods platform built for the Dynamic Work community — where lifestyle, technology, corporate passion, and global mobility converge.",
+        "canonical": "https://remotez.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-storez",
+        "title": "StoreZ",
+        "description": "Premium StoreZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/storez",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-lifez",
+        "title": "LifeZ",
+        "description": "Premium LifeZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/lifez",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-techz",
+        "title": "TechZ",
+        "description": "Premium TechZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/techz",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-petz",
+        "title": "PetZ",
+        "description": "Premium PetZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/petz",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-corpdropz",
+        "title": "CorpDropZ",
+        "description": "Premium CorpDropZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/corpdropz",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-hostz",
+        "title": "HostZ",
+        "description": "Premium HostZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/hostz",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-venturez",
+        "title": "VentureZ",
+        "description": "Premium VentureZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/venturez",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-netrunnerz",
+        "title": "NetRunnerZ",
+        "description": "Premium NetRunnerZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/netrunnerz",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-executivez",
+        "title": "ExecutiveZ",
+        "description": "Premium ExecutiveZ products built exclusively for the Dynamic Work community.",
+        "canonical": "https://remotez.codeloop.co/executivez",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-contact",
+        "title": "Contact",
+        "description": "Partner with us or explore our lifestyle ecosystem.",
+        "canonical": "https://remotez.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-remotez-404",
+        "title": "Page Not Found",
+        "description": "RemoteZ — Pagina nao encontrada",
+        "canonical": "https://remotez.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-remotez",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "remotez__hero_viewed",
+      "remotez__intro_viewed",
+      "remotez__stores_viewed",
+      "remotez__benefits_viewed",
+      "remotez__cta_viewed",
+      "remotez_storez_hero_viewed",
+      "remotez_storez_products_viewed",
+      "remotez_lifez_hero_viewed",
+      "remotez_lifez_products_viewed",
+      "remotez_techz_hero_viewed",
+      "remotez_techz_products_viewed",
+      "remotez_petz_hero_viewed",
+      "remotez_petz_products_viewed",
+      "remotez_corpdropz_hero_viewed",
+      "remotez_corpdropz_products_viewed",
+      "remotez_hostz_hero_viewed",
+      "remotez_hostz_products_viewed",
+      "remotez_venturez_hero_viewed",
+      "remotez_venturez_products_viewed",
+      "remotez_netrunnerz_hero_viewed",
+      "remotez_netrunnerz_products_viewed",
+      "remotez_executivez_hero_viewed",
+      "remotez_executivez_products_viewed",
+      "remotez_contact_hero_viewed",
+      "remotez_contact_form_viewed",
+      "remotez_404_not-found-hero_viewed",
+      "remotez_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-remotez",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-remotez",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-remotez-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-remotez-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-remotez-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-remotez",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/06 — RemoteZ/01 — Brand Bible.md",
+      "docs/branding/06 — RemoteZ/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/remotez/config.json",
+      "docs/data/remotez/worktree.json",
+      "docs/data/remotez/gaps.json"
+    ]
+  }
+}

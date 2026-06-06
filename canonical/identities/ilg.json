@@ -1,0 +1,3448 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/ilg/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/ilg/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/ilg/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/ilg/assets/logos/12-ilg.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/ilg/assets/logos/ilg.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/ilg.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-ilg",
+    "slug": "ilg",
+    "name": "International Labor Gateway",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A partnership program enabling DMCC companies to hire and pay contractors from Brazil, Angola, the Philippines, and expanding globally — with Web3 labor management and dedicated visa programs.",
+    "mission": "To turn frictionless cross‑border hiring into an operating system through Web3 labor management · dedicated visa programs (ILG DMCC).",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-ilg-1",
+        "title": "Operational clarity",
+        "description": "International Labor Gateway should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-ilg-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-ilg-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "International Labor Gateway",
+      "market": "Human Capital Mobilization",
+      "statement": "ILG is procedural and trustworthy — steel‑blue arch, IBM Plex across display and mono, rubber‑stamp accents. A government‑grade portal reimagined as software you actually want to use.",
+      "differentiators": [
+        "Frictionless cross‑border hiring.",
+        "Web3 labor management · dedicated visa programs (ILG DMCC).",
+        "The Official Gateway"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "official",
+      "secondary": "procedural",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-ilg",
+    "brand_name": "International Labor Gateway",
+    "tagline": "Frictionless cross‑border hiring.",
+    "short_description": "ILG is procedural and trustworthy — steel‑blue arch, IBM Plex across display and mono, rubber‑stamp accents.",
+    "long_description": "ILG is procedural and trustworthy — steel‑blue arch, IBM Plex across display and mono, rubber‑stamp accents. A government‑grade portal reimagined as software you actually want to use.",
+    "mission": "To turn frictionless cross‑border hiring into an operating system through Web3 labor management · dedicated visa programs (ILG DMCC).",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-ilg-1",
+        "title": "Operational clarity",
+        "description": "International Labor Gateway should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-ilg-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-ilg-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "International Labor Gateway",
+      "market": "Human Capital Mobilization",
+      "statement": "ILG is procedural and trustworthy — steel‑blue arch, IBM Plex across display and mono, rubber‑stamp accents. A government‑grade portal reimagined as software you actually want to use.",
+      "differentiators": [
+        "Frictionless cross‑border hiring.",
+        "Web3 labor management · dedicated visa programs (ILG DMCC).",
+        "The Official Gateway"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "International Labor Gateway: Frictionless cross‑border hiring.",
+      "one_liner": "Hire anyone. Anywhere. Legally."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/ilg/config.json",
+        "docs/data/ilg/worktree.json",
+        "docs/data/ilg/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-ilg",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "official",
+      "secondary": "procedural",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "ILG Platform",
+        "Global Talent Integration"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/ilg/config.json",
+        "docs/data/ilg/worktree.json",
+        "docs/data/ilg/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-ilg",
+    "theme": {
+      "mode": "light",
+      "variant": "light-premium",
+      "palette": {
+        "bg": "#F4F6FB",
+        "bg_light": "#E8EDF6",
+        "primary": "#3F5468",
+        "primary_light": "#15A36B",
+        "secondary": "#1E2E3D",
+        "accent": "#15A36B",
+        "text": "#0F172A",
+        "text_muted": "#546680",
+        "border": "#D3DBE8",
+        "gradient": "linear-gradient(135deg, #3F5468 0%, #15A36B 100%)",
+        "primary_ink": "#1E2E3D",
+        "bg_alt": "#E8EDF6",
+        "surface": "#FFFFFF"
+      },
+      "scale": [
+        "#EDF0F5",
+        "#D0D8E3",
+        "#A5B3C5",
+        "#7C8FA6",
+        "#59708A",
+        "#3F5468",
+        "#2D3D4E",
+        "#1E2A36",
+        "#111821",
+        "#060A0F"
+      ],
+      "semantics": {
+        "success": "#15A36B",
+        "warning": "#E0A82E",
+        "danger": "#C63C3C",
+        "info": "#3F5468"
+      }
+    },
+    "typography": {
+      "heading": "IBM Plex Sans",
+      "body": "IBM Plex Mono",
+      "display": "IBM Plex Sans",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "xl": "8px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "stamp"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-ilg",
+    "logos": [
+      {
+        "id": "asset-ilg-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/ilg/assets/logos/12-ilg.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Ilg logo"
+      },
+      {
+        "id": "asset-ilg-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/ilg/assets/logos/ilg.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Ilg logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-ilg",
+    "domains": [
+      {
+        "domain": "ilg.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "ilg.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-ilg",
+    "domain": "ilg.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-ilg",
+      "identity_id": "identity-ilg",
+      "name": "ILG",
+      "slug": "ilg",
+      "domain": "ilg.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-ilg",
+        "footer_id": "footer-ilg",
+        "theme_id": "design-system-ilg",
+        "seo_profile_id": "seo-profile-ilg"
+      },
+      "pages": [
+        "page-ilg-root",
+        "page-ilg-services",
+        "page-ilg-about",
+        "page-ilg-contact",
+        "page-ilg-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-ilg",
+    "brand_label": "International Labor Gateway",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Partner with ILG",
+      "href": "/partnership",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-ilg",
+    "brand": "International Labor Gateway",
+    "description": "A partnership program enabling DMCC companies to hire and pay contractors from Brazil, Angola, the Philippines, and expanding globally — with Web3 labor management and dedicated visa programs.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-ilg-root",
+      "website_id": "website-ilg",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-ilg-root--hero",
+          "page_id": "page-ilg-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "ILG — International Labor Gateway",
+            "subheadline": "Cross-border talent deployment with full compliance — connecting skilled professionals to opportunities across jurisdictions, with complete legal and operational coverage.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Contact ILG",
+            "cta_secondary_href": "/contact",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "ILG — International Labor Gateway",
+            "subheadline": "Cross-border talent deployment with full compliance — connecting skilled professionals to opportunities across jurisdictions, with complete legal and operational coverage.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Contact ILG",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__hero_viewed",
+            "cta_events": [
+              "ilg_hero_cta-primary-label_clicked",
+              "ilg_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--overview",
+          "page_id": "page-ilg-root",
+          "section_key": "overview",
+          "pod": "OverviewSection",
+          "pad": {
+            "title": "Global talent needs global infrastructure.",
+            "description": "Hiring across borders isn't complicated because of people — it's complicated because of systems. ILG handles the entire compliance stack: visas, employment contracts, tax registration, payroll, and benefits administration — so your team can focus on the work, not the paperwork.",
+            "highlight": "One contract. One invoice. Complete coverage across every jurisdiction we operate in.",
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "OverviewSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Global talent needs global infrastructure.",
+            "description": "Hiring across borders isn't complicated because of people — it's complicated because of systems. ILG handles the entire compliance stack: visas, employment contracts, tax registration, payroll, and benefits administration — so your team can focus on the work, not the paperwork.",
+            "highlight": "One contract. One invoice. Complete coverage across every jurisdiction we operate in.",
+            "highlights": [
+              {
+                "id": "global-talent-needs-global-infrastructure-item-1",
+                "title": "Context with ownership",
+                "description": "International Labor Gateway keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "global-talent-needs-global-infrastructure-item-2",
+                "title": "Distinct operating voice",
+                "description": "Frictionless cross‑border hiring. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "global-talent-needs-global-infrastructure-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Web3 labor management · dedicated visa programs (ILG DMCC). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "subtitle": "Global talent needs global infrastructure. becomes a focused operating layer for International Labor Gateway."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlight": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlights": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of highlights with structured data (title, description) for OverviewSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for OverviewSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--process",
+          "page_id": "page-ilg-root",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "How ILG Works",
+            "steps": [
+              {
+                "label": "Requirement",
+                "description": "You define the role, location, and timeline. ILG maps the compliance requirements and confirms jurisdiction coverage before any search begins."
+              },
+              {
+                "label": "Source",
+                "description": "Our global recruitment network identifies qualified candidates — screened for skills, availability, and cross-border readiness."
+              },
+              {
+                "label": "Vet",
+                "description": "Background verification, credential checks, and compliance clearance — every candidate arrives fully documented."
+              },
+              {
+                "label": "Place",
+                "description": "Employment contracts executed, work authorization secured, payroll enrolled. Placement completed within the agreed SLA."
+              },
+              {
+                "label": "Support",
+                "description": "Ongoing HR administration, compliance monitoring, and talent retention support for the duration of the engagement."
+              }
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "How ILG Works",
+            "steps": [
+              {
+                "label": "Requirement",
+                "description": "You define the role, location, and timeline. ILG maps the compliance requirements and confirms jurisdiction coverage before any search begins."
+              },
+              {
+                "label": "Source",
+                "description": "Our global recruitment network identifies qualified candidates — screened for skills, availability, and cross-border readiness."
+              },
+              {
+                "label": "Vet",
+                "description": "Background verification, credential checks, and compliance clearance — every candidate arrives fully documented."
+              },
+              {
+                "label": "Place",
+                "description": "Employment contracts executed, work authorization secured, payroll enrolled. Placement completed within the agreed SLA."
+              },
+              {
+                "label": "Support",
+                "description": "Ongoing HR administration, compliance monitoring, and talent retention support for the duration of the engagement."
+              }
+            ],
+            "subtitle": "How ILG Works becomes a focused operating layer for International Labor Gateway.",
+            "description": "How ILG Works translates Frictionless cross‑border hiring. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--benefits",
+          "page_id": "page-ilg-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "What You Get with ILG",
+            "items": [
+              {
+                "title": "Compliance in 40+ Countries",
+                "description": "ILG maintains active legal infrastructure across more than 40 jurisdictions — so you never have to build it yourself."
+              },
+              {
+                "title": "72-Hour Placement SLA",
+                "description": "From confirmed requirement to candidate presentation in 72 hours. Full placement completed within the contracted timeline."
+              },
+              {
+                "title": "Single Contract Model",
+                "description": "One master services agreement covers all placements across all jurisdictions — no country-by-country legal negotiation."
+              },
+              {
+                "title": "Full Employer-of-Record Coverage",
+                "description": "ILG acts as the legal employer in every jurisdiction — your team works for you, and we handle every obligation that comes with that."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "What You Get with ILG",
+            "items": [
+              {
+                "title": "Compliance in 40+ Countries",
+                "description": "ILG maintains active legal infrastructure across more than 40 jurisdictions — so you never have to build it yourself."
+              },
+              {
+                "title": "72-Hour Placement SLA",
+                "description": "From confirmed requirement to candidate presentation in 72 hours. Full placement completed within the contracted timeline."
+              },
+              {
+                "title": "Single Contract Model",
+                "description": "One master services agreement covers all placements across all jurisdictions — no country-by-country legal negotiation."
+              },
+              {
+                "title": "Full Employer-of-Record Coverage",
+                "description": "ILG acts as the legal employer in every jurisdiction — your team works for you, and we handle every obligation that comes with that."
+              }
+            ],
+            "description": "What You Get with ILG translates Frictionless cross‑border hiring. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "What You Get with ILG becomes a focused operating layer for International Labor Gateway.",
+            "features": [
+              {
+                "id": "what-you-get-with-ilg-item-1",
+                "title": "Context with ownership",
+                "description": "International Labor Gateway keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "what-you-get-with-ilg-item-2",
+                "title": "Distinct operating voice",
+                "description": "Frictionless cross‑border hiring. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "what-you-get-with-ilg-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Web3 labor management · dedicated visa programs (ILG DMCC). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--partners",
+          "page_id": "page-ilg-root",
+          "section_key": "partners",
+          "pod": "PartnersSection",
+          "pad": {
+            "title": "ILG Network Partners",
+            "description": "ILG operates as part of an integrated ecosystem — built to cover talent deployment end to end.",
+            "items": [
+              {
+                "name": "Bastion",
+                "description": "Financial rails for international payroll — multi-currency disbursement, compliance-grade transaction records, and treasury management for cross-border compensation."
+              },
+              {
+                "name": "YAYA",
+                "description": "Accommodation and housing solutions for placed talent — short-term and extended-stay options in key deployment markets."
+              },
+              {
+                "name": "Remotez",
+                "description": "Remote work infrastructure for distributed teams — connectivity, productivity tooling, and compliance frameworks for fully remote placements."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "- New WPS - International Labor Gateway PR - Companies inside DMCC Cryto Center that would like to start the partnership - Hiring and paying contra..."
+          },
+          "component": "PartnersSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "ILG Network Partners",
+            "description": "ILG operates as part of an integrated ecosystem — built to cover talent deployment end to end.",
+            "items": [
+              {
+                "name": "Bastion",
+                "description": "Financial rails for international payroll — multi-currency disbursement, compliance-grade transaction records, and treasury management for cross-border compensation."
+              },
+              {
+                "name": "YAYA",
+                "description": "Accommodation and housing solutions for placed talent — short-term and extended-stay options in key deployment markets."
+              },
+              {
+                "name": "Remotez",
+                "description": "Remote work infrastructure for distributed teams — connectivity, productivity tooling, and compliance frameworks for fully remote placements."
+              }
+            ],
+            "subtitle": "- New WPS - International Labor Gateway PR - Companies inside DMCC Cryto Center that would like to start the partnership - Hiring and paying contra..."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__partners_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#partners",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--services",
+          "page_id": "page-ilg-root",
+          "section_key": "services",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "What ILG Manages",
+            "items": [
+              {
+                "title": "Talent Sourcing",
+                "description": "A curated global recruitment network spanning professionals across technical, operational, and specialized roles — pre-vetted and ready to deploy."
+              },
+              {
+                "title": "Compliance Management",
+                "description": "Multi-jurisdiction legal coverage: employment law, work permit applications, contract structuring, and ongoing regulatory monitoring in every country we operate."
+              },
+              {
+                "title": "Payroll & Benefits",
+                "description": "Localized compensation administration — payroll processing, statutory benefits, social contributions, and expense management — handled in-country."
+              },
+              {
+                "title": "Relocation Support",
+                "description": "End-to-end logistics for placed talent: visa applications, housing coordination, onboarding, and first-90-days support to maximize placement success."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ServiceGrid",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "What ILG Manages",
+            "items": [
+              {
+                "title": "Talent Sourcing",
+                "description": "A curated global recruitment network spanning professionals across technical, operational, and specialized roles — pre-vetted and ready to deploy."
+              },
+              {
+                "title": "Compliance Management",
+                "description": "Multi-jurisdiction legal coverage: employment law, work permit applications, contract structuring, and ongoing regulatory monitoring in every country we operate."
+              },
+              {
+                "title": "Payroll & Benefits",
+                "description": "Localized compensation administration — payroll processing, statutory benefits, social contributions, and expense management — handled in-country."
+              },
+              {
+                "title": "Relocation Support",
+                "description": "End-to-end logistics for placed talent: visa applications, housing coordination, onboarding, and first-90-days support to maximize placement success."
+              }
+            ],
+            "subtitle": "What ILG Manages becomes a focused operating layer for International Labor Gateway.",
+            "description": "What ILG Manages translates Frictionless cross‑border hiring. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__services_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--cta",
+          "page_id": "page-ilg-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Deploy talent anywhere, compliantly.",
+            "description": "Whether you need one specialist or a full cross-border team, ILG handles the infrastructure so you don't have to.",
+            "cta_label": "Talk to ILG",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Deploy talent anywhere, compliantly.",
+            "description": "Whether you need one specialist or a full cross-border team, ILG handles the infrastructure so you don't have to.",
+            "cta_label": "Talk to ILG",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "ilg__cta_viewed",
+            "cta_events": [
+              "ilg_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-root--contact-form",
+          "page_id": "page-ilg-root",
+          "section_key": "contact-form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "International Labor Gateway",
+            "site_slug": "ilg",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 8,
+          "status": "active",
+          "content": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "International Labor Gateway",
+            "site_slug": "ilg",
+            "subtitle": "Get in Touch becomes a focused operating layer for International Labor Gateway."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg__contact-form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-ilg-services",
+      "website_id": "website-ilg",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-ilg-services--hero",
+          "page_id": "page-ilg-services",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "ILG Services — International Employment Made Operational",
+            "subheadline": "Every ILG service is built around one principle: the legal and administrative burden of cross-border employment belongs with us, not with you.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "ILG Services — International Employment Made Operational",
+            "subheadline": "Every ILG service is built around one principle: the legal and administrative burden of cross-border employment belongs with us, not with you."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_services_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-services--service-grid",
+          "page_id": "page-ilg-services",
+          "section_key": "service-grid",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "Core Services",
+            "items": [
+              {
+                "title": "Talent Sourcing",
+                "description": "Global recruitment across technical, operational, and specialized roles — pre-vetted and ready to deploy."
+              },
+              {
+                "title": "Compliance Management",
+                "description": "Multi-jurisdiction legal coverage: employment law, work permits, contract structuring, and regulatory monitoring."
+              },
+              {
+                "title": "Payroll & Benefits",
+                "description": "Localized payroll processing, statutory benefits, social contributions, and expense management handled in-country."
+              },
+              {
+                "title": "Relocation Support",
+                "description": "Visa applications, housing coordination, onboarding logistics, and first-90-days support for placed talent."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ServiceGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Core Services",
+            "items": [
+              {
+                "title": "Talent Sourcing",
+                "description": "Global recruitment across technical, operational, and specialized roles — pre-vetted and ready to deploy."
+              },
+              {
+                "title": "Compliance Management",
+                "description": "Multi-jurisdiction legal coverage: employment law, work permits, contract structuring, and regulatory monitoring."
+              },
+              {
+                "title": "Payroll & Benefits",
+                "description": "Localized payroll processing, statutory benefits, social contributions, and expense management handled in-country."
+              },
+              {
+                "title": "Relocation Support",
+                "description": "Visa applications, housing coordination, onboarding logistics, and first-90-days support for placed talent."
+              }
+            ],
+            "subtitle": "Core Services becomes a focused operating layer for International Labor Gateway.",
+            "description": "Core Services translates Frictionless cross‑border hiring. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_services_service-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#service-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-services--cta",
+          "page_id": "page-ilg-services",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "A single contract. Every jurisdiction.",
+            "description": "ILG's master services agreement covers all placements globally — one relationship, zero legal complexity.",
+            "cta_label": "Discuss Your Requirements",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "A single contract. Every jurisdiction.",
+            "description": "ILG's master services agreement covers all placements globally — one relationship, zero legal complexity.",
+            "cta_label": "Discuss Your Requirements",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "ilg_services_cta_viewed",
+            "cta_events": [
+              "ilg_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-ilg-about",
+      "website_id": "website-ilg",
+      "path": "/about",
+      "slug": "about",
+      "title": "About ILG",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-ilg-about--hero",
+          "page_id": "page-ilg-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "About ILG",
+            "subheadline": "We built ILG because cross-border employment was broken — too slow, too fragmented, and too risky for the companies that needed it most.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "About ILG",
+            "subheadline": "We built ILG because cross-border employment was broken — too slow, too fragmented, and too risky for the companies that needed it most."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-about--mvv",
+          "page_id": "page-ilg-about",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To make international employment as operationally straightforward as domestic hiring — with full compliance, full transparency, and none of the friction.",
+            "vision": "A world where skilled talent can work where they're needed, and companies can hire where the talent is — without bureaucratic barriers standing in the way.",
+            "values": [
+              "Compliance Without Compromise",
+              "Operational Reliability",
+              "Talent First",
+              "Global Thinking"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To make international employment as operationally straightforward as domestic hiring — with full compliance, full transparency, and none of the friction.",
+            "vision": "A world where skilled talent can work where they're needed, and companies can hire where the talent is — without bureaucratic barriers standing in the way.",
+            "values": [
+              "Compliance Without Compromise",
+              "Operational Reliability",
+              "Talent First",
+              "Global Thinking"
+            ],
+            "title": "Mvv requires reviewed title content for International Labor Gateway.",
+            "description": "Mvv translates Frictionless cross‑border hiring. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for International Labor Gateway.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "International Labor Gateway keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "Frictionless cross‑border hiring. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Web3 labor management · dedicated visa programs (ILG DMCC). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "International Labor Gateway keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "Frictionless cross‑border hiring. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Web3 labor management · dedicated visa programs (ILG DMCC). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_about_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-about--cta",
+          "page_id": "page-ilg-about",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Build your international workforce with ILG.",
+            "description": "We work with companies that are serious about cross-border talent — and serious about doing it right.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Build your international workforce with ILG.",
+            "description": "We work with companies that are serious about cross-border talent — and serious about doing it right.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "ilg_about_cta_viewed",
+            "cta_events": [
+              "ilg_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-ilg-contact",
+      "website_id": "website-ilg",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-ilg-contact--hero",
+          "page_id": "page-ilg-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Talk to ILG",
+            "subheadline": "Tell us where you need talent, what role you're filling, and what timeline you're working against.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Talk to ILG",
+            "subheadline": "Tell us where you need talent, what role you're filling, and what timeline you're working against."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-contact--form",
+          "page_id": "page-ilg-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "International Labor Gateway",
+            "site_slug": "ilg",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "International Labor Gateway",
+            "site_slug": "ilg",
+            "title": "Form requires reviewed title content for International Labor Gateway.",
+            "subtitle": "Form becomes a focused operating layer for International Labor Gateway."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/ilg/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-ilg-404",
+      "website_id": "website-ilg",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-ilg-404--not-found-hero",
+          "page_id": "page-ilg-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "International Labor Gateway — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "International Labor Gateway — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-ilg-404--not-found-cta",
+          "page_id": "page-ilg-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de International Labor Gateway.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de International Labor Gateway.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "ilg_404_not-found-cta_viewed",
+            "cta_events": [
+              "ilg_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/ilg/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 232
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 153
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 155
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 214
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "OverviewSection",
+      "category": "section",
+      "description": "OverviewSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 278
+        },
+        "highlight": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "highlights": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 109
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "PartnersSection",
+      "category": "section",
+      "description": "PartnersSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 94
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 224
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ServiceGrid",
+      "category": "section",
+      "description": "ServiceGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 224
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-ilg",
+    "total_original_gaps": 19,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "highlights",
+        "headline": "Global talent needs global infrastructure.",
+        "reason": "no_kb_match",
+        "needed": "Array of highlights with structured data (title, description) for OverviewSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "subtitle",
+        "headline": "Global talent needs global infrastructure.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for OverviewSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "How ILG Works",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "How ILG Works",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "What You Get with ILG",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "What You Get with ILG",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "What You Get with ILG",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "What ILG Manages",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "headline": "What ILG Manages",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact-form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get in Touch",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "Core Services",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "headline": "Core Services",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "highlights",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact-form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "service-grid",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-ilg",
+      "canonical_base_url": "https://ilg.codeloop.co",
+      "default_title": "International Labor Gateway",
+      "default_description": "A partnership program enabling DMCC companies to hire and pay contractors from Brazil, Angola, the Philippines, and expanding globally — with Web3 labor management and dedicated visa programs.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/ilg/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-ilg-root",
+        "title": "Home",
+        "description": "Cross-border talent deployment with full compliance — connecting skilled professionals to opportunities across jurisdictions, with complete legal and operational coverage.",
+        "canonical": "https://ilg.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-ilg-services",
+        "title": "Services",
+        "description": "Every ILG service is built around one principle: the legal and administrative burden of cross-border employment belongs with us, not with you.",
+        "canonical": "https://ilg.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-ilg-about",
+        "title": "About ILG",
+        "description": "We built ILG because cross-border employment was broken — too slow, too fragmented, and too risky for the companies that needed it most.",
+        "canonical": "https://ilg.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-ilg-contact",
+        "title": "Contact",
+        "description": "Tell us where you need talent, what role you're filling, and what timeline you're working against.",
+        "canonical": "https://ilg.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-ilg-404",
+        "title": "Page Not Found",
+        "description": "International Labor Gateway — Pagina nao encontrada",
+        "canonical": "https://ilg.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-ilg",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "ilg__hero_viewed",
+      "ilg__overview_viewed",
+      "ilg__process_viewed",
+      "ilg__benefits_viewed",
+      "ilg__partners_viewed",
+      "ilg__services_viewed",
+      "ilg__cta_viewed",
+      "ilg__contact-form_viewed",
+      "ilg_services_hero_viewed",
+      "ilg_services_service-grid_viewed",
+      "ilg_services_cta_viewed",
+      "ilg_about_hero_viewed",
+      "ilg_about_mvv_viewed",
+      "ilg_about_cta_viewed",
+      "ilg_contact_hero_viewed",
+      "ilg_contact_form_viewed",
+      "ilg_404_not-found-hero_viewed",
+      "ilg_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-ilg",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-ilg",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-ilg-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-ilg-primary",
+        "name": "The Official Gateway",
+        "description": "ILG is procedural and trustworthy — steel‑blue arch, IBM Plex across display and mono, rubber‑stamp accents. A government‑grade portal reimagined as software you actually want to use."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-ilg-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-ilg-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-ilg",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/ilg/config.json",
+      "docs/data/ilg/worktree.json",
+      "docs/data/ilg/gaps.json"
+    ]
+  }
+}

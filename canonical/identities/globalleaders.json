@@ -1,0 +1,3884 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/globalleaders/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/globalleaders/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/globalleaders/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/globalleaders.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-globalleaders",
+    "slug": "globalleaders",
+    "name": "Global Leaders",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+    "mission": "To make Global Leaders a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-globalleaders-1",
+        "title": "Operational clarity",
+        "description": "Global Leaders should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-globalleaders-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-globalleaders-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-globalleaders",
+    "brand_name": "Global Leaders",
+    "tagline": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+    "short_description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+    "long_description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+    "mission": "To make Global Leaders a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-globalleaders-1",
+        "title": "Operational clarity",
+        "description": "Global Leaders should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-globalleaders-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-globalleaders-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Global Leaders: An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+      "one_liner": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/globalleaders/config.json",
+        "docs/data/globalleaders/worktree.json",
+        "docs/data/globalleaders/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-globalleaders",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/globalleaders/config.json",
+        "docs/data/globalleaders/worktree.json",
+        "docs/data/globalleaders/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-globalleaders",
+    "theme": {
+      "mode": "light",
+      "variant": "corporate-blue",
+      "palette": {
+        "bg": "#fafbff",
+        "bg_light": "#f0f4ff",
+        "primary": "#1e3a8a",
+        "primary_light": "#1d4ed8",
+        "secondary": "#0369a1",
+        "accent": "#c9a84c",
+        "text": "#0c1445",
+        "text_muted": "#4b5563",
+        "border": "rgba(30,58,138,0.1)",
+        "gradient": "linear-gradient(135deg, #1e3a8a 0%, #0369a1 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "display": "Inter",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-globalleaders",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-globalleaders",
+    "domains": [
+      {
+        "domain": "globalleaders.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "globalleaders.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-globalleaders",
+    "domain": "globalleaders.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-globalleaders",
+      "identity_id": "identity-globalleaders",
+      "name": "Global Leaders",
+      "slug": "globalleaders",
+      "domain": "globalleaders.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-globalleaders",
+        "footer_id": "footer-globalleaders",
+        "theme_id": "design-system-globalleaders",
+        "seo_profile_id": "seo-profile-globalleaders"
+      },
+      "pages": [
+        "page-globalleaders-root",
+        "page-globalleaders-program",
+        "page-globalleaders-dynamic-ventures",
+        "page-globalleaders-about",
+        "page-globalleaders-apply",
+        "page-globalleaders-contact",
+        "page-globalleaders-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-globalleaders",
+    "brand_label": "Global Leaders",
+    "items": [
+      {
+        "label": "The Program",
+        "href": "/program",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Dynamic Ventures",
+        "href": "/dynamic-ventures",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "About Global Leaders",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      },
+      {
+        "label": "Apply",
+        "href": "/apply",
+        "type": "internal",
+        "visibility": "public",
+        "order": 4,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 5,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Apply for the Program",
+      "href": "/apply",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-globalleaders",
+    "brand": "Global Leaders",
+    "description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "The Program",
+            "href": "/program"
+          },
+          {
+            "label": "Dynamic Ventures",
+            "href": "/dynamic-ventures"
+          },
+          {
+            "label": "About Global Leaders",
+            "href": "/about"
+          },
+          {
+            "label": "Apply",
+            "href": "/apply"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-globalleaders-root",
+      "website_id": "website-globalleaders",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-root--hero",
+          "page_id": "page-globalleaders-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Global Leaders — Define the Future, Don't Just Keep Up With It",
+            "subheadline": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "The Program",
+            "cta_secondary_href": "/program",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Global Leaders — Define the Future, Don't Just Keep Up With It",
+            "subheadline": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "The Program",
+            "cta_secondary_href": "/program"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders__hero_viewed",
+            "cta_events": [
+              "globalleaders_hero_cta-primary-label_clicked",
+              "globalleaders_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-root--manifesto",
+          "page_id": "page-globalleaders-root",
+          "section_key": "manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "The World Is Changing — And Fast",
+            "body": "New companies emerge at exponential rates. Technology evolves by Moore's Law. International cooperation accelerates. At CodeLoop Ecosystem, you start to define the future instead of just trying to keep up with it.",
+            "cta_label": "Join the Vanguard",
+            "cta_href": "/apply",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "stat_1": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stat_2": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stat_3": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stats": [],
+            "subtitle": "Briefing V1."
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The World Is Changing — And Fast",
+            "body": "New companies emerge at exponential rates. Technology evolves by Moore's Law. International cooperation accelerates. At CodeLoop Ecosystem, you start to define the future instead of just trying to keep up with it.",
+            "cta_label": "Join the Vanguard",
+            "cta_href": "/apply",
+            "stat_1": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stat_2": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stat_3": "Briefing V1.3 Impact: - Global Leaders Landing Page - Global Leaders Deck - Dynamic Cycles Deck - CodeLoop Website - Hub: Mainland - Mailing Partner Journey Resources: - Dynamic Cycles Deck - Visionnaire Club Deck Topics: - The world is changing… and fast! - New companies rate: - New technology r...",
+            "stats": [],
+            "subtitle": "Briefing V1."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders__manifesto_viewed",
+            "cta_events": [
+              "globalleaders_manifesto_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-root--program-overview",
+          "page_id": "page-globalleaders-root",
+          "section_key": "program-overview",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "The Global Leaders Journey",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Shortlist & Invitation",
+                "description": "Connect with Decision Makers, Introduction Call, and receive your Global Leaders Program Invitation."
+              },
+              {
+                "step": "2",
+                "title": "Global Leadership Thesis",
+                "description": "Run Omnianalysis, map Innovation Theses, attend Exploration Meeting, and participate in Valor Council Thesis Debate."
+              },
+              {
+                "step": "3",
+                "title": "Dynamic Venture Schematic",
+                "description": "Build Dynamic Cycles, Dynamic Nodes, and Work Cells. Attend Wisdom Council Venture Debate and sign the Visionnaire Global Leaders agreement."
+              },
+              {
+                "step": "4",
+                "title": "Dynamic Venture Creation",
+                "description": "Build Dynamic Venture Workbook, create Organization Island, and launch the Dynamic Venture."
+              },
+              {
+                "step": "5",
+                "title": "Dynamic Cycle Execution",
+                "description": "Open Dynamic Cycle, plan nodes, start runs, deliver, and review results with Recurrent Results Reports."
+              }
+            ],
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "The Global Leaders Journey",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Shortlist & Invitation",
+                "description": "Connect with Decision Makers, Introduction Call, and receive your Global Leaders Program Invitation."
+              },
+              {
+                "step": "2",
+                "title": "Global Leadership Thesis",
+                "description": "Run Omnianalysis, map Innovation Theses, attend Exploration Meeting, and participate in Valor Council Thesis Debate."
+              },
+              {
+                "step": "3",
+                "title": "Dynamic Venture Schematic",
+                "description": "Build Dynamic Cycles, Dynamic Nodes, and Work Cells. Attend Wisdom Council Venture Debate and sign the Visionnaire Global Leaders agreement."
+              },
+              {
+                "step": "4",
+                "title": "Dynamic Venture Creation",
+                "description": "Build Dynamic Venture Workbook, create Organization Island, and launch the Dynamic Venture."
+              },
+              {
+                "step": "5",
+                "title": "Dynamic Cycle Execution",
+                "description": "Open Dynamic Cycle, plan nodes, start runs, deliver, and review results with Recurrent Results Reports."
+              }
+            ],
+            "subtitle": "The Global Leaders Journey becomes a focused operating layer for Global Leaders.",
+            "description": "The Global Leaders Journey translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders__program-overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#program-overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-root--ecosystem",
+          "page_id": "page-globalleaders-root",
+          "section_key": "ecosystem",
+          "pod": "EcosystemSection",
+          "pad": {
+            "title": "The CodeLoop Ecosystem Advantage",
+            "items": [
+              {
+                "name": "Mainland WebOS",
+                "description": "ProLab, Workstation, Library, Academy, and Hub — all in one Dynamic Work OS."
+              },
+              {
+                "name": "Bastion",
+                "description": "Wallet, Blockchain, and Liquidity Provider Contracts for tokenized venture management."
+              },
+              {
+                "name": "Remotica",
+                "description": "Host, Rooms, Universe, and Remote Islands for immersive collaboration."
+              },
+              {
+                "name": "Visionnaire Club",
+                "description": "Exclusive network for Global Leaders and the Visionnaire Business Center."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "EcosystemSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "The CodeLoop Ecosystem Advantage",
+            "items": [
+              {
+                "name": "Mainland WebOS",
+                "description": "ProLab, Workstation, Library, Academy, and Hub — all in one Dynamic Work OS."
+              },
+              {
+                "name": "Bastion",
+                "description": "Wallet, Blockchain, and Liquidity Provider Contracts for tokenized venture management."
+              },
+              {
+                "name": "Remotica",
+                "description": "Host, Rooms, Universe, and Remote Islands for immersive collaboration."
+              },
+              {
+                "name": "Visionnaire Club",
+                "description": "Exclusive network for Global Leaders and the Visionnaire Business Center."
+              }
+            ],
+            "description": "The CodeLoop Ecosystem Advantage translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "The CodeLoop Ecosystem Advantage becomes a focused operating layer for Global Leaders.",
+            "features": [
+              {
+                "id": "the-codeloop-ecosystem-advantage-item-1",
+                "title": "Context with ownership",
+                "description": "Global Leaders keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "the-codeloop-ecosystem-advantage-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "the-codeloop-ecosystem-advantage-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders__ecosystem_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-program",
+      "website_id": "website-globalleaders",
+      "path": "/program",
+      "slug": "program",
+      "title": "The Program",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-program--hero",
+          "page_id": "page-globalleaders-program",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "The Global Leaders Program",
+            "subheadline": "A 5-phase journey from invitation to Dynamic Venture execution — built for visionary companies ready to define the future of their industry.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Dynamic Ventures",
+            "cta_secondary_href": "/dynamic-ventures",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "The Global Leaders Program",
+            "subheadline": "A 5-phase journey from invitation to Dynamic Venture execution — built for visionary companies ready to define the future of their industry.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Dynamic Ventures",
+            "cta_secondary_href": "/dynamic-ventures"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_program_hero_viewed",
+            "cta_events": [
+              "globalleaders_hero_cta-primary-label_clicked",
+              "globalleaders_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-program--phases",
+          "page_id": "page-globalleaders-program",
+          "section_key": "phases",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "The 5 Phases of Global Leadership",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Shortlist & Invitation",
+                "description": "Connect with Decision Makers, Introduction Call, and receive your Global Leaders Program Invitation."
+              },
+              {
+                "step": "2",
+                "title": "Global Leadership Thesis",
+                "description": "Run Omnianalysis, map Innovation Theses, attend the Exploration Meeting, and participate in the Valor Council Thesis Debate."
+              },
+              {
+                "step": "3",
+                "title": "Dynamic Venture Schematic",
+                "description": "Build Dynamic Cycles, Dynamic Nodes, and Work Cells. Attend the Wisdom Council Venture Debate and sign the Visionnaire Global Leaders agreement."
+              },
+              {
+                "step": "4",
+                "title": "Dynamic Venture Creation",
+                "description": "Build the Dynamic Venture Workbook, create your Organization Island, and launch the Dynamic Venture."
+              },
+              {
+                "step": "5",
+                "title": "Dynamic Cycle Execution",
+                "description": "Open Dynamic Cycles, plan nodes, start runs, deliver results, and review with Recurrent Results Reports."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The 5 Phases of Global Leadership",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Shortlist & Invitation",
+                "description": "Connect with Decision Makers, Introduction Call, and receive your Global Leaders Program Invitation."
+              },
+              {
+                "step": "2",
+                "title": "Global Leadership Thesis",
+                "description": "Run Omnianalysis, map Innovation Theses, attend the Exploration Meeting, and participate in the Valor Council Thesis Debate."
+              },
+              {
+                "step": "3",
+                "title": "Dynamic Venture Schematic",
+                "description": "Build Dynamic Cycles, Dynamic Nodes, and Work Cells. Attend the Wisdom Council Venture Debate and sign the Visionnaire Global Leaders agreement."
+              },
+              {
+                "step": "4",
+                "title": "Dynamic Venture Creation",
+                "description": "Build the Dynamic Venture Workbook, create your Organization Island, and launch the Dynamic Venture."
+              },
+              {
+                "step": "5",
+                "title": "Dynamic Cycle Execution",
+                "description": "Open Dynamic Cycles, plan nodes, start runs, deliver results, and review with Recurrent Results Reports."
+              }
+            ],
+            "subtitle": "The 5 Phases of Global Leadership becomes a focused operating layer for Global Leaders.",
+            "description": "The 5 Phases of Global Leadership translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_program_phases_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#phases",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#phases",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-program--features",
+          "page_id": "page-globalleaders-program",
+          "section_key": "features",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "What Makes the Program Unique",
+            "items": [
+              {
+                "title": "Invitation Only",
+                "description": "The Global Leaders Program is reserved for companies with the vision and capacity to operate at institutional scale."
+              },
+              {
+                "title": "Augmented Intelligence",
+                "description": "Every phase is powered by AI-driven Omnianalysis, scenario simulation, and real-time venture intelligence."
+              },
+              {
+                "title": "Royal Orbit Backing",
+                "description": "Participants gain access to the Royal Orbit network — the institutional trade and investment layer of the CodeLoop Ecosystem."
+              },
+              {
+                "title": "Dynamic Venture OS",
+                "description": "Your venture runs inside the Mainland WebOS — a complete operating system for dynamic, distributed work."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "What Makes the Program Unique",
+            "items": [
+              {
+                "title": "Invitation Only",
+                "description": "The Global Leaders Program is reserved for companies with the vision and capacity to operate at institutional scale."
+              },
+              {
+                "title": "Augmented Intelligence",
+                "description": "Every phase is powered by AI-driven Omnianalysis, scenario simulation, and real-time venture intelligence."
+              },
+              {
+                "title": "Royal Orbit Backing",
+                "description": "Participants gain access to the Royal Orbit network — the institutional trade and investment layer of the CodeLoop Ecosystem."
+              },
+              {
+                "title": "Dynamic Venture OS",
+                "description": "Your venture runs inside the Mainland WebOS — a complete operating system for dynamic, distributed work."
+              }
+            ],
+            "description": "What Makes the Program Unique translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "What Makes the Program Unique becomes a focused operating layer for Global Leaders.",
+            "features": [
+              {
+                "id": "what-makes-the-program-unique-item-1",
+                "title": "Context with ownership",
+                "description": "Global Leaders keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "what-makes-the-program-unique-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "what-makes-the-program-unique-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_program_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-program--cta",
+          "page_id": "page-globalleaders-program",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Ready to Define the Future?",
+            "description": "Submit your Venture Blueprint and begin your Global Leaders journey.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Ready to Define the Future?",
+            "description": "Submit your Venture Blueprint and begin your Global Leaders journey.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "globalleaders_program_cta_viewed",
+            "cta_events": [
+              "globalleaders_cta_cta-primary-label_clicked",
+              "globalleaders_cta_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /program#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-dynamic-ventures",
+      "website_id": "website-globalleaders",
+      "path": "/dynamic-ventures",
+      "slug": "dynamic-ventures",
+      "title": "Dynamic Ventures",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-dynamic-ventures--hero",
+          "page_id": "page-globalleaders-dynamic-ventures",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Dynamic Ventures",
+            "subheadline": "The venture building methodology at the core of the Global Leaders Program — combining deep analysis, scenario simulation, and structured execution to launch ventures that compound.",
+            "cta_primary_label": "Start Your Venture",
+            "cta_primary_href": "/apply",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Dynamic Ventures",
+            "subheadline": "The venture building methodology at the core of the Global Leaders Program — combining deep analysis, scenario simulation, and structured execution to launch ventures that compound.",
+            "cta_primary_label": "Start Your Venture",
+            "cta_primary_href": "/apply"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_dynamic-ventures_hero_viewed",
+            "cta_events": [
+              "globalleaders_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-dynamic-ventures--features",
+          "page_id": "page-globalleaders-dynamic-ventures",
+          "section_key": "features",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "The Dynamic Venture Framework",
+            "items": [
+              {
+                "title": "Venture Building",
+                "description": "Structured methodology to design, validate, and launch ventures within the CodeLoop Ecosystem — from Dynamic Workbook to Organization Island."
+              },
+              {
+                "title": "Deep Analysis (Omnianalysis)",
+                "description": "Multi-dimensional intelligence gathering across market, technology, competition, regulation, and talent dimensions before any capital is committed."
+              },
+              {
+                "title": "Impact Simulation",
+                "description": "Scenario-based simulation of venture outcomes across multiple futures — so leadership enters execution with strategic clarity."
+              },
+              {
+                "title": "Dynamic Cycles",
+                "description": "Time-boxed execution cycles with planned nodes, live runs, and recurrent results reviews — building compounding momentum."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The Dynamic Venture Framework",
+            "items": [
+              {
+                "title": "Venture Building",
+                "description": "Structured methodology to design, validate, and launch ventures within the CodeLoop Ecosystem — from Dynamic Workbook to Organization Island."
+              },
+              {
+                "title": "Deep Analysis (Omnianalysis)",
+                "description": "Multi-dimensional intelligence gathering across market, technology, competition, regulation, and talent dimensions before any capital is committed."
+              },
+              {
+                "title": "Impact Simulation",
+                "description": "Scenario-based simulation of venture outcomes across multiple futures — so leadership enters execution with strategic clarity."
+              },
+              {
+                "title": "Dynamic Cycles",
+                "description": "Time-boxed execution cycles with planned nodes, live runs, and recurrent results reviews — building compounding momentum."
+              }
+            ],
+            "description": "The Dynamic Venture Framework translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "The Dynamic Venture Framework becomes a focused operating layer for Global Leaders.",
+            "features": [
+              {
+                "id": "the-dynamic-venture-framework-item-1",
+                "title": "Context with ownership",
+                "description": "Global Leaders keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "the-dynamic-venture-framework-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "the-dynamic-venture-framework-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_dynamic-ventures_features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-dynamic-ventures--cta",
+          "page_id": "page-globalleaders-dynamic-ventures",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Build a Venture That Compounds",
+            "description": "Apply to the Global Leaders Program and access the full Dynamic Venture framework.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/apply"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Build a Venture That Compounds",
+            "description": "Apply to the Global Leaders Program and access the full Dynamic Venture framework.",
+            "cta_primary_label": "Apply Now",
+            "cta_primary_href": "/apply"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "globalleaders_dynamic-ventures_cta_viewed",
+            "cta_events": [
+              "globalleaders_cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /dynamic-ventures#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-about",
+      "website_id": "website-globalleaders",
+      "path": "/about",
+      "slug": "about",
+      "title": "About Global Leaders",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-about--hero",
+          "page_id": "page-globalleaders-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "About Global Leaders",
+            "subheadline": "Global Leaders is the CodeLoop Ecosystem's invitation-only program for companies ready to operate at the frontier of Dynamic Innovation.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "About Global Leaders",
+            "subheadline": "Global Leaders is the CodeLoop Ecosystem's invitation-only program for companies ready to operate at the frontier of Dynamic Innovation."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-about--mvv",
+          "page_id": "page-globalleaders-about",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To accelerate the emergence of globally competitive ventures by equipping visionary companies with the frameworks, intelligence, and ecosystem access they need to define their industries.",
+            "vision": "A world where the most ambitious companies operate through Dynamic Ventures — compounding results cycle after cycle.",
+            "values": [
+              "Visionary Leadership",
+              "Dynamic Execution",
+              "Institutional Integrity",
+              "Ecosystem Thinking"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To accelerate the emergence of globally competitive ventures by equipping visionary companies with the frameworks, intelligence, and ecosystem access they need to define their industries.",
+            "vision": "A world where the most ambitious companies operate through Dynamic Ventures — compounding results cycle after cycle.",
+            "values": [
+              "Visionary Leadership",
+              "Dynamic Execution",
+              "Institutional Integrity",
+              "Ecosystem Thinking"
+            ],
+            "title": "Mvv requires reviewed title content for Global Leaders.",
+            "description": "Mvv translates An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for Global Leaders.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Global Leaders keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Global Leaders keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_about_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-about--cta",
+          "page_id": "page-globalleaders-about",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Join the Vanguard",
+            "description": "The Global Leaders Program is open to companies invited to enter the CodeLoop Ecosystem.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Join the Vanguard",
+            "description": "The Global Leaders Program is open to companies invited to enter the CodeLoop Ecosystem.",
+            "cta_primary_label": "Apply for the Program",
+            "cta_primary_href": "/apply",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "globalleaders_about_cta_viewed",
+            "cta_events": [
+              "globalleaders_cta_cta-primary-label_clicked",
+              "globalleaders_cta_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-apply",
+      "website_id": "website-globalleaders",
+      "path": "/apply",
+      "slug": "apply",
+      "title": "Apply",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-apply--hero",
+          "page_id": "page-globalleaders-apply",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Apply for the Global Leaders Program",
+            "subheadline": "Fill out the Venture Blueprint Form with your Background and Vision.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Apply for the Global Leaders Program",
+            "subheadline": "Fill out the Venture Blueprint Form with your Background and Vision."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_apply_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /apply#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /apply#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-apply--form",
+          "page_id": "page-globalleaders-apply",
+          "section_key": "form",
+          "pod": "ApplicationForm",
+          "pad": {
+            "title": "Venture Blueprint Form",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "company",
+                "label": "Company Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "market",
+                "label": "Market / Industry",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "vision",
+                "label": "Describe Your Vision",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Venture Blueprint",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ApplicationForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Venture Blueprint Form",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Full Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "company",
+                "label": "Company Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "market",
+                "label": "Market / Industry",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "vision",
+                "label": "Describe Your Vision",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Submit Venture Blueprint",
+            "subtitle": "Venture Blueprint Form becomes a focused operating layer for Global Leaders."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_apply_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /apply#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /apply#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /apply#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-contact",
+      "website_id": "website-globalleaders",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-contact--hero",
+          "page_id": "page-globalleaders-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Connect with Global Leaders",
+            "subheadline": "Reach out to learn more about the program.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Connect with Global Leaders",
+            "subheadline": "Reach out to learn more about the program."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-contact--form",
+          "page_id": "page-globalleaders-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Global Leaders",
+            "site_slug": "globalleaders",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Global Leaders",
+            "site_slug": "globalleaders",
+            "title": "Form requires reviewed title content for Global Leaders.",
+            "subtitle": "Form becomes a focused operating layer for Global Leaders."
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/globalleaders/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-globalleaders-404",
+      "website_id": "website-globalleaders",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-globalleaders-404--not-found-hero",
+          "page_id": "page-globalleaders-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Global Leaders — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Global Leaders — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-globalleaders-404--not-found-cta",
+          "page_id": "page-globalleaders-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Global Leaders.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Global Leaders.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "corporate-blue",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "globalleaders_404_not-found-cta_viewed",
+            "cta_events": [
+              "globalleaders_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/globalleaders/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ApplicationForm",
+      "category": "section",
+      "description": "ApplicationForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "EcosystemSection",
+      "category": "section",
+      "description": "EcosystemSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 389
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 386
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 213
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stats": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 187
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 116
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 360
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 390
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-globalleaders",
+    "total_original_gaps": 21,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "program-overview",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "The Global Leaders Journey",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "program-overview",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "The Global Leaders Journey",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "description",
+        "headline": "The CodeLoop Ecosystem Advantage",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "subtitle",
+        "headline": "The CodeLoop Ecosystem Advantage",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "features",
+        "headline": "The CodeLoop Ecosystem Advantage",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/program",
+        "section_id": "phases",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "The 5 Phases of Global Leadership",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/program",
+        "section_id": "phases",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "The 5 Phases of Global Leadership",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "description",
+        "headline": "What Makes the Program Unique",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "headline": "What Makes the Program Unique",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "features",
+        "headline": "What Makes the Program Unique",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "description",
+        "headline": "The Dynamic Venture Framework",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "headline": "The Dynamic Venture Framework",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "features",
+        "headline": "The Dynamic Venture Framework",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/apply",
+        "section_id": "form",
+        "pod": "ApplicationForm",
+        "field": "subtitle",
+        "headline": "Venture Blueprint Form",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "program-overview",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "program-overview",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "ecosystem",
+        "pod": "EcosystemSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/program",
+        "section_id": "phases",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/program",
+        "section_id": "phases",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/program",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/dynamic-ventures",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "features",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/apply",
+        "section_id": "form",
+        "pod": "ApplicationForm",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-globalleaders",
+      "canonical_base_url": "https://globalleaders.codeloop.co",
+      "default_title": "Global Leaders",
+      "default_description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/globalleaders/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-globalleaders-root",
+        "title": "Home",
+        "description": "An invitation-only program for visionary companies entering Dynamic Innovation Cycles through the CodeLoop Ecosystem — backed by Royal Orbit and powered by Augmented Intelligence.",
+        "canonical": "https://globalleaders.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-program",
+        "title": "The Program",
+        "description": "A 5-phase journey from invitation to Dynamic Venture execution — built for visionary companies ready to define the future of their industry.",
+        "canonical": "https://globalleaders.codeloop.co/program",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-dynamic-ventures",
+        "title": "Dynamic Ventures",
+        "description": "The venture building methodology at the core of the Global Leaders Program — combining deep analysis, scenario simulation, and structured execution to launch ventures that compound.",
+        "canonical": "https://globalleaders.codeloop.co/dynamic-ventures",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-about",
+        "title": "About Global Leaders",
+        "description": "Global Leaders is the CodeLoop Ecosystem's invitation-only program for companies ready to operate at the frontier of Dynamic Innovation.",
+        "canonical": "https://globalleaders.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-apply",
+        "title": "Apply",
+        "description": "Fill out the Venture Blueprint Form with your Background and Vision.",
+        "canonical": "https://globalleaders.codeloop.co/apply",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-contact",
+        "title": "Contact",
+        "description": "Reach out to learn more about the program.",
+        "canonical": "https://globalleaders.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-globalleaders-404",
+        "title": "Page Not Found",
+        "description": "Global Leaders — Pagina nao encontrada",
+        "canonical": "https://globalleaders.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-globalleaders",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "globalleaders__hero_viewed",
+      "globalleaders__manifesto_viewed",
+      "globalleaders__program-overview_viewed",
+      "globalleaders__ecosystem_viewed",
+      "globalleaders_program_hero_viewed",
+      "globalleaders_program_phases_viewed",
+      "globalleaders_program_features_viewed",
+      "globalleaders_program_cta_viewed",
+      "globalleaders_dynamic-ventures_hero_viewed",
+      "globalleaders_dynamic-ventures_features_viewed",
+      "globalleaders_dynamic-ventures_cta_viewed",
+      "globalleaders_about_hero_viewed",
+      "globalleaders_about_mvv_viewed",
+      "globalleaders_about_cta_viewed",
+      "globalleaders_apply_hero_viewed",
+      "globalleaders_apply_form_viewed",
+      "globalleaders_contact_hero_viewed",
+      "globalleaders_contact_form_viewed",
+      "globalleaders_404_not-found-hero_viewed",
+      "globalleaders_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-globalleaders",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-globalleaders",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-globalleaders-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-globalleaders-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-globalleaders-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-globalleaders",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/globalleaders/config.json",
+      "docs/data/globalleaders/worktree.json",
+      "docs/data/globalleaders/gaps.json"
+    ]
+  }
+}

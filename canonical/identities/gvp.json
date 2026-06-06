@@ -1,0 +1,3318 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/gvp/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/gvp/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/gvp/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/gvp/assets/logos/11-gvp.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/gvp/assets/logos/gvp.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/gvp.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-gvp",
+    "slug": "gvp",
+    "name": "GVP",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A CodeLoop Ecosystem WebOS instance — powered by the Mainland Dynamic Work OS.",
+    "mission": "To turn efficiency in scaling through shared infrastructure into an operating system through Industrial parks · centralized support services (DSS).",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-gvp-1",
+        "title": "Operational clarity",
+        "description": "GVP should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-gvp-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-gvp-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Global Venture Park",
+      "market": "Industrial & Operational Support",
+      "statement": "GVP is industrial and unambiguous — charcoal globe‑shield, narrow grotesque display, safety‑yellow reserved as a single accent. Signage‑grade typography, manufacturing grid, zero ornament.",
+      "differentiators": [
+        "Efficiency in scaling through shared infrastructure.",
+        "Industrial parks · centralized support services (DSS).",
+        "The Industrial Backbone"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "industrial",
+      "secondary": "operational",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-gvp",
+    "brand_name": "GVP",
+    "tagline": "Shared infrastructure for ventures that scale.",
+    "short_description": "GVP is industrial and unambiguous — charcoal globe‑shield, narrow grotesque display, safety‑yellow reserved as a single accent.",
+    "long_description": "GVP is industrial and unambiguous — charcoal globe‑shield, narrow grotesque display, safety‑yellow reserved as a single accent. Signage‑grade typography, manufacturing grid, zero ornament.",
+    "mission": "To turn efficiency in scaling through shared infrastructure into an operating system through Industrial parks · centralized support services (DSS).",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-gvp-1",
+        "title": "Operational clarity",
+        "description": "GVP should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-gvp-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-gvp-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "Global Venture Park",
+      "market": "Industrial & Operational Support",
+      "statement": "GVP is industrial and unambiguous — charcoal globe‑shield, narrow grotesque display, safety‑yellow reserved as a single accent. Signage‑grade typography, manufacturing grid, zero ornament.",
+      "differentiators": [
+        "Efficiency in scaling through shared infrastructure.",
+        "Industrial parks · centralized support services (DSS).",
+        "The Industrial Backbone"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "GVP: Shared infrastructure for ventures that scale.",
+      "one_liner": "The factory floor for ventures."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/gvp/config.json",
+        "docs/data/gvp/worktree.json",
+        "docs/data/gvp/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-gvp",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "industrial",
+      "secondary": "operational",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "GVP Infrastructure",
+        "Venture Incubation Grounds"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/gvp/config.json",
+        "docs/data/gvp/worktree.json",
+        "docs/data/gvp/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-gvp",
+    "theme": {
+      "mode": "light",
+      "variant": "light-premium",
+      "palette": {
+        "bg": "#F5F5F5",
+        "bg_light": "#E8E8E8",
+        "primary": "#1C1C1C",
+        "primary_light": "#F5C518",
+        "secondary": "#000000",
+        "accent": "#F5C518",
+        "text": "#0A0A0A",
+        "text_muted": "#5A5A5A",
+        "border": "#D0D0D0",
+        "gradient": "linear-gradient(135deg, #1C1C1C 0%, #F5C518 100%)",
+        "primary_ink": "#000000",
+        "bg_alt": "#E8E8E8",
+        "surface": "#FFFFFF"
+      },
+      "scale": [
+        "#F2F2F2",
+        "#D6D6D6",
+        "#B1B1B1",
+        "#8A8A8A",
+        "#5F5F5F",
+        "#404040",
+        "#2B2B2B",
+        "#1C1C1C",
+        "#0E0E0E",
+        "#000000"
+      ],
+      "semantics": {
+        "success": "#3E8A52",
+        "warning": "#F5C518",
+        "danger": "#C1362E",
+        "info": "#3A6AA0"
+      }
+    },
+    "typography": {
+      "heading": "Archivo Narrow",
+      "body": "IBM Plex Sans",
+      "display": "Archivo Narrow",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "2px",
+        "md": "4px",
+        "lg": "6px",
+        "xl": "10px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "industrial"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-gvp",
+    "logos": [
+      {
+        "id": "asset-gvp-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/gvp/assets/logos/11-gvp.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Gvp logo"
+      },
+      {
+        "id": "asset-gvp-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/gvp/assets/logos/gvp.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Gvp logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-gvp",
+    "domains": [
+      {
+        "domain": "gvp.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "gvp.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-gvp",
+    "domain": "gvp.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-gvp",
+      "identity_id": "identity-gvp",
+      "name": "GVP",
+      "slug": "gvp",
+      "domain": "gvp.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-gvp",
+        "footer_id": "footer-gvp",
+        "theme_id": "design-system-gvp",
+        "seo_profile_id": "seo-profile-gvp"
+      },
+      "pages": [
+        "page-gvp-root",
+        "page-gvp-about",
+        "page-gvp-contact",
+        "page-gvp-services",
+        "page-gvp-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-gvp",
+    "brand_label": "GVP",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "About",
+      "href": "/about",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-gvp",
+    "brand": "GVP",
+    "description": "A CodeLoop Ecosystem WebOS instance — powered by the Mainland Dynamic Work OS.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-gvp-root",
+      "website_id": "website-gvp",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-gvp-root--hero",
+          "page_id": "page-gvp-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "We don't just fund ventures — we build them.",
+            "subheadline": "GVP is an operational venture building platform. Infrastructure, talent, and methodology — from zero to scale.",
+            "cta_primary_label": "How it works",
+            "cta_primary_href": "#process",
+            "cta_secondary_label": "Active ventures",
+            "cta_secondary_href": "#ventures",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "We don't just fund ventures — we build them.",
+            "subheadline": "GVP is an operational venture building platform. Infrastructure, talent, and methodology — from zero to scale.",
+            "cta_primary_label": "How it works",
+            "cta_primary_href": "#process",
+            "cta_secondary_label": "Active ventures",
+            "cta_secondary_href": "#ventures"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__hero_viewed",
+            "cta_events": [
+              "gvp_hero_cta-primary-label_clicked",
+              "gvp_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--ventures",
+          "page_id": "page-gvp-root",
+          "section_key": "ventures",
+          "pod": "VentureGrid",
+          "pad": {
+            "title": "Active ventures",
+            "subtitle": "Built on or through the GVP platform.",
+            "items": [
+              {
+                "name": "Bastion",
+                "sector": "Fintech",
+                "description": "CodeLoop's financial infrastructure layer — banking, payments, and treasury for the entire Ecosystem.",
+                "status": "Operating"
+              },
+              {
+                "name": "Karon Mobility",
+                "sector": "Mobility",
+                "description": "Logistics and mobility solutions for emerging urban markets across Latin America.",
+                "status": "Operating"
+              },
+              {
+                "name": "Legacy Educa",
+                "sector": "Education",
+                "description": "Workforce education platform focused on upskilling emerging market talent for the digital economy.",
+                "status": "Operating"
+              },
+              {
+                "name": "Sollex",
+                "sector": "Clean Energy",
+                "description": "Distributed clean energy infrastructure for underserved communities and commercial real estate.",
+                "status": "Scaling"
+              }
+            ],
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "VentureGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Active ventures",
+            "subtitle": "Built on or through the GVP platform.",
+            "items": [
+              {
+                "name": "Bastion",
+                "sector": "Fintech",
+                "description": "CodeLoop's financial infrastructure layer — banking, payments, and treasury for the entire Ecosystem.",
+                "status": "Operating"
+              },
+              {
+                "name": "Karon Mobility",
+                "sector": "Mobility",
+                "description": "Logistics and mobility solutions for emerging urban markets across Latin America.",
+                "status": "Operating"
+              },
+              {
+                "name": "Legacy Educa",
+                "sector": "Education",
+                "description": "Workforce education platform focused on upskilling emerging market talent for the digital economy.",
+                "status": "Operating"
+              },
+              {
+                "name": "Sollex",
+                "sector": "Clean Energy",
+                "description": "Distributed clean energy infrastructure for underserved communities and commercial real estate.",
+                "status": "Scaling"
+              }
+            ],
+            "description": "Active ventures translates Shared infrastructure for ventures that scale. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__ventures_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ventures",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ventures",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ventures",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--overview",
+          "page_id": "page-gvp-root",
+          "section_key": "overview",
+          "pod": "OverviewSection",
+          "pad": {
+            "title": "A platform built for building",
+            "body": "GVP provides the operational backbone that turns ideas into functioning ventures. That means shared infrastructure — finance, legal, HR, technology — combined with a proven methodology and a talent pool that knows how to execute. Founders who build on GVP don't start from scratch: they inherit a running start.",
+            "highlights": [
+              "Operational infrastructure from day one",
+              "Cross-portfolio talent and resource sharing",
+              "Embedded methodology: Dynamic Work + Smart Work Cells",
+              "Bastion financial rails for payments and treasury"
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "OverviewSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "A platform built for building",
+            "body": "GVP provides the operational backbone that turns ideas into functioning ventures. That means shared infrastructure — finance, legal, HR, technology — combined with a proven methodology and a talent pool that knows how to execute. Founders who build on GVP don't start from scratch: they inherit a running start.",
+            "highlights": [
+              "Operational infrastructure from day one",
+              "Cross-portfolio talent and resource sharing",
+              "Embedded methodology: Dynamic Work + Smart Work Cells",
+              "Bastion financial rails for payments and treasury"
+            ],
+            "description": "A platform built for building translates Shared infrastructure for ventures that scale. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "A platform built for building becomes a focused operating layer for GVP."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__overview_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "highlights": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#overview",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for OverviewSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for OverviewSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--process",
+          "page_id": "page-gvp-root",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "From concept to scale",
+            "steps": [
+              {
+                "title": "Ideation",
+                "description": "Structured problem discovery sessions using GVP's venture design framework. Market sizing, thesis validation, and founder fit assessment."
+              },
+              {
+                "title": "Validation",
+                "description": "Lean sprints to test core assumptions before committing full build resources. Customer interviews, prototypes, and early signal tracking."
+              },
+              {
+                "title": "Build",
+                "description": "Cross-functional SQUAD assembled from the CodeLoop talent pool. Product, design, engineering, and ops working in Dynamic Work cycles."
+              },
+              {
+                "title": "Launch",
+                "description": "Market entry with GVP's go-to-market playbook. Distribution leverage across the Ecosystem's existing networks and channels."
+              },
+              {
+                "title": "Scale",
+                "description": "Transition from venture mode to operating company. Capital introduction via GIR, governance via Karon Holding, financial rails via Bastion."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "From concept to scale",
+            "steps": [
+              {
+                "title": "Ideation",
+                "description": "Structured problem discovery sessions using GVP's venture design framework. Market sizing, thesis validation, and founder fit assessment."
+              },
+              {
+                "title": "Validation",
+                "description": "Lean sprints to test core assumptions before committing full build resources. Customer interviews, prototypes, and early signal tracking."
+              },
+              {
+                "title": "Build",
+                "description": "Cross-functional SQUAD assembled from the CodeLoop talent pool. Product, design, engineering, and ops working in Dynamic Work cycles."
+              },
+              {
+                "title": "Launch",
+                "description": "Market entry with GVP's go-to-market playbook. Distribution leverage across the Ecosystem's existing networks and channels."
+              },
+              {
+                "title": "Scale",
+                "description": "Transition from venture mode to operating company. Capital introduction via GIR, governance via Karon Holding, financial rails via Bastion."
+              }
+            ],
+            "subtitle": "From concept to scale becomes a focused operating layer for GVP.",
+            "description": "From concept to scale translates Shared infrastructure for ventures that scale. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--benefits",
+          "page_id": "page-gvp-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "What you get on GVP",
+            "items": [
+              {
+                "title": "Shared infrastructure",
+                "description": "Finance, legal, HR, and technology stacks shared across the portfolio — no redundant overhead."
+              },
+              {
+                "title": "Cross-portfolio synergies",
+                "description": "Commercial introductions, talent lending, and co-development opportunities across active GVP ventures."
+              },
+              {
+                "title": "CodeLoop talent pool",
+                "description": "Access to a pre-vetted network of operators, designers, engineers, and growth specialists who've built inside the Ecosystem before."
+              },
+              {
+                "title": "Bastion financial rails",
+                "description": "Embedded payments, business banking, and treasury management from day one — no third-party banking delays."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "What you get on GVP",
+            "items": [
+              {
+                "title": "Shared infrastructure",
+                "description": "Finance, legal, HR, and technology stacks shared across the portfolio — no redundant overhead."
+              },
+              {
+                "title": "Cross-portfolio synergies",
+                "description": "Commercial introductions, talent lending, and co-development opportunities across active GVP ventures."
+              },
+              {
+                "title": "CodeLoop talent pool",
+                "description": "Access to a pre-vetted network of operators, designers, engineers, and growth specialists who've built inside the Ecosystem before."
+              },
+              {
+                "title": "Bastion financial rails",
+                "description": "Embedded payments, business banking, and treasury management from day one — no third-party banking delays."
+              }
+            ],
+            "description": "What you get on GVP translates Shared infrastructure for ventures that scale. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "What you get on GVP becomes a focused operating layer for GVP.",
+            "features": [
+              {
+                "id": "what-you-get-on-gvp-item-1",
+                "title": "Context with ownership",
+                "description": "GVP keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "what-you-get-on-gvp-item-2",
+                "title": "Distinct operating voice",
+                "description": "Efficiency in scaling through shared infrastructure. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "what-you-get-on-gvp-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Industrial parks · centralized support services (DSS). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--cta",
+          "page_id": "page-gvp-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Your next venture starts here.",
+            "description": "If you have a thesis and the drive to execute, GVP provides everything else.",
+            "cta_label": "Talk to us",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Your next venture starts here.",
+            "description": "If you have a thesis and the drive to execute, GVP provides everything else.",
+            "cta_label": "Talk to us",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "gvp__cta_viewed",
+            "cta_events": [
+              "gvp_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-root--contact",
+          "page_id": "page-gvp-root",
+          "section_key": "contact",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Build with GVP",
+            "subtitle": "Tell us about what you're working on.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send to GVP",
+            "site_name": "GVP",
+            "site_slug": "gvp",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Build with GVP",
+            "subtitle": "Tell us about what you're working on.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send to GVP",
+            "site_name": "GVP",
+            "site_slug": "gvp"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp__contact_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-gvp-about",
+      "website_id": "website-gvp",
+      "path": "/about",
+      "slug": "about",
+      "title": "About GVP",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-gvp-about--hero",
+          "page_id": "page-gvp-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Venture building as a discipline.",
+            "subheadline": "GVP is the operating engine behind the CodeLoop Ecosystem's venture portfolio.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Venture building as a discipline.",
+            "subheadline": "GVP is the operating engine behind the CodeLoop Ecosystem's venture portfolio."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-about--mvv",
+          "page_id": "page-gvp-about",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To build high-conviction ventures from zero to scale using shared infrastructure, proven methodology, and the CodeLoop talent network.",
+            "vision": "A portfolio of operating companies that are stronger together than any could be alone.",
+            "values": [
+              "Build before buy",
+              "Operators over spectators",
+              "Shared upside",
+              "Bias toward execution"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To build high-conviction ventures from zero to scale using shared infrastructure, proven methodology, and the CodeLoop talent network.",
+            "vision": "A portfolio of operating companies that are stronger together than any could be alone.",
+            "values": [
+              "Build before buy",
+              "Operators over spectators",
+              "Shared upside",
+              "Bias toward execution"
+            ],
+            "title": "Mvv requires reviewed title content for GVP.",
+            "description": "Mvv translates Shared infrastructure for ventures that scale. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for GVP.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "GVP keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "Efficiency in scaling through shared infrastructure. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Industrial parks · centralized support services (DSS). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "GVP keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "Efficiency in scaling through shared infrastructure. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Industrial parks · centralized support services (DSS). makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_about_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-about--cta-about",
+          "page_id": "page-gvp-about",
+          "section_key": "cta-about",
+          "pod": "CTA",
+          "pad": {
+            "title": "Meet the GVP team.",
+            "description": "Founders, operators, and investors — get in touch.",
+            "cta_label": "Contact us",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Meet the GVP team.",
+            "description": "Founders, operators, and investors — get in touch.",
+            "cta_label": "Contact us",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "gvp_about_cta-about_viewed",
+            "cta_events": [
+              "gvp_cta-about_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-gvp-contact",
+      "website_id": "website-gvp",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact GVP",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-gvp-contact--hero",
+          "page_id": "page-gvp-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Let's build something.",
+            "subheadline": "Whether you're a founder, an operator, or a partner — GVP is the place to start.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Let's build something.",
+            "subheadline": "Whether you're a founder, an operator, or a partner — GVP is the place to start."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-contact--form",
+          "page_id": "page-gvp-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get in touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send to GVP",
+            "site_name": "GVP",
+            "site_slug": "gvp",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Get in touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send to GVP",
+            "site_name": "GVP",
+            "site_slug": "gvp",
+            "subtitle": "Get in touch becomes a focused operating layer for GVP."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-gvp-services",
+      "website_id": "website-gvp",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-gvp-services--services-manifesto",
+          "page_id": "page-gvp-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "GVP Services",
+            "body": "Explore what GVP offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "GVP Services",
+            "body": "Explore what GVP offers in services. Content coming soon.",
+            "stat_1": "GVP Services requires reviewed stat_1 content for GVP.",
+            "stat_2": "GVP Services requires reviewed stat_2 content for GVP.",
+            "stat_3": "GVP Services requires reviewed stat_3 content for GVP.",
+            "stats": "GVP Services requires reviewed stats content for GVP.",
+            "subtitle": "GVP Services becomes a focused operating layer for GVP."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-services--services-cta",
+          "page_id": "page-gvp-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About GVP",
+            "description": "Discover everything GVP has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About GVP",
+            "description": "Discover everything GVP has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_services_services-cta_viewed",
+            "cta_events": [
+              "gvp_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-gvp-404",
+      "website_id": "website-gvp",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-gvp-404--not-found-hero",
+          "page_id": "page-gvp-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "GVP — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "GVP — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-gvp-404--not-found-cta",
+          "page_id": "page-gvp-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de GVP.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de GVP.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "gvp_404_not-found-cta_viewed",
+            "cta_events": [
+              "gvp_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/gvp/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 243
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 134
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 227
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "OverviewSection",
+      "category": "section",
+      "description": "OverviewSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 311
+        },
+        "highlights": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 253
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 245
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "VentureGrid",
+      "category": "section",
+      "description": "VentureGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 239
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-gvp",
+    "total_original_gaps": 19,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "ventures",
+        "pod": "VentureGrid",
+        "field": "description",
+        "headline": "Active ventures",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "description",
+        "headline": "A platform built for building",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for OverviewSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "subtitle",
+        "headline": "A platform built for building",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for OverviewSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "From concept to scale",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "From concept to scale",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "What you get on GVP",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "What you get on GVP",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "What you get on GVP",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get in touch",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "GVP Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "GVP Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "GVP Services",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "GVP Services",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "GVP Services",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "ventures",
+        "pod": "VentureGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "overview",
+        "pod": "OverviewSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-gvp",
+      "canonical_base_url": "https://gvp.codeloop.co",
+      "default_title": "GVP",
+      "default_description": "A CodeLoop Ecosystem WebOS instance — powered by the Mainland Dynamic Work OS.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/gvp/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-gvp-root",
+        "title": "Home",
+        "description": "GVP is an operational venture building platform. Infrastructure, talent, and methodology — from zero to scale.",
+        "canonical": "https://gvp.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-gvp-about",
+        "title": "About GVP",
+        "description": "GVP is the operating engine behind the CodeLoop Ecosystem's venture portfolio.",
+        "canonical": "https://gvp.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-gvp-contact",
+        "title": "Contact GVP",
+        "description": "Whether you're a founder, an operator, or a partner — GVP is the place to start.",
+        "canonical": "https://gvp.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-gvp-services",
+        "title": "Services",
+        "description": "A CodeLoop Ecosystem WebOS instance — powered by the Mainland Dynamic Work OS.",
+        "canonical": "https://gvp.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-gvp-404",
+        "title": "Page Not Found",
+        "description": "GVP — Pagina nao encontrada",
+        "canonical": "https://gvp.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-gvp",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "gvp__hero_viewed",
+      "gvp__ventures_viewed",
+      "gvp__overview_viewed",
+      "gvp__process_viewed",
+      "gvp__benefits_viewed",
+      "gvp__cta_viewed",
+      "gvp__contact_viewed",
+      "gvp_about_hero_viewed",
+      "gvp_about_mvv_viewed",
+      "gvp_about_cta-about_viewed",
+      "gvp_contact_hero_viewed",
+      "gvp_contact_form_viewed",
+      "gvp_services_services-manifesto_viewed",
+      "gvp_services_services-cta_viewed",
+      "gvp_404_not-found-hero_viewed",
+      "gvp_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-gvp",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-gvp",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-gvp-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-gvp-primary",
+        "name": "The Industrial Backbone",
+        "description": "GVP is industrial and unambiguous — charcoal globe‑shield, narrow grotesque display, safety‑yellow reserved as a single accent. Signage‑grade typography, manufacturing grid, zero ornament."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-gvp-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-gvp-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-gvp",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/gvp/config.json",
+      "docs/data/gvp/worktree.json",
+      "docs/data/gvp/gaps.json"
+    ]
+  }
+}

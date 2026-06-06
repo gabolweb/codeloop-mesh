@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codeloop.co/schemas/digital-identity.schema.json",
+  "title": "Canonical Digital Identity",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "source_manifest",
+    "digital_identity",
+    "brand_core",
+    "brand_voice",
+    "design_system",
+    "brand_assets",
+    "domains",
+    "websites",
+    "navigation",
+    "footer",
+    "pages",
+    "component_registry",
+    "content_gaps",
+    "seo",
+    "tracking",
+    "compliance",
+    "social",
+    "communication",
+    "audiences",
+    "protocols",
+    "governance"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "source_priority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_manifest": {
+      "type": "object"
+    },
+    "digital_identity": {
+      "type": "object",
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "type",
+        "status",
+        "ecosystem",
+        "created_at",
+        "updated_at"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "brand",
+            "product",
+            "company",
+            "district",
+            "campaign",
+            "personal_brand",
+            "community",
+            "ecosystem"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "active",
+            "archived",
+            "deprecated"
+          ]
+        }
+      }
+    },
+    "brand_core": {
+      "type": "object"
+    },
+    "brand_voice": {
+      "type": "object"
+    },
+    "design_system": {
+      "type": "object"
+    },
+    "brand_assets": {
+      "type": "object"
+    },
+    "domains": {
+      "type": "object"
+    },
+    "email_authentication": {
+      "type": "object"
+    },
+    "websites": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "navigation": {
+      "type": "object"
+    },
+    "footer": {
+      "type": "object"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "website_id",
+          "path",
+          "title",
+          "sections"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "website_id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "sections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "page_id",
+                "section_key",
+                "pod",
+                "pad",
+                "component",
+                "order",
+                "content",
+                "design",
+                "motion",
+                "tracking",
+                "field_meta"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "component_registry": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "content_gaps": {
+      "type": "object"
+    },
+    "seo": {
+      "type": "object"
+    },
+    "tracking": {
+      "type": "object"
+    },
+    "compliance": {
+      "type": "object"
+    },
+    "social": {
+      "type": "object"
+    },
+    "communication": {
+      "type": "object"
+    },
+    "audiences": {
+      "type": "object"
+    },
+    "protocols": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "governance": {
+      "type": "object"
+    }
+  }
+}

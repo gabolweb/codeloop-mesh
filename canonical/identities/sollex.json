@@ -1,0 +1,3355 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/sollex/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/sollex/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/sollex/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/sollex.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-sollex",
+    "slug": "sollex",
+    "name": "Sollex",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+    "mission": "To make Sollex a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-sollex-1",
+        "title": "Operational clarity",
+        "description": "Sollex should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-sollex-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-sollex-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-sollex",
+    "brand_name": "Sollex",
+    "tagline": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+    "short_description": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+    "long_description": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+    "mission": "To make Sollex a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-sollex-1",
+        "title": "Operational clarity",
+        "description": "Sollex should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-sollex-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-sollex-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Sollex: A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+      "one_liner": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/sollex/config.json",
+        "docs/data/sollex/worktree.json",
+        "docs/data/sollex/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-sollex",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/sollex/config.json",
+        "docs/data/sollex/worktree.json",
+        "docs/data/sollex/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-sollex",
+    "theme": {
+      "mode": "light",
+      "variant": "earth-natural",
+      "palette": {
+        "bg": "#f7fdf4",
+        "bg_light": "#ecfdf5",
+        "primary": "#166534",
+        "primary_light": "#15803d",
+        "secondary": "#f59e0b",
+        "accent": "#cc5833",
+        "text": "#052e16",
+        "text_muted": "#4b5563",
+        "border": "rgba(22,101,52,0.12)",
+        "gradient": "linear-gradient(135deg, #166534 0%, #f59e0b 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Plus Jakarta Sans",
+      "body": "Outfit",
+      "display": "Plus Jakarta Sans",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-sollex",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-sollex",
+    "domains": [
+      {
+        "domain": "sollex.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "sollex.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-sollex",
+    "domain": "sollex.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-sollex",
+      "identity_id": "identity-sollex",
+      "name": "Sollex",
+      "slug": "sollex",
+      "domain": "sollex.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-sollex",
+        "footer_id": "footer-sollex",
+        "theme_id": "design-system-sollex",
+        "seo_profile_id": "seo-profile-sollex"
+      },
+      "pages": [
+        "page-sollex-root",
+        "page-sollex-services",
+        "page-sollex-about",
+        "page-sollex-contact",
+        "page-sollex-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-sollex",
+    "brand_label": "Sollex",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Our Services",
+      "href": "/services",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-sollex",
+    "brand": "Sollex",
+    "description": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-sollex-root",
+      "website_id": "website-sollex",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-sollex-root--hero",
+          "page_id": "page-sollex-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Sollex — Clean Energy for the Next Economy",
+            "subheadline": "Solar generation, energy storage, and smart grid solutions for businesses and communities transitioning to renewable power.",
+            "cta_primary_label": "Our Solutions",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Sollex — Clean Energy for the Next Economy",
+            "subheadline": "Solar generation, energy storage, and smart grid solutions for businesses and communities transitioning to renewable power.",
+            "cta_primary_label": "Our Solutions",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Contact Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__hero_viewed",
+            "cta_events": [
+              "sollex_hero_cta-primary-label_clicked",
+              "sollex_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--manifesto",
+          "page_id": "page-sollex-root",
+          "section_key": "manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "The cheapest energy is the energy you generate yourself.",
+            "body": "Sollex was built on a simple belief: clean energy shouldn't be complicated or expensive to access. We make renewable energy practical — combining solar generation, intelligent storage, and smart grid technology into systems that actually work for real businesses.",
+            "quote": "Renewable power isn't the future. For the companies we work with, it's already the present.",
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "The cheapest energy is the energy you generate yourself.",
+            "body": "Sollex was built on a simple belief: clean energy shouldn't be complicated or expensive to access. We make renewable energy practical — combining solar generation, intelligent storage, and smart grid technology into systems that actually work for real businesses.",
+            "quote": "Renewable power isn't the future. For the companies we work with, it's already the present.",
+            "stat_1": "The cheapest energy is the energy you generate yourself. requires reviewed stat_1 content for Sollex.",
+            "stat_2": "The cheapest energy is the energy you generate yourself. requires reviewed stat_2 content for Sollex.",
+            "stat_3": "The cheapest energy is the energy you generate yourself. requires reviewed stat_3 content for Sollex.",
+            "stats": "The cheapest energy is the energy you generate yourself. requires reviewed stats content for Sollex.",
+            "subtitle": "The cheapest energy is the energy you generate yourself. becomes a focused operating layer for Sollex."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "quote": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_1\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_2\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"stat_3\" field in ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--products",
+          "page_id": "page-sollex-root",
+          "section_key": "products",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "The Sollex Portfolio",
+            "items": [
+              {
+                "title": "SolarPark",
+                "description": "Commercial and industrial solar installations — from rooftop arrays to ground-mounted solar farms. Designed for maximum yield and minimum footprint."
+              },
+              {
+                "title": "PowerVault",
+                "description": "Battery storage systems that capture excess generation, buffer grid fluctuations, and keep critical operations running regardless of supply conditions."
+              },
+              {
+                "title": "GridLink",
+                "description": "Smart grid integration layer that connects your solar assets to the grid, optimizes export timing, and enables demand-response participation."
+              },
+              {
+                "title": "GreenCredit",
+                "description": "Renewable energy certificates and carbon credit management — blockchain-verified, audit-ready, and tradeable on regulated markets."
+              }
+            ],
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProductGrid",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "The Sollex Portfolio",
+            "items": [
+              {
+                "title": "SolarPark",
+                "description": "Commercial and industrial solar installations — from rooftop arrays to ground-mounted solar farms. Designed for maximum yield and minimum footprint."
+              },
+              {
+                "title": "PowerVault",
+                "description": "Battery storage systems that capture excess generation, buffer grid fluctuations, and keep critical operations running regardless of supply conditions."
+              },
+              {
+                "title": "GridLink",
+                "description": "Smart grid integration layer that connects your solar assets to the grid, optimizes export timing, and enables demand-response participation."
+              },
+              {
+                "title": "GreenCredit",
+                "description": "Renewable energy certificates and carbon credit management — blockchain-verified, audit-ready, and tradeable on regulated markets."
+              }
+            ],
+            "subtitle": "The Sollex Portfolio becomes a focused operating layer for Sollex.",
+            "description": "The Sollex Portfolio translates A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__products_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#products",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--features",
+          "page_id": "page-sollex-root",
+          "section_key": "features",
+          "pod": "FeatureSection",
+          "pad": {
+            "title": "Intelligent by Design",
+            "description": "Every Sollex system is built with software at its core — not as an add-on.",
+            "features": [
+              {
+                "title": "AI-Optimized Generation",
+                "description": "Machine learning models continuously tune panel orientation, inverter settings, and load distribution to maximize output across changing conditions."
+              },
+              {
+                "title": "Predictive Maintenance",
+                "description": "Sensors and anomaly detection flag degradation and faults before they become failures — keeping uptime high and service calls low."
+              },
+              {
+                "title": "Real-Time Monitoring",
+                "description": "Live dashboards give operators visibility into generation, consumption, storage state, and grid export — from any device."
+              },
+              {
+                "title": "Blockchain-Verified Green Credits",
+                "description": "Every kilowatt-hour generated is logged on-chain, creating an immutable audit trail for carbon accounting and certificate issuance."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "FeatureSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Intelligent by Design",
+            "description": "Every Sollex system is built with software at its core — not as an add-on.",
+            "features": [
+              {
+                "title": "AI-Optimized Generation",
+                "description": "Machine learning models continuously tune panel orientation, inverter settings, and load distribution to maximize output across changing conditions."
+              },
+              {
+                "title": "Predictive Maintenance",
+                "description": "Sensors and anomaly detection flag degradation and faults before they become failures — keeping uptime high and service calls low."
+              },
+              {
+                "title": "Real-Time Monitoring",
+                "description": "Live dashboards give operators visibility into generation, consumption, storage state, and grid export — from any device."
+              },
+              {
+                "title": "Blockchain-Verified Green Credits",
+                "description": "Every kilowatt-hour generated is logged on-chain, creating an immutable audit trail for carbon accounting and certificate issuance."
+              }
+            ],
+            "subtitle": "Intelligent by Design becomes a focused operating layer for Sollex.",
+            "items": [
+              {
+                "id": "intelligent-by-design-item-1",
+                "title": "Context with ownership",
+                "description": "Sollex keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "intelligent-by-design-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "intelligent-by-design-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__features_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#features",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--benefits",
+          "page_id": "page-sollex-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "Why Companies Choose Sollex",
+            "items": [
+              {
+                "title": "Reduce Energy Costs by Up to 60%",
+                "description": "Self-generation eliminates exposure to grid price volatility and cuts utility bills from the first month of operation."
+              },
+              {
+                "title": "Energy Independence",
+                "description": "Storage-backed solar systems maintain operations during grid outages — no dependency on supply reliability."
+              },
+              {
+                "title": "Carbon-Neutral Operations",
+                "description": "Verified clean generation enables genuine carbon neutrality claims — not offsets, but actual zero-emission power."
+              },
+              {
+                "title": "Government Incentive Optimization",
+                "description": "Sollex handles subsidy applications, feed-in tariff registration, and tax incentive documentation — capturing every available benefit."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "BenefitsSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Why Companies Choose Sollex",
+            "items": [
+              {
+                "title": "Reduce Energy Costs by Up to 60%",
+                "description": "Self-generation eliminates exposure to grid price volatility and cuts utility bills from the first month of operation."
+              },
+              {
+                "title": "Energy Independence",
+                "description": "Storage-backed solar systems maintain operations during grid outages — no dependency on supply reliability."
+              },
+              {
+                "title": "Carbon-Neutral Operations",
+                "description": "Verified clean generation enables genuine carbon neutrality claims — not offsets, but actual zero-emission power."
+              },
+              {
+                "title": "Government Incentive Optimization",
+                "description": "Sollex handles subsidy applications, feed-in tariff registration, and tax incentive documentation — capturing every available benefit."
+              }
+            ],
+            "description": "Why Companies Choose Sollex translates A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Why Companies Choose Sollex becomes a focused operating layer for Sollex.",
+            "features": [
+              {
+                "id": "why-companies-choose-sollex-item-1",
+                "title": "Context with ownership",
+                "description": "Sollex keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "why-companies-choose-sollex-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "why-companies-choose-sollex-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--cta",
+          "page_id": "page-sollex-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Power your business with the sun.",
+            "description": "A Sollex energy assessment takes 5 business days and gives you a full picture of your savings potential, installation scope, and payback period.",
+            "cta_label": "Request an Energy Assessment",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Power your business with the sun.",
+            "description": "A Sollex energy assessment takes 5 business days and gives you a full picture of your savings potential, installation scope, and payback period.",
+            "cta_label": "Request an Energy Assessment",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "sollex__cta_viewed",
+            "cta_events": [
+              "sollex_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-root--contact-form",
+          "page_id": "page-sollex-root",
+          "section_key": "contact-form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Sollex",
+            "site_slug": "sollex",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Get in Touch",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Sollex",
+            "site_slug": "sollex",
+            "subtitle": "Get in Touch becomes a focused operating layer for Sollex."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex__contact-form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-sollex-services",
+      "website_id": "website-sollex",
+      "path": "/services",
+      "slug": "services",
+      "title": "Solutions",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-sollex-services--hero",
+          "page_id": "page-sollex-services",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Sollex Solutions — From Generation to Grid",
+            "subheadline": "Every product in the Sollex portfolio is designed to work standalone or as part of an integrated renewable energy system.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Sollex Solutions — From Generation to Grid",
+            "subheadline": "Every product in the Sollex portfolio is designed to work standalone or as part of an integrated renewable energy system."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_services_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-services--product-grid",
+          "page_id": "page-sollex-services",
+          "section_key": "product-grid",
+          "pod": "ProductGrid",
+          "pad": {
+            "title": "What We Build",
+            "items": [
+              {
+                "title": "SolarPark",
+                "description": "Commercial and industrial solar installations — from rooftop arrays to ground-mounted solar farms."
+              },
+              {
+                "title": "PowerVault",
+                "description": "Battery storage systems that capture excess generation and keep critical operations running."
+              },
+              {
+                "title": "GridLink",
+                "description": "Smart grid integration that optimizes export timing and enables demand-response participation."
+              },
+              {
+                "title": "GreenCredit",
+                "description": "Blockchain-verified renewable energy certificates and carbon credit management."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProductGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "What We Build",
+            "items": [
+              {
+                "title": "SolarPark",
+                "description": "Commercial and industrial solar installations — from rooftop arrays to ground-mounted solar farms."
+              },
+              {
+                "title": "PowerVault",
+                "description": "Battery storage systems that capture excess generation and keep critical operations running."
+              },
+              {
+                "title": "GridLink",
+                "description": "Smart grid integration that optimizes export timing and enables demand-response participation."
+              },
+              {
+                "title": "GreenCredit",
+                "description": "Blockchain-verified renewable energy certificates and carbon credit management."
+              }
+            ],
+            "subtitle": "What We Build becomes a focused operating layer for Sollex.",
+            "description": "What We Build translates A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_services_product-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#product-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#product-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-services--cta",
+          "page_id": "page-sollex-services",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Not sure which solution fits your site?",
+            "description": "Our energy engineers assess your consumption profile, site conditions, and grid connection to recommend the right combination.",
+            "cta_label": "Book a Site Assessment",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Not sure which solution fits your site?",
+            "description": "Our energy engineers assess your consumption profile, site conditions, and grid connection to recommend the right combination.",
+            "cta_label": "Book a Site Assessment",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "sollex_services_cta_viewed",
+            "cta_events": [
+              "sollex_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-sollex-about",
+      "website_id": "website-sollex",
+      "path": "/about",
+      "slug": "about",
+      "title": "About Sollex",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-sollex-about--hero",
+          "page_id": "page-sollex-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "About Sollex",
+            "subheadline": "We started Sollex because clean energy was too hard to deploy. We're making it straightforward.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "About Sollex",
+            "subheadline": "We started Sollex because clean energy was too hard to deploy. We're making it straightforward."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-about--mvv",
+          "page_id": "page-sollex-about",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To make renewable energy practical and accessible for every business — not just those with the resources to navigate complexity.",
+            "vision": "A grid powered by distributed generation, where every building produces as much energy as it consumes.",
+            "values": [
+              "Sustainability",
+              "Transparency",
+              "Engineering Rigor",
+              "Long-Term Thinking"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To make renewable energy practical and accessible for every business — not just those with the resources to navigate complexity.",
+            "vision": "A grid powered by distributed generation, where every building produces as much energy as it consumes.",
+            "values": [
+              "Sustainability",
+              "Transparency",
+              "Engineering Rigor",
+              "Long-Term Thinking"
+            ],
+            "title": "Mvv requires reviewed title content for Sollex.",
+            "description": "Mvv translates A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for Sollex.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Sollex keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Sollex keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_about_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-about--cta",
+          "page_id": "page-sollex-about",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Build your energy future with Sollex.",
+            "description": "We work with a focused portfolio of clients each year. If you're ready to commit to renewable power, we want to hear from you.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Build your energy future with Sollex.",
+            "description": "We work with a focused portfolio of clients each year. If you're ready to commit to renewable power, we want to hear from you.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "sollex_about_cta_viewed",
+            "cta_events": [
+              "sollex_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-sollex-contact",
+      "website_id": "website-sollex",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-sollex-contact--hero",
+          "page_id": "page-sollex-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Talk to Sollex",
+            "subheadline": "Tell us about your site, your consumption, and your goals — we'll take it from there.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Talk to Sollex",
+            "subheadline": "Tell us about your site, your consumption, and your goals — we'll take it from there."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-contact--form",
+          "page_id": "page-sollex-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Sollex",
+            "site_slug": "sollex",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Sollex",
+            "site_slug": "sollex",
+            "title": "Form requires reviewed title content for Sollex.",
+            "subtitle": "Form becomes a focused operating layer for Sollex."
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in ContactForm",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-sollex-404",
+      "website_id": "website-sollex",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-sollex-404--not-found-hero",
+          "page_id": "page-sollex-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Sollex — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Sollex — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-sollex-404--not-found-cta",
+          "page_id": "page-sollex-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Sollex.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Sollex.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "earth-natural",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "sollex_404_not-found-cta_viewed",
+            "cta_events": [
+              "sollex_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/sollex/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 324
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "FeatureSection",
+      "category": "section",
+      "description": "FeatureSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 263
+        },
+        "quote": {
+          "type": "string",
+          "required": false,
+          "max_length": 91
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 101
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 101
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 101
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 100
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 102
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 128
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 102
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProductGrid",
+      "category": "section",
+      "description": "ProductGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 310
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-sollex",
+    "total_original_gaps": 22,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "headline": "The cheapest energy is the energy you generate yourself.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_1\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "headline": "The cheapest energy is the energy you generate yourself.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_2\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "headline": "The cheapest energy is the energy you generate yourself.",
+        "reason": "no_kb_match",
+        "needed": "Content for \"stat_3\" field in ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "The cheapest energy is the energy you generate yourself.",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "The cheapest energy is the energy you generate yourself.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "headline": "The Sollex Portfolio",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "description",
+        "headline": "The Sollex Portfolio",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "headline": "Intelligent by Design",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "items",
+        "headline": "Intelligent by Design",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "Why Companies Choose Sollex",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "Why Companies Choose Sollex",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "headline": "Why Companies Choose Sollex",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact-form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get in Touch",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "product-grid",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "headline": "What We Build",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "product-grid",
+        "pod": "ProductGrid",
+        "field": "description",
+        "headline": "What We Build",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in ContactForm",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_1",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_2",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stat_3",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "products",
+        "pod": "ProductGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "features",
+        "pod": "FeatureSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact-form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "product-grid",
+        "pod": "ProductGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "product-grid",
+        "pod": "ProductGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-sollex",
+      "canonical_base_url": "https://sollex.codeloop.co",
+      "default_title": "Sollex",
+      "default_description": "A CodeLoop Ecosystem venture — part of the Karon Trade Routes initiative, built on Dynamic Work and the Mainland WebOS.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/sollex/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-sollex-root",
+        "title": "Home",
+        "description": "Solar generation, energy storage, and smart grid solutions for businesses and communities transitioning to renewable power.",
+        "canonical": "https://sollex.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-sollex-services",
+        "title": "Solutions",
+        "description": "Every product in the Sollex portfolio is designed to work standalone or as part of an integrated renewable energy system.",
+        "canonical": "https://sollex.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-sollex-about",
+        "title": "About Sollex",
+        "description": "We started Sollex because clean energy was too hard to deploy. We're making it straightforward.",
+        "canonical": "https://sollex.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-sollex-contact",
+        "title": "Contact",
+        "description": "Tell us about your site, your consumption, and your goals — we'll take it from there.",
+        "canonical": "https://sollex.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-sollex-404",
+        "title": "Page Not Found",
+        "description": "Sollex — Pagina nao encontrada",
+        "canonical": "https://sollex.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-sollex",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "sollex__hero_viewed",
+      "sollex__manifesto_viewed",
+      "sollex__products_viewed",
+      "sollex__features_viewed",
+      "sollex__benefits_viewed",
+      "sollex__cta_viewed",
+      "sollex__contact-form_viewed",
+      "sollex_services_hero_viewed",
+      "sollex_services_product-grid_viewed",
+      "sollex_services_cta_viewed",
+      "sollex_about_hero_viewed",
+      "sollex_about_mvv_viewed",
+      "sollex_about_cta_viewed",
+      "sollex_contact_hero_viewed",
+      "sollex_contact_form_viewed",
+      "sollex_404_not-found-hero_viewed",
+      "sollex_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-sollex",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-sollex",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-sollex-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-sollex-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-sollex-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-sollex",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/sollex/config.json",
+      "docs/data/sollex/worktree.json",
+      "docs/data/sollex/gaps.json"
+    ]
+  }
+}

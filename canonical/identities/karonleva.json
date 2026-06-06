@@ -1,0 +1,3424 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "medium",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/karonleva/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/karonleva/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/karonleva/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/karonleva.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-karonleva",
+    "slug": "karonleva",
+    "name": "Karon Leva",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "Karon",
+    "description": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+    "mission": "To make Karon Leva a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-karonleva-1",
+        "title": "Operational clarity",
+        "description": "Karon Leva should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-karonleva-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-karonleva-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-karonleva",
+    "brand_name": "Karon Leva",
+    "tagline": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+    "short_description": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+    "long_description": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+    "mission": "To make Karon Leva a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-karonleva-1",
+        "title": "Operational clarity",
+        "description": "Karon Leva should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-karonleva-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-karonleva-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Karon Leva: Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+      "one_liner": "Business development and financial leverage services — a CodeLoop Ecosystem Partner."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/karonleva/config.json",
+        "docs/data/karonleva/worktree.json",
+        "docs/data/karonleva/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-karonleva",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "medium",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/karonleva/config.json",
+        "docs/data/karonleva/worktree.json",
+        "docs/data/karonleva/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-karonleva",
+    "theme": {
+      "mode": "light",
+      "variant": "light-premium",
+      "palette": {
+        "bg": "#f5faf5",
+        "bg_light": "#edf7ed",
+        "primary": "#15803d",
+        "primary_light": "#16a34a",
+        "secondary": "#0369a1",
+        "accent": "#cc5833",
+        "text": "#052e16",
+        "text_muted": "#374151",
+        "border": "rgba(21,128,61,0.12)",
+        "gradient": "linear-gradient(135deg, #15803d 0%, #0369a1 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Plus Jakarta Sans",
+      "body": "Outfit",
+      "display": "Plus Jakarta Sans",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-karonleva",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-karonleva",
+    "domains": [
+      {
+        "domain": "karonleva.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "karonleva.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-karonleva",
+    "domain": "karonleva.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-karonleva",
+      "identity_id": "identity-karonleva",
+      "name": "Karon Leva",
+      "slug": "karonleva",
+      "domain": "karonleva.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-karonleva",
+        "footer_id": "footer-karonleva",
+        "theme_id": "design-system-karonleva",
+        "seo_profile_id": "seo-profile-karonleva"
+      },
+      "pages": [
+        "page-karonleva-root",
+        "page-karonleva-services",
+        "page-karonleva-about",
+        "page-karonleva-contact",
+        "page-karonleva-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-karonleva",
+    "brand_label": "Karon Leva",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Our Services",
+      "href": "/services",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-karonleva",
+    "brand": "Karon Leva",
+    "description": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-karonleva-root",
+      "website_id": "website-karonleva",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonleva-root--hero",
+          "page_id": "page-karonleva-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Karon Leva — Strategic Capital for Growing Enterprises",
+            "subheadline": "The financial leverage arm of the Karon Group — providing structured capital, credit solutions, and financial engineering for companies ready to scale.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Talk to Us",
+            "cta_secondary_href": "/contact",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Karon Leva — Strategic Capital for Growing Enterprises",
+            "subheadline": "The financial leverage arm of the Karon Group — providing structured capital, credit solutions, and financial engineering for companies ready to scale.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services",
+            "cta_secondary_label": "Talk to Us",
+            "cta_secondary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "parallax-fade",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__hero_viewed",
+            "cta_events": [
+              "karonleva_hero_cta-primary-label_clicked",
+              "karonleva_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--thesis",
+          "page_id": "page-karonleva-root",
+          "section_key": "thesis",
+          "pod": "ThesisSection",
+          "pad": {
+            "title": "Growth requires the right capital at the right time.",
+            "body": "Most companies don't fail because of bad products or poor execution. They stall because they lack the financial architecture to match their ambition. Karon Leva provides tailored financial instruments — not generic bank products — engineered precisely for the stage, risk profile, and growth trajectory of each client.",
+            "quote": "Capital without strategy is noise. Strategy without capital is frustration. Karon Leva delivers both.",
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ThesisSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Growth requires the right capital at the right time.",
+            "body": "Most companies don't fail because of bad products or poor execution. They stall because they lack the financial architecture to match their ambition. Karon Leva provides tailored financial instruments — not generic bank products — engineered precisely for the stage, risk profile, and growth trajectory of each client.",
+            "quote": "Capital without strategy is noise. Strategy without capital is frustration. Karon Leva delivers both.",
+            "description": "Growth requires the right capital at the right time. translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Growth requires the right capital at the right time. becomes a focused operating layer for Karon Leva.",
+            "features": [
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Leva keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Leva keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "growth-requires-the-right-capital-at-the-right-time-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__thesis_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#thesis",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#thesis",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "quote": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#thesis",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--process",
+          "page_id": "page-karonleva-root",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "From First Meeting to Capital in Motion",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Assessment",
+                "description": "We begin with a rigorous financial assessment — understanding your current capital structure, cash flow dynamics, growth objectives, and risk exposure."
+              },
+              {
+                "step": "2",
+                "title": "Structuring",
+                "description": "Our team engineers a capital solution specific to your situation — instrument type, tenure, covenants, and pricing are all designed around your needs."
+              },
+              {
+                "step": "3",
+                "title": "Deployment",
+                "description": "Capital is deployed with precision. We manage the disbursement process end-to-end, coordinating with legal, compliance, and counterparty teams."
+              },
+              {
+                "step": "4",
+                "title": "Monitoring",
+                "description": "We maintain active oversight of deployed capital — tracking performance against milestones, covenant compliance, and business health indicators."
+              },
+              {
+                "step": "5",
+                "title": "Optimization",
+                "description": "As your business evolves, we continuously optimize the capital structure — refinancing, restructuring, or layering in new instruments as opportunities arise."
+              }
+            ],
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProcessSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "From First Meeting to Capital in Motion",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Assessment",
+                "description": "We begin with a rigorous financial assessment — understanding your current capital structure, cash flow dynamics, growth objectives, and risk exposure."
+              },
+              {
+                "step": "2",
+                "title": "Structuring",
+                "description": "Our team engineers a capital solution specific to your situation — instrument type, tenure, covenants, and pricing are all designed around your needs."
+              },
+              {
+                "step": "3",
+                "title": "Deployment",
+                "description": "Capital is deployed with precision. We manage the disbursement process end-to-end, coordinating with legal, compliance, and counterparty teams."
+              },
+              {
+                "step": "4",
+                "title": "Monitoring",
+                "description": "We maintain active oversight of deployed capital — tracking performance against milestones, covenant compliance, and business health indicators."
+              },
+              {
+                "step": "5",
+                "title": "Optimization",
+                "description": "As your business evolves, we continuously optimize the capital structure — refinancing, restructuring, or layering in new instruments as opportunities arise."
+              }
+            ],
+            "subtitle": "From First Meeting to Capital in Motion becomes a focused operating layer for Karon Leva.",
+            "description": "From First Meeting to Capital in Motion translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for ProcessSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--benefits",
+          "page_id": "page-karonleva-root",
+          "section_key": "benefits",
+          "pod": "BenefitsSection",
+          "pad": {
+            "title": "Why Companies Choose Karon Leva",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "features": [
+              {
+                "title": "Flexible Terms",
+                "description": "Every instrument is structured around your business — not a template. Tenure, repayment schedules, and covenants are negotiated, not imposed."
+              },
+              {
+                "title": "Speed of Execution",
+                "description": "Our decision-making cycles are measured in days, not months. From term sheet to funding, Karon Leva moves at the pace your business demands."
+              },
+              {
+                "title": "Ecosystem Integration",
+                "description": "Clients operating on Bastion rails gain additional advantages — faster KYC, integrated reporting, and seamless connection to the broader CodeLoop Ecosystem."
+              },
+              {
+                "title": "Ongoing Strategic Support",
+                "description": "Karon Leva does not disappear after funding. We stay engaged — advising on capital deployment, tracking covenant health, and supporting your next raise."
+              }
+            ]
+          },
+          "component": "BenefitsSection",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Why Companies Choose Karon Leva",
+            "features": [
+              {
+                "title": "Flexible Terms",
+                "description": "Every instrument is structured around your business — not a template. Tenure, repayment schedules, and covenants are negotiated, not imposed."
+              },
+              {
+                "title": "Speed of Execution",
+                "description": "Our decision-making cycles are measured in days, not months. From term sheet to funding, Karon Leva moves at the pace your business demands."
+              },
+              {
+                "title": "Ecosystem Integration",
+                "description": "Clients operating on Bastion rails gain additional advantages — faster KYC, integrated reporting, and seamless connection to the broader CodeLoop Ecosystem."
+              },
+              {
+                "title": "Ongoing Strategic Support",
+                "description": "Karon Leva does not disappear after funding. We stay engaged — advising on capital deployment, tracking covenant health, and supporting your next raise."
+              }
+            ],
+            "description": "Why Companies Choose Karon Leva translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Why Companies Choose Karon Leva becomes a focused operating layer for Karon Leva.",
+            "items": [
+              {
+                "id": "why-companies-choose-karon-leva-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Leva keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "why-companies-choose-karon-leva-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "why-companies-choose-karon-leva-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__benefits_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#benefits",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--services",
+          "page_id": "page-karonleva-root",
+          "section_key": "services",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "Financial Solutions Built for Scale",
+            "items": [
+              {
+                "title": "Structured Finance",
+                "description": "Tailored debt and equity structures that match your cash flow cycle, growth stage, and risk appetite — not your bank's standard credit checklist."
+              },
+              {
+                "title": "Working Capital",
+                "description": "Operational liquidity solutions designed to keep your business moving — receivables acceleration, supply chain finance, and revolving credit facilities."
+              },
+              {
+                "title": "Trade Finance",
+                "description": "Cross-border transaction support including letters of credit, documentary collections, and currency risk management for import and export operations."
+              },
+              {
+                "title": "Financial Advisory",
+                "description": "CFO-level strategic guidance on capital allocation, financial modeling, scenario planning, and investor relations — embedded into your leadership team."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ServiceGrid",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Financial Solutions Built for Scale",
+            "items": [
+              {
+                "title": "Structured Finance",
+                "description": "Tailored debt and equity structures that match your cash flow cycle, growth stage, and risk appetite — not your bank's standard credit checklist."
+              },
+              {
+                "title": "Working Capital",
+                "description": "Operational liquidity solutions designed to keep your business moving — receivables acceleration, supply chain finance, and revolving credit facilities."
+              },
+              {
+                "title": "Trade Finance",
+                "description": "Cross-border transaction support including letters of credit, documentary collections, and currency risk management for import and export operations."
+              },
+              {
+                "title": "Financial Advisory",
+                "description": "CFO-level strategic guidance on capital allocation, financial modeling, scenario planning, and investor relations — embedded into your leadership team."
+              }
+            ],
+            "subtitle": "Financial Solutions Built for Scale becomes a focused operating layer for Karon Leva.",
+            "description": "Financial Solutions Built for Scale translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__services_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--cta",
+          "page_id": "page-karonleva-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Leverage that accelerates growth",
+            "description": "If your business is at an inflection point and you need capital structured for where you are going — not where you have been — talk to Karon Leva.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "Leverage that accelerates growth",
+            "description": "If your business is at an inflection point and you need capital structured for where you are going — not where you have been — talk to Karon Leva.",
+            "cta_label": "Start the Conversation",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonleva__cta_viewed",
+            "cta_events": [
+              "karonleva_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-root--contact",
+          "page_id": "page-karonleva-root",
+          "section_key": "contact",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Reach Karon Leva",
+            "description": "Tell us about your business and what you are trying to finance. A member of our team will follow up within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Leva",
+            "site_slug": "karonleva",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Reach Karon Leva",
+            "description": "Tell us about your business and what you are trying to finance. A member of our team will follow up within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Leva",
+            "site_slug": "karonleva",
+            "subtitle": "Reach Karon Leva becomes a focused operating layer for Karon Leva."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva__contact_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonleva-services",
+      "website_id": "website-karonleva",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonleva-services--hero",
+          "page_id": "page-karonleva-services",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Karon Leva Services — Capital Engineered for Your Stage",
+            "subheadline": "Four core service lines. Each designed to solve a specific capital problem that growing companies face — and often can't solve through conventional banking.",
+            "cta_primary_label": "Contact Us",
+            "cta_primary_href": "/contact",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Karon Leva Services — Capital Engineered for Your Stage",
+            "subheadline": "Four core service lines. Each designed to solve a specific capital problem that growing companies face — and often can't solve through conventional banking.",
+            "cta_primary_label": "Contact Us",
+            "cta_primary_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_services_hero_viewed",
+            "cta_events": [
+              "karonleva_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-services--services-grid",
+          "page_id": "page-karonleva-services",
+          "section_key": "services-grid",
+          "pod": "ServiceGrid",
+          "pad": {
+            "title": "What Karon Leva Provides",
+            "items": [
+              {
+                "title": "Structured Finance",
+                "description": "Tailored debt and equity structures that match your cash flow cycle, growth stage, and risk appetite — not your bank's standard credit checklist."
+              },
+              {
+                "title": "Working Capital",
+                "description": "Operational liquidity solutions designed to keep your business moving — receivables acceleration, supply chain finance, and revolving credit facilities."
+              },
+              {
+                "title": "Trade Finance",
+                "description": "Cross-border transaction support including letters of credit, documentary collections, and currency risk management for import and export operations."
+              },
+              {
+                "title": "Financial Advisory",
+                "description": "CFO-level strategic guidance on capital allocation, financial modeling, scenario planning, and investor relations — embedded into your leadership team."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ServiceGrid",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "What Karon Leva Provides",
+            "items": [
+              {
+                "title": "Structured Finance",
+                "description": "Tailored debt and equity structures that match your cash flow cycle, growth stage, and risk appetite — not your bank's standard credit checklist."
+              },
+              {
+                "title": "Working Capital",
+                "description": "Operational liquidity solutions designed to keep your business moving — receivables acceleration, supply chain finance, and revolving credit facilities."
+              },
+              {
+                "title": "Trade Finance",
+                "description": "Cross-border transaction support including letters of credit, documentary collections, and currency risk management for import and export operations."
+              },
+              {
+                "title": "Financial Advisory",
+                "description": "CFO-level strategic guidance on capital allocation, financial modeling, scenario planning, and investor relations — embedded into your leadership team."
+              }
+            ],
+            "subtitle": "What Karon Leva Provides becomes a focused operating layer for Karon Leva.",
+            "description": "What Karon Leva Provides translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_services_services-grid_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-grid",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-services--cta-services",
+          "page_id": "page-karonleva-services",
+          "section_key": "cta-services",
+          "pod": "CTA",
+          "pad": {
+            "title": "The right instrument for your situation",
+            "description": "Not every capital need fits the same solution. Let's talk about yours.",
+            "cta_label": "Discuss Your Needs",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "The right instrument for your situation",
+            "description": "Not every capital need fits the same solution. Let's talk about yours.",
+            "cta_label": "Discuss Your Needs",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonleva_services_cta-services_viewed",
+            "cta_events": [
+              "karonleva_cta-services_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta-services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta-services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta-services",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#cta-services",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonleva-about",
+      "website_id": "website-karonleva",
+      "path": "/about",
+      "slug": "about",
+      "title": "About Karon Leva",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonleva-about--hero",
+          "page_id": "page-karonleva-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Karon Leva — The Financial Arm of the Karon Group",
+            "subheadline": "Established in 2022 as a dedicated financial services unit inside the Karon Holding portfolio — built to solve the capital problems that holding companies see across every operating entity.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Karon Leva — The Financial Arm of the Karon Group",
+            "subheadline": "Established in 2022 as a dedicated financial services unit inside the Karon Holding portfolio — built to solve the capital problems that holding companies see across every operating entity.",
+            "cta_primary_label": "Our Services",
+            "cta_primary_href": "/services"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_about_hero_viewed",
+            "cta_events": [
+              "karonleva_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-about--mvv",
+          "page_id": "page-karonleva-about",
+          "section_key": "mvv",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To provide growing enterprises with precisely engineered capital solutions — removing the financial constraints that prevent good businesses from becoming great ones.",
+            "vision": "A financial ecosystem where every company in the Karon Group and CodeLoop network has access to the capital structure it needs to execute at its full potential.",
+            "values": [
+              "Precision",
+              "Speed",
+              "Integrity",
+              "Partnership"
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To provide growing enterprises with precisely engineered capital solutions — removing the financial constraints that prevent good businesses from becoming great ones.",
+            "vision": "A financial ecosystem where every company in the Karon Group and CodeLoop network has access to the capital structure it needs to execute at its full potential.",
+            "values": [
+              "Precision",
+              "Speed",
+              "Integrity",
+              "Partnership"
+            ],
+            "title": "Mvv requires reviewed title content for Karon Leva.",
+            "description": "Mvv translates Business development and financial leverage services — a CodeLoop Ecosystem Partner. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mvv becomes a focused operating layer for Karon Leva.",
+            "features": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Leva keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mvv-item-1",
+                "title": "Context with ownership",
+                "description": "Karon Leva keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mvv-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mvv-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_about_mvv_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mvv",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-about--cta-about",
+          "page_id": "page-karonleva-about",
+          "section_key": "cta-about",
+          "pod": "CTA",
+          "pad": {
+            "title": "Capital is a strategic asset — treat it that way",
+            "description": "Karon Leva helps you think about your capital structure the same way you think about your market strategy: with rigor, creativity, and a long-term lens.",
+            "cta_label": "Talk to Our Team",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Capital is a strategic asset — treat it that way",
+            "description": "Karon Leva helps you think about your capital structure the same way you think about your market strategy: with rigor, creativity, and a long-term lens.",
+            "cta_label": "Talk to Our Team",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "karonleva_about_cta-about_viewed",
+            "cta_events": [
+              "karonleva_cta-about_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#cta-about",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonleva-contact",
+      "website_id": "website-karonleva",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonleva-contact--hero",
+          "page_id": "page-karonleva-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Contact Karon Leva",
+            "subheadline": "Structured finance inquiries, advisory requests, or a conversation about your capital needs — the team is ready.",
+            "cta_primary_label": "Send a Message",
+            "cta_primary_href": "#form",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Contact Karon Leva",
+            "subheadline": "Structured finance inquiries, advisory requests, or a conversation about your capital needs — the team is ready.",
+            "cta_primary_label": "Send a Message",
+            "cta_primary_href": "#form"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_contact_hero_viewed",
+            "cta_events": [
+              "karonleva_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-contact--form",
+          "page_id": "page-karonleva-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Reach Karon Leva",
+            "description": "Tell us about your business and what you are trying to finance. A member of our team will follow up within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Leva",
+            "site_slug": "karonleva",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Reach Karon Leva",
+            "description": "Tell us about your business and what you are trying to finance. A member of our team will follow up within 24 hours.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Karon Leva",
+            "site_slug": "karonleva",
+            "subtitle": "Reach Karon Leva becomes a focused operating layer for Karon Leva."
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-karonleva-404",
+      "website_id": "website-karonleva",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-karonleva-404--not-found-hero",
+          "page_id": "page-karonleva-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Karon Leva — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Karon Leva — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-karonleva-404--not-found-cta",
+          "page_id": "page-karonleva-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Karon Leva.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Karon Leva.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "light-premium",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "karonleva_404_not-found-cta_viewed",
+            "cta_events": [
+              "karonleva_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/karonleva/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "BenefitsSection",
+      "category": "section",
+      "description": "BenefitsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 293
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 116
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 166
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 160
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 265
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 301
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ServiceGrid",
+      "category": "section",
+      "description": "ServiceGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 286
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ThesisSection",
+      "category": "section",
+      "description": "ThesisSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 318
+        },
+        "quote": {
+          "type": "string",
+          "required": false,
+          "max_length": 101
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 314
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 102
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-karonleva",
+    "total_original_gaps": 20,
+    "kb_coverage": "medium",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "description",
+        "headline": "Growth requires the right capital at the right time.",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "subtitle",
+        "headline": "Growth requires the right capital at the right time.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "features",
+        "headline": "Growth requires the right capital at the right time.",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "items",
+        "headline": "Growth requires the right capital at the right time.",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "headline": "From First Meeting to Capital in Motion",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "headline": "From First Meeting to Capital in Motion",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for ProcessSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "headline": "Why Companies Choose Karon Leva",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "headline": "Why Companies Choose Karon Leva",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "items",
+        "headline": "Why Companies Choose Karon Leva",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "Financial Solutions Built for Scale",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "headline": "Financial Solutions Built for Scale",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Reach Karon Leva",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-grid",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "headline": "What Karon Leva Provides",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-grid",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "headline": "What Karon Leva Provides",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Reach Karon Leva",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "thesis",
+        "pod": "ThesisSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "process",
+        "pod": "ProcessSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "benefits",
+        "pod": "BenefitsSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "services",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-grid",
+        "pod": "ServiceGrid",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-grid",
+        "pod": "ServiceGrid",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mvv",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/contact",
+        "section_id": "form",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-karonleva",
+      "canonical_base_url": "https://karonleva.codeloop.co",
+      "default_title": "Karon Leva",
+      "default_description": "Business development and financial leverage services — a CodeLoop Ecosystem Partner.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/karonleva/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-karonleva-root",
+        "title": "Home",
+        "description": "The financial leverage arm of the Karon Group — providing structured capital, credit solutions, and financial engineering for companies ready to scale.",
+        "canonical": "https://karonleva.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonleva-services",
+        "title": "Services",
+        "description": "Four core service lines. Each designed to solve a specific capital problem that growing companies face — and often can't solve through conventional banking.",
+        "canonical": "https://karonleva.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonleva-about",
+        "title": "About Karon Leva",
+        "description": "Established in 2022 as a dedicated financial services unit inside the Karon Holding portfolio — built to solve the capital problems that holding companies see across every operating entity.",
+        "canonical": "https://karonleva.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonleva-contact",
+        "title": "Contact",
+        "description": "Structured finance inquiries, advisory requests, or a conversation about your capital needs — the team is ready.",
+        "canonical": "https://karonleva.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-karonleva-404",
+        "title": "Page Not Found",
+        "description": "Karon Leva — Pagina nao encontrada",
+        "canonical": "https://karonleva.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-karonleva",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "karonleva__hero_viewed",
+      "karonleva__thesis_viewed",
+      "karonleva__process_viewed",
+      "karonleva__benefits_viewed",
+      "karonleva__services_viewed",
+      "karonleva__cta_viewed",
+      "karonleva__contact_viewed",
+      "karonleva_services_hero_viewed",
+      "karonleva_services_services-grid_viewed",
+      "karonleva_services_cta-services_viewed",
+      "karonleva_about_hero_viewed",
+      "karonleva_about_mvv_viewed",
+      "karonleva_about_cta-about_viewed",
+      "karonleva_contact_hero_viewed",
+      "karonleva_contact_form_viewed",
+      "karonleva_404_not-found-hero_viewed",
+      "karonleva_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-karonleva",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-karonleva",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-karonleva-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-karonleva-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-karonleva-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-karonleva",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "medium",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/karonleva/config.json",
+      "docs/data/karonleva/worktree.json",
+      "docs/data/karonleva/gaps.json"
+    ]
+  }
+}

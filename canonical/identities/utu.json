@@ -1,0 +1,3243 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_bible",
+        "path": "docs/branding/08 — UTU/01 — Brand Bible.md",
+        "priority": 3
+      },
+      {
+        "type": "site_blueprint",
+        "path": "docs/branding/08 — UTU/02 — Site Blueprint.md",
+        "priority": 3
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/utu/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/utu/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/utu/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/utu/assets/logos/10-utu.png",
+        "priority": 5
+      },
+      {
+        "type": "asset",
+        "path": "docs/data/utu/assets/logos/utu.png",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/utu.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-utu",
+    "slug": "utu",
+    "name": "UTU Foundation",
+    "legal_name": null,
+    "type": "community",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "CodeLoop",
+    "description": "A foundation building inclusive communities for the global workforce — from Tech Seeds nurturing emerging talent to The Loop Republic as a new model of decentralized professional governance.",
+    "mission": "To turn peer‑to‑peer growth · you‑to‑you into an operating system through Community empowerment · individual talent nurturing.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-utu-1",
+        "title": "Operational clarity",
+        "description": "UTU Foundation should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-utu-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-utu-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "You‑to‑You",
+      "market": "Human Capital Hub",
+      "statement": "UTU is a global community of funding, discovery, and access for hidden talent.",
+      "differentiators": [
+        "Peer‑to‑peer growth · You‑to‑You.",
+        "Community empowerment · individual talent nurturing.",
+        "The Bright Circle"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "warm",
+      "secondary": "playful",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-utu",
+    "brand_name": "UTU Foundation",
+    "tagline": "Peer‑to‑peer growth, by design.",
+    "short_description": "UTU is a dev‑community brand — orange figures on dark navy, geometric sans for confidence, mono for craft.",
+    "long_description": "UTU is a global community of funding, discovery, and access for hidden talent.",
+    "mission": "To turn peer‑to‑peer growth · you‑to‑you into an operating system through Community empowerment · individual talent nurturing.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-utu-1",
+        "title": "Operational clarity",
+        "description": "UTU Foundation should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-utu-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-utu-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "You‑to‑You",
+      "market": "Human Capital Hub",
+      "statement": "UTU is a global community of funding, discovery, and access for hidden talent.",
+      "differentiators": [
+        "Peer‑to‑peer growth · You‑to‑You.",
+        "Community empowerment · individual talent nurturing.",
+        "The Bright Circle"
+      ],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "Adaeze Eze is 24 and lives in a co-working space in Lagos because the rent there is half what her own apartment costs and the internet is twice as fast.",
+      "founder_message": null,
+      "manifesto": "Talent is distributed. Access is not.\n\nIn a community in Kinshasa, in a favela in São Paulo, in a small town in Sindh, there is a self-taught builder who has shipped more in the past year than most people in their first job. They learned through irregular electricity. They built through patchy internet. They have a notebook full of working systems and no LinkedIn invitation that recognizes them.\n\nThe infrastructure of global opportunity does not reach those builders by default. It runs on referrals, conferences, and second-degree connections that cluster in five cities. UTU exists to be the bridge those builders cross.\n\nWe are not a charity. We are not a recruiting funnel. We are a community where mutual obligation operates as infrastructure. Companies allocate a portion of their hiring budget. Partners commit headcount. Loopers and Global Leaders mentor in cohorts. UTU finds the talent, runs the bootcamps, hosts the cohorts, opens the introductions, and follows the trajectory for at least two years after entry.\n\nThe pact is simple. Capital flows from the contributors to the discovery work. Talent flows from the discovery work to the ecosystem. Two years later, the talent that came up through UTU is the talent that funds and mentors the next cohort. The cycle compounds. The next contributor is found inside the system the system itself produced.\n\nThis is not \"you-from-us.\" It is You-To-You. Person to person. Capability to capability. Trajectory to trajectory.\n\n---",
+      "elevator_pitch": "UTU Foundation: Peer‑to‑peer growth, by design.",
+      "one_liner": "Grow with the person next to you."
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/08 — UTU/01 — Brand Bible.md",
+        "docs/branding/08 — UTU/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/utu/config.json",
+        "docs/data/utu/worktree.json",
+        "docs/data/utu/gaps.json"
+      ],
+      "generation_reason": "brand bible and site blueprint mapped into master brand_core",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-utu",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "warm",
+      "secondary": "playful",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence",
+        "UTU Community",
+        "Tech Seeds & Tech Roots"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "source",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/branding/08 — UTU/01 — Brand Bible.md",
+        "docs/branding/08 — UTU/02 — Site Blueprint.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/utu/config.json",
+        "docs/data/utu/worktree.json",
+        "docs/data/utu/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": false,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-utu",
+    "theme": {
+      "mode": "light",
+      "variant": "gradient-vibrant",
+      "palette": {
+        "bg": "#FFF8EE",
+        "bg_light": "#FFEEDA",
+        "primary": "#F07D2B",
+        "primary_light": "#2C3E50",
+        "secondary": "#1E2A38",
+        "accent": "#2C3E50",
+        "text": "#1A1410",
+        "text_muted": "#6E5A4A",
+        "border": "#F3DCBE",
+        "gradient": "linear-gradient(135deg, #F07D2B 0%, #2C3E50 100%)",
+        "primary_ink": "#1E2A38",
+        "bg_alt": "#FFEEDA",
+        "surface": "#FFFFFF",
+        "ut_community_blue": "#0F5EFF",
+        "ut_energy_orange": "#FF6B35",
+        "ut_growth_green": "#2ECB71",
+        "ut_trust_gray": "#404040",
+        "ut_paper": "#FAFAFA"
+      },
+      "scale": [
+        "#FFEEDB",
+        "#FFCFA0",
+        "#FEAD64",
+        "#F78E3E",
+        "#F07D2B",
+        "#C85E17",
+        "#9C470F",
+        "#6F3410",
+        "#47210B",
+        "#200E04"
+      ],
+      "semantics": {
+        "success": "#2F8C5A",
+        "warning": "#F0B13B",
+        "danger": "#C14A3B",
+        "info": "#3970C4"
+      }
+    },
+    "typography": {
+      "heading": "Outfit",
+      "body": "JetBrains Mono",
+      "display": "Outfit",
+      "mono": "JetBrains Mono",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "36px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": "constellation"
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-utu",
+    "logos": [
+      {
+        "id": "asset-utu-logo-1",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/utu/assets/logos/10-utu.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "website_header",
+          "footer",
+          "social_profile"
+        ],
+        "alt": "Utu logo"
+      },
+      {
+        "id": "asset-utu-logo-2",
+        "type": "primary",
+        "format": "png",
+        "url": "docs/data/utu/assets/logos/utu.png",
+        "width": null,
+        "height": null,
+        "background": "transparent",
+        "usage": [
+          "brand_library"
+        ],
+        "alt": "Utu logo"
+      }
+    ],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-utu",
+    "domains": [
+      {
+        "domain": "utu.codeloop.co",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "utu.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-utu",
+    "domain": "utu.codeloop.co",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-utu",
+      "identity_id": "identity-utu",
+      "name": "UTU Foundation",
+      "slug": "utu",
+      "domain": "utu.codeloop.co",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-utu",
+        "footer_id": "footer-utu",
+        "theme_id": "design-system-utu",
+        "seo_profile_id": "seo-profile-utu"
+      },
+      "pages": [
+        "page-utu-root",
+        "page-utu-contact",
+        "page-utu-services",
+        "page-utu-about",
+        "page-utu-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-utu",
+    "brand_label": "UTU Foundation",
+    "items": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "About Us",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Join a Community",
+      "href": "/communities",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-utu",
+    "brand": "UTU Foundation",
+    "description": "A foundation building inclusive communities for the global workforce — from Tech Seeds nurturing emerging talent to The Loop Republic as a new model of decentralized professional governance.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "Services",
+            "href": "/services"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-utu-root",
+      "website_id": "website-utu",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-utu-root--hero",
+          "page_id": "page-utu-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Technology and Education for Communities Without Borders",
+            "subheadline": "UTU Foundation connects isolated talent in emerging markets to a borderless community — through tech education, decentralized governance, and a shared ecosystem built for people, not corporations.",
+            "cta_primary_label": "Join UTU",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Explore Our Pillars",
+            "cta_secondary_href": "/#pillars",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Technology and Education for Communities Without Borders",
+            "subheadline": "UTU Foundation connects isolated talent in emerging markets to a borderless community — through tech education, decentralized governance, and a shared ecosystem built for people, not corporations.",
+            "cta_primary_label": "Join UTU",
+            "cta_primary_href": "/contact",
+            "cta_secondary_label": "Explore Our Pillars",
+            "cta_secondary_href": "/#pillars"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "curve",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__hero_viewed",
+            "cta_events": [
+              "utu_hero_cta-primary-label_clicked",
+              "utu_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--manifesto",
+          "page_id": "page-utu-root",
+          "section_key": "manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "Talent is everywhere. Opportunity is not.",
+            "body": "Millions of skilled professionals in Africa, Latin America, Southeast Asia, and Eastern Europe remain disconnected from the global economy — not because of lack of ability, but because of fragmented pathways, absent infrastructure, and the invisible walls of geography. UTU Foundation exists to dismantle those walls. We build the bridges: a structured tech education track for emerging talent, a decentralized governance model where community members have real voice, and an ecosystem layer that connects UTU communities to the broader CodeLoop network. Our work is not about charity. It is about building the conditions for borderless belonging.",
+            "quote": "We don't build communities for people. We build the conditions for people to build communities together.",
+            "stat_1": "3 Pillars",
+            "stat_2": "29 Ecosystems",
+            "stat_3": "Borderless",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Talent is everywhere. Opportunity is not.",
+            "body": "Millions of skilled professionals in Africa, Latin America, Southeast Asia, and Eastern Europe remain disconnected from the global economy — not because of lack of ability, but because of fragmented pathways, absent infrastructure, and the invisible walls of geography. UTU Foundation exists to dismantle those walls. We build the bridges: a structured tech education track for emerging talent, a decentralized governance model where community members have real voice, and an ecosystem layer that connects UTU communities to the broader CodeLoop network. Our work is not about charity. It is about building the conditions for borderless belonging.",
+            "quote": "We don't build communities for people. We build the conditions for people to build communities together.",
+            "stat_1": "3 Pillars",
+            "stat_2": "29 Ecosystems",
+            "stat_3": "Borderless",
+            "stats": "Talent is everywhere. Opportunity is not. requires reviewed stats content for UTU Foundation.",
+            "subtitle": "Talent is everywhere. Opportunity is not. becomes a focused operating layer for UTU Foundation."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "quote": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ManifestoSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--pillars",
+          "page_id": "page-utu-root",
+          "section_key": "pillars",
+          "pod": "PillarsSection",
+          "pad": {
+            "title": "Three Pillars. One Foundation.",
+            "_bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "features": [
+              {
+                "title": "Community Building",
+                "description": "UTU communities are structured spaces where professionals across borders connect, collaborate, and govern their collective growth. Each community operates with shared principles and its own culture, anchored inside the CodeLoop Ecosystem."
+              },
+              {
+                "title": "Tech Education",
+                "description": "Tech Seeds and Tech Roots are UTU's two-stage education track. Tech Seeds plants the foundations — basic digital literacy, logic, and tooling — in underserved regions. Tech Roots deepens technical mastery for community members ready to become professional-grade contributors."
+              },
+              {
+                "title": "Governance",
+                "description": "The Loop Republic and UTU Councils give community members actual power. Councils make local decisions. The Loop Republic acts as a federated governance layer — a decentralized model where members propose, vote, and shape the rules of their own professional ecosystem."
+              }
+            ]
+          },
+          "component": "PillarsSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Three Pillars. One Foundation.",
+            "features": [
+              {
+                "title": "Community Building",
+                "description": "UTU communities are structured spaces where professionals across borders connect, collaborate, and govern their collective growth. Each community operates with shared principles and its own culture, anchored inside the CodeLoop Ecosystem."
+              },
+              {
+                "title": "Tech Education",
+                "description": "Tech Seeds and Tech Roots are UTU's two-stage education track. Tech Seeds plants the foundations — basic digital literacy, logic, and tooling — in underserved regions. Tech Roots deepens technical mastery for community members ready to become professional-grade contributors."
+              },
+              {
+                "title": "Governance",
+                "description": "The Loop Republic and UTU Councils give community members actual power. Councils make local decisions. The Loop Republic acts as a federated governance layer — a decentralized model where members propose, vote, and shape the rules of their own professional ecosystem."
+              }
+            ],
+            "items": [
+              {
+                "id": "three-pillars-one-foundation-item-1",
+                "title": "Context with ownership",
+                "description": "UTU Foundation keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "three-pillars-one-foundation-item-2",
+                "title": "Distinct operating voice",
+                "description": "Peer‑to‑peer growth · You‑to‑You. is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "three-pillars-one-foundation-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "Community empowerment · individual talent nurturing. makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "diagonal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__pillars_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--programs",
+          "page_id": "page-utu-root",
+          "section_key": "programs",
+          "pod": "ProgramGrid",
+          "pad": {
+            "title": "Programs Under Each Pillar",
+            "items": [
+              {
+                "name": "UTU Community",
+                "description": "The entry point into UTU. Members join communities aligned with their geography, profession, or interest — and gain access to governance, education, and ecosystem opportunities.",
+                "href": "/contact"
+              },
+              {
+                "name": "Tech Seeds",
+                "description": "A structured onboarding program for beginners in emerging markets. Participants learn digital foundations, workflow tools, and collaborative practices — no prior experience required.",
+                "href": "/contact"
+              },
+              {
+                "name": "Tech Roots",
+                "description": "The second stage of UTU's education track. Community members who completed Tech Seeds deepen their technical skills and transition into specialist roles within the CodeLoop Ecosystem.",
+                "href": "/contact"
+              },
+              {
+                "name": "UTU Councils",
+                "description": "Local governance bodies composed of elected community members. Councils propose initiatives, resolve community matters, and act as the representative voice of each UTU community.",
+                "href": "/contact"
+              },
+              {
+                "name": "The Loop Republic",
+                "description": "A federated governance model sitting above individual councils. Loop Republic members vote on cross-community standards, resource allocation, and the foundational rules of the UTU ecosystem.",
+                "href": "/contact"
+              },
+              {
+                "name": "Global Makers Bridge",
+                "description": "UTU community members who complete the education track gain a pathway to Global Makers — connecting them to Dynamic Career opportunities inside the broader CodeLoop Ecosystem.",
+                "href": "https://globalmakers.codeloop.co"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ProgramGrid",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Programs Under Each Pillar",
+            "items": [
+              {
+                "name": "UTU Community",
+                "description": "The entry point into UTU. Members join communities aligned with their geography, profession, or interest — and gain access to governance, education, and ecosystem opportunities.",
+                "href": "/contact"
+              },
+              {
+                "name": "Tech Seeds",
+                "description": "A structured onboarding program for beginners in emerging markets. Participants learn digital foundations, workflow tools, and collaborative practices — no prior experience required.",
+                "href": "/contact"
+              },
+              {
+                "name": "Tech Roots",
+                "description": "The second stage of UTU's education track. Community members who completed Tech Seeds deepen their technical skills and transition into specialist roles within the CodeLoop Ecosystem.",
+                "href": "/contact"
+              },
+              {
+                "name": "UTU Councils",
+                "description": "Local governance bodies composed of elected community members. Councils propose initiatives, resolve community matters, and act as the representative voice of each UTU community.",
+                "href": "/contact"
+              },
+              {
+                "name": "The Loop Republic",
+                "description": "A federated governance model sitting above individual councils. Loop Republic members vote on cross-community standards, resource allocation, and the foundational rules of the UTU ecosystem.",
+                "href": "/contact"
+              },
+              {
+                "name": "Global Makers Bridge",
+                "description": "UTU community members who complete the education track gain a pathway to Global Makers — connecting them to Dynamic Career opportunities inside the broader CodeLoop Ecosystem.",
+                "href": "https://globalmakers.codeloop.co"
+              }
+            ],
+            "subtitle": "Programs Under Each Pillar becomes a focused operating layer for UTU Foundation.",
+            "description": "Programs Under Each Pillar translates Peer‑to‑peer growth, by design. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__programs_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#programs",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Short subtitle text for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve source_language_portuguese gap: Descriptive paragraph for GridSection section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--process",
+          "page_id": "page-utu-root",
+          "section_key": "process",
+          "pod": "ProcessSection",
+          "pad": {
+            "title": "How UTU Works — From Isolation to Ecosystem",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Join a UTU Community",
+                "description": "A professional in Lagos, Medellín, or Dhaka applies to their regional UTU community. No prerequisites. Just a genuine desire to connect, learn, and contribute."
+              },
+              {
+                "step": "2",
+                "title": "Enter the Tech Education Track",
+                "description": "New members access Tech Seeds — UTU's entry-level digital literacy and professional foundations program. Cohorts are small, peer-driven, and language-accessible."
+              },
+              {
+                "step": "3",
+                "title": "Advance Through Tech Roots",
+                "description": "Members who complete Tech Seeds advance to Tech Roots, where they develop specialist skills in systems, marketing, business, or communication — aligned with Global Makers biomes."
+              },
+              {
+                "step": "4",
+                "title": "Participate in Governance",
+                "description": "Active members are eligible to join their local UTU Council. Councils meet regularly, propose community programs, and elect Loop Republic delegates."
+              },
+              {
+                "step": "5",
+                "title": "Connect to the Ecosystem",
+                "description": "UTU graduates gain access to the CodeLoop Ecosystem — Dynamic Career contracts through Global Makers, community tools through Remotica, and a verified professional identity through Bastion."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ /* =========================================================== Slices Version 0.",
+            "description": "{ /* =========================================================== Slices Version 0. 1 - DynamicWork (CodeLoop Ecosystem) =========================================================== - Release Date: 2025-01-10 - Changelog: * Updated \"hero_section\" slice to reflect the brand identity of CodeLoop.  * ..."
+          },
+          "component": "ProcessSection",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "How UTU Works — From Isolation to Ecosystem",
+            "steps": [
+              {
+                "step": "1",
+                "title": "Join a UTU Community",
+                "description": "A professional in Lagos, Medellín, or Dhaka applies to their regional UTU community. No prerequisites. Just a genuine desire to connect, learn, and contribute."
+              },
+              {
+                "step": "2",
+                "title": "Enter the Tech Education Track",
+                "description": "New members access Tech Seeds — UTU's entry-level digital literacy and professional foundations program. Cohorts are small, peer-driven, and language-accessible."
+              },
+              {
+                "step": "3",
+                "title": "Advance Through Tech Roots",
+                "description": "Members who complete Tech Seeds advance to Tech Roots, where they develop specialist skills in systems, marketing, business, or communication — aligned with Global Makers biomes."
+              },
+              {
+                "step": "4",
+                "title": "Participate in Governance",
+                "description": "Active members are eligible to join their local UTU Council. Councils meet regularly, propose community programs, and elect Loop Republic delegates."
+              },
+              {
+                "step": "5",
+                "title": "Connect to the Ecosystem",
+                "description": "UTU graduates gain access to the CodeLoop Ecosystem — Dynamic Career contracts through Global Makers, community tools through Remotica, and a verified professional identity through Bastion."
+              }
+            ],
+            "subtitle": "{ /* =========================================================== Slices Version 0.",
+            "description": "{ /* =========================================================== Slices Version 0. 1 - DynamicWork (CodeLoop Ecosystem) =========================================================== - Release Date: 2025-01-10 - Changelog: * Updated \"hero_section\" slice to reflect the brand identity of CodeLoop.  * ..."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__process_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "steps": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#process",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--ecosystem",
+          "page_id": "page-utu-root",
+          "section_key": "ecosystem",
+          "pod": "EcosystemSection",
+          "pad": {
+            "title": "UTU Inside the CodeLoop Ecosystem",
+            "description": "UTU Foundation does not operate in isolation. Every community, program, and governance layer connects back to the CodeLoop Ecosystem — giving UTU members access to tools, platforms, and opportunities built across 29 interconnected sites.",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "items": [
+              {
+                "name": "CodeLoop",
+                "description": "The parent ecosystem providing infrastructure, identity, and economic rails for all UTU communities and programs."
+              },
+              {
+                "name": "Global Makers",
+                "description": "The career platform where UTU graduates connect to Dynamic Career contracts, specializations, and global work opportunities."
+              },
+              {
+                "name": "Remotica",
+                "description": "The digital community platform powering persistent async interaction, forums, and knowledge spaces for UTU communities."
+              },
+              {
+                "name": "GIR",
+                "description": "Global Impact Registry — the accountability layer that tracks UTU's social impact metrics and makes them verifiable across the ecosystem."
+              },
+              {
+                "name": "Bastion",
+                "description": "UTU's identity and access infrastructure — secure onboarding, member credentials, and cross-ecosystem authentication."
+              },
+              {
+                "name": "Visionnaire",
+                "description": "Strategic learning and leadership development resources available to UTU Council members and Loop Republic delegates."
+              }
+            ],
+            "subtitle": "{ /* =========================================================== Slices Version 0.",
+            "features": [
+              {
+                "title": "Release Date",
+                "description": "2025-01-10"
+              },
+              {
+                "title": "Innovation and Productivity",
+                "description": ""
+              },
+              {
+                "title": "Asana and Notion",
+                "description": "Focus on modularity and intuitive interfaces."
+              },
+              {
+                "title": "Slack and Zoom",
+                "description": "Emphasis on seamless real-time collaboration."
+              },
+              {
+                "title": "Remote Work Ecosystems",
+                "description": ""
+              },
+              {
+                "title": "Microsoft Teams and Google Workspace",
+                "description": "Proven scalability and global adoption."
+              },
+              {
+                "title": "Target Audience",
+                "description": ""
+              },
+              {
+                "title": "Corporate Enterprises",
+                "description": "Seeking integrated, enterprise-grade solutions."
+              }
+            ]
+          },
+          "component": "EcosystemSection",
+          "order": 6,
+          "status": "active",
+          "content": {
+            "title": "UTU Inside the CodeLoop Ecosystem",
+            "description": "UTU Foundation does not operate in isolation. Every community, program, and governance layer connects back to the CodeLoop Ecosystem — giving UTU members access to tools, platforms, and opportunities built across 29 interconnected sites.",
+            "items": [
+              {
+                "name": "CodeLoop",
+                "description": "The parent ecosystem providing infrastructure, identity, and economic rails for all UTU communities and programs."
+              },
+              {
+                "name": "Global Makers",
+                "description": "The career platform where UTU graduates connect to Dynamic Career contracts, specializations, and global work opportunities."
+              },
+              {
+                "name": "Remotica",
+                "description": "The digital community platform powering persistent async interaction, forums, and knowledge spaces for UTU communities."
+              },
+              {
+                "name": "GIR",
+                "description": "Global Impact Registry — the accountability layer that tracks UTU's social impact metrics and makes them verifiable across the ecosystem."
+              },
+              {
+                "name": "Bastion",
+                "description": "UTU's identity and access infrastructure — secure onboarding, member credentials, and cross-ecosystem authentication."
+              },
+              {
+                "name": "Visionnaire",
+                "description": "Strategic learning and leadership development resources available to UTU Council members and Loop Republic delegates."
+              }
+            ],
+            "subtitle": "{ /* =========================================================== Slices Version 0.",
+            "features": [
+              {
+                "title": "Release Date",
+                "description": "2025-01-10"
+              },
+              {
+                "title": "Innovation and Productivity",
+                "description": ""
+              },
+              {
+                "title": "Asana and Notion",
+                "description": "Focus on modularity and intuitive interfaces."
+              },
+              {
+                "title": "Slack and Zoom",
+                "description": "Emphasis on seamless real-time collaboration."
+              },
+              {
+                "title": "Remote Work Ecosystems",
+                "description": ""
+              },
+              {
+                "title": "Microsoft Teams and Google Workspace",
+                "description": "Proven scalability and global adoption."
+              },
+              {
+                "title": "Target Audience",
+                "description": ""
+              },
+              {
+                "title": "Corporate Enterprises",
+                "description": "Seeking integrated, enterprise-grade solutions."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__ecosystem_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#ecosystem",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--cta",
+          "page_id": "page-utu-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Build Your Borderless Community",
+            "description": "Whether you are a professional looking for a community, an educator ready to teach, or a leader ready to govern — UTU has a place for you. Join the foundation and help shape the future of work without borders.",
+            "cta_label": "Join UTU Foundation",
+            "cta_href": "/contact"
+          },
+          "component": "CTA",
+          "order": 7,
+          "status": "active",
+          "content": {
+            "title": "Build Your Borderless Community",
+            "description": "Whether you are a professional looking for a community, an educator ready to teach, or a leader ready to govern — UTU has a place for you. Join the foundation and help shape the future of work without borders.",
+            "cta_label": "Join UTU Foundation",
+            "cta_href": "/contact"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "utu__cta_viewed",
+            "cta_events": [
+              "utu_cta_cta-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-root--contact-home",
+          "page_id": "page-utu-root",
+          "section_key": "contact-home",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Get Involved",
+            "description": "Tell us where you are and how you want to contribute. We will connect you with the right UTU community.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "region",
+                "label": "Your Region or Country",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "I am interested in",
+                "type": "select",
+                "options": [
+                  "Joining a UTU Community",
+                  "Tech Seeds Program",
+                  "Tech Roots Program",
+                  "UTU Council / Governance",
+                  "The Loop Republic",
+                  "Partnership or Collaboration"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Tell us about yourself",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Join UTU",
+            "site_name": "UTU Foundation",
+            "site_slug": "utu",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 8,
+          "status": "active",
+          "content": {
+            "title": "Get Involved",
+            "description": "Tell us where you are and how you want to contribute. We will connect you with the right UTU community.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "region",
+                "label": "Your Region or Country",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "I am interested in",
+                "type": "select",
+                "options": [
+                  "Joining a UTU Community",
+                  "Tech Seeds Program",
+                  "Tech Roots Program",
+                  "UTU Council / Governance",
+                  "The Loop Republic",
+                  "Partnership or Collaboration"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Tell us about yourself",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Join UTU",
+            "site_name": "UTU Foundation",
+            "site_slug": "utu",
+            "subtitle": "Get Involved becomes a focused operating layer for UTU Foundation."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu__contact-home_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#contact-home",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for ContactForm section",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-utu-contact",
+      "website_id": "website-utu",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact UTU Foundation",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-utu-contact--hero",
+          "page_id": "page-utu-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Join the Borderless Community",
+            "subheadline": "UTU Foundation connects professionals in emerging markets to education, governance, and global opportunity. Tell us where you are — we will find a home for you.",
+            "cta_primary_label": "Get in Touch",
+            "cta_primary_href": "#contact-form",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Join the Borderless Community",
+            "subheadline": "UTU Foundation connects professionals in emerging markets to education, governance, and global opportunity. Tell us where you are — we will find a home for you.",
+            "cta_primary_label": "Get in Touch",
+            "cta_primary_href": "#contact-form"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_contact_hero_viewed",
+            "cta_events": [
+              "utu_hero_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-contact--contact-form",
+          "page_id": "page-utu-contact",
+          "section_key": "contact-form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Connect with UTU",
+            "description": "Whether you are a prospective member, a partner organization, or an educator — we want to hear from you.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "region",
+                "label": "Your Region or Country",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "How would you like to participate?",
+                "type": "select",
+                "options": [
+                  "Joining a UTU Community",
+                  "Tech Seeds Program",
+                  "Tech Roots Program",
+                  "UTU Council / Governance",
+                  "The Loop Republic",
+                  "Partnership or Collaboration"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Anything else you'd like to share",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "UTU Foundation",
+            "site_slug": "utu",
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Connect with UTU",
+            "description": "Whether you are a prospective member, a partner organization, or an educator — we want to hear from you.",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Your Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email Address",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "region",
+                "label": "Your Region or Country",
+                "type": "text",
+                "required": false
+              },
+              {
+                "name": "interest",
+                "label": "How would you like to participate?",
+                "type": "select",
+                "options": [
+                  "Joining a UTU Community",
+                  "Tech Seeds Program",
+                  "Tech Roots Program",
+                  "UTU Council / Governance",
+                  "The Loop Republic",
+                  "Partnership or Collaboration"
+                ],
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Anything else you'd like to share",
+                "type": "textarea",
+                "required": false
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "UTU Foundation",
+            "site_slug": "utu"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_contact_contact-form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#contact-form",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-utu-services",
+      "website_id": "website-utu",
+      "path": "/services",
+      "slug": "services",
+      "title": "Services",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-utu-services--services-manifesto",
+          "page_id": "page-utu-services",
+          "section_key": "services-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "UTU Foundation Services",
+            "body": "Explore what UTU Foundation offers in services. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "UTU Foundation Services",
+            "body": "Explore what UTU Foundation offers in services. Content coming soon.",
+            "stats": "UTU Foundation Services requires reviewed stats content for UTU Foundation."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_services_services-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-services--services-cta",
+          "page_id": "page-utu-services",
+          "section_key": "services-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About UTU Foundation",
+            "description": "Discover everything UTU Foundation has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About UTU Foundation",
+            "description": "Discover everything UTU Foundation has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_services_services-cta_viewed",
+            "cta_events": [
+              "utu_services-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /services#services-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-utu-about",
+      "website_id": "website-utu",
+      "path": "/about",
+      "slug": "about",
+      "title": "About",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-utu-about--about-manifesto",
+          "page_id": "page-utu-about",
+          "section_key": "about-manifesto",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "UTU Foundation About",
+            "body": "Explore what UTU Foundation offers in about. Content coming soon.",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "ManifestoSection",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "title": "UTU Foundation About",
+            "body": "Explore what UTU Foundation offers in about. Content coming soon.",
+            "stats": "UTU Foundation About requires reviewed stats content for UTU Foundation."
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_about_about-manifesto_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-manifesto",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/utu/gaps.json",
+                "docs/branding/08 — UTU/01 — Brand Bible.md",
+                "docs/branding/08 — UTU/02 — Site Blueprint.md",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve insufficient_content gap: Array of stats with structured data (title, description) for ManifestoSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-about--about-cta",
+          "page_id": "page-utu-about",
+          "section_key": "about-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Learn More About UTU Foundation",
+            "description": "Discover everything UTU Foundation has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Learn More About UTU Foundation",
+            "description": "Discover everything UTU Foundation has to offer.",
+            "cta_primary_label": "Back to Home",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_about_about-cta_viewed",
+            "cta_events": [
+              "utu_about-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#about-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-utu-404",
+      "website_id": "website-utu",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-utu-404--not-found-hero",
+          "page_id": "page-utu-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "UTU Foundation — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "UTU Foundation — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-utu-404--not-found-cta",
+          "page_id": "page-utu-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de UTU Foundation.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de UTU Foundation.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "gradient-vibrant",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "utu_404_not-found-cta_viewed",
+            "cta_events": [
+              "utu_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/utu/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 104
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "EcosystemSection",
+      "category": "section",
+      "description": "EcosystemSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 237
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "quote": {
+          "type": "string",
+          "required": false,
+          "max_length": 104
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "stats": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 95
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "PillarsSection",
+      "category": "section",
+      "description": "PillarsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProcessSection",
+      "category": "section",
+      "description": "ProcessSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "steps": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ProgramGrid",
+      "category": "section",
+      "description": "ProgramGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 235
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-utu",
+    "total_original_gaps": 8,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "Talent is everywhere. Opportunity is not.",
+        "reason": "no_kb_match",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "headline": "Talent is everywhere. Opportunity is not.",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ManifestoSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "pillars",
+        "pod": "PillarsSection",
+        "field": "items",
+        "headline": "Three Pillars. One Foundation.",
+        "reason": "insufficient_content",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "headline": "Programs Under Each Pillar",
+        "reason": "source_language_portuguese",
+        "needed": "Short subtitle text for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "headline": "Programs Under Each Pillar",
+        "reason": "source_language_portuguese",
+        "needed": "Descriptive paragraph for GridSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/",
+        "section_id": "contact-home",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "headline": "Get Involved",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for ContactForm section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "UTU Foundation Services",
+        "reason": "insufficient_content",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "headline": "UTU Foundation About",
+        "reason": "insufficient_content",
+        "needed": "Array of stats with structured data (title, description) for ManifestoSection",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "manifesto",
+        "pod": "ManifestoSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "pillars",
+        "pod": "PillarsSection",
+        "field": "items",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "subtitle",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "programs",
+        "pod": "ProgramGrid",
+        "field": "description",
+        "reason": "source_language_portuguese",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/",
+        "section_id": "contact-home",
+        "pod": "ContactForm",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/services",
+        "section_id": "services-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "about-manifesto",
+        "pod": "ManifestoSection",
+        "field": "stats",
+        "reason": "insufficient_content",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-utu",
+      "canonical_base_url": "https://utu.codeloop.co",
+      "default_title": "UTU Foundation",
+      "default_description": "A foundation building inclusive communities for the global workforce — from Tech Seeds nurturing emerging talent to The Loop Republic as a new model of decentralized professional governance.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/utu/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-utu-root",
+        "title": "Home",
+        "description": "UTU Foundation connects isolated talent in emerging markets to a borderless community — through tech education, decentralized governance, and a shared ecosystem built for people, not corporations.",
+        "canonical": "https://utu.codeloop.co",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-utu-contact",
+        "title": "Contact UTU Foundation",
+        "description": "UTU Foundation connects professionals in emerging markets to education, governance, and global opportunity. Tell us where you are — we will find a home for you.",
+        "canonical": "https://utu.codeloop.co/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-utu-services",
+        "title": "Services",
+        "description": "A foundation building inclusive communities for the global workforce — from Tech Seeds nurturing emerging talent to The Loop Republic as a new model of decentralized professional governance.",
+        "canonical": "https://utu.codeloop.co/services",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-utu-about",
+        "title": "About",
+        "description": "A foundation building inclusive communities for the global workforce — from Tech Seeds nurturing emerging talent to The Loop Republic as a new model of decentralized professional governance.",
+        "canonical": "https://utu.codeloop.co/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-utu-404",
+        "title": "Page Not Found",
+        "description": "UTU Foundation — Pagina nao encontrada",
+        "canonical": "https://utu.codeloop.co/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-utu",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "utu__hero_viewed",
+      "utu__manifesto_viewed",
+      "utu__pillars_viewed",
+      "utu__programs_viewed",
+      "utu__process_viewed",
+      "utu__ecosystem_viewed",
+      "utu__cta_viewed",
+      "utu__contact-home_viewed",
+      "utu_contact_hero_viewed",
+      "utu_contact_contact-form_viewed",
+      "utu_services_services-manifesto_viewed",
+      "utu_services_services-cta_viewed",
+      "utu_about_about-manifesto_viewed",
+      "utu_about_about-cta_viewed",
+      "utu_404_not-found-hero_viewed",
+      "utu_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-utu",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-utu",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-utu-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [
+      {
+        "id": "persona-utu-primary",
+        "name": "The Bright Circle",
+        "description": "UTU is a dev‑community brand — orange figures on dark navy, geometric sans for confidence, mono for craft. Reads like DEV.to and hashnode made physical: warm, earnest, engineering‑first."
+      }
+    ],
+    "segments": [
+      {
+        "id": "audience-utu-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-utu-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-utu",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/08 — UTU/01 — Brand Bible.md",
+      "docs/branding/08 — UTU/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/utu/config.json",
+      "docs/data/utu/worktree.json",
+      "docs/data/utu/gaps.json"
+    ]
+  }
+}

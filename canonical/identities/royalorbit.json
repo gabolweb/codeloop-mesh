@@ -1,0 +1,2976 @@
+{
+  "$schema": "../schema/digital-identity.schema.json",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-06T01:46:34.355Z",
+  "source_priority": [
+    "docs/master.md",
+    "docs/padpod_documentacao.docx.md",
+    "docs/branding/00 — Cross-Brand System/*",
+    "docs/branding/{brand}/01 — Brand Bible.md",
+    "docs/branding/{brand}/02 — Site Blueprint.md",
+    "docs/data/index/codeloop-brands/data/brands.js",
+    "docs/data/{slug}/config.json",
+    "docs/data/{slug}/worktree.json",
+    "docs/data/{slug}/gaps.json",
+    "docs/data/{slug}/assets/logos/*",
+    "docs/data/audit/knowledge-index.json",
+    "docs/data/audit/enrichment-preview/{slug}.json"
+  ],
+  "source_manifest": {
+    "priority_order": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/branding/00 — Cross-Brand System/*",
+      "docs/branding/{brand}/01 — Brand Bible.md",
+      "docs/branding/{brand}/02 — Site Blueprint.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/{slug}/config.json",
+      "docs/data/{slug}/worktree.json",
+      "docs/data/{slug}/gaps.json",
+      "docs/data/{slug}/assets/logos/*",
+      "docs/data/audit/knowledge-index.json",
+      "docs/data/audit/enrichment-preview/{slug}.json"
+    ],
+    "kb_coverage": "high",
+    "sources": [
+      {
+        "type": "schema",
+        "path": "docs/master.md",
+        "priority": 1
+      },
+      {
+        "type": "architecture",
+        "path": "docs/padpod_documentacao.docx.md",
+        "priority": 1
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/01 — Master Brand System.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/02 — The Loop — Canonical User Journey.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/03 — Glossary & Canonical Definitions.md",
+        "priority": 2
+      },
+      {
+        "type": "cross_brand",
+        "path": "docs/branding/00 — Cross-Brand System/04 — Asset Production Standards.md",
+        "priority": 2
+      },
+      {
+        "type": "brand_tokens",
+        "path": "docs/data/index/codeloop-brands/data/brands.js",
+        "priority": 4
+      },
+      {
+        "type": "config",
+        "path": "docs/data/royalorbit/config.json",
+        "priority": 5
+      },
+      {
+        "type": "worktree",
+        "path": "docs/data/royalorbit/worktree.json",
+        "priority": 5
+      },
+      {
+        "type": "gaps",
+        "path": "docs/data/royalorbit/gaps.json",
+        "priority": 5
+      },
+      {
+        "type": "knowledge_index",
+        "path": "docs/data/audit/knowledge-index.json",
+        "priority": 6
+      },
+      {
+        "type": "enrichment_preview",
+        "path": "docs/data/audit/enrichment-preview/royalorbit.json",
+        "priority": 6
+      }
+    ]
+  },
+  "digital_identity": {
+    "id": "identity-royalorbit",
+    "slug": "royalorbit",
+    "name": "Royal Orbit Holding Group",
+    "legal_name": null,
+    "type": "company",
+    "status": "active",
+    "parent_identity_id": "identity-ecosystem",
+    "ecosystem": "Royal Orbit",
+    "description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+    "mission": "To make Royal Orbit Holding Group a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbit-1",
+        "title": "Operational clarity",
+        "description": "Royal Orbit Holding Group should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbit-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbit-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "brand_voice": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "created_at": "2026-06-06T01:46:34.355Z",
+    "updated_at": "2026-06-06T01:46:34.355Z"
+  },
+  "brand_core": {
+    "identity_id": "identity-royalorbit",
+    "brand_name": "Royal Orbit Holding Group",
+    "tagline": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+    "short_description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+    "long_description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+    "mission": "To make Royal Orbit Holding Group a governed, traceable, and expressive digital identity across web, content, assets, and operations.",
+    "vision": null,
+    "values": [
+      {
+        "id": "value-royalorbit-1",
+        "title": "Operational clarity",
+        "description": "Royal Orbit Holding Group should make decisions, ownership, and next actions legible across the identity."
+      },
+      {
+        "id": "value-royalorbit-2",
+        "title": "Governed originality",
+        "description": "Every strong claim must remain traceable to source material, confidence, and review status."
+      },
+      {
+        "id": "value-royalorbit-3",
+        "title": "Portable execution",
+        "description": "Every web section is structured as a reusable PAD/POD unit that can move across surfaces."
+      }
+    ],
+    "positioning": {
+      "category": "company",
+      "market": "Digital identity and web operating infrastructure",
+      "statement": null,
+      "differentiators": [],
+      "competitors": [],
+      "anti_positioning": []
+    },
+    "narrative": {
+      "origin_story": "",
+      "founder_message": null,
+      "manifesto": null,
+      "elevator_pitch": "Royal Orbit Holding Group: Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+      "one_liner": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition."
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbit/config.json",
+        "docs/data/royalorbit/worktree.json",
+        "docs/data/royalorbit/gaps.json"
+      ],
+      "generation_reason": "fallback identity synthesis from config, worktree, and available brand tokens",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "brand_voice": {
+    "identity_id": "identity-royalorbit",
+    "language_default": "en-US",
+    "supported_languages": [
+      "en-US",
+      "pt-BR",
+      "es-ES"
+    ],
+    "tone": {
+      "primary": "institutional",
+      "secondary": "strategic",
+      "avoid": [
+        "empty hype",
+        "untraceable claims"
+      ]
+    },
+    "style": {
+      "sentence_length": "medium",
+      "technical_depth": "medium",
+      "formality": "premium",
+      "emotional_intensity": "controlled"
+    },
+    "vocabulary": {
+      "preferred_terms": [
+        "Dynamic Work",
+        "Augmented Intelligence"
+      ],
+      "blocked_terms": [
+        "cheap",
+        "generic"
+      ],
+      "canonical_terms": {
+        "AI": "Augmented Intelligence",
+        "workers": "Loopers",
+        "companies": "Partners",
+        "initiative": "Endeavor"
+      }
+    },
+    "copy_rules": {
+      "cta_style": "action-oriented",
+      "headline_style": "specific, concrete, and brand-modulated",
+      "description_style": "clear, strategic, concrete, source-traceable",
+      "voice_principles": []
+    },
+    "source_meta": {
+      "state": "generated",
+      "confidence": "high",
+      "source_refs": [
+        "docs/master.md",
+        "docs/padpod_documentacao.docx.md",
+        "docs/data/index/codeloop-brands/data/brands.js",
+        "docs/data/royalorbit/config.json",
+        "docs/data/royalorbit/worktree.json",
+        "docs/data/royalorbit/gaps.json"
+      ],
+      "generation_reason": "voice rails inherited from cross-brand rules and modulated by available brand sources",
+      "review_required": true,
+      "visibility": "public"
+    }
+  },
+  "design_system": {
+    "identity_id": "identity-royalorbit",
+    "theme": {
+      "mode": "light",
+      "variant": "gold-royal",
+      "palette": {
+        "bg": "#080600",
+        "bg_light": "#120f00",
+        "primary": "#d4af37",
+        "primary_light": "#f0d060",
+        "secondary": "#b8860b",
+        "accent": "#fff7e6",
+        "text": "#fffdf0",
+        "text_muted": "#c8b87a",
+        "border": "rgba(212,175,55,0.2)",
+        "gradient": "linear-gradient(135deg, #d4af37 0%, #b8860b 100%)"
+      },
+      "scale": [],
+      "semantics": {}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "display": "Inter",
+      "mono": "Inter",
+      "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    },
+    "layout": {
+      "container_max_width": "1200px",
+      "grid_columns": 12,
+      "spacing_scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64,
+        96
+      ],
+      "radius_scale": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "16px",
+        "xl": "32px"
+      }
+    },
+    "motion": {
+      "default_duration": 0.8,
+      "easing": "power3.out",
+      "library": "gsap",
+      "reduced_motion_fallback": true,
+      "brand_art_type": null
+    }
+  },
+  "brand_assets": {
+    "identity_id": "identity-royalorbit",
+    "logos": [],
+    "images": [],
+    "videos": [],
+    "documents": [],
+    "social_templates": [],
+    "open_graph_assets": [
+      {
+        "type": "default_og",
+        "url": "/opengraph-image",
+        "width": 1200,
+        "height": 630
+      }
+    ],
+    "asset_rules": {
+      "naming_convention": "{identity_slug}-{asset_type}-{variant}-{size}",
+      "preferred_formats": [
+        "svg",
+        "webp",
+        "avif",
+        "png"
+      ],
+      "max_file_size_kb": 500
+    }
+  },
+  "domains": {
+    "identity_id": "identity-royalorbit",
+    "domains": [
+      {
+        "domain": "royalorbit.com",
+        "type": "primary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbit.codeloop.co",
+        "type": "secondary",
+        "status": "active",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": true,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "unknown"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      },
+      {
+        "domain": "royalorbit.codeloop.test",
+        "type": "staging",
+        "status": "pending",
+        "registrar": null,
+        "dns_provider": null,
+        "hosting_provider": null,
+        "ssl": {
+          "enabled": false,
+          "issuer": null,
+          "expires_at": null,
+          "auto_renew": true,
+          "status": "not_applicable"
+        },
+        "dns_records": [],
+        "ownership": {
+          "owner_email": null,
+          "admin_workspace": null,
+          "recovery_email": null,
+          "shared_admin_account": null
+        }
+      }
+    ]
+  },
+  "email_authentication": {
+    "identity_id": "identity-royalorbit",
+    "domain": "royalorbit.com",
+    "spf": {
+      "enabled": false,
+      "record": null,
+      "status": "unknown"
+    },
+    "dkim": {
+      "enabled": false,
+      "selector": null,
+      "public_key_status": "unknown",
+      "provider": null
+    },
+    "dmarc": {
+      "enabled": false,
+      "policy": "none",
+      "rua": null,
+      "status": "unknown"
+    },
+    "mx": {
+      "provider": null,
+      "status": "unknown"
+    }
+  },
+  "websites": [
+    {
+      "id": "website-royalorbit",
+      "identity_id": "identity-royalorbit",
+      "name": "Royal Orbit Holding Group",
+      "slug": "royalorbit",
+      "domain": "royalorbit.com",
+      "environment": "production",
+      "framework": "static",
+      "status": "active",
+      "repository": {
+        "provider": null,
+        "url": null,
+        "branch": null
+      },
+      "deployment": {
+        "provider": null,
+        "project_id": null,
+        "last_deploy_at": null
+      },
+      "global_config": {
+        "nav_id": "navigation-royalorbit",
+        "footer_id": "footer-royalorbit",
+        "theme_id": "design-system-royalorbit",
+        "seo_profile_id": "seo-profile-royalorbit"
+      },
+      "pages": [
+        "page-royalorbit-root",
+        "page-royalorbit-about",
+        "page-royalorbit-programs-guest",
+        "page-royalorbit-contact",
+        "page-royalorbit-404"
+      ]
+    }
+  ],
+  "navigation": {
+    "website_id": "website-royalorbit",
+    "brand_label": "Royal Orbit Holding Group",
+    "items": [
+      {
+        "label": "About Royal Orbit",
+        "href": "/about",
+        "type": "internal",
+        "visibility": "public",
+        "order": 1,
+        "children": []
+      },
+      {
+        "label": "Royal Orbit Guest Program",
+        "href": "/programs/guest",
+        "type": "internal",
+        "visibility": "public",
+        "order": 2,
+        "children": []
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "internal",
+        "visibility": "public",
+        "order": 3,
+        "children": []
+      }
+    ],
+    "cta": {
+      "label": "Explore Our Subsidiaries",
+      "href": "/subsidiaries",
+      "variant": "primary",
+      "tracking_event": "nav_cta_clicked"
+    }
+  },
+  "footer": {
+    "website_id": "website-royalorbit",
+    "brand": "Royal Orbit Holding Group",
+    "description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+    "columns": [
+      {
+        "title": "Links",
+        "links": [
+          {
+            "label": "About Royal Orbit",
+            "href": "/about"
+          },
+          {
+            "label": "Royal Orbit Guest Program",
+            "href": "/programs/guest"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "CodeLoop Ecosystem",
+            "href": "https://codeloop.co"
+          },
+          {
+            "label": "Dynamic Work",
+            "href": "https://codeloop.co/ecosystem/dynamic-work"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/company/codeloop",
+        "platform": "linkedin"
+      },
+      {
+        "label": "Twitter",
+        "href": "https://twitter.com/codeloop",
+        "platform": "twitter"
+      }
+    ],
+    "legal_links": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms",
+        "href": "/terms"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "page-royalorbit-root",
+      "website_id": "website-royalorbit",
+      "path": "/",
+      "slug": "home",
+      "title": "Home",
+      "status": "draft",
+      "template": "landing",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbit-root--hero",
+          "page_id": "page-royalorbit-root",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Royal Orbit Holding Group",
+            "subheadline": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+            "cta_primary_label": "Explore Our Subsidiaries",
+            "cta_primary_href": "/subsidiaries",
+            "cta_secondary_label": "Our Programs",
+            "cta_secondary_href": "/programs",
+            "_pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "_bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Royal Orbit Holding Group",
+            "subheadline": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+            "cta_primary_label": "Explore Our Subsidiaries",
+            "cta_primary_href": "/subsidiaries",
+            "cta_secondary_label": "Our Programs",
+            "cta_secondary_href": "/programs"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "pin": {
+              "duration": "150vh",
+              "scrub": 1
+            },
+            "bridge": {
+              "type": "reveal",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit__hero_viewed",
+            "cta_events": [
+              "royalorbit_hero_cta-primary-label_clicked",
+              "royalorbit_hero_cta-secondary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_secondary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-root--legacy",
+          "page_id": "page-royalorbit-root",
+          "section_key": "legacy",
+          "pod": "ManifestoSection",
+          "pad": {
+            "title": "A Legacy of Vision and Tradition",
+            "body": "Stands as a beacon of excellence, illuminating paths to economic growth, cultural preservation, and sustainable innovation. Rooted in Arab royal traditions while embracing tomorrow's horizons, our organization bridges past and future, forging an inspiring legacy for generations.",
+            "quote": "Our greatest legacy will not be our towering achievements, but the wisdom, prosperity, and sustainable future we pass on to those who come after us.",
+            "_bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "stat_1": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stat_2": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stat_3": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stats": [],
+            "subtitle": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center)."
+          },
+          "component": "ManifestoSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "A Legacy of Vision and Tradition",
+            "body": "Stands as a beacon of excellence, illuminating paths to economic growth, cultural preservation, and sustainable innovation. Rooted in Arab royal traditions while embracing tomorrow's horizons, our organization bridges past and future, forging an inspiring legacy for generations.",
+            "quote": "Our greatest legacy will not be our towering achievements, but the wisdom, prosperity, and sustainable future we pass on to those who come after us.",
+            "stat_1": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stat_2": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stat_3": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center). This document is designed to be part of the interconnected tapestry formed by CodeLoop, Royal Orbit, and their associated ecosystems. It integrates advanced typography, references to ol...",
+            "stats": [],
+            "subtitle": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center)."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "gradient",
+              "colorFrom": "var(--pod-bg-light)",
+              "colorTo": "var(--pod-bg)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit__legacy_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "body": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "quote": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_1": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_2": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stat_3": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "stats": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#legacy",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-root--pillars",
+          "page_id": "page-royalorbit-root",
+          "section_key": "pillars",
+          "pod": "PillarsSection",
+          "pad": {
+            "title": "Pillars of Development",
+            "items": [
+              {
+                "title": "Real Estate Development",
+                "description": "Sculpting landscapes that harmonize tradition with contemporary flair — luxury residences with heritage-inspired designs, commercial hubs blending art and culture, mixed-use projects with green spaces."
+              },
+              {
+                "title": "Investment & Finance",
+                "description": "Private equity, venture capital, and asset management strategies focusing on long-term stakeholder value with financial advisories guiding sound, future-focused decisions."
+              },
+              {
+                "title": "Hospitality & Tourism",
+                "description": "Premium hotels showcasing local heritage, resorts offering holistic wellness, and curated tourism itineraries celebrating regional history and natural wonders."
+              }
+            ],
+            "_bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "_animation": {
+              "stagger": 0.1
+            },
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti...",
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "features": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ]
+          },
+          "component": "PillarsSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "Pillars of Development",
+            "items": [
+              {
+                "title": "Real Estate Development",
+                "description": "Sculpting landscapes that harmonize tradition with contemporary flair — luxury residences with heritage-inspired designs, commercial hubs blending art and culture, mixed-use projects with green spaces."
+              },
+              {
+                "title": "Investment & Finance",
+                "description": "Private equity, venture capital, and asset management strategies focusing on long-term stakeholder value with financial advisories guiding sound, future-focused decisions."
+              },
+              {
+                "title": "Hospitality & Tourism",
+                "description": "Premium hotels showcasing local heritage, resorts offering holistic wellness, and curated tourism itineraries celebrating regional history and natural wonders."
+              }
+            ],
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti...",
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "features": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "bridge": {
+              "type": "wave",
+              "colorFrom": "var(--pod-bg)",
+              "colorTo": "var(--pod-bg-light)"
+            },
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit__pillars_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#pillars",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-root--subsidiaries",
+          "page_id": "page-royalorbit-root",
+          "section_key": "subsidiaries",
+          "pod": "SubsidiaryGrid",
+          "pad": {
+            "title": "Our Expanding Constellation of Companies",
+            "description": "Each of our companies serves as a planet in the Royal Orbit universe, orbiting around core principles and aligning strategic growth with social enrichment and technological advancement.",
+            "items": [
+              {
+                "name": "Royal Orbit Trade",
+                "sector": "International Trade",
+                "focus": "Global commerce solutions and market access",
+                "href": "/subsidiaries/trade"
+              },
+              {
+                "name": "Royal Orbit Gold",
+                "sector": "Precious Metals",
+                "focus": "Ethical gold sourcing, trading, and investment",
+                "href": "/subsidiaries/gold"
+              },
+              {
+                "name": "Royal Orbit Energy",
+                "sector": "Energy",
+                "focus": "Clean, renewable power solutions, resource stewardship",
+                "href": "/subsidiaries/energy"
+              },
+              {
+                "name": "Royal Orbit Agro",
+                "sector": "Agriculture",
+                "focus": "Agricultural innovation, food security, and sustainable farming",
+                "href": "/subsidiaries/agro"
+              },
+              {
+                "name": "Royal Orbit Management",
+                "sector": "Business Services",
+                "focus": "Corporate strategy, consulting, and organizational excellence",
+                "href": "/subsidiaries/management"
+              },
+              {
+                "name": "Atari Petroleum",
+                "sector": "Oil & Gas",
+                "focus": "Responsible petroleum exploration, refining, and supply chain mastery",
+                "href": "/subsidiaries/atari"
+              },
+              {
+                "name": "CodeLoop",
+                "sector": "Technology",
+                "focus": "Cutting-edge digital solutions, automation, AI-driven innovation",
+                "href": "/subsidiaries/codeloop"
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center)."
+          },
+          "component": "SubsidiaryGrid",
+          "order": 4,
+          "status": "active",
+          "content": {
+            "title": "Our Expanding Constellation of Companies",
+            "description": "Each of our companies serves as a planet in the Royal Orbit universe, orbiting around core principles and aligning strategic growth with social enrichment and technological advancement.",
+            "items": [
+              {
+                "name": "Royal Orbit Trade",
+                "sector": "International Trade",
+                "focus": "Global commerce solutions and market access",
+                "href": "/subsidiaries/trade"
+              },
+              {
+                "name": "Royal Orbit Gold",
+                "sector": "Precious Metals",
+                "focus": "Ethical gold sourcing, trading, and investment",
+                "href": "/subsidiaries/gold"
+              },
+              {
+                "name": "Royal Orbit Energy",
+                "sector": "Energy",
+                "focus": "Clean, renewable power solutions, resource stewardship",
+                "href": "/subsidiaries/energy"
+              },
+              {
+                "name": "Royal Orbit Agro",
+                "sector": "Agriculture",
+                "focus": "Agricultural innovation, food security, and sustainable farming",
+                "href": "/subsidiaries/agro"
+              },
+              {
+                "name": "Royal Orbit Management",
+                "sector": "Business Services",
+                "focus": "Corporate strategy, consulting, and organizational excellence",
+                "href": "/subsidiaries/management"
+              },
+              {
+                "name": "Atari Petroleum",
+                "sector": "Oil & Gas",
+                "focus": "Responsible petroleum exploration, refining, and supply chain mastery",
+                "href": "/subsidiaries/atari"
+              },
+              {
+                "name": "CodeLoop",
+                "sector": "Technology",
+                "focus": "Cutting-edge digital solutions, automation, AI-driven innovation",
+                "href": "/subsidiaries/codeloop"
+              }
+            ],
+            "subtitle": "Below is a deeply layered and richly detailed Brand Manifesto for the DVBC (Dubai Visionnaire Business Center)."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit__subsidiaries_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#subsidiaries",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#subsidiaries",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#subsidiaries",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#subsidiaries",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-root--cta",
+          "page_id": "page-royalorbit-root",
+          "section_key": "cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Guided by Stars, Driven by Innovation",
+            "description": "Discover how Royal Orbit continues to orbit forward, forging a heritage of excellence that will shine for generations to come.",
+            "button_label": "Explore Our Programs",
+            "button_href": "/programs"
+          },
+          "component": "CTA",
+          "order": 5,
+          "status": "active",
+          "content": {
+            "title": "Guided by Stars, Driven by Innovation",
+            "description": "Discover how Royal Orbit continues to orbit forward, forging a heritage of excellence that will shine for generations to come.",
+            "button_label": "Explore Our Programs",
+            "button_href": "/programs"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {},
+          "tracking": {
+            "impression_event": "royalorbit__cta_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "button_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "button_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /#cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbit-about",
+      "website_id": "website-royalorbit",
+      "path": "/about",
+      "slug": "about",
+      "title": "About Royal Orbit",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbit-about--hero",
+          "page_id": "page-royalorbit-about",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "About Royal Orbit — History, Mission, and Values",
+            "subheadline": "From our founding to becoming a global leader, discover Royal Orbit's journey and the values driving our success.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "About Royal Orbit — History, Mission, and Values",
+            "subheadline": "From our founding to becoming a global leader, discover Royal Orbit's journey and the values driving our success."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_about_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-about--mission-vision-values",
+          "page_id": "page-royalorbit-about",
+          "section_key": "mission-vision-values",
+          "pod": "MVVSection",
+          "pad": {
+            "mission": "To empower sustainable growth and innovation worldwide.",
+            "vision": "A future where business, community, and the environment thrive together.",
+            "values": [
+              {
+                "name": "Excellence",
+                "description": "Elevating standards across every endeavor, ensuring that quality and distinction define our work."
+              },
+              {
+                "name": "Integrity",
+                "description": "Building trust through honesty, transparency, and responsible stewardship of resources."
+              },
+              {
+                "name": "Innovation",
+                "description": "Cultivating an environment where fresh ideas, advanced technologies, and fearless creativity flourish."
+              },
+              {
+                "name": "Cultural Preservation",
+                "description": "Safeguarding our cherished heritage, celebrating tradition, and infusing authenticity into our modern ventures."
+              },
+              {
+                "name": "Sustainability",
+                "description": "Balancing growth with environmental stewardship, ensuring that our successes today enrich the world of tomorrow."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            }
+          },
+          "component": "MVVSection",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "mission": "To empower sustainable growth and innovation worldwide.",
+            "vision": "A future where business, community, and the environment thrive together.",
+            "values": [
+              {
+                "name": "Excellence",
+                "description": "Elevating standards across every endeavor, ensuring that quality and distinction define our work."
+              },
+              {
+                "name": "Integrity",
+                "description": "Building trust through honesty, transparency, and responsible stewardship of resources."
+              },
+              {
+                "name": "Innovation",
+                "description": "Cultivating an environment where fresh ideas, advanced technologies, and fearless creativity flourish."
+              },
+              {
+                "name": "Cultural Preservation",
+                "description": "Safeguarding our cherished heritage, celebrating tradition, and infusing authenticity into our modern ventures."
+              },
+              {
+                "name": "Sustainability",
+                "description": "Balancing growth with environmental stewardship, ensuring that our successes today enrich the world of tomorrow."
+              }
+            ],
+            "title": "Mission Vision Values requires reviewed title content for Royal Orbit Holding Group.",
+            "description": "Mission Vision Values translates Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition. into a concrete web surface: clear context in the PAD, deliberate action in the POD, and enough traceability for teams to review, reuse, and publish with confidence.",
+            "subtitle": "Mission Vision Values becomes a focused operating layer for Royal Orbit Holding Group.",
+            "features": [
+              {
+                "id": "mission-vision-values-item-1",
+                "title": "Context with ownership",
+                "description": "Royal Orbit Holding Group keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mission-vision-values-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mission-vision-values-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ],
+            "items": [
+              {
+                "id": "mission-vision-values-item-1",
+                "title": "Context with ownership",
+                "description": "Royal Orbit Holding Group keeps the source, confidence, and review state visible before content becomes public."
+              },
+              {
+                "id": "mission-vision-values-item-2",
+                "title": "Distinct operating voice",
+                "description": "governed digital presence is expressed with language, structure, and interaction patterns specific to this identity."
+              },
+              {
+                "id": "mission-vision-values-item-3",
+                "title": "Portable PAD/POD blocks",
+                "description": "structured PAD/POD execution makes this section reusable across websites, documents, emails, and managed knowledge bases."
+              }
+            ]
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_about_mission-vision-values_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "mission": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission-vision-values",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "vision": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission-vision-values",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "values": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#mission-vision-values",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "title": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbit/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Content for \"title\" field in FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbit/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Descriptive paragraph for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbit/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Short subtitle text for FeatureSection section",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "features": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbit/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "generated",
+              "confidence": "medium",
+              "source_refs": [
+                "docs/data/royalorbit/gaps.json",
+                "docs/data/index/codeloop-brands/data/brands.js"
+              ],
+              "generation_reason": "generated to resolve no_kb_match gap: Array of items with structured data (title, description) for FeatureSection",
+              "review_required": true,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-about--timeline",
+          "page_id": "page-royalorbit-about",
+          "section_key": "timeline",
+          "pod": "TimelineSection",
+          "pad": {
+            "title": "A Legacy of Excellence",
+            "events": [
+              {
+                "year": "2000",
+                "event": "Royal Orbit founded with a focus on global trade."
+              },
+              {
+                "year": "2005",
+                "event": "Expanded operations to clean energy projects."
+              },
+              {
+                "year": "2010",
+                "event": "Acquired precision agriculture technologies."
+              },
+              {
+                "year": "2020",
+                "event": "Recognized as a leader in sustainability efforts."
+              }
+            ],
+            "_animation": {
+              "stagger": 0.1
+            },
+            "items": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "component": "TimelineSection",
+          "order": 3,
+          "status": "active",
+          "content": {
+            "title": "A Legacy of Excellence",
+            "events": [
+              {
+                "year": "2000",
+                "event": "Royal Orbit founded with a focus on global trade."
+              },
+              {
+                "year": "2005",
+                "event": "Expanded operations to clean energy projects."
+              },
+              {
+                "year": "2010",
+                "event": "Acquired precision agriculture technologies."
+              },
+              {
+                "year": "2020",
+                "event": "Recognized as a leader in sustainability efforts."
+              }
+            ],
+            "items": [
+              {
+                "title": "\"homePage\"",
+                "description": "{"
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Atari Petroleum - Transforming Global Energy Markets\","
+              },
+              {
+                "title": "\"metaDescription\"",
+                "description": "\"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum.\","
+              },
+              {
+                "title": "\"sections\"",
+                "description": "["
+              },
+              {
+                "title": "\"id\"",
+                "description": "\"heroBanner\","
+              },
+              {
+                "title": "\"title\"",
+                "description": "\"Energy Connecting the World\","
+              },
+              {
+                "title": "\"subtitle\"",
+                "description": "\"Over 35 years of excellence in the energy sector.\","
+              },
+              {
+                "title": "\"cta\"",
+                "description": "{ \"text\": \"Explore Our Solutions\", \"link\": \"/solutions\" },"
+              }
+            ],
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions...",
+            "description": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions in global energy markets, led by Atari Petroleum. \", \"slices\": [ { \"type\": \"Hero\", \"id\": \"heroBanner\", \"title\": \"Energy Connecting the World\", \"subti..."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_about_timeline_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "events": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#timeline",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /about#timeline",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbit-programs-guest",
+      "website_id": "website-royalorbit",
+      "path": "/programs/guest",
+      "slug": "programs-guest",
+      "title": "Royal Orbit Guest Program",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbit-programs-guest--hero",
+          "page_id": "page-royalorbit-programs-guest",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Royal Orbit Guest Program — Wajeeh Guest",
+            "subheadline": "Exclusive hospitality service providing end-to-end luxury accommodations and experiences for distinguished guests, high-net-worth individuals, and authorities worldwide.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Royal Orbit Guest Program — Wajeeh Guest",
+            "subheadline": "Exclusive hospitality service providing end-to-end luxury accommodations and experiences for distinguished guests, high-net-worth individuals, and authorities worldwide."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_programs-guest_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-programs-guest--tiers",
+          "page_id": "page-royalorbit-programs-guest",
+          "section_key": "tiers",
+          "pod": "TierTable",
+          "pad": {
+            "title": "Program Tiers",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "items": [
+              {
+                "range": "$40B - $50B",
+                "services": "Full private island resorts, dedicated staff",
+                "title": "Platinum"
+              },
+              {
+                "range": "$30B - $40B",
+                "services": "Private luxury compounds, security detail",
+                "title": "Gold"
+              },
+              {
+                "range": "$20B - $30B",
+                "services": "Premium resort networks, concierge",
+                "title": "Silver"
+              },
+              {
+                "range": "$10B - $20B",
+                "services": "Luxury hotel partnerships",
+                "title": "Bronze"
+              },
+              {
+                "range": "$5B - $10B",
+                "services": "Basic luxury accommodations",
+                "title": "Entry"
+              }
+            ],
+            "subtitle": "Create the knowledge base for the programs.",
+            "description": "Create the knowledge base for the programs. royalorbit. com."
+          },
+          "component": "TierTable",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Program Tiers",
+            "items": [
+              {
+                "range": "$40B - $50B",
+                "services": "Full private island resorts, dedicated staff",
+                "title": "Platinum"
+              },
+              {
+                "range": "$30B - $40B",
+                "services": "Private luxury compounds, security detail",
+                "title": "Gold"
+              },
+              {
+                "range": "$20B - $30B",
+                "services": "Premium resort networks, concierge",
+                "title": "Silver"
+              },
+              {
+                "range": "$10B - $20B",
+                "services": "Luxury hotel partnerships",
+                "title": "Bronze"
+              },
+              {
+                "range": "$5B - $10B",
+                "services": "Basic luxury accommodations",
+                "title": "Entry"
+              }
+            ],
+            "subtitle": "Create the knowledge base for the programs.",
+            "description": "Create the knowledge base for the programs. royalorbit. com."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_programs-guest_tiers_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#tiers",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "items": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#tiers",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#tiers",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /programs/guest#tiers",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbit-contact",
+      "website_id": "website-royalorbit",
+      "path": "/contact",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbit-contact--hero",
+          "page_id": "page-royalorbit-contact",
+          "section_key": "hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "Get in Touch — We'd Love to Hear from You",
+            "subheadline": "Reach out for inquiries, partnerships, or support. Connect with our global offices and expert teams.",
+            "_animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "Get in Touch — We'd Love to Hear from You",
+            "subheadline": "Reach out for inquiries, partnerships, or support. Connect with our global offices and expert teams."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 60,
+              "duration": 1.2
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_contact_hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-contact--form",
+          "page_id": "page-royalorbit-contact",
+          "section_key": "form",
+          "pod": "ContactForm",
+          "pad": {
+            "title": "Contact Form",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Royal Orbit Holding Group",
+            "site_slug": "royalorbit",
+            "_animation": {
+              "stagger": 0.1
+            },
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions..."
+          },
+          "component": "ContactForm",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Contact Form",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "type": "textarea",
+                "required": true
+              }
+            ],
+            "submit_label": "Send Message",
+            "site_name": "Royal Orbit Holding Group",
+            "site_slug": "royalorbit",
+            "subtitle": "{ \"homePage\": { \"title\": \"Atari Petroleum - Transforming Global Energy Markets\", \"metaDescription\": \"Exploring innovative and sustainable solutions..."
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "stagger": 0.1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_contact_form_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "fields": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "submit_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_name": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "site_slug": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subtitle": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /contact#form",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "page-royalorbit-404",
+      "website_id": "website-royalorbit",
+      "path": "/404",
+      "slug": "404",
+      "title": "Page Not Found",
+      "status": "draft",
+      "template": "dynamic",
+      "language": "en-US",
+      "seo": {},
+      "access": {
+        "visibility": "public",
+        "requires_auth": false
+      },
+      "sections": [
+        {
+          "id": "page-royalorbit-404--not-found-hero",
+          "page_id": "page-royalorbit-404",
+          "section_key": "not-found-hero",
+          "pod": "Hero",
+          "pad": {
+            "headline": "404",
+            "subheadline": "Royal Orbit Holding Group — Pagina nao encontrada",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "Hero",
+          "order": 1,
+          "status": "active",
+          "content": {
+            "headline": "404",
+            "subheadline": "Royal Orbit Holding Group — Pagina nao encontrada"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_404_not-found-hero_viewed",
+            "cta_events": []
+          },
+          "field_meta": {
+            "headline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "subheadline": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-hero",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        },
+        {
+          "id": "page-royalorbit-404--not-found-cta",
+          "page_id": "page-royalorbit-404",
+          "section_key": "not-found-cta",
+          "pod": "CTA",
+          "pad": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Royal Orbit Holding Group.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/",
+            "_animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "component": "CTA",
+          "order": 2,
+          "status": "active",
+          "content": {
+            "title": "Voltar ao inicio",
+            "description": "Retorne a pagina principal de Royal Orbit Holding Group.",
+            "cta_primary_label": "Voltar ao inicio",
+            "cta_primary_href": "/"
+          },
+          "design": {
+            "theme_variant": "gold-royal",
+            "background": "var(--pod-bg)",
+            "layout": "adaptive",
+            "padpod_extras": {}
+          },
+          "motion": {
+            "animation": {
+              "y": 40,
+              "duration": 1
+            }
+          },
+          "tracking": {
+            "impression_event": "royalorbit_404_not-found-cta_viewed",
+            "cta_events": [
+              "royalorbit_not-found-cta_cta-primary-label_clicked"
+            ]
+          },
+          "field_meta": {
+            "title": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "description": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_label": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            },
+            "cta_primary_href": {
+              "state": "source",
+              "confidence": "high",
+              "source_refs": [
+                "docs/data/royalorbit/worktree.json"
+              ],
+              "generation_reason": "field present in source worktree pad for /404#not-found-cta",
+              "review_required": false,
+              "visibility": "public"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "component_registry": [
+    {
+      "component": "ContactForm",
+      "category": "section",
+      "description": "ContactForm PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "fields": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "submit_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_name": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "site_slug": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "CTA",
+      "category": "section",
+      "description": "CTA PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "button_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "button_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "Hero",
+      "category": "section",
+      "description": "Hero PAD/POD section component",
+      "allowed_fields": {
+        "headline": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "subheadline": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_primary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_label": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "cta_secondary_href": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "ManifestoSection",
+      "category": "section",
+      "description": "ManifestoSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "body": {
+          "type": "string",
+          "required": false,
+          "max_length": 279
+        },
+        "quote": {
+          "type": "string",
+          "required": false,
+          "max_length": 148
+        },
+        "stat_1": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stat_2": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stat_3": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "stats": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 111
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "MVVSection",
+      "category": "section",
+      "description": "MVVSection PAD/POD section component",
+      "allowed_fields": {
+        "mission": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "vision": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "values": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 304
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "PillarsSection",
+      "category": "section",
+      "description": "PillarsSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "features": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "SubsidiaryGrid",
+      "category": "section",
+      "description": "SubsidiaryGrid PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 185
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 111
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TierTable",
+      "category": "section",
+      "description": "TierTable PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 90
+        }
+      },
+      "source": "observed_worktree"
+    },
+    {
+      "component": "TimelineSection",
+      "category": "section",
+      "description": "TimelineSection PAD/POD section component",
+      "allowed_fields": {
+        "title": {
+          "type": "string",
+          "required": true,
+          "max_length": 90
+        },
+        "events": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "items": {
+          "type": "array",
+          "required": false,
+          "max_length": null
+        },
+        "subtitle": {
+          "type": "string",
+          "required": false,
+          "max_length": 150
+        },
+        "description": {
+          "type": "string",
+          "required": false,
+          "max_length": 300
+        }
+      },
+      "source": "observed_worktree"
+    }
+  ],
+  "content_gaps": {
+    "identity_id": "identity-royalorbit",
+    "total_original_gaps": 5,
+    "kb_coverage": "high",
+    "original_gaps": [
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "title",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Content for \"title\" field in FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "description",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Descriptive paragraph for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Short subtitle text for FeatureSection section",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "features",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "items",
+        "headline": "",
+        "reason": "no_kb_match",
+        "needed": "Array of items with structured data (title, description) for FeatureSection",
+        "canonical_state": "generated_for_review"
+      }
+    ],
+    "generated_fills": [
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "title",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "description",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "subtitle",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "features",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      },
+      {
+        "page": "/about",
+        "section_id": "mission-vision-values",
+        "pod": "MVVSection",
+        "field": "items",
+        "reason": "no_kb_match",
+        "state": "generated",
+        "review_required": true
+      }
+    ]
+  },
+  "seo": {
+    "profile": {
+      "identity_id": "identity-royalorbit",
+      "canonical_base_url": "https://royalorbit.com",
+      "default_title": "Royal Orbit Holding Group",
+      "default_description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+      "default_og_image": "/opengraph-image",
+      "robots": "index,follow",
+      "llms_txt": "/royalorbit/llms.txt"
+    },
+    "page_seo": [
+      {
+        "page_id": "page-royalorbit-root",
+        "title": "Home",
+        "description": "Where the timeless wisdom of Middle Eastern royal heritage converges with modern innovation and ambition.",
+        "canonical": "https://royalorbit.com",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbit-about",
+        "title": "About Royal Orbit",
+        "description": "From our founding to becoming a global leader, discover Royal Orbit's journey and the values driving our success.",
+        "canonical": "https://royalorbit.com/about",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbit-programs-guest",
+        "title": "Royal Orbit Guest Program",
+        "description": "Exclusive hospitality service providing end-to-end luxury accommodations and experiences for distinguished guests, high-net-worth individuals, and authorities worldwide.",
+        "canonical": "https://royalorbit.com/programs/guest",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbit-contact",
+        "title": "Contact",
+        "description": "Reach out for inquiries, partnerships, or support. Connect with our global offices and expert teams.",
+        "canonical": "https://royalorbit.com/contact",
+        "og_image": "/opengraph-image"
+      },
+      {
+        "page_id": "page-royalorbit-404",
+        "title": "Page Not Found",
+        "description": "Royal Orbit Holding Group — Pagina nao encontrada",
+        "canonical": "https://royalorbit.com/404",
+        "og_image": "/opengraph-image"
+      }
+    ]
+  },
+  "tracking": {
+    "identity_id": "identity-royalorbit",
+    "setup_status": "planned",
+    "analytics": [],
+    "pixels": [],
+    "events": [
+      "royalorbit__hero_viewed",
+      "royalorbit__legacy_viewed",
+      "royalorbit__pillars_viewed",
+      "royalorbit__subsidiaries_viewed",
+      "royalorbit__cta_viewed",
+      "royalorbit_about_hero_viewed",
+      "royalorbit_about_mission-vision-values_viewed",
+      "royalorbit_about_timeline_viewed",
+      "royalorbit_programs-guest_hero_viewed",
+      "royalorbit_programs-guest_tiers_viewed",
+      "royalorbit_contact_hero_viewed",
+      "royalorbit_contact_form_viewed",
+      "royalorbit_404_not-found-hero_viewed",
+      "royalorbit_404_not-found-cta_viewed"
+    ]
+  },
+  "compliance": {
+    "identity_id": "identity-royalorbit",
+    "privacy_policy_url": "/privacy",
+    "terms_url": "/terms",
+    "cookie_banner": {
+      "enabled": true,
+      "mode": "notice"
+    },
+    "lgpd_basis": "review_required"
+  },
+  "social": {
+    "profiles": [
+      {
+        "platform": "linkedin",
+        "url": "https://linkedin.com/company/codeloop",
+        "status": "active"
+      },
+      {
+        "platform": "twitter",
+        "url": "https://twitter.com/codeloop",
+        "status": "active"
+      }
+    ],
+    "content_system": {
+      "canonical_language": "en-US",
+      "voice_profile_id": "brand-voice-royalorbit",
+      "approval_required": true
+    }
+  },
+  "communication": {
+    "channels": [
+      {
+        "type": "website_form",
+        "address": "/contact",
+        "status": "planned"
+      }
+    ],
+    "flows": [
+      {
+        "id": "flow-royalorbit-contact",
+        "name": "Website contact intake",
+        "status": "planned",
+        "trigger": "contact_form_submitted"
+      }
+    ]
+  },
+  "audiences": {
+    "personas": [],
+    "segments": [
+      {
+        "id": "audience-royalorbit-partners",
+        "name": "Partners",
+        "priority": "primary"
+      },
+      {
+        "id": "audience-royalorbit-loopers",
+        "name": "Loopers",
+        "priority": "secondary"
+      }
+    ]
+  },
+  "protocols": [
+    {
+      "id": "protocol-gap-review",
+      "name": "Gap review workflow",
+      "status": "active",
+      "steps": [
+        "Detect missing or weak field",
+        "Generate governed draft",
+        "Review against brand sources",
+        "Approve for publishing"
+      ]
+    },
+    {
+      "id": "protocol-padpod-context",
+      "name": "PAD/POD context isolation",
+      "status": "active",
+      "steps": [
+        "Treat PAD as the portable content and behavior payload",
+        "Treat POD as the component that operates the PAD",
+        "Expose only section-local PAD data to the POD",
+        "Use public/private field metadata for propagation decisions"
+      ]
+    }
+  ],
+  "governance": {
+    "identity_id": "identity-royalorbit",
+    "owner": {
+      "organization": null,
+      "accountable_role": "Brand steward",
+      "review_role": "Senior editor",
+      "technical_owner": "Digital identity maintainer"
+    },
+    "lifecycle": {
+      "current_state": "generated",
+      "approval_state": "review_required",
+      "created_at": "2026-06-06T01:46:34.355Z",
+      "updated_at": "2026-06-06T01:46:34.355Z"
+    },
+    "rules": {
+      "no_personal_email_for_critical_assets": true,
+      "generated_content_requires_review": true,
+      "canonical_language": "en-US",
+      "localization_requires_named_editor": true
+    },
+    "confidence": "high",
+    "source_refs": [
+      "docs/master.md",
+      "docs/padpod_documentacao.docx.md",
+      "docs/data/index/codeloop-brands/data/brands.js",
+      "docs/data/royalorbit/config.json",
+      "docs/data/royalorbit/worktree.json",
+      "docs/data/royalorbit/gaps.json"
+    ]
+  }
+}
