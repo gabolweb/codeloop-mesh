@@ -14,6 +14,9 @@ export const EntityNode = memo(({ data, id, selected }: NodeProps) => {
   const loadIdentityDetails = useAppStore(state => state.loadIdentityDetails);
   const viewId = useContext(ViewContext);
   const isMinimized = customization.isMinimized || false;
+  
+  const view = useAppStore(state => state.views[viewId]);
+  const isTreeLoaded = view?.nodes.some(n => n.id.startsWith(`${data.slug}-`));
 
   const nodeColor = customization.color || 'var(--card)';
   
@@ -84,14 +87,25 @@ export const EntityNode = memo(({ data, id, selected }: NodeProps) => {
             </div>
           </CardContent>
           <CardFooter className="px-4 pb-4 pt-0">
-            <Button 
-              variant="secondary" 
-              size="sm" 
-              className="w-full gap-2 text-xs h-8"
-              onClick={() => loadIdentityDetails(data.slug, viewId)}
-            >
-              <Network size={14} /> Load Deep Tree
-            </Button>
+            {isTreeLoaded ? (
+              <Button 
+                variant="destructive" 
+                size="sm" 
+                className="w-full gap-2 text-xs h-8"
+                onClick={() => useAppStore.getState().collapseIdentityDetails(data.slug, viewId)}
+              >
+                <Network size={14} className="rotate-180" /> Collapse Deep Tree
+              </Button>
+            ) : (
+              <Button 
+                variant="secondary" 
+                size="sm" 
+                className="w-full gap-2 text-xs h-8"
+                onClick={() => loadIdentityDetails(data.slug, viewId)}
+              >
+                <Network size={14} /> Load Deep Tree
+              </Button>
+            )}
           </CardFooter>
         </>
       )}

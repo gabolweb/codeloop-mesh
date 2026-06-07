@@ -70,6 +70,7 @@ export type GlobalState = {
   loadCanonicalData: (nodes: Node[], edges: Edge[]) => void;
   importBackup: (state: any) => void;
   loadIdentityDetails: (slug: string, viewId: string) => Promise<void>;
+  collapseIdentityDetails: (slug: string, viewId: string) => void;
   
   // Layout
   autoLayout: (viewId: string, direction: 'TB' | 'LR') => void;
@@ -527,6 +528,34 @@ export const useAppStore = create<GlobalState>()(
         } catch (error) {
           console.error("Failed to load identity details:", error);
         }
+      },
+
+      collapseIdentityDetails: (slug: string, viewId: string) => {
+        const view = get().views[viewId];
+        if (!view) return;
+
+        const currentNodes = view.nodes.filter(n => !n.id.startsWith(`${slug}-`));
+        const currentEdges = view.edges.filter(e => !e.source.startsWith(`${slug}-`) && !e.target.startsWith(`${slug}-`));
+
+        const restoredNodes = currentNodes.map(node => {
+          if (node.type === 'entity') {
+            return { ...node, hidden: false };
+          }
+          return node;
+        });
+
+        get().pushToHistory();
+        set((state) => ({
+          views: {
+            ...state.views,
+            [viewId]: {
+              ...state.views[viewId],
+              nodes: restoredNodes,
+              edges: currentEdges,
+              focusNode: 'center_all'
+            }
+          }
+        }));
       }
     }),
     {
