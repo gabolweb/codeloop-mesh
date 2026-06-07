@@ -76,10 +76,22 @@ const EditableValue = ({ val, path, onEdit }: { val: any, path: string, onEdit: 
   else if (typeof val === 'number') displayNode = <span className="text-blue-500 font-medium">{val}</span>;
   else if (typeof val === 'string') {
     if (isImage) {
+      let imgSrc = val;
+      if (!val.startsWith('http') && !val.startsWith('data:')) {
+        const cleanPath = val.startsWith('/') ? val.substring(1) : val;
+        imgSrc = `https://raw.githubusercontent.com/gabolweb/codeloop-mesh/main/${cleanPath}`;
+      }
       displayNode = (
         <div className="flex flex-col gap-1">
-          <img src={val} alt="preview" className="max-h-16 rounded border border-border/50 bg-background/50 object-contain" />
-          <span className="text-emerald-500 break-words text-[9px] opacity-70 truncate max-w-[200px]">{val}</span>
+          <img 
+            src={imgSrc} 
+            alt="preview" 
+            className="w-16 h-16 rounded border border-border/50 bg-background/50 object-contain"
+            onError={(e) => {
+              (e.target as HTMLImageElement).style.display = 'none';
+            }}
+          />
+          <span className="text-emerald-500 break-words text-[9px] opacity-70 truncate max-w-[200px]" title={val}>{val}</span>
         </div>
       );
     } else if (val.startsWith('http')) {
