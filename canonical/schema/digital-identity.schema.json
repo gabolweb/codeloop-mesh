@@ -24,6 +24,7 @@
     "compliance",
     "social",
     "communication",
+    "email_architecture",
     "audiences",
     "protocols",
     "governance"
@@ -189,6 +190,28 @@
     },
     "communication": {
       "type": "object"
+    },
+    "email_architecture": {
+      "type": "object",
+      "required": ["identity_id", "sending_domains", "templates"],
+      "properties": {
+        "identity_id": { "type": "string" },
+        "sending_domains": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "templates": {
+          "type": "object",
+          "properties": {
+            "promotional": { "type": "array", "items": { "type": "object" } },
+            "transactional": { "type": "array", "items": { "type": "object" } },
+            "platform": { "type": "array", "items": { "type": "object" } },
+            "opt_in": { "type": "array", "items": { "type": "object" } },
+            "opt_out": { "type": "array", "items": { "type": "object" } },
+            "commercial": { "type": "array", "items": { "type": "object" } }
+          }
+        }
+      }
     },
     "audiences": {
       "type": "object"

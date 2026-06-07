@@ -4019,6 +4019,48 @@
       }
     ]
   },
+  "email_architecture": {
+    "identity_id": "identity-bastion",
+    "sending_domains": [
+      {
+        "domain": "info.bastion.codeloop.co",
+        "type": "transactional",
+        "server_config": {
+          "provider": "Postmark",
+          "ip_pool": "shared"
+        },
+        "dns_records": [
+          { "type": "TXT", "name": "_dmarc", "value": "v=DMARC1; p=reject" }
+        ],
+        "deliverability": {
+          "quality_score": "very_high",
+          "reputation": "excellent"
+        }
+      }
+    ],
+    "templates": {
+      "promotional": [
+        {
+          "id": "tpl-bas-promo-1",
+          "name": "Bastion Financial Updates",
+          "subject": "Market Insights from Bastion",
+          "content_blocks": ["header", "stats", "body", "footer"],
+          "customization": { "primary_color": "#0F4C81" }
+        }
+      ],
+      "transactional": [
+        {
+          "id": "tpl-bas-trans-1",
+          "name": "Deposit Confirmation",
+          "opt_out_required": false
+        }
+      ],
+      "platform": [],
+      "opt_in": [],
+      "opt_out": [],
+      "commercial": []
+    }
+  },
   "audiences": {
     "personas": [
       {

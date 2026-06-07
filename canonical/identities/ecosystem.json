@@ -17784,6 +17784,67 @@
       }
     ]
   },
+  "email_architecture": {
+    "identity_id": "identity-ecosystem",
+    "sending_domains": [
+      {
+        "domain": "marketing.codeloop.co",
+        "type": "marketing",
+        "server_config": {
+          "provider": "AWS SES",
+          "ip_pool": "dedicated"
+        },
+        "dns_records": [
+          { "type": "TXT", "name": "_dmarc", "value": "v=DMARC1; p=quarantine" },
+          { "type": "CNAME", "name": "em7834", "value": "u12345.wl01.sendgrid.net" }
+        ],
+        "deliverability": {
+          "quality_score": "high",
+          "reputation": "excellent"
+        }
+      }
+    ],
+    "templates": {
+      "promotional": [
+        {
+          "id": "tpl-eco-promo-1",
+          "name": "Ecosystem Newsletter",
+          "subject": "The latest from CodeLoop Ecosystem",
+          "content_blocks": ["header", "hero_image", "body", "footer"],
+          "customization": { "primary_color": "#FF5722" }
+        }
+      ],
+      "transactional": [
+        {
+          "id": "tpl-eco-trans-1",
+          "name": "Welcome to Ecosystem",
+          "opt_out_required": false
+        }
+      ],
+      "platform": [
+        {
+          "id": "tpl-eco-plat-1",
+          "name": "Platform Notification",
+          "opt_out_required": false
+        }
+      ],
+      "opt_in": [
+        {
+          "id": "tpl-eco-optin-1",
+          "name": "Double Opt-In Confirmation",
+          "opt_out_required": false
+        }
+      ],
+      "opt_out": [
+        {
+          "id": "tpl-eco-optout-1",
+          "name": "Unsubscribe Confirmation",
+          "opt_out_required": false
+        }
+      ],
+      "commercial": []
+    }
+  },
   "audiences": {
     "personas": [
       {

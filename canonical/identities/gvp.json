@@ -3240,6 +3240,48 @@
       }
     ]
   },
+  "email_architecture": {
+    "identity_id": "identity-gvp",
+    "sending_domains": [
+      {
+        "domain": "marketing.gvp.codeloop.co",
+        "type": "marketing",
+        "server_config": {
+          "provider": "SendGrid",
+          "ip_pool": "dedicated"
+        },
+        "dns_records": [
+          { "type": "TXT", "name": "_dmarc", "value": "v=DMARC1; p=quarantine" }
+        ],
+        "deliverability": {
+          "quality_score": "high",
+          "reputation": "excellent"
+        }
+      }
+    ],
+    "templates": {
+      "promotional": [
+        {
+          "id": "tpl-gvp-promo-1",
+          "name": "GVP Updates",
+          "subject": "New from GVP Infrastructure",
+          "content_blocks": ["header", "hero_image", "body", "footer"],
+          "customization": { "primary_color": "#1C1C1C" }
+        }
+      ],
+      "transactional": [
+        {
+          "id": "tpl-gvp-trans-1",
+          "name": "Access Request Received",
+          "opt_out_required": false
+        }
+      ],
+      "platform": [],
+      "opt_in": [],
+      "opt_out": [],
+      "commercial": []
+    }
+  },
   "audiences": {
     "personas": [
       {
