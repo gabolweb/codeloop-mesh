@@ -402,6 +402,20 @@ export const useAppStore = create<GlobalState>()(
              connect(slug, id);
              yOffsetLevel1 += 130;
           }
+          if (data.brand_assets) {
+             const id = createSubNode('assets', 'Brand Assets', data.brand_assets, 450, yOffsetLevel1);
+             connect(slug, id);
+             yOffsetLevel1 += 130;
+          }
+          
+          ['seo', 'tracking', 'compliance', 'social', 'communication', 'audiences', 'content_gaps'].forEach(key => {
+             if (data[key]) {
+               const title = key.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+               const id = createSubNode(key, title, data[key], 450, yOffsetLevel1);
+               connect(slug, id);
+               yOffsetLevel1 += 130;
+             }
+          });
           
           if (data.domains && data.domains.domains) {
             const domId = createSubNode('domains', 'Domains', data.domains.domains, 450, yOffsetLevel1);
