@@ -1,4 +1,4 @@
-import { memo, useState, useMemo } from 'react';
+import { memo, useState, useMemo, useRef } from 'react';
 import { Handle, Position } from 'reactflow';
 import type { NodeProps } from 'reactflow';
 import { useAppStore } from '@/store/useAppStore';
@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { merge } from 'lodash-es';
-import { Layers, Link as LinkIcon, FileText, Globe, Box, ChevronDown, ChevronUp, Edit2, Plus, Check } from 'lucide-react';
+import { Layers, Link as LinkIcon, FileText, Globe, Box, ChevronDown, ChevronUp, Edit2, Plus, Check, Upload } from 'lucide-react';
 
 type JsonViewerProps = {
   data: any;
@@ -17,6 +17,11 @@ type JsonViewerProps = {
 const EditableValue = ({ val, path, onEdit }: { val: any, path: string, onEdit: (path: string, v: any) => void }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [tempVal, setTempVal] = useState(String(val));
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const isColorHex = typeof val === 'string' && /^#([0-9A-F]{3}){1,2}$/i.test(val);
+  const isColorRgb = typeof val === 'string' && /^(rgb|hsl)a?\(/i.test(val);
+  const isImage = typeof val === 'string' && (val.match(/\.(jpeg|jpg|gif|png|svg|webp)$/i) || val.startsWith('data:image'));
 
   const handleSave = () => {
     let parsed = tempVal;
@@ -27,9 +32,30 @@ const EditableValue = ({ val, path, onEdit }: { val: any, path: string, onEdit: 
     setIsEditing(false);
   };
 
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        if (ev.target?.result) {
+          onEdit(path, ev.target.result as string);
+        }
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
   if (isEditing) {
     return (
       <div className="flex items-center gap-1">
+        {isColorHex && (
+          <input 
+            type="color" 
+            value={tempVal} 
+            onChange={e => setTempVal(e.target.value)}
+            className="w-6 h-6 p-0 border-0 rounded cursor-pointer shrink-0"
+          />
+        )}
         <Input 
           value={tempVal} 
           onChange={e => setTempVal(e.target.value)} 
@@ -49,19 +75,43 @@ const EditableValue = ({ val, path, onEdit }: { val: any, path: string, onEdit: 
   else if (typeof val === 'boolean') displayNode = <span className="text-purple-500 font-medium">{val ? 'true' : 'false'}</span>;
   else if (typeof val === 'number') displayNode = <span className="text-blue-500 font-medium">{val}</span>;
   else if (typeof val === 'string') {
-    if (val.startsWith('http')) {
+    if (isImage) {
+      displayNode = (
+        <div className="flex flex-col gap-1">
+          <img src={val} alt="preview" className="max-h-16 rounded border border-border/50 bg-background/50 object-contain" />
+          <span className="text-emerald-500 break-words text-[9px] opacity-70 truncate max-w-[200px]">{val}</span>
+        </div>
+      );
+    } else if (val.startsWith('http')) {
       displayNode = <a href={val} target="_blank" rel="noreferrer" className="text-emerald-500 hover:underline break-all">{val}</a>;
     } else {
-      displayNode = <span className="text-emerald-500 break-words">"{val}"</span>;
+      displayNode = (
+        <div className="flex items-center gap-1.5 flex-wrap">
+          {(isColorHex || isColorRgb) && (
+            <div className="w-3 h-3 rounded-sm border border-border/50 shrink-0" style={{ backgroundColor: val }} title="Color preview" />
+          )}
+          <span className="text-emerald-500 break-words">"{val}"</span>
+        </div>
+      );
     }
   }
 
   return (
     <div className="group flex items-start gap-2">
-      <div className="flex-1">{displayNode}</div>
-      <Button variant="ghost" size="icon" className="h-4 w-4 opacity-0 group-hover:opacity-100 shrink-0" onClick={() => setIsEditing(true)}>
-        <Edit2 size={10} />
-      </Button>
+      <div className="flex-1 overflow-hidden">{displayNode}</div>
+      <div className="flex items-center gap-0.5 opacity-0 group-hover:opacity-100 shrink-0">
+        {(typeof val === 'string' && (path.toLowerCase().includes('image') || path.toLowerCase().includes('logo') || path.toLowerCase().includes('icon') || path.toLowerCase().includes('avatar') || path.toLowerCase().includes('cover') || isImage)) && (
+          <>
+            <Button variant="ghost" size="icon" className="h-5 w-5" onClick={() => fileInputRef.current?.click()} title="Upload Image">
+              <Upload size={10} />
+            </Button>
+            <input type="file" accept="image/*" className="hidden" ref={fileInputRef} onChange={handleFileUpload} />
+          </>
+        )}
+        <Button variant="ghost" size="icon" className="h-5 w-5" onClick={() => { setTempVal(String(val)); setIsEditing(true); }}>
+          <Edit2 size={10} />
+        </Button>
+      </div>
     </div>
   );
 };
