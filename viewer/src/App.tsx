@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 const transformCanonicalToGraph = (data: any) => {
   const nodes: any[] = [];
   const edges: any[] = [];
-  
+
   // Create Ecosystem root nodes
   const ecosystems = new Set(data.identities.map((i: any) => i.ecosystem));
   Array.from(ecosystems).forEach((eco, i) => {
@@ -32,7 +32,7 @@ const transformCanonicalToGraph = (data: any) => {
       position: { x: (i % 5) * 400, y: Math.floor(i / 5) * 300 + 300 },
       data: identity
     });
-    
+
     // Connect to ecosystem
     edges.push({
       id: `e-eco-${identity.ecosystem}-${identity.slug}`,
@@ -73,7 +73,7 @@ function App() {
         <Card className="w-full max-w-md shadow-2xl backdrop-blur-xl bg-background/90 border-primary/20">
           <CardHeader className="text-center space-y-2">
             <div className="w-16 h-16 bg-primary/10 rounded-2xl mx-auto flex items-center justify-center mb-4">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>
             </div>
             <CardTitle className="text-2xl font-bold tracking-tight">Identity Schema Viewer</CardTitle>
             <CardDescription className="text-base">
@@ -83,8 +83,8 @@ function App() {
           <CardContent>
             <form onSubmit={(e: React.FormEvent) => { e.preventDefault(); if (loginInput) setUsername(loginInput); }} className="space-y-4 mt-4">
               <div className="space-y-2">
-                <Input 
-                  placeholder="Enter username (e.g. mentorama)" 
+                <Input
+                  placeholder="Enter username (e.g. Looper)"
                   value={loginInput}
                   onChange={e => setLoginInput(e.target.value)}
                   className="h-12"
@@ -105,13 +105,13 @@ function App() {
     <div className="w-screen h-screen overflow-hidden bg-background text-foreground relative flex">
       <Toolbar />
       <ManagementPanel />
-      
+
       <div className="flex-1 flex w-full h-full">
         {activeViewIds.map((viewId, index) => (
           <div key={viewId} className={`relative flex-1 h-full ${index > 0 ? 'border-l-4 border-primary/20' : ''}`}>
-             <ReactFlowProvider>
-               <CanvasArea viewId={viewId} />
-             </ReactFlowProvider>
+            <ReactFlowProvider>
+              <CanvasArea viewId={viewId} />
+            </ReactFlowProvider>
           </div>
         ))}
       </div>
