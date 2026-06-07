@@ -78,8 +78,8 @@ const EditableValue = ({ val, path, onEdit }: { val: any, path: string, onEdit: 
     if (isImage) {
       let imgSrc = val;
       if (!val.startsWith('http') && !val.startsWith('data:')) {
-        const cleanPath = val.startsWith('/') ? val.substring(1) : val;
-        imgSrc = `https://raw.githubusercontent.com/gabolweb/codeloop-mesh/main/${cleanPath}`;
+        const filename = val.split('/').pop() || '';
+        imgSrc = `${import.meta.env.BASE_URL}logos/${filename}`;
       }
       displayNode = (
         <div className="flex flex-col gap-1">
