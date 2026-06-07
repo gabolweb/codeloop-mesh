@@ -409,7 +409,7 @@ export const useAppStore = create<GlobalState>()(
              yOffsetLevel1 += 130;
           }
           
-          ['seo', 'tracking', 'compliance', 'social', 'communication', 'audiences', 'content_gaps'].forEach(key => {
+          ['seo', 'tracking', 'compliance', 'social', 'communication', 'email_architecture', 'audiences', 'content_gaps'].forEach(key => {
              if (data[key]) {
                const title = key.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
                const id = createSubNode(key, title, data[key], 450, yOffsetLevel1);
